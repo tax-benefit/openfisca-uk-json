@@ -1,0 +1,21 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/finance/expense.py",
+  "json_type": "number",
+  "label": "Gross rent for the household",
+  "name": "rent",
+  "referring_variables": [
+    "LHA_cap",
+    "UC_eligible_rent",
+    "housing_benefit",
+    "housing_costs",
+    "personal_rent"
+  ],
+  "start_line_number": 13,
+  "stop_line_number": 18,
+  "unit": "currency",
+  "value_type": "float"
+}

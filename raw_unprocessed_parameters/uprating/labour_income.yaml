@@ -1,0 +1,22 @@
+description: Uprating for labour income
+metadata:
+  reference:
+    href: https://www.iser.essex.ac.uk/research/publications/working-papers/cempa/cempa7-20.pdf#page=109
+  unit: currency-GBP
+values:
+  0001-01-01:
+    value: 167.15
+  2018-01-01:
+    value: 167.15
+  2019-01-01:
+    value: 172.5
+  2020-01-01:
+    value: 172.85
+  2021-01-01:
+    value: 179.24
+  2022-01-01:
+    value: 184.08
+  2023-01-01:
+    value: 189.61
+  2024-01-01:
+    value: 195.48

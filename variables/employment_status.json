@@ -1,0 +1,31 @@
+{
+  "default_value": "UNEMPLOYED",
+  "definition_period": "year",
+  "dtype": "int16",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "is_period_size_independent": true,
+  "json_type": "string",
+  "label": "Employment status of the person",
+  "name": "employment_status",
+  "possible_values": {
+    "CARER": "Carer",
+    "CHILD": "Child",
+    "FT_EMPLOYED": "Full-time employed",
+    "FT_SELF_EMPLOYED": "Full-time self-employed",
+    "LONG_TERM_DISABLED": "Long-term sick/disabled",
+    "OTHER_INACTIVE": "Inactive for another reason",
+    "PT_EMPLOYED": "Part-time employed",
+    "PT_SELF_EMPLOYED": "Part-time self-employed",
+    "RETIRED": "Retired",
+    "SHORT_TERM_DISABLED": "Short-term sick/disabled",
+    "STUDENT": "Student",
+    "UNEMPLOYED": "Unemployed"
+  },
+  "referring_variables": [
+    "JSA_income_eligible"
+  ],
+  "start_line_number": 105,
+  "stop_line_number": 112,
+  "value_type": "Enum"
+}

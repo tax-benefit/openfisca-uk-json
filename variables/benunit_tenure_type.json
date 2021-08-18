@@ -1,0 +1,211 @@
+{
+  "default_value": "RENT_PRIVATELY",
+  "definition_period": "year",
+  "dtype": "int16",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 4,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "tenure",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 34,
+                      "end_col_offset": 47,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": "tenure_type"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 49,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 55,
+                      "end_lineno": 3,
+                      "id": "period",
+                      "lineno": 3
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 8,
+                  "end_col_offset": 56,
+                  "end_lineno": 3,
+                  "func": {
+                    "ast_class": "Attribute",
+                    "attr": "household",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 33,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "members",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 23,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 15,
+                        "end_lineno": 3,
+                        "id": "benunit",
+                        "lineno": 3
+                      }
+                    }
+                  },
+                  "keywords": [],
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 5,
+              "end_lineno": 4,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "value_from_first_person",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 44,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 13,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 20,
+                  "end_lineno": 2,
+                  "id": "benunit",
+                  "lineno": 2
+                }
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 5,
+            "lineno": 5,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 5,
+              "id": "tenure",
+              "lineno": 5
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 5,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    tenure = benunit.value_from_first_person(\n        benunit.members.household(\"tenure_type\", period)\n    )\n    return tenure\n",
+      "start_line_number": 158,
+      "stop_line_number": 163,
+      "variables": [
+        "tenure_type"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "string",
+  "label": "Tenure type of the family's household",
+  "name": "benunit_tenure_type",
+  "possible_values": {
+    "OWNED_OUTRIGHT": "Owned outright",
+    "OWNED_WITH_MORTGAGE": "Owned with a mortgage",
+    "RENT_FROM_COUNCIL": "Rented from Council",
+    "RENT_FROM_HA": "Rented from a Housing Association",
+    "RENT_PRIVATELY": "Rented privately"
+  },
+  "referring_variables": [
+    "benunit_is_renting"
+  ],
+  "start_line_number": 150,
+  "stop_line_number": 163,
+  "value_type": "Enum"
+}

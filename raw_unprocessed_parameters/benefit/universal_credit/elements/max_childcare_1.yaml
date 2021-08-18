@@ -1,0 +1,9 @@
+description: Maximum childcare costs paid by Universal Credit per month for a family with 1 child per month
+metadata:
+  period: month
+  reference:
+    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=46
+  unit: currency
+values:
+  2015-06-01:
+    value: 646.35

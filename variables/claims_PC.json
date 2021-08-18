@@ -1,0 +1,349 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 4,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 2,
+                "id": "already_claiming",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 8,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 61,
+                  "end_col_offset": 62,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 62,
+              "end_lineno": 3,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 13,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 20,
+                    "end_lineno": 3,
+                    "id": "benunit",
+                    "lineno": 3
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 22,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 28,
+                    "end_lineno": 3,
+                    "id": "period",
+                    "lineno": 3
+                  },
+                  {
+                    "ast_class": "List",
+                    "col_offset": 30,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "elts": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 31,
+                        "end_col_offset": 56,
+                        "end_lineno": 3,
+                        "lineno": 3,
+                        "value": "pension_credit_reported"
+                      }
+                    ],
+                    "end_col_offset": 57,
+                    "end_lineno": 3,
+                    "lineno": 3
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 58,
+                "end_lineno": 3,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 12,
+                  "end_lineno": 3,
+                  "id": "aggr",
+                  "lineno": 3
+                },
+                "keywords": [],
+                "lineno": 3
+              },
+              "lineno": 3,
+              "ops": [
+                {
+                  "ast_class": "Gt"
+                }
+              ]
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 66,
+            "end_lineno": 5,
+            "lineno": 5,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 5,
+                "id": "takeup_rate",
+                "lineno": 5
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "takeup",
+              "col_offset": 18,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 66,
+              "end_lineno": 5,
+              "lineno": 5,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "pension_credit",
+                "col_offset": 18,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 59,
+                "end_lineno": 5,
+                "lineno": 5,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "benefit",
+                  "col_offset": 18,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 44,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 29,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 35,
+                        "end_lineno": 5,
+                        "id": "period",
+                        "lineno": 5
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 18,
+                    "end_col_offset": 36,
+                    "end_lineno": 5,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 18,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 28,
+                      "end_lineno": 5,
+                      "id": "parameters",
+                      "lineno": 5
+                    },
+                    "keywords": [],
+                    "lineno": 5
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 61,
+            "end_lineno": 6,
+            "lineno": 6,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 61,
+              "end_lineno": 6,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 27,
+                "end_lineno": 6,
+                "id": "already_claiming",
+                "lineno": 6
+              },
+              "lineno": 6,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "Compare",
+                "col_offset": 31,
+                "comparators": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 49,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 60,
+                    "end_lineno": 6,
+                    "id": "takeup_rate",
+                    "lineno": 6
+                  }
+                ],
+                "end_col_offset": 60,
+                "end_lineno": 6,
+                "left": {
+                  "args": [
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 38,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 45,
+                      "end_lineno": 6,
+                      "id": "benunit",
+                      "lineno": 6
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 31,
+                  "end_col_offset": 46,
+                  "end_lineno": 6,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 31,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 37,
+                    "end_lineno": 6,
+                    "id": "random",
+                    "lineno": 6
+                  },
+                  "keywords": [],
+                  "lineno": 6
+                },
+                "lineno": 6,
+                "ops": [
+                  {
+                    "ast_class": "Lt"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 61,
+        "end_lineno": 6,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+      "parameters": [
+        "benefit.pension_credit.takeup"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    already_claiming = (\n        aggr(benunit, period, [\"pension_credit_reported\"]) > 0\n    )\n    takeup_rate = parameters(period).benefit.pension_credit.takeup\n    return already_claiming + (random(benunit) < takeup_rate)\n",
+      "start_line_number": 19,
+      "stop_line_number": 25
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this family is imputed to claim Pension Credit",
+  "name": "claims_PC",
+  "referring_variables": [
+    "pension_credit_GC",
+    "pension_credit_MG",
+    "pension_credit_SC"
+  ],
+  "start_line_number": 13,
+  "stop_line_number": 25,
+  "value_type": "bool"
+}

@@ -1,0 +1,8 @@
+description: Amount of income from non-earned sources disregarded in the income test
+metadata:
+  reference:
+    title: The Tax Credits (Definition and Calculation of Income) Regulations 2002 s. 3
+  unit: currency-GBP
+values:
+  2002-06-01:
+    value: 300

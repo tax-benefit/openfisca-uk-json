@@ -1,0 +1,484 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/universal_credit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 9,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 2,
+                "id": "DISQUALIFYING_BENEFITS",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 29,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 28,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "working_tax_credit"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 26,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "child_tax_credit"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 25,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "housing_benefit"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 24,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "income_support"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 20,
+                  "end_lineno": 7,
+                  "lineno": 7,
+                  "value": "ESA_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 20,
+                  "end_lineno": 8,
+                  "lineno": 8,
+                  "value": "JSA_income"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 9,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 12,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 10,
+                "id": "disqualifying",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 20,
+              "end_col_offset": 5,
+              "end_lineno": 12,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 24,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 31,
+                    "end_lineno": 10,
+                    "id": "benunit",
+                    "lineno": 10
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 33,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 39,
+                    "end_lineno": 10,
+                    "id": "period",
+                    "lineno": 10
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 41,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 63,
+                    "end_lineno": 10,
+                    "id": "DISQUALIFYING_BENEFITS",
+                    "lineno": 10
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 20,
+                "end_col_offset": 64,
+                "end_lineno": 10,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 20,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 23,
+                  "end_lineno": 10,
+                  "id": "add",
+                  "lineno": 10
+                },
+                "keywords": [],
+                "lineno": 10
+              },
+              "lineno": 10,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 11,
+                    "id": "benunit",
+                    "lineno": 11
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 17,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 23,
+                    "end_lineno": 11,
+                    "id": "period",
+                    "lineno": 11
+                  },
+                  {
+                    "ast_class": "List",
+                    "col_offset": 25,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "elts": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 26,
+                        "end_col_offset": 31,
+                        "end_lineno": 11,
+                        "lineno": 11,
+                        "value": "SDA"
+                      }
+                    ],
+                    "end_col_offset": 32,
+                    "end_lineno": 11,
+                    "lineno": 11
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 67,
+                "end_col_offset": 5,
+                "end_lineno": 12,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 67,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 71,
+                  "end_lineno": 10,
+                  "id": "aggr",
+                  "lineno": 10
+                },
+                "keywords": [],
+                "lineno": 10
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 15,
+            "lineno": 13,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 13,
+                "id": "eligible",
+                "lineno": 13
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 15,
+              "end_col_offset": 5,
+              "end_lineno": 15,
+              "left": {
+                "ast_class": "Compare",
+                "col_offset": 16,
+                "comparators": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 33,
+                    "end_col_offset": 34,
+                    "end_lineno": 13,
+                    "lineno": 13,
+                    "value": 0
+                  }
+                ],
+                "end_col_offset": 34,
+                "end_lineno": 13,
+                "left": {
+                  "ast_class": "Name",
+                  "col_offset": 16,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 29,
+                  "end_lineno": 13,
+                  "id": "disqualifying",
+                  "lineno": 13
+                },
+                "lineno": 13,
+                "ops": [
+                  {
+                    "ast_class": "Eq"
+                  }
+                ]
+              },
+              "lineno": 13,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 41,
+                            "end_col_offset": 52,
+                            "end_lineno": 14,
+                            "lineno": 14,
+                            "value": "is_SP_age"
+                          },
+                          {
+                            "ast_class": "Name",
+                            "col_offset": 54,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 60,
+                            "end_lineno": 14,
+                            "id": "period",
+                            "lineno": 14
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 25,
+                        "end_col_offset": 61,
+                        "end_lineno": 14,
+                        "func": {
+                          "ast_class": "Attribute",
+                          "attr": "members",
+                          "col_offset": 25,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 40,
+                          "end_lineno": 14,
+                          "lineno": 14,
+                          "value": {
+                            "ast_class": "Name",
+                            "col_offset": 25,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 32,
+                            "end_lineno": 14,
+                            "id": "benunit",
+                            "lineno": 14
+                          }
+                        },
+                        "keywords": [],
+                        "lineno": 14
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 13,
+                    "end_col_offset": 62,
+                    "end_lineno": 14,
+                    "func": {
+                      "ast_class": "Attribute",
+                      "attr": "min",
+                      "col_offset": 13,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 24,
+                      "end_lineno": 14,
+                      "lineno": 14,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 13,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 20,
+                        "end_lineno": 14,
+                        "id": "benunit",
+                        "lineno": 14
+                      }
+                    },
+                    "keywords": [],
+                    "lineno": 14
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 63,
+                "end_lineno": 14,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 12,
+                  "end_lineno": 14,
+                  "id": "not_",
+                  "lineno": 14
+                },
+                "keywords": [],
+                "lineno": 14
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 19,
+            "end_lineno": 16,
+            "lineno": 16,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 19,
+              "end_lineno": 16,
+              "id": "eligible",
+              "lineno": 16
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 19,
+        "end_lineno": 16,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/universal_credit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    DISQUALIFYING_BENEFITS = [\n        \"working_tax_credit\",\n        \"child_tax_credit\",\n        \"housing_benefit\",\n        \"income_support\",\n        \"ESA_income\",\n        \"JSA_income\",\n    ]\n    disqualifying = add(benunit, period, DISQUALIFYING_BENEFITS) + aggr(\n        benunit, period, [\"SDA\"]\n    )\n    eligible = (disqualifying == 0) * (\n        not_(benunit.min(benunit.members(\"is_SP_age\", period)))\n    )\n    return eligible\n",
+      "start_line_number": 162,
+      "stop_line_number": 178,
+      "variables": [
+        "is_SP_age"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether eligible for Universal Credit",
+  "name": "universal_credit_eligible",
+  "referring_variables": [
+    "universal_credit"
+  ],
+  "start_line_number": 156,
+  "stop_line_number": 178,
+  "value_type": "bool"
+}

@@ -1,0 +1,295 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 55,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "amount",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 20,
+                  "end_col_offset": 46,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "basic_rate_earned_income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 48,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 54,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 55,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 2,
+                "id": "person",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 73,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 3,
+                "id": "charge",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 13,
+              "end_col_offset": 73,
+              "end_lineno": 3,
+              "left": {
+                "ast_class": "Subscript",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 64,
+                "end_lineno": 3,
+                "lineno": 3,
+                "slice": {
+                  "ast_class": "Constant",
+                  "col_offset": 62,
+                  "end_col_offset": 63,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                },
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "rates",
+                  "col_offset": 13,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 61,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "uk",
+                    "col_offset": 13,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 55,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "rates",
+                      "col_offset": 13,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 52,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": {
+                        "ast_class": "Attribute",
+                        "attr": "income_tax",
+                        "col_offset": 13,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 46,
+                        "end_lineno": 3,
+                        "lineno": 3,
+                        "value": {
+                          "ast_class": "Attribute",
+                          "attr": "tax",
+                          "col_offset": 13,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 35,
+                          "end_lineno": 3,
+                          "lineno": 3,
+                          "value": {
+                            "args": [
+                              {
+                                "ast_class": "Name",
+                                "col_offset": 24,
+                                "ctx": {
+                                  "ast_class": "Load"
+                                },
+                                "end_col_offset": 30,
+                                "end_lineno": 3,
+                                "id": "period",
+                                "lineno": 3
+                              }
+                            ],
+                            "ast_class": "Call",
+                            "col_offset": 13,
+                            "end_col_offset": 31,
+                            "end_lineno": 3,
+                            "func": {
+                              "ast_class": "Name",
+                              "col_offset": 13,
+                              "ctx": {
+                                "ast_class": "Load"
+                              },
+                              "end_col_offset": 23,
+                              "end_lineno": 3,
+                              "id": "parameters",
+                              "lineno": 3
+                            },
+                            "keywords": [],
+                            "lineno": 3
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "lineno": 3,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 67,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 73,
+                "end_lineno": 3,
+                "id": "amount",
+                "lineno": 3
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 4,
+            "lineno": 4,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 4,
+              "id": "charge",
+              "lineno": 4
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 4,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+      "parameters": [
+        "tax.income_tax.rates.uk"
+      ],
+      "source_code": "def formula(person, period, parameters):\n    amount = person(\"basic_rate_earned_income\", period)\n    charge = parameters(period).tax.income_tax.rates.uk.rates[0] * amount\n    return charge\n",
+      "start_line_number": 104,
+      "stop_line_number": 108,
+      "variables": [
+        "basic_rate_earned_income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Income tax on earned income at the basic rate",
+  "name": "basic_rate_earned_income_tax",
+  "start_line_number": 98,
+  "stop_line_number": 108,
+  "value_type": "float"
+}

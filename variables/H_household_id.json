@@ -1,0 +1,12 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/relations.py",
+  "json_type": "number",
+  "name": "H_household_id",
+  "start_line_number": 42,
+  "stop_line_number": 46,
+  "value_type": "float"
+}

@@ -1,0 +1,26 @@
+description: Dividend income tax scale (thresholds are from the main Income Tax scale)
+metadata:
+  period: year
+  rate_unit: /1
+  reference:
+    href: https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past
+  threshold_unit: currency
+brackets:
+- threshold:
+    2015-06-01:
+      value: 0
+  rate:
+    2015-06-01:
+      value: 0.075
+- threshold:
+    2015-06-01:
+      value: 37500
+  rate:
+    2015-06-01:
+      value: 0.325
+- threshold:
+    2015-06-01:
+      value: 150000
+  rate:
+    2015-06-01:
+      value: 0.381

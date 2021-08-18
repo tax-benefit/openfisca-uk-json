@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "json_type": "number",
+  "label": "Expenditure under Gift Aid",
+  "name": "gift_aid",
+  "start_line_number": 166,
+  "stop_line_number": 171,
+  "value_type": "float"
+}

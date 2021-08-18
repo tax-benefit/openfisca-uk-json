@@ -1,0 +1,22 @@
+{
+  "default_value": "MALE",
+  "definition_period": "eternity",
+  "dtype": "int16",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "is_period_size_independent": true,
+  "json_type": "string",
+  "label": "Gender of the person",
+  "name": "gender",
+  "possible_values": {
+    "FEMALE": "Female",
+    "MALE": "Male"
+  },
+  "referring_variables": [
+    "is_female",
+    "is_male"
+  ],
+  "start_line_number": 100,
+  "stop_line_number": 107,
+  "value_type": "Enum"
+}

@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/DLA.py",
+  "json_type": "number",
+  "label": "Disability Living Allowance (self-care) (reported)",
+  "name": "DLA_SC_reported",
+  "referring_variables": [
+    "DLA_SC"
+  ],
+  "start_line_number": 43,
+  "stop_line_number": 48,
+  "unit": "currency",
+  "value_type": "float"
+}

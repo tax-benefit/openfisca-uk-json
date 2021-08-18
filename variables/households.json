@@ -1,0 +1,13 @@
+{
+  "default_value": 1,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/household.py",
+  "json_type": "number",
+  "label": "Variable holding households",
+  "name": "households",
+  "start_line_number": 13,
+  "stop_line_number": 19,
+  "value_type": "float"
+}

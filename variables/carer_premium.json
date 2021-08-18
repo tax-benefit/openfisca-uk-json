@@ -1,0 +1,451 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/care.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 52,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "carers",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 21,
+                  "end_col_offset": 33,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "num_carers"
+                },
+                {
+                  "ast_class": "Attribute",
+                  "attr": "this_year",
+                  "col_offset": 35,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 51,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 35,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 41,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 52,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 2,
+                "id": "benunit",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 49,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 6,
+                "end_lineno": 3,
+                "id": "CP",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "carer_premium",
+              "col_offset": 9,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 49,
+              "end_lineno": 3,
+              "lineno": 3,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "benefit",
+                "col_offset": 9,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 35,
+                "end_lineno": 3,
+                "lineno": 3,
+                "value": {
+                  "args": [
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 20,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 3,
+                      "id": "period",
+                      "lineno": 3
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 9,
+                  "end_col_offset": 27,
+                  "end_lineno": 3,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 19,
+                    "end_lineno": 3,
+                    "id": "parameters",
+                    "lineno": 3
+                  },
+                  "keywords": [],
+                  "lineno": 3
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 10,
+            "lineno": 4,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 23,
+              "end_lineno": 9,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "List",
+                    "col_offset": 12,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "elts": [
+                      {
+                        "ast_class": "Compare",
+                        "col_offset": 13,
+                        "comparators": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 23,
+                            "end_col_offset": 24,
+                            "end_lineno": 6,
+                            "lineno": 6,
+                            "value": 0
+                          }
+                        ],
+                        "end_col_offset": 24,
+                        "end_lineno": 6,
+                        "left": {
+                          "ast_class": "Name",
+                          "col_offset": 13,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 19,
+                          "end_lineno": 6,
+                          "id": "carers",
+                          "lineno": 6
+                        },
+                        "lineno": 6,
+                        "ops": [
+                          {
+                            "ast_class": "Eq"
+                          }
+                        ]
+                      },
+                      {
+                        "ast_class": "Compare",
+                        "col_offset": 26,
+                        "comparators": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 36,
+                            "end_col_offset": 37,
+                            "end_lineno": 6,
+                            "lineno": 6,
+                            "value": 1
+                          }
+                        ],
+                        "end_col_offset": 37,
+                        "end_lineno": 6,
+                        "left": {
+                          "ast_class": "Name",
+                          "col_offset": 26,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 32,
+                          "end_lineno": 6,
+                          "id": "carers",
+                          "lineno": 6
+                        },
+                        "lineno": 6,
+                        "ops": [
+                          {
+                            "ast_class": "Eq"
+                          }
+                        ]
+                      },
+                      {
+                        "ast_class": "Compare",
+                        "col_offset": 39,
+                        "comparators": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 49,
+                            "end_col_offset": 50,
+                            "end_lineno": 6,
+                            "lineno": 6,
+                            "value": 2
+                          }
+                        ],
+                        "end_col_offset": 50,
+                        "end_lineno": 6,
+                        "left": {
+                          "ast_class": "Name",
+                          "col_offset": 39,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 45,
+                          "end_lineno": 6,
+                          "id": "carers",
+                          "lineno": 6
+                        },
+                        "lineno": 6,
+                        "ops": [
+                          {
+                            "ast_class": "Eq"
+                          }
+                        ]
+                      }
+                    ],
+                    "end_col_offset": 51,
+                    "end_lineno": 6,
+                    "lineno": 6
+                  },
+                  {
+                    "ast_class": "List",
+                    "col_offset": 12,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "elts": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 13,
+                        "end_col_offset": 14,
+                        "end_lineno": 7,
+                        "lineno": 7,
+                        "value": 0
+                      },
+                      {
+                        "ast_class": "Attribute",
+                        "attr": "single",
+                        "col_offset": 16,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 25,
+                        "end_lineno": 7,
+                        "lineno": 7,
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 16,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 18,
+                          "end_lineno": 7,
+                          "id": "CP",
+                          "lineno": 7
+                        }
+                      },
+                      {
+                        "ast_class": "Attribute",
+                        "attr": "couple",
+                        "col_offset": 27,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 36,
+                        "end_lineno": 7,
+                        "lineno": 7,
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 27,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 29,
+                          "end_lineno": 7,
+                          "id": "CP",
+                          "lineno": 7
+                        }
+                      }
+                    ],
+                    "end_col_offset": 37,
+                    "end_lineno": 7,
+                    "lineno": 7
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 9,
+                "end_lineno": 8,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 14,
+                  "end_lineno": 5,
+                  "id": "select",
+                  "lineno": 5
+                },
+                "keywords": [],
+                "lineno": 5
+              },
+              "lineno": 5,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 23,
+                "end_lineno": 9,
+                "id": "WEEKS_IN_YEAR",
+                "lineno": 9
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 10,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/care.py",
+      "parameters": [
+        "benefit.carer_premium.couple",
+        "benefit.carer_premium.single"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    carers = benunit(\"num_carers\", period.this_year)\n    CP = parameters(period).benefit.carer_premium\n    return (\n        select(\n            [carers == 0, carers == 1, carers == 2],\n            [0, CP.single, CP.couple],\n        )\n        * WEEKS_IN_YEAR\n    )\n",
+      "start_line_number": 35,
+      "stop_line_number": 45,
+      "variables": [
+        "num_carers"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Carer premium",
+  "name": "carer_premium",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "The Social Security Amendment (Carer Premium) Regulations 2002"
+      }
+    ]
+  },
+  "referring_variables": [
+    "pension_credit_MG"
+  ],
+  "start_line_number": 26,
+  "stop_line_number": 45,
+  "value_type": "float"
+}

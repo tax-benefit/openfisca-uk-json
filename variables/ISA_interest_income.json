@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "json_type": "number",
+  "label": "Amount received in interest from Individual Savings Accounts",
+  "name": "ISA_interest_income",
+  "referring_variables": [
+    "tax_free_savings_income"
+  ],
+  "start_line_number": 107,
+  "stop_line_number": 112,
+  "unit": "currency",
+  "value_type": "float"
+}

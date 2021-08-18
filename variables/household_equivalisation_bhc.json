@@ -1,0 +1,538 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/household.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "household",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 21,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 23,
+              "end_col_offset": 29,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 31,
+              "end_col_offset": 41,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 61,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 2,
+                "id": "second_adult",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 19,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 60,
+                  "end_col_offset": 61,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": 2
+                }
+              ],
+              "end_col_offset": 61,
+              "end_lineno": 2,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Attribute",
+                    "attr": "ADULT",
+                    "col_offset": 40,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 55,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 40,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 49,
+                      "end_lineno": 2,
+                      "id": "Household",
+                      "lineno": 2
+                    }
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 19,
+                "end_col_offset": 56,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Attribute",
+                  "attr": "nb_persons",
+                  "col_offset": 19,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 39,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 19,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 28,
+                    "end_lineno": 2,
+                    "id": "household",
+                    "lineno": 2
+                  }
+                },
+                "keywords": [],
+                "lineno": 2
+              },
+              "lineno": 2,
+              "ops": [
+                {
+                  "ast_class": "Eq"
+                }
+              ]
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 5,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 3,
+                "id": "num_young_children",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 26,
+                      "end_col_offset": 42,
+                      "end_lineno": 4,
+                      "lineno": 4,
+                      "value": "is_young_child"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 44,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 50,
+                      "end_lineno": 4,
+                      "id": "period",
+                      "lineno": 4
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 8,
+                  "end_col_offset": 51,
+                  "end_lineno": 4,
+                  "func": {
+                    "ast_class": "Attribute",
+                    "attr": "members",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 25,
+                    "end_lineno": 4,
+                    "lineno": 4,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 17,
+                      "end_lineno": 4,
+                      "id": "household",
+                      "lineno": 4
+                    }
+                  },
+                  "keywords": [],
+                  "lineno": 4
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 25,
+              "end_col_offset": 5,
+              "end_lineno": 5,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "sum",
+                "col_offset": 25,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 38,
+                "end_lineno": 3,
+                "lineno": 3,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 3,
+                  "id": "household",
+                  "lineno": 3
+                }
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 8,
+            "lineno": 6,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 6,
+                "id": "num_older_children",
+                "lineno": 6
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 26,
+                      "end_col_offset": 42,
+                      "end_lineno": 7,
+                      "lineno": 7,
+                      "value": "is_older_child"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 44,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 50,
+                      "end_lineno": 7,
+                      "id": "period",
+                      "lineno": 7
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 8,
+                  "end_col_offset": 51,
+                  "end_lineno": 7,
+                  "func": {
+                    "ast_class": "Attribute",
+                    "attr": "members",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 25,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 17,
+                      "end_lineno": 7,
+                      "id": "household",
+                      "lineno": 7
+                    }
+                  },
+                  "keywords": [],
+                  "lineno": 7
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 25,
+              "end_col_offset": 5,
+              "end_lineno": 8,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "sum",
+                "col_offset": 25,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 38,
+                "end_lineno": 6,
+                "lineno": 6,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 6,
+                  "id": "household",
+                  "lineno": 6
+                }
+              },
+              "keywords": [],
+              "lineno": 6
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 14,
+            "lineno": 9,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 13,
+                "end_lineno": 9,
+                "id": "weighting",
+                "lineno": 9
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 34,
+              "end_lineno": 13,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 35,
+                "end_lineno": 12,
+                "left": {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 29,
+                  "end_lineno": 11,
+                  "left": {
+                    "ast_class": "Constant",
+                    "col_offset": 8,
+                    "end_col_offset": 12,
+                    "end_lineno": 10,
+                    "lineno": 10,
+                    "value": 0.67
+                  },
+                  "lineno": 10,
+                  "op": {
+                    "ast_class": "Add"
+                  },
+                  "right": {
+                    "ast_class": "BinOp",
+                    "col_offset": 10,
+                    "end_col_offset": 29,
+                    "end_lineno": 11,
+                    "left": {
+                      "ast_class": "Constant",
+                      "col_offset": 10,
+                      "end_col_offset": 14,
+                      "end_lineno": 11,
+                      "lineno": 11,
+                      "value": 0.33
+                    },
+                    "lineno": 11,
+                    "op": {
+                      "ast_class": "Mult"
+                    },
+                    "right": {
+                      "ast_class": "Name",
+                      "col_offset": 17,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 29,
+                      "end_lineno": 11,
+                      "id": "second_adult",
+                      "lineno": 11
+                    }
+                  }
+                },
+                "lineno": 10,
+                "op": {
+                  "ast_class": "Add"
+                },
+                "right": {
+                  "ast_class": "BinOp",
+                  "col_offset": 10,
+                  "end_col_offset": 35,
+                  "end_lineno": 12,
+                  "left": {
+                    "ast_class": "Constant",
+                    "col_offset": 10,
+                    "end_col_offset": 14,
+                    "end_lineno": 12,
+                    "lineno": 12,
+                    "value": 0.33
+                  },
+                  "lineno": 12,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 17,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 35,
+                    "end_lineno": 12,
+                    "id": "num_older_children",
+                    "lineno": 12
+                  }
+                }
+              },
+              "lineno": 10,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "BinOp",
+                "col_offset": 10,
+                "end_col_offset": 34,
+                "end_lineno": 13,
+                "left": {
+                  "ast_class": "Constant",
+                  "col_offset": 10,
+                  "end_col_offset": 13,
+                  "end_lineno": 13,
+                  "lineno": 13,
+                  "value": 0.2
+                },
+                "lineno": 13,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "ast_class": "Name",
+                  "col_offset": 16,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 13,
+                  "id": "num_young_children",
+                  "lineno": 13
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 20,
+            "end_lineno": 15,
+            "lineno": 15,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 20,
+              "end_lineno": 15,
+              "id": "weighting",
+              "lineno": 15
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 20,
+        "end_lineno": 15,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/household.py",
+      "source_code": "def formula(household, period, parameters):\n    second_adult = household.nb_persons(Household.ADULT) == 2\n    num_young_children = household.sum(\n        household.members(\"is_young_child\", period)\n    )\n    num_older_children = household.sum(\n        household.members(\"is_older_child\", period)\n    )\n    weighting = (\n        0.67\n        + 0.33 * second_adult\n        + 0.33 * num_older_children\n        + 0.2 * num_young_children\n    )\n    return weighting\n",
+      "start_line_number": 144,
+      "stop_line_number": 159,
+      "variables": [
+        "is_older_child",
+        "is_young_child"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Equivalisation factor to account for household composition, before housing costs",
+  "name": "household_equivalisation_bhc",
+  "referring_variables": [
+    "equiv_household_net_income",
+    "poverty_line_bhc"
+  ],
+  "start_line_number": 138,
+  "stop_line_number": 159,
+  "value_type": "float"
+}

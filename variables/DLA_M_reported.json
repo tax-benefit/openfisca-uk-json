@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/DLA.py",
+  "json_type": "number",
+  "label": "Disability Living Allowance (mobility component) (reported)",
+  "name": "DLA_M_reported",
+  "referring_variables": [
+    "DLA_M"
+  ],
+  "start_line_number": 36,
+  "stop_line_number": 41,
+  "unit": "currency",
+  "value_type": "float"
+}

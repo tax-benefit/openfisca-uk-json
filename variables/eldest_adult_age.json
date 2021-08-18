@@ -1,0 +1,205 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 4,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 24,
+                      "end_col_offset": 29,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": "age"
+                    },
+                    {
+                      "ast_class": "Attribute",
+                      "attr": "this_year",
+                      "col_offset": 31,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 47,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 31,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 37,
+                        "end_lineno": 3,
+                        "id": "period",
+                        "lineno": 3
+                      }
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 8,
+                  "end_col_offset": 48,
+                  "end_lineno": 3,
+                  "func": {
+                    "ast_class": "Attribute",
+                    "attr": "members",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 23,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 15,
+                      "end_lineno": 3,
+                      "id": "benunit",
+                      "lineno": 3
+                    }
+                  },
+                  "keywords": [],
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 4,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "max",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 18,
+                  "end_lineno": 2,
+                  "id": "benunit",
+                  "lineno": 2
+                }
+              },
+              "keywords": [
+                {
+                  "arg": "role",
+                  "ast_class": "keyword",
+                  "col_offset": 50,
+                  "end_col_offset": 68,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "ADULT",
+                    "col_offset": 55,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 68,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 55,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 62,
+                      "end_lineno": 3,
+                      "id": "BenUnit",
+                      "lineno": 3
+                    }
+                  }
+                }
+              ],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 4,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    return benunit.max(\n        benunit.members(\"age\", period.this_year), role=BenUnit.ADULT\n    )\n",
+      "start_line_number": 88,
+      "stop_line_number": 92,
+      "variables": [
+        "age"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Eldest adult age",
+  "name": "eldest_adult_age",
+  "referring_variables": [
+    "housing_benefit_applicable_amount",
+    "income_support_applicable_amount",
+    "is_WTC_eligible"
+  ],
+  "start_line_number": 82,
+  "stop_line_number": 92,
+  "value_type": "float"
+}

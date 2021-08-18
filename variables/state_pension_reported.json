@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/state_pension.py",
+  "json_type": "number",
+  "label": "Reported income from the State Pension",
+  "name": "state_pension_reported",
+  "referring_variables": [
+    "state_pension"
+  ],
+  "start_line_number": 42,
+  "stop_line_number": 47,
+  "unit": "currency",
+  "value_type": "float"
+}

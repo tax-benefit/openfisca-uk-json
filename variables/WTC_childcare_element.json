@@ -1,0 +1,748 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 67,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 7,
+                "end_lineno": 2,
+                "id": "WTC",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "working_tax_credit",
+              "col_offset": 10,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 67,
+              "end_lineno": 2,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "tax_credits",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 48,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "benefit",
+                  "col_offset": 10,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 36,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 21,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 27,
+                        "end_lineno": 2,
+                        "id": "period",
+                        "lineno": 2
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 28,
+                    "end_lineno": 2,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 2,
+                      "id": "parameters",
+                      "lineno": 2
+                    },
+                    "keywords": [],
+                    "lineno": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 50,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 3,
+                "id": "num_children",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 27,
+                  "end_col_offset": 41,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "num_children"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 43,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 49,
+                  "end_lineno": 3,
+                  "id": "period",
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 19,
+              "end_col_offset": 50,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 19,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 3,
+                "id": "benunit",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 48,
+            "end_lineno": 8,
+            "lineno": 4,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 24,
+                "end_lineno": 4,
+                "id": "max_childcare_amount",
+                "lineno": 4
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 27,
+              "end_col_offset": 48,
+              "end_lineno": 8,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 27,
+                "end_col_offset": 48,
+                "end_lineno": 6,
+                "left": {
+                  "ast_class": "BinOp",
+                  "col_offset": 27,
+                  "end_col_offset": 32,
+                  "end_lineno": 6,
+                  "left": {
+                    "ast_class": "Compare",
+                    "col_offset": 8,
+                    "comparators": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 24,
+                        "end_col_offset": 25,
+                        "end_lineno": 5,
+                        "lineno": 5,
+                        "value": 1
+                      }
+                    ],
+                    "end_col_offset": 25,
+                    "end_lineno": 5,
+                    "left": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 5,
+                      "id": "num_children",
+                      "lineno": 5
+                    },
+                    "lineno": 5,
+                    "ops": [
+                      {
+                        "ast_class": "Eq"
+                      }
+                    ]
+                  },
+                  "lineno": 4,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Attribute",
+                    "attr": "childcare_1",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 32,
+                    "end_lineno": 6,
+                    "lineno": 6,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "elements",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 6,
+                      "lineno": 6,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 11,
+                        "end_lineno": 6,
+                        "id": "WTC",
+                        "lineno": 6
+                      }
+                    }
+                  }
+                },
+                "lineno": 4,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "ast_class": "Name",
+                  "col_offset": 35,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 48,
+                  "end_lineno": 6,
+                  "id": "WEEKS_IN_YEAR",
+                  "lineno": 6
+                }
+              },
+              "lineno": 4,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "BinOp",
+                "col_offset": 51,
+                "end_col_offset": 48,
+                "end_lineno": 8,
+                "left": {
+                  "ast_class": "BinOp",
+                  "col_offset": 51,
+                  "end_col_offset": 32,
+                  "end_lineno": 8,
+                  "left": {
+                    "ast_class": "Compare",
+                    "col_offset": 8,
+                    "comparators": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 23,
+                        "end_col_offset": 24,
+                        "end_lineno": 7,
+                        "lineno": 7,
+                        "value": 1
+                      }
+                    ],
+                    "end_col_offset": 24,
+                    "end_lineno": 7,
+                    "left": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 7,
+                      "id": "num_children",
+                      "lineno": 7
+                    },
+                    "lineno": 7,
+                    "ops": [
+                      {
+                        "ast_class": "Gt"
+                      }
+                    ]
+                  },
+                  "lineno": 6,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Attribute",
+                    "attr": "childcare_2",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 32,
+                    "end_lineno": 8,
+                    "lineno": 8,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "elements",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 8,
+                      "lineno": 8,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 11,
+                        "end_lineno": 8,
+                        "id": "WTC",
+                        "lineno": 8
+                      }
+                    }
+                  }
+                },
+                "lineno": 6,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "ast_class": "Name",
+                  "col_offset": 35,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 48,
+                  "end_lineno": 8,
+                  "id": "WEEKS_IN_YEAR",
+                  "lineno": 8
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 13,
+            "lineno": 9,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 9,
+                "id": "childcare_element",
+                "lineno": 9
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 28,
+                  "end_lineno": 10,
+                  "id": "max_childcare_amount",
+                  "lineno": 10
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 64,
+                  "end_lineno": 12,
+                  "left": {
+                    "ast_class": "Attribute",
+                    "attr": "childcare_coverage",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 39,
+                    "end_lineno": 11,
+                    "lineno": 11,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "elements",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 11,
+                      "lineno": 11,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 11,
+                        "end_lineno": 11,
+                        "id": "WTC",
+                        "lineno": 11
+                      }
+                    }
+                  },
+                  "lineno": 11,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 38,
+                            "end_col_offset": 54,
+                            "end_lineno": 12,
+                            "lineno": 12,
+                            "value": "childcare_cost"
+                          },
+                          {
+                            "ast_class": "Name",
+                            "col_offset": 56,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 62,
+                            "end_lineno": 12,
+                            "id": "period",
+                            "lineno": 12
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 22,
+                        "end_col_offset": 63,
+                        "end_lineno": 12,
+                        "func": {
+                          "ast_class": "Attribute",
+                          "attr": "members",
+                          "col_offset": 22,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 37,
+                          "end_lineno": 12,
+                          "lineno": 12,
+                          "value": {
+                            "ast_class": "Name",
+                            "col_offset": 22,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 29,
+                            "end_lineno": 12,
+                            "id": "benunit",
+                            "lineno": 12
+                          }
+                        },
+                        "keywords": [],
+                        "lineno": 12
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 64,
+                    "end_lineno": 12,
+                    "func": {
+                      "ast_class": "Attribute",
+                      "attr": "sum",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 21,
+                      "end_lineno": 12,
+                      "lineno": 12,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 10,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 17,
+                        "end_lineno": 12,
+                        "id": "benunit",
+                        "lineno": 12
+                      }
+                    },
+                    "keywords": [],
+                    "lineno": 12
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 24,
+              "end_col_offset": 5,
+              "end_lineno": 13,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 24,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 28,
+                "end_lineno": 9,
+                "id": "min_",
+                "lineno": 9
+              },
+              "keywords": [],
+              "lineno": 9
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 18,
+            "lineno": 14,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 27,
+              "end_lineno": 17,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 39,
+                "end_lineno": 16,
+                "left": {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 16,
+                      "end_col_offset": 33,
+                      "end_lineno": 15,
+                      "lineno": 15,
+                      "value": "is_WTC_eligible"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 35,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 41,
+                      "end_lineno": 15,
+                      "id": "period",
+                      "lineno": 15
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 8,
+                  "end_col_offset": 42,
+                  "end_lineno": 15,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 15,
+                    "id": "benunit",
+                    "lineno": 15
+                  },
+                  "keywords": [],
+                  "lineno": 15
+                },
+                "lineno": 15,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 18,
+                      "end_col_offset": 30,
+                      "end_lineno": 16,
+                      "lineno": 16,
+                      "value": "claims_WTC"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 32,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 38,
+                      "end_lineno": 16,
+                      "id": "period",
+                      "lineno": 16
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 10,
+                  "end_col_offset": 39,
+                  "end_lineno": 16,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 16,
+                    "id": "benunit",
+                    "lineno": 16
+                  },
+                  "keywords": [],
+                  "lineno": 16
+                }
+              },
+              "lineno": 15,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 27,
+                "end_lineno": 17,
+                "id": "childcare_element",
+                "lineno": 17
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 18,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "parameters": [
+        "benefit.tax_credits.working_tax_credit.elements.childcare_1",
+        "benefit.tax_credits.working_tax_credit.elements.childcare_2",
+        "benefit.tax_credits.working_tax_credit.elements.childcare_coverage"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    WTC = parameters(period).benefit.tax_credits.working_tax_credit\n    num_children = benunit(\"num_children\", period)\n    max_childcare_amount = (\n        num_children == 1\n    ) * WTC.elements.childcare_1 * WEEKS_IN_YEAR + (\n        num_children > 1\n    ) * WTC.elements.childcare_2 * WEEKS_IN_YEAR\n    childcare_element = min_(\n        max_childcare_amount,\n        WTC.elements.childcare_coverage\n        * benunit.sum(benunit.members(\"childcare_cost\", period)),\n    )\n    return (\n        benunit(\"is_WTC_eligible\", period)\n        * benunit(\"claims_WTC\", period)\n        * childcare_element\n    )\n",
+      "start_line_number": 403,
+      "stop_line_number": 421,
+      "variables": [
+        "childcare_cost",
+        "claims_WTC",
+        "is_WTC_eligible",
+        "num_children"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "WTC entitlement from the childcare element",
+  "name": "WTC_childcare_element",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Tax Credits Act 2002 s. 11"
+      }
+    ]
+  },
+  "start_line_number": 396,
+  "stop_line_number": 421,
+  "value_type": "float"
+}

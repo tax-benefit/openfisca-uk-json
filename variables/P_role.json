@@ -1,0 +1,13 @@
+{
+  "default_value": "",
+  "definition_period": "year",
+  "dtype": "object",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/relations.py",
+  "is_period_size_independent": true,
+  "json_type": "string",
+  "name": "P_role",
+  "start_line_number": 24,
+  "stop_line_number": 28,
+  "value_type": "str"
+}

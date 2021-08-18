@@ -1,0 +1,9 @@
+description: Upper attendance allowance amount.
+metadata:
+  period: week
+  reference:
+    href: https://www.gov.uk/attendance-allowance/what-youll-get
+  unit: currency
+values:
+  2015-06-01:
+    value: 89.15

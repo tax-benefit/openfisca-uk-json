@@ -1,0 +1,18 @@
+description: Disabled child element per year
+metadata:
+  period: year
+  reference:
+  - href: https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance
+  - href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=28
+  unit: currency
+values:
+  2015-06-01:
+    value: 3140
+  2017-06-01:
+    value: 3175
+  2018-06-01:
+    value: 3275
+  2019-06-01:
+    value: 3355
+  2020-06-01:
+    value: 3415

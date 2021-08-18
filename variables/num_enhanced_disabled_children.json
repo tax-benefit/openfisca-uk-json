@@ -1,0 +1,304 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "int32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/disability.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 54,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 9,
+                "end_lineno": 2,
+                "id": "child",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 28,
+                  "end_col_offset": 45,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "is_child_or_QYP"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 47,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 53,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 12,
+              "end_col_offset": 54,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "members",
+                "col_offset": 12,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 27,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 12,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 19,
+                  "end_lineno": 2,
+                  "id": "benunit",
+                  "lineno": 2
+                }
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 5,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 3,
+                "id": "disabled",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 8,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 71,
+                  "end_col_offset": 72,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 72,
+              "end_lineno": 4,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 24,
+                    "end_col_offset": 59,
+                    "end_lineno": 4,
+                    "lineno": 4,
+                    "value": "is_enhanced_disabled_for_benefits"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 61,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 67,
+                    "end_lineno": 4,
+                    "id": "period",
+                    "lineno": 4
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 68,
+                "end_lineno": 4,
+                "func": {
+                  "ast_class": "Attribute",
+                  "attr": "members",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 23,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 4,
+                    "id": "benunit",
+                    "lineno": 4
+                  }
+                },
+                "keywords": [],
+                "lineno": 4
+              },
+              "lineno": 4,
+              "ops": [
+                {
+                  "ast_class": "Gt"
+                }
+              ]
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 40,
+            "end_lineno": 6,
+            "lineno": 6,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 23,
+                  "end_col_offset": 39,
+                  "end_lineno": 6,
+                  "left": {
+                    "ast_class": "Name",
+                    "col_offset": 23,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 28,
+                    "end_lineno": 6,
+                    "id": "child",
+                    "lineno": 6
+                  },
+                  "lineno": 6,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 31,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 39,
+                    "end_lineno": 6,
+                    "id": "disabled",
+                    "lineno": 6
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 40,
+              "end_lineno": 6,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "sum",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 6,
+                "lineno": 6,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 18,
+                  "end_lineno": 6,
+                  "id": "benunit",
+                  "lineno": 6
+                }
+              },
+              "keywords": [],
+              "lineno": 6
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 40,
+        "end_lineno": 6,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/disability.py",
+      "source_code": "def formula(benunit, period, parameters):\n    child = benunit.members(\"is_child_or_QYP\", period)\n    disabled = (\n        benunit.members(\"is_enhanced_disabled_for_benefits\", period) > 0\n    )\n    return benunit.sum(child * disabled)\n",
+      "start_line_number": 79,
+      "stop_line_number": 85,
+      "variables": [
+        "is_child_or_QYP",
+        "is_enhanced_disabled_for_benefits"
+      ]
+    }
+  },
+  "json_type": "integer",
+  "label": "Number of enhanced disabled children",
+  "name": "num_enhanced_disabled_children",
+  "start_line_number": 73,
+  "stop_line_number": 85,
+  "value_type": "int"
+}

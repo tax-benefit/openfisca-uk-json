@@ -1,0 +1,18 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this person is in Further Education",
+  "name": "in_FE",
+  "referring_variables": [
+    "is_QYP"
+  ],
+  "set_input": "set_input_dispatch_by_period",
+  "start_line_number": 78,
+  "stop_line_number": 84,
+  "value_type": "bool"
+}

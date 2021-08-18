@@ -1,0 +1,205 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 59,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 2,
+                "id": "COMPONENTS",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 17,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 18,
+                  "end_col_offset": 37,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "pension_credit_GC"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 39,
+                  "end_col_offset": 58,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "pension_credit_SC"
+                }
+              ],
+              "end_col_offset": 59,
+              "end_lineno": 2,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 45,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 3,
+                "id": "amount",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 17,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 24,
+                  "end_lineno": 3,
+                  "id": "benunit",
+                  "lineno": 3
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 26,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 32,
+                  "end_lineno": 3,
+                  "id": "period",
+                  "lineno": 3
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 34,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 44,
+                  "end_lineno": 3,
+                  "id": "COMPONENTS",
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 45,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 3,
+                "id": "add",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 4,
+            "lineno": 4,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 4,
+              "id": "amount",
+              "lineno": 4
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 4,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    COMPONENTS = [\"pension_credit_GC\", \"pension_credit_SC\"]\n    amount = add(benunit, period, COMPONENTS)\n    return amount\n",
+      "start_line_number": 153,
+      "stop_line_number": 157
+    }
+  },
+  "json_type": "number",
+  "label": "Pension credit amount",
+  "name": "pension_credit",
+  "start_line_number": 147,
+  "stop_line_number": 157,
+  "value_type": "float"
+}

@@ -1,0 +1,236 @@
+{
+  "default_value": false,
+  "definition_period": "eternity",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 52,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 2,
+                "id": "relation_type",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 28,
+                  "end_col_offset": 43,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "relation_type"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 45,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 51,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 20,
+              "end_col_offset": 52,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 20,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 27,
+                "end_lineno": 2,
+                "id": "benunit",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 45,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 13,
+                "end_lineno": 3,
+                "id": "relations",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "possible_values",
+              "col_offset": 16,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 45,
+              "end_lineno": 3,
+              "lineno": 3,
+              "value": {
+                "ast_class": "Name",
+                "col_offset": 16,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 29,
+                "end_lineno": 3,
+                "id": "relation_type",
+                "lineno": 3
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 44,
+            "end_lineno": 4,
+            "lineno": 4,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 11,
+              "comparators": [
+                {
+                  "ast_class": "Attribute",
+                  "attr": "SINGLE",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 44,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 28,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 37,
+                    "end_lineno": 4,
+                    "id": "relations",
+                    "lineno": 4
+                  }
+                }
+              ],
+              "end_col_offset": 44,
+              "end_lineno": 4,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 24,
+                "end_lineno": 4,
+                "id": "relation_type",
+                "lineno": 4
+              },
+              "lineno": 4,
+              "ops": [
+                {
+                  "ast_class": "Eq"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 44,
+        "end_lineno": 4,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    relation_type = benunit(\"relation_type\", period)\n    relations = relation_type.possible_values\n    return relation_type == relations.SINGLE\n",
+      "start_line_number": 168,
+      "stop_line_number": 172,
+      "variables": [
+        "relation_type"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this benefit unit contains a single claimant for benefits",
+  "name": "is_single",
+  "referring_variables": [
+    "JSA_income_applicable_amount",
+    "JSA_income_eligible",
+    "UC_personal_allowance",
+    "disability_premium",
+    "enhanced_disability_premium",
+    "income_support_applicable_amount",
+    "pension_credit_MG",
+    "pension_credit_SC",
+    "severe_disability_premium"
+  ],
+  "start_line_number": 160,
+  "stop_line_number": 172,
+  "value_type": "bool"
+}

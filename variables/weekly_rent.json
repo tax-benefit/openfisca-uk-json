@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/finance/expense.py",
+  "json_type": "number",
+  "label": "Weekly average rent",
+  "name": "weekly_rent",
+  "start_line_number": 6,
+  "stop_line_number": 11,
+  "value_type": "float"
+}

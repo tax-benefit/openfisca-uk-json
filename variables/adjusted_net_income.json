@@ -1,0 +1,236 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 11,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 2,
+                "id": "COMPONENTS",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 17,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 35,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "taxable_employment_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 32,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "taxable_pension_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 40,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "taxable_social_security_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 32,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "taxable_trading_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 33,
+                  "end_lineno": 7,
+                  "lineno": 7,
+                  "value": "taxable_property_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 41,
+                  "end_lineno": 8,
+                  "lineno": 8,
+                  "value": "taxable_savings_interest_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 33,
+                  "end_lineno": 9,
+                  "lineno": 9,
+                  "value": "taxable_dividend_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 38,
+                  "end_lineno": 10,
+                  "lineno": 10,
+                  "value": "taxable_miscellaneous_income"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 11,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 42,
+            "end_lineno": 12,
+            "lineno": 12,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 15,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 21,
+                  "end_lineno": 12,
+                  "id": "person",
+                  "lineno": 12
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 23,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 29,
+                  "end_lineno": 12,
+                  "id": "period",
+                  "lineno": 12
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 31,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 41,
+                  "end_lineno": 12,
+                  "id": "COMPONENTS",
+                  "lineno": 12
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 42,
+              "end_lineno": 12,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 12,
+                "id": "add",
+                "lineno": 12
+              },
+              "keywords": [],
+              "lineno": 12
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 42,
+        "end_lineno": 12,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+      "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"taxable_employment_income\",\n        \"taxable_pension_income\",\n        \"taxable_social_security_income\",\n        \"taxable_trading_income\",\n        \"taxable_property_income\",\n        \"taxable_savings_interest_income\",\n        \"taxable_dividend_income\",\n        \"taxable_miscellaneous_income\",\n    ]\n    return add(person, period, COMPONENTS)\n",
+      "start_line_number": 275,
+      "stop_line_number": 287
+    }
+  },
+  "json_type": "number",
+  "label": "Taxable income after tax reliefs and before allowances",
+  "name": "adjusted_net_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax Act 2007 s. 23"
+      }
+    ]
+  },
+  "referring_variables": [
+    "CB_HITC",
+    "is_higher_earner",
+    "pension_annual_allowance",
+    "personal_allowance",
+    "tax_band"
+  ],
+  "start_line_number": 268,
+  "stop_line_number": 287,
+  "value_type": "float"
+}

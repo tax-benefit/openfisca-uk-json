@@ -1,0 +1,285 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 63,
+            "end_lineno": 4,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 2,
+                "id": "limit_year",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "two_child_limit_year",
+              "col_offset": 17,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 63,
+              "end_lineno": 4,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "child_tax_credit",
+                "col_offset": 17,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 42,
+                "end_lineno": 4,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "tax_credits",
+                  "col_offset": 17,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 25,
+                  "end_lineno": 4,
+                  "lineno": 2,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "benefit",
+                    "col_offset": 17,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 13,
+                    "end_lineno": 4,
+                    "lineno": 2,
+                    "value": {
+                      "args": [
+                        {
+                          "ast_class": "Name",
+                          "col_offset": 8,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 14,
+                          "end_lineno": 3,
+                          "id": "period",
+                          "lineno": 3
+                        }
+                      ],
+                      "ast_class": "Call",
+                      "col_offset": 17,
+                      "end_col_offset": 5,
+                      "end_lineno": 4,
+                      "func": {
+                        "ast_class": "Name",
+                        "col_offset": 17,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 27,
+                        "end_lineno": 2,
+                        "id": "parameters",
+                        "lineno": 2
+                      },
+                      "keywords": [],
+                      "lineno": 2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 69,
+            "end_lineno": 5,
+            "lineno": 5,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 5,
+                "id": "born_after",
+                "lineno": 5
+              }
+            ],
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 17,
+              "comparators": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 59,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 69,
+                  "end_lineno": 5,
+                  "id": "limit_year",
+                  "lineno": 5
+                }
+              ],
+              "end_col_offset": 69,
+              "end_lineno": 5,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 24,
+                    "end_col_offset": 36,
+                    "end_lineno": 5,
+                    "lineno": 5,
+                    "value": "birth_year"
+                  },
+                  {
+                    "ast_class": "Attribute",
+                    "attr": "this_year",
+                    "col_offset": 38,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 54,
+                    "end_lineno": 5,
+                    "lineno": 5,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 38,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 44,
+                      "end_lineno": 5,
+                      "id": "period",
+                      "lineno": 5
+                    }
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 17,
+                "end_col_offset": 55,
+                "end_lineno": 5,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 17,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 23,
+                  "end_lineno": 5,
+                  "id": "person",
+                  "lineno": 5
+                },
+                "keywords": [],
+                "lineno": 5
+              },
+              "lineno": 5,
+              "ops": [
+                {
+                  "ast_class": "LtE"
+                }
+              ]
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 21,
+            "end_lineno": 6,
+            "lineno": 6,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 21,
+              "end_lineno": 6,
+              "id": "born_after",
+              "lineno": 6
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 21,
+        "end_lineno": 6,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "parameters": [
+        "benefit.tax_credits.child_tax_credit.two_child_limit_year"
+      ],
+      "source_code": "def formula(person, period, parameters):\n    limit_year = parameters(\n        period\n    ).benefit.tax_credits.child_tax_credit.two_child_limit_year\n    born_after = person(\"birth_year\", period.this_year) <= limit_year\n    return born_after\n",
+      "start_line_number": 55,
+      "stop_line_number": 61,
+      "variables": [
+        "birth_year"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether the person was born before 2017 and therefore exempt from the two-child limit for Child Tax Credit",
+  "name": "is_CTC_child_limit_exempt",
+  "referring_variables": [
+    "CTC_child_element"
+  ],
+  "start_line_number": 49,
+  "stop_line_number": 61,
+  "value_type": "bool"
+}

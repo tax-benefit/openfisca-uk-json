@@ -1,0 +1,20 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "json_type": "number",
+  "label": "Blind Person's Allowance for the year (not simulated)",
+  "name": "blind_persons_allowance",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax Act 2007 s. 38"
+      }
+    ]
+  },
+  "start_line_number": 26,
+  "stop_line_number": 32,
+  "value_type": "float"
+}

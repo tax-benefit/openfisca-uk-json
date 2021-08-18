@@ -1,0 +1,9 @@
+description: Minimum wage for over-25s
+metadata:
+  period: hour
+  reference:
+    href: https://www.gov.uk/national-minimum-wage-rates
+  unit: currency
+values:
+  2015-06-01:
+    value: 8.72

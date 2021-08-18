@@ -1,0 +1,24 @@
+{
+  "default_value": "UNKNOWN",
+  "definition_period": "eternity",
+  "dtype": "int16",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/household.py",
+  "is_period_size_independent": true,
+  "json_type": "string",
+  "label": "Type of accommodation",
+  "name": "accommodation_type",
+  "possible_values": {
+    "CONVERTED_HOUSE": "Converted house or building",
+    "FLAT": "Purpose-built flat or maisonette",
+    "HOUSE_DETACHED": "Detached house",
+    "HOUSE_SEMI_DETACHED": "Semi-detached house",
+    "HOUSE_TERRACED": "Terraced house",
+    "MOBILE": "Caravan/Mobile home or houseboat",
+    "OTHER": "Other",
+    "UNKNOWN": "Unknown"
+  },
+  "start_line_number": 129,
+  "stop_line_number": 136,
+  "value_type": "Enum"
+}

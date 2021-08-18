@@ -1,0 +1,226 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/poverty.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "household",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 21,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 23,
+              "end_col_offset": 29,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 31,
+              "end_col_offset": 41,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 62,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 2,
+                "id": "net_income",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 27,
+                  "end_col_offset": 53,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "household_net_income_ahc"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 55,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 61,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 17,
+              "end_col_offset": 62,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 17,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 2,
+                "id": "household",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 70,
+            "end_lineno": 3,
+            "lineno": 3,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 16,
+                  "end_col_offset": 17,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 19,
+                  "end_col_offset": 69,
+                  "end_lineno": 3,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 29,
+                        "end_col_offset": 47,
+                        "end_lineno": 3,
+                        "lineno": 3,
+                        "value": "poverty_line_ahc"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 49,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 55,
+                        "end_lineno": 3,
+                        "id": "period",
+                        "lineno": 3
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 19,
+                    "end_col_offset": 56,
+                    "end_lineno": 3,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 19,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 28,
+                      "end_lineno": 3,
+                      "id": "household",
+                      "lineno": 3
+                    },
+                    "keywords": [],
+                    "lineno": 3
+                  },
+                  "lineno": 3,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 59,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 69,
+                    "end_lineno": 3,
+                    "id": "net_income",
+                    "lineno": 3
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 70,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 3,
+                "id": "max_",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 70,
+        "end_lineno": 3,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/poverty.py",
+      "source_code": "def formula(household, period, parameters):\n    net_income = household(\"household_net_income_ahc\", period)\n    return max_(0, household(\"poverty_line_ahc\", period) - net_income)\n",
+      "start_line_number": 111,
+      "stop_line_number": 114,
+      "variables": [
+        "household_net_income_ahc",
+        "poverty_line_ahc"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Positive financial gap between net household income and the poverty line, after housing costs",
+  "name": "poverty_gap_ahc",
+  "start_line_number": 105,
+  "stop_line_number": 114,
+  "value_type": "float"
+}

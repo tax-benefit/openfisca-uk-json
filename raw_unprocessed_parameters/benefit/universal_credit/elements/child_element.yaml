@@ -1,0 +1,9 @@
+description: Child element of Universal Credit per month
+metadata:
+  period: month
+  reference:
+    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=45
+  unit: currency
+values:
+  2015-06-01:
+    value: 277.08

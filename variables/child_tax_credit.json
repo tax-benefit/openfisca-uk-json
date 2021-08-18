@@ -1,0 +1,341 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 6,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 18,
+                "end_lineno": 2,
+                "id": "reduction_left",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 9,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 45,
+                  "end_lineno": 5,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 16,
+                        "end_col_offset": 39,
+                        "end_lineno": 4,
+                        "lineno": 4,
+                        "value": "tax_credits_reduction"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 41,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 47,
+                        "end_lineno": 4,
+                        "id": "period",
+                        "lineno": 4
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 48,
+                    "end_lineno": 4,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 15,
+                      "end_lineno": 4,
+                      "id": "benunit",
+                      "lineno": 4
+                    },
+                    "keywords": [],
+                    "lineno": 4
+                  },
+                  "lineno": 4,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 18,
+                        "end_col_offset": 36,
+                        "end_lineno": 5,
+                        "lineno": 5,
+                        "value": "WTC_maximum_rate"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 38,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 44,
+                        "end_lineno": 5,
+                        "id": "period",
+                        "lineno": 5
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 45,
+                    "end_lineno": 5,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 17,
+                      "end_lineno": 5,
+                      "id": "benunit",
+                      "lineno": 5
+                    },
+                    "keywords": [],
+                    "lineno": 5
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 21,
+              "end_col_offset": 5,
+              "end_lineno": 6,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 21,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 25,
+                "end_lineno": 2,
+                "id": "max_",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 10,
+            "lineno": 7,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 7,
+                "id": "amount",
+                "lineno": 7
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 9,
+                  "end_lineno": 8,
+                  "lineno": 8,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 60,
+                  "end_lineno": 9,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 16,
+                        "end_col_offset": 34,
+                        "end_lineno": 9,
+                        "lineno": 9,
+                        "value": "CTC_maximum_rate"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 36,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 42,
+                        "end_lineno": 9,
+                        "id": "period",
+                        "lineno": 9
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 43,
+                    "end_lineno": 9,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 15,
+                      "end_lineno": 9,
+                      "id": "benunit",
+                      "lineno": 9
+                    },
+                    "keywords": [],
+                    "lineno": 9
+                  },
+                  "lineno": 9,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 46,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 60,
+                    "end_lineno": 9,
+                    "id": "reduction_left",
+                    "lineno": 9
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 5,
+              "end_lineno": 10,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 7,
+                "id": "max_",
+                "lineno": 7
+              },
+              "keywords": [],
+              "lineno": 7
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 11,
+            "lineno": 11,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 11,
+              "id": "amount",
+              "lineno": 11
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 11,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "source_code": "def formula(benunit, period, parameters):\n    reduction_left = max_(\n        0,\n        benunit(\"tax_credits_reduction\", period)\n        - benunit(\"WTC_maximum_rate\", period),\n    )\n    amount = max_(\n        0,\n        benunit(\"CTC_maximum_rate\", period) - reduction_left,\n    )\n    return amount\n",
+      "start_line_number": 471,
+      "stop_line_number": 482,
+      "variables": [
+        "CTC_maximum_rate",
+        "WTC_maximum_rate",
+        "tax_credits_reduction"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Amount of Child Tax Credit entitled to",
+  "name": "child_tax_credit",
+  "referring_variables": [
+    "tax_credits"
+  ],
+  "start_line_number": 465,
+  "stop_line_number": 482,
+  "unit": "currency",
+  "value_type": "float"
+}

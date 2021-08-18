@@ -1,0 +1,141 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 38,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 11,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 36,
+                  "end_col_offset": 38,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": 16
+                }
+              ],
+              "end_col_offset": 38,
+              "end_lineno": 2,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 18,
+                    "end_col_offset": 23,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": "age"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 25,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 31,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 32,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 17,
+                  "end_lineno": 2,
+                  "id": "person",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              },
+              "lineno": 2,
+              "ops": [
+                {
+                  "ast_class": "GtE"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 38,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/person.py",
+      "source_code": "def formula(person, period, parameters):\n    return person(\"age\", period) >= 16\n",
+      "start_line_number": 54,
+      "stop_line_number": 56,
+      "variables": [
+        "age"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether the person is over 16",
+  "name": "over_16",
+  "referring_variables": [
+    "NI_exempt"
+  ],
+  "start_line_number": 48,
+  "stop_line_number": 56,
+  "value_type": "bool"
+}

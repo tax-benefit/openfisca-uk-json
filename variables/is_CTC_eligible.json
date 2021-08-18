@@ -1,0 +1,193 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 72,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 11,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 71,
+                  "end_col_offset": 72,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": 1
+                }
+              ],
+              "end_col_offset": 72,
+              "end_lineno": 2,
+              "left": {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 39,
+                        "end_col_offset": 57,
+                        "end_lineno": 2,
+                        "lineno": 2,
+                        "value": "is_child_for_CTC"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 59,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 65,
+                        "end_lineno": 2,
+                        "id": "period",
+                        "lineno": 2
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 23,
+                    "end_col_offset": 66,
+                    "end_lineno": 2,
+                    "func": {
+                      "ast_class": "Attribute",
+                      "attr": "members",
+                      "col_offset": 23,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 38,
+                      "end_lineno": 2,
+                      "lineno": 2,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 23,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 30,
+                        "end_lineno": 2,
+                        "id": "benunit",
+                        "lineno": 2
+                      }
+                    },
+                    "keywords": [],
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 67,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Attribute",
+                  "attr": "sum",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 22,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 18,
+                    "end_lineno": 2,
+                    "id": "benunit",
+                    "lineno": 2
+                  }
+                },
+                "keywords": [],
+                "lineno": 2
+              },
+              "lineno": 2,
+              "ops": [
+                {
+                  "ast_class": "GtE"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 72,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "source_code": "def formula(benunit, period, parameters):\n    return benunit.sum(benunit.members(\"is_child_for_CTC\", period)) >= 1\n",
+      "start_line_number": 81,
+      "stop_line_number": 83,
+      "variables": [
+        "is_child_for_CTC"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether the family is eligible for CTC",
+  "name": "is_CTC_eligible",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Tax Credits Act 2002 s. 8"
+      }
+    ]
+  },
+  "referring_variables": [
+    "CTC_disabled_child_element",
+    "CTC_family_element",
+    "CTC_severely_disabled_child_element"
+  ],
+  "start_line_number": 74,
+  "stop_line_number": 83,
+  "value_type": "bool"
+}

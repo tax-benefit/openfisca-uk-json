@@ -1,0 +1,9 @@
+description: Default hours requirement for the WTC-related worker element of Housing Benefit (LHA)
+metadata:
+  period: week
+  reference:
+    href: https://www.gov.uk/working-tax-credit
+  unit: hour
+values:
+  2015-06-01:
+    value: 30

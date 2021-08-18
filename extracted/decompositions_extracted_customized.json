@@ -1,0 +1,512 @@
+{
+  "AA": {
+    "children": [
+      {
+        "name": "AA_reported"
+      }
+    ],
+    "label": "Attendance Allowance"
+  },
+  "AA_reported": {
+    "label": "Attendance Allowance (reported)"
+  },
+  "AFCS": {
+    "children": [
+      {
+        "name": "AA_reported"
+      }
+    ],
+    "label": "Armed Forces Compensation Scheme"
+  },
+  "BSP": {
+    "children": [
+      {
+        "name": "BSP_reported"
+      }
+    ],
+    "label": "Bereavement Support Payment"
+  },
+  "BSP_reported": {
+    "label": "Bereavement Support Payment (reported)"
+  },
+  "CB_HITC": {
+    "label": "Child Benefit High-Income Tax Charge"
+  },
+  "DLA": {
+    "children": [
+      {
+        "name": "DLA_M"
+      },
+      {
+        "name": "DLA_SC"
+      }
+    ],
+    "label": "Disability Living Allowance"
+  },
+  "DLA_M": {
+    "children": [
+      {
+        "name": "DLA_M_reported"
+      }
+    ],
+    "label": "Disability Living Allowance (mobility component)"
+  },
+  "DLA_M_reported": {
+    "label": "Disability Living Allowance (mobility component) (reported)"
+  },
+  "DLA_SC": {
+    "children": [
+      {
+        "name": "DLA_SC_reported"
+      }
+    ],
+    "label": "Disability Living Allowance (self-care)"
+  },
+  "DLA_SC_reported": {
+    "label": "Disability Living Allowance (self-care) (reported)"
+  },
+  "ESA_contrib": {
+    "children": [
+      {
+        "name": "ESA_contrib_reported"
+      }
+    ],
+    "label": "Employment and Support Allowance (contribution-based)"
+  },
+  "ESA_contrib_reported": {
+    "label": "Employment and Support Allowance (contribution-based) (reported)"
+  },
+  "IIDB": {
+    "children": [
+      {
+        "name": "IIDB_reported"
+      }
+    ],
+    "label": "Industrial Injuries Disablement Benefit"
+  },
+  "IIDB_reported": {
+    "label": "Industrial Injuries Disablement Benefit (reported)"
+  },
+  "ISA_interest_income": {
+    "label": "Amount received in interest from Individual Savings Accounts"
+  },
+  "JSA_contrib": {
+    "children": [
+      {
+        "name": "JSA_contrib_reported"
+      }
+    ],
+    "label": "Job Seeker's Allowance (contribution-based)"
+  },
+  "JSA_contrib_reported": {
+    "label": "Job Seeker's Allowance (contribution-based) (reported)"
+  },
+  "NI_class_2": {
+    "children": [
+      {
+        "name": "weekly_NI_class_2"
+      }
+    ],
+    "label": "Class 2 Contributions for National Insurance for the year"
+  },
+  "PIP": {
+    "children": [
+      {
+        "name": "PIP_M"
+      },
+      {
+        "name": "PIP_DL"
+      }
+    ],
+    "label": "Personal Independence Payment"
+  },
+  "PIP_DL": {
+    "children": [
+      {
+        "name": "PIP_DL_reported"
+      }
+    ],
+    "label": "Personal Independence Payment (Daily Living)"
+  },
+  "PIP_DL_reported": {
+    "label": "Personal Independence Payment (Daily Living) (reported)"
+  },
+  "PIP_M": {
+    "children": [
+      {
+        "name": "PIP_M_reported"
+      }
+    ],
+    "label": "Personal Independence Payment (Mobility)"
+  },
+  "PIP_M_reported": {
+    "label": "Personal Independence Payment (Mobility) (reported)"
+  },
+  "SDA": {
+    "children": [
+      {
+        "name": "SDA_reported"
+      }
+    ],
+    "label": "Severe Disablement Allowance"
+  },
+  "SDA_reported": {
+    "label": "Severe Disablement Allowance (reported)"
+  },
+  "UC_eligible_rent": {
+    "label": "Eligible rent in Universal Credit"
+  },
+  "UC_personal_allowance": {
+    "label": "Personal allowance for Universal Credit"
+  },
+  "UC_premiums": {
+    "label": "Premiums for Universal Credit"
+  },
+  "benefits": {
+    "children": [
+      {
+        "name": "personal_benefits"
+      },
+      {
+        "name": "family_benefits"
+      }
+    ],
+    "label": "Total benefits"
+  },
+  "benefits_modelling": {
+    "children": [
+      {
+        "name": "benefits"
+      },
+      {
+        "name": "benefits_reported",
+        "negate": true
+      }
+    ],
+    "label": "Difference between reported and simulated benefits for this person"
+  },
+  "benefits_reported": {
+    "children": [
+      {
+        "name": "personal_benefits_reported"
+      },
+      {
+        "name": "family_benefits_reported"
+      }
+    ],
+    "label": "Total simulated"
+  },
+  "benunit_weekly_hours": {
+    "children": [
+      {
+        "name": "weekly_hours"
+      }
+    ],
+    "label": "Average weekly hours worked by adults in the benefit unit"
+  },
+  "carers_allowance": {
+    "children": [
+      {
+        "name": "carers_allowance_reported"
+      }
+    ],
+    "label": "Carer's Allowance"
+  },
+  "carers_allowance_reported": {
+    "label": "Carer's Allowance (reported)"
+  },
+  "child_tax_credit": {
+    "label": "Amount of Child Tax Credit entitled to"
+  },
+  "employer_NI": {
+    "children": [
+      {
+        "name": "employer_NI_class_1"
+      }
+    ],
+    "label": "Employer contributions to National Insurance"
+  },
+  "employer_NI_class_1": {
+    "label": "Employer Class 1 Contributions for National Insurance"
+  },
+  "family_benefits": {
+    "label": "Total simulated family benefits for this person"
+  },
+  "family_benefits_reported": {
+    "label": "Total reported family benefits for this person"
+  },
+  "family_rent": {
+    "children": [
+      {
+        "name": "personal_rent"
+      }
+    ],
+    "label": "Gross rent for the family"
+  },
+  "household_net_income": {
+    "label": "Household net income"
+  },
+  "household_net_income_ahc": {
+    "children": [
+      {
+        "name": "household_net_income"
+      },
+      {
+        "name": "housing_costs",
+        "negate": true
+      }
+    ],
+    "label": "Household net income, after housing costs"
+  },
+  "housing_costs": {
+    "children": [
+      {
+        "name": "rent"
+      },
+      {
+        "name": "mortgage"
+      }
+    ],
+    "label": "Total housing costs"
+  },
+  "incapacity_benefit": {
+    "children": [
+      {
+        "name": "incapacity_benefit_reported"
+      }
+    ],
+    "label": "Incapacity Benefit"
+  },
+  "incapacity_benefit_reported": {
+    "label": "Incapacity Benefit (reported)"
+  },
+  "income_tax": {
+    "children": [
+      {
+        "name": "income_tax_pre_charges"
+      },
+      {
+        "name": "CB_HITC"
+      }
+    ],
+    "label": "Income Tax"
+  },
+  "income_tax_pre_charges": {
+    "label": "Income Tax before any tax charges"
+  },
+  "is_QYP": {
+    "label": "Whether this person is a qualifying young person for benefits purposes"
+  },
+  "is_adult": {
+    "label": "Whether this person is an adult"
+  },
+  "is_carer_for_benefits": {
+    "label": "Whether this person is a carer for benefits purposes"
+  },
+  "is_child": {
+    "label": "Whether this person is a child"
+  },
+  "is_child_for_CTC": {
+    "children": [
+      {
+        "name": "is_child_or_QYP"
+      }
+    ],
+    "label": "Whether this person is a child conferring CTC eligibility"
+  },
+  "is_child_or_QYP": {
+    "children": [
+      {
+        "name": "is_child"
+      },
+      {
+        "name": "is_QYP"
+      }
+    ],
+    "label": "Whether this person is a child or qualifying young person for most benefits"
+  },
+  "loss_relief": {
+    "children": [
+      {
+        "name": "trading_loss"
+      },
+      {
+        "name": "trading_loss"
+      }
+    ],
+    "label": "Tax relief from trading losses"
+  },
+  "mortgage": {
+    "label": "Total mortgage payments"
+  },
+  "national_insurance": {
+    "label": "National Insurance"
+  },
+  "num_adults": {
+    "children": [
+      {
+        "name": "is_adult"
+      }
+    ],
+    "label": "The number of children in the family"
+  },
+  "num_carers": {
+    "children": [
+      {
+        "name": "is_carer_for_benefits"
+      }
+    ],
+    "label": "The number of carers for benefits purposes in the family"
+  },
+  "num_children": {
+    "children": [
+      {
+        "name": "is_child"
+      }
+    ],
+    "label": "The number of children in the family"
+  },
+  "other_benefits": {
+    "children": [
+      {
+        "name": "benefits_reported"
+      },
+      {
+        "name": "personal_benefits",
+        "negate": true
+      },
+      {
+        "name": "family_benefits",
+        "negate": true
+      }
+    ],
+    "label": "Income from benefits not modelled or detailed in the model"
+  },
+  "pension_income": {
+    "label": "Income from pensions"
+  },
+  "personal_benefits": {
+    "label": "Value of personal, non-means-tested benefits"
+  },
+  "personal_benefits_reported": {
+    "label": "Value of personal, non-means-tested benefits"
+  },
+  "personal_rent": {
+    "label": "Personal rent"
+  },
+  "property_income": {
+    "children": [
+      {
+        "name": "sublet_income"
+      }
+    ],
+    "label": "Income from rental of property"
+  },
+  "rent": {
+    "label": "Gross rent for the household"
+  },
+  "social_security_income": {
+    "label": "Income from social security for tax purposes"
+  },
+  "state_pension": {
+    "children": [
+      {
+        "name": "state_pension_reported"
+      }
+    ],
+    "label": "Income from the State Pension"
+  },
+  "state_pension_reported": {
+    "label": "Reported income from the State Pension"
+  },
+  "sublet_income": {
+    "label": "Income received from sublet agreements"
+  },
+  "tax": {
+    "children": [
+      {
+        "name": "income_tax"
+      },
+      {
+        "name": "national_insurance"
+      }
+    ],
+    "label": "Total tax"
+  },
+  "tax_credits": {
+    "children": [
+      {
+        "name": "working_tax_credit"
+      },
+      {
+        "name": "child_tax_credit"
+      }
+    ],
+    "label": "Value of the Tax Credits (benefits) for this family"
+  },
+  "tax_free_savings_income": {
+    "children": [
+      {
+        "name": "ISA_interest_income"
+      }
+    ],
+    "label": "Income from savings in tax-free accounts"
+  },
+  "tax_modelling": {
+    "children": [
+      {
+        "name": "tax"
+      },
+      {
+        "name": "tax_reported",
+        "negate": true
+      }
+    ],
+    "label": "Difference between reported and imputed tax liabilities"
+  },
+  "tax_reported": {
+    "label": "Reported tax paid"
+  },
+  "taxable_pension_income": {
+    "children": [
+      {
+        "name": "pension_income"
+      }
+    ],
+    "label": "Amount of pension income that is taxable"
+  },
+  "taxable_social_security_income": {
+    "children": [
+      {
+        "name": "social_security_income"
+      }
+    ],
+    "label": "Amount of social security income that is taxable"
+  },
+  "trading_loss": {
+    "label": "Loss from trading in the current year."
+  },
+  "universal_credit_applicable_amount": {
+    "children": [
+      {
+        "name": "UC_personal_allowance"
+      },
+      {
+        "name": "UC_premiums"
+      },
+      {
+        "name": "UC_eligible_rent"
+      }
+    ],
+    "label": "Relevant income for Universal Credit"
+  },
+  "weekly_NI_class_2": {
+    "label": "Class 2 Contributions for National Insurance"
+  },
+  "weekly_hours": {
+    "label": "Average weekly hours for the year"
+  },
+  "working_tax_credit": {
+    "label": "Amount of Working Tax Credit entitled to"
+  }
+}

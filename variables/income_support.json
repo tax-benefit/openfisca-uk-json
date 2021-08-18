@@ -1,0 +1,260 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/income_support.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 64,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "amount",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 21,
+                  "end_col_offset": 55,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "income_support_applicable_amount"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 57,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 63,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 64,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 2,
+                "id": "benunit",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 64,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 3,
+                "id": "income",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 21,
+                  "end_col_offset": 55,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "income_support_applicable_income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 57,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 63,
+                  "end_lineno": 3,
+                  "id": "period",
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 64,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 3,
+                "id": "benunit",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 4,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 9,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 9,
+                  "end_col_offset": 24,
+                  "end_lineno": 6,
+                  "left": {
+                    "ast_class": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 6,
+                    "id": "amount",
+                    "lineno": 6
+                  },
+                  "lineno": 6,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 18,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 24,
+                    "end_lineno": 6,
+                    "id": "income",
+                    "lineno": 6
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 7,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 4,
+                "id": "max_",
+                "lineno": 4
+              },
+              "keywords": [],
+              "lineno": 4
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 7,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/income_support.py",
+      "source_code": "def formula(benunit, period, parameters):\n    amount = benunit(\"income_support_applicable_amount\", period)\n    income = benunit(\"income_support_applicable_income\", period)\n    return max_(\n        0,\n        (amount - income),\n    )\n",
+      "start_line_number": 147,
+      "stop_line_number": 154,
+      "variables": [
+        "income_support_applicable_amount",
+        "income_support_applicable_income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Income Support",
+  "name": "income_support",
+  "referring_variables": [
+    "JSA_income_eligible"
+  ],
+  "start_line_number": 141,
+  "stop_line_number": 154,
+  "value_type": "float"
+}

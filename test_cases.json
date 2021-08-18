@@ -1,0 +1,61 @@
+[
+  {
+    "benunits": {
+      "Famille n°1": {
+        "adults": ["Adulte 1"],
+        "children": []
+      }
+    },
+    "people": {
+      "Adulte 1": {
+        "employment_income": {
+          "2019": 19002.42,
+          "2020": 19002.42,
+          "2021": 19002.42
+        }
+      }
+    },
+    "households": {
+      "Logement principal n°1": {
+        "adults": ["Adulte 1"],
+        "children": []
+      }
+    },
+    "title": "Célibataire, salarié, sans enfant"
+  },
+  {
+    "benunits": {
+      "Famille n°1": {
+        "adults": ["Adulte 1"],
+        "children": ["Enfant 1"],
+        "claims_child_benefit": {"2021": true}
+      }
+    },
+    "people": {
+      "Adulte 1": {
+        "age": {
+          "2021": 24
+        },
+        "employment_income": {
+          "2019": 19002.42,
+          "2020": 19002.42,
+          "2021": 19002.42
+        },
+        "is_benunit_head": {"2021": true},
+        "is_household_head": {"2021": true}
+      },
+      "Enfant 1": {
+        "age": {
+          "2021": 2
+        }
+      }
+    },
+    "households": {
+      "Logement principal n°1": {
+        "adults": ["Adulte 1"],
+        "children": ["Enfant 1"]
+      }
+    },
+    "title": "Célibataire, salarié, 1 enfant"
+  }
+]

@@ -1,0 +1,9 @@
+description: Starter allowance for savings
+metadata:
+  period: week
+  reference:
+    href: https://www.gov.uk/apply-tax-free-interest-on-savings
+  unit: currency
+values:
+  2010-06-01:
+    value: 5000

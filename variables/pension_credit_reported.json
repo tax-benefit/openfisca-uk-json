@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+  "json_type": "number",
+  "label": "Reported amount of Pension Credit",
+  "name": "pension_credit_reported",
+  "start_line_number": 6,
+  "stop_line_number": 11,
+  "value_type": "float"
+}

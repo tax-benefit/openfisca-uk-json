@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "json_type": "number",
+  "label": "Income received from sublet agreements",
+  "name": "sublet_income",
+  "referring_variables": [
+    "property_income"
+  ],
+  "start_line_number": 21,
+  "stop_line_number": 26,
+  "unit": "currency",
+  "value_type": "float"
+}

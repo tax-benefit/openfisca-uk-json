@@ -1,0 +1,23 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
+  "json_type": "number",
+  "label": "Income from interest on savings",
+  "name": "savings_interest_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Trading and Other Income) Act 2005 s. 365(1)(a)"
+      }
+    ]
+  },
+  "referring_variables": [
+    "taxable_savings_interest_income"
+  ],
+  "start_line_number": 70,
+  "stop_line_number": 76,
+  "value_type": "float"
+}

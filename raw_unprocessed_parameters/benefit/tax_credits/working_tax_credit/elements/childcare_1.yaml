@@ -1,0 +1,9 @@
+description: One-child element of WTC
+metadata:
+  period: week
+  reference:
+    href: https://www.gov.uk/working-tax-credit/what-youll-get
+  unit: currency
+values:
+  2015-06-01:
+    value: 122.5

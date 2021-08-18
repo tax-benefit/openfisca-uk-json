@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/AFCS.py",
+  "json_type": "number",
+  "label": "Armed Forces Compensation Scheme (reported)",
+  "name": "AFCS_reported",
+  "start_line_number": 16,
+  "stop_line_number": 21,
+  "value_type": "float"
+}

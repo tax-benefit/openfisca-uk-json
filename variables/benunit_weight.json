@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "json_type": "number",
+  "label": "Weight factor for the benefit unit",
+  "name": "benunit_weight",
+  "start_line_number": 22,
+  "stop_line_number": 27,
+  "value_type": "float"
+}

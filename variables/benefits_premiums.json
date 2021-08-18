@@ -1,0 +1,195 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 2,
+                "id": "PREMIUMS",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 15,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 28,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "disability_premium"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 37,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "enhanced_disability_premium"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 35,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "severe_disability_premium"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 23,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "carer_premium"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 7,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 41,
+            "end_lineno": 8,
+            "lineno": 8,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 15,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 22,
+                  "end_lineno": 8,
+                  "id": "benunit",
+                  "lineno": 8
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 24,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 30,
+                  "end_lineno": 8,
+                  "id": "period",
+                  "lineno": 8
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 32,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 40,
+                  "end_lineno": 8,
+                  "id": "PREMIUMS",
+                  "lineno": 8
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 41,
+              "end_lineno": 8,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 8,
+                "id": "add",
+                "lineno": 8
+              },
+              "keywords": [],
+              "lineno": 8
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 41,
+        "end_lineno": 8,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    PREMIUMS = [\n        \"disability_premium\",\n        \"enhanced_disability_premium\",\n        \"severe_disability_premium\",\n        \"carer_premium\",\n    ]\n    return add(benunit, period, PREMIUMS)\n",
+      "start_line_number": 140,
+      "stop_line_number": 148
+    }
+  },
+  "json_type": "number",
+  "label": "Value of premiums for disability and carer status",
+  "name": "benefits_premiums",
+  "referring_variables": [
+    "JSA_income_applicable_amount",
+    "housing_benefit_applicable_amount",
+    "income_support_applicable_amount"
+  ],
+  "start_line_number": 134,
+  "stop_line_number": 148,
+  "value_type": "float"
+}

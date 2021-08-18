@@ -1,0 +1,304 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 65,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 7,
+                "end_lineno": 2,
+                "id": "CTC",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "child_tax_credit",
+              "col_offset": 10,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 65,
+              "end_lineno": 2,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "tax_credits",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 48,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "benefit",
+                  "col_offset": 10,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 36,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 21,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 27,
+                        "end_lineno": 2,
+                        "id": "period",
+                        "lineno": 2
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 28,
+                    "end_lineno": 2,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 20,
+                      "end_lineno": 2,
+                      "id": "parameters",
+                      "lineno": 2
+                    },
+                    "keywords": [],
+                    "lineno": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 3,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 37,
+              "end_lineno": 6,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 39,
+                "end_lineno": 5,
+                "left": {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 16,
+                      "end_col_offset": 33,
+                      "end_lineno": 4,
+                      "lineno": 4,
+                      "value": "is_CTC_eligible"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 35,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 41,
+                      "end_lineno": 4,
+                      "id": "period",
+                      "lineno": 4
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 8,
+                  "end_col_offset": 42,
+                  "end_lineno": 4,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 4,
+                    "id": "benunit",
+                    "lineno": 4
+                  },
+                  "keywords": [],
+                  "lineno": 4
+                },
+                "lineno": 4,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 18,
+                      "end_col_offset": 30,
+                      "end_lineno": 5,
+                      "lineno": 5,
+                      "value": "claims_CTC"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 32,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 38,
+                      "end_lineno": 5,
+                      "id": "period",
+                      "lineno": 5
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 10,
+                  "end_col_offset": 39,
+                  "end_lineno": 5,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 5,
+                    "id": "benunit",
+                    "lineno": 5
+                  },
+                  "keywords": [],
+                  "lineno": 5
+                }
+              },
+              "lineno": 4,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Attribute",
+                "attr": "family_element",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 37,
+                "end_lineno": 6,
+                "lineno": 6,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "elements",
+                  "col_offset": 10,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 22,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 13,
+                    "end_lineno": 6,
+                    "id": "CTC",
+                    "lineno": 6
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 7,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "parameters": [
+        "benefit.tax_credits.child_tax_credit.elements.family_element"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    CTC = parameters(period).benefit.tax_credits.child_tax_credit\n    return (\n        benunit(\"is_CTC_eligible\", period)\n        * benunit(\"claims_CTC\", period)\n        * CTC.elements.family_element\n    )\n",
+      "start_line_number": 126,
+      "stop_line_number": 133,
+      "variables": [
+        "claims_CTC",
+        "is_CTC_eligible"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "CTC entitlement in the Family Element",
+  "name": "CTC_family_element",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Tax Credits Act 2002 s. 9"
+      }
+    ]
+  },
+  "start_line_number": 119,
+  "stop_line_number": 133,
+  "value_type": "float"
+}

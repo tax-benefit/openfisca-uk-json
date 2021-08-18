@@ -1,0 +1,24 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
+  "json_type": "number",
+  "label": "Income from pensions",
+  "name": "pension_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Earnings and Pensions) Act 2003 s. 1(1)(b)"
+      }
+    ]
+  },
+  "referring_variables": [
+    "taxable_pension_income"
+  ],
+  "start_line_number": 25,
+  "stop_line_number": 31,
+  "unit": "currency",
+  "value_type": "float"
+}

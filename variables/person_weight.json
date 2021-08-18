@@ -1,0 +1,13 @@
+{
+  "default_value": 1,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "json_type": "number",
+  "label": "Weight factor for the person",
+  "name": "person_weight",
+  "start_line_number": 21,
+  "stop_line_number": 27,
+  "value_type": "float"
+}

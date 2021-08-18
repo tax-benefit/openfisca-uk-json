@@ -1,0 +1,33 @@
+{
+  "default_value": "UNKNOWN",
+  "definition_period": "eternity",
+  "dtype": "int16",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/household.py",
+  "is_period_size_independent": true,
+  "json_type": "string",
+  "label": "Region of the UK",
+  "name": "region",
+  "possible_values": {
+    "EAST_MIDLANDS": "East Midlands",
+    "EAST_OF_ENGLAND": "East of England",
+    "LONDON": "London",
+    "NORTHERN_IRELAND": "Northern Ireland",
+    "NORTH_EAST": "North East",
+    "NORTH_WEST": "North West",
+    "SCOTLAND": "Scotland",
+    "SOUTH_EAST": "South East",
+    "SOUTH_WEST": "South West",
+    "UNKNOWN": "Unknown",
+    "WALES": "Wales",
+    "WEST_MIDLANDS": "West Midlands",
+    "YORKSHIRE": "Yorkshire and the Humber"
+  },
+  "referring_variables": [
+    "benefit_cap",
+    "country"
+  ],
+  "start_line_number": 92,
+  "stop_line_number": 99,
+  "value_type": "Enum"
+}

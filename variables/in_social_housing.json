@@ -1,0 +1,311 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 62,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "tenure",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 30,
+                  "end_col_offset": 43,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "tenure_type"
+                },
+                {
+                  "ast_class": "Attribute",
+                  "attr": "this_year",
+                  "col_offset": 45,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 61,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 45,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 51,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 62,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "household",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 29,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 13,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 19,
+                  "end_lineno": 2,
+                  "id": "person",
+                  "lineno": 2
+                }
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 36,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 11,
+                "end_lineno": 3,
+                "id": "tenures",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "possible_values",
+              "col_offset": 14,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 36,
+              "end_lineno": 3,
+              "lineno": 3,
+              "value": {
+                "ast_class": "Name",
+                "col_offset": 14,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 3,
+                "id": "tenure",
+                "lineno": 3
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 75,
+            "end_lineno": 4,
+            "lineno": 4,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 4,
+                "id": "social",
+                "lineno": 4
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 19,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 25,
+                  "end_lineno": 4,
+                  "id": "tenure",
+                  "lineno": 4
+                },
+                {
+                  "ast_class": "Attribute",
+                  "attr": "RENT_FROM_COUNCIL",
+                  "col_offset": 27,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 52,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 27,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 34,
+                    "end_lineno": 4,
+                    "id": "tenures",
+                    "lineno": 4
+                  }
+                },
+                {
+                  "ast_class": "Attribute",
+                  "attr": "RENT_FROM_HA",
+                  "col_offset": 54,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 74,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 54,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 61,
+                    "end_lineno": 4,
+                    "id": "tenures",
+                    "lineno": 4
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 75,
+              "end_lineno": 4,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 18,
+                "end_lineno": 4,
+                "id": "is_in",
+                "lineno": 4
+              },
+              "keywords": [],
+              "lineno": 4
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 5,
+            "lineno": 5,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 5,
+              "id": "social",
+              "lineno": 5
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 5,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/person.py",
+      "source_code": "def formula(person, period, parameters):\n    tenure = person.household(\"tenure_type\", period.this_year)\n    tenures = tenure.possible_values\n    social = is_in(tenure, tenures.RENT_FROM_COUNCIL, tenures.RENT_FROM_HA)\n    return social\n",
+      "start_line_number": 149,
+      "stop_line_number": 154,
+      "variables": [
+        "tenure_type"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this person lives in social housing",
+  "name": "in_social_housing",
+  "referring_variables": [
+    "LHA_eligible",
+    "housing_benefit_eligible"
+  ],
+  "start_line_number": 143,
+  "stop_line_number": 154,
+  "value_type": "bool"
+}

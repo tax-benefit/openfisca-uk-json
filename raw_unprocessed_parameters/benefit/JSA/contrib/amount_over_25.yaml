@@ -1,0 +1,11 @@
+description: Contributory JSA for persons aged over 25
+metadata:
+  period: week
+  reference:
+    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=24
+  unit: currency
+values:
+  2015-06-01:
+    value: 73.1
+  2020-06-01:
+    value: 74.58

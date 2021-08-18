@@ -1,0 +1,9 @@
+description: Withdrawal rate of Housing Benefit (LHA)
+metadata:
+  period: week
+  reference:
+    href: http://www.oecd.org/els/soc/TaxBEN-United-Kingdom-2018.pdf
+  unit: /1
+values:
+  2015-06-01:
+    value: 0.65

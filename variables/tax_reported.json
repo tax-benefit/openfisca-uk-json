@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/tax.py",
+  "json_type": "number",
+  "label": "Reported tax paid",
+  "name": "tax_reported",
+  "referring_variables": [
+    "tax_modelling"
+  ],
+  "start_line_number": 18,
+  "stop_line_number": 23,
+  "unit": "currency",
+  "value_type": "float"
+}

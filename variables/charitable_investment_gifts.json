@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "json_type": "number",
+  "label": "Gifts of qualifying investment or property to charities",
+  "name": "charitable_investment_gifts",
+  "start_line_number": 180,
+  "stop_line_number": 185,
+  "value_type": "float"
+}

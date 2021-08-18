@@ -1,0 +1,247 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Can be set against general income.",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 49,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 2,
+                "id": "current_loss",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 26,
+                  "end_col_offset": 40,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "trading_loss"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 42,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 48,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 19,
+              "end_col_offset": 49,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 19,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 25,
+                "end_lineno": 2,
+                "id": "person",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 60,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 3,
+                "id": "previous_loss",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 27,
+                  "end_col_offset": 41,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "trading_loss"
+                },
+                {
+                  "ast_class": "Attribute",
+                  "attr": "last_year",
+                  "col_offset": 43,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 59,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 43,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 49,
+                    "end_lineno": 3,
+                    "id": "period",
+                    "lineno": 3
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 20,
+              "end_col_offset": 60,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 20,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 3,
+                "id": "person",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 39,
+            "end_lineno": 4,
+            "lineno": 4,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 39,
+              "end_lineno": 4,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 23,
+                "end_lineno": 4,
+                "id": "current_loss",
+                "lineno": 4
+              },
+              "lineno": 4,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 26,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 39,
+                "end_lineno": 4,
+                "id": "previous_loss",
+                "lineno": 4
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 39,
+        "end_lineno": 4,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+      "source_code": "def formula(person, period, parameters):\n    current_loss = person(\"trading_loss\", period)\n    previous_loss = person(\"trading_loss\", period.last_year)\n    return current_loss + previous_loss\n",
+      "start_line_number": 140,
+      "stop_line_number": 144,
+      "variables": [
+        "trading_loss"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Tax relief from trading losses",
+  "name": "loss_relief",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Trading and Other Income) Act 2005 s. 59"
+      }
+    ]
+  },
+  "start_line_number": 132,
+  "stop_line_number": 144,
+  "unit": "currency",
+  "value_type": "float"
+}

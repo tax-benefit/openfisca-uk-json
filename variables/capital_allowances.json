@@ -1,0 +1,20 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "json_type": "number",
+  "label": "Full relief from capital expenditure allowances",
+  "name": "capital_allowances",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Capital Allowances Act 2001 s. 1"
+      }
+    ]
+  },
+  "start_line_number": 124,
+  "stop_line_number": 130,
+  "value_type": "float"
+}

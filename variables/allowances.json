@@ -1,0 +1,241 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 9,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 2,
+                "id": "ALLOWANCES",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 17,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 28,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "personal_allowance"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 33,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "blind_persons_allowance"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 18,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "gift_aid"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 29,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "covenanted_payments"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 37,
+                  "end_lineno": 7,
+                  "lineno": 7,
+                  "value": "charitable_investment_gifts"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 26,
+                  "end_lineno": 8,
+                  "lineno": 8,
+                  "value": "other_deductions"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 9,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 47,
+            "end_lineno": 10,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 13,
+                "end_lineno": 10,
+                "id": "allowance",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 20,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 26,
+                  "end_lineno": 10,
+                  "id": "person",
+                  "lineno": 10
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 10,
+                  "id": "period",
+                  "lineno": 10
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 36,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 46,
+                  "end_lineno": 10,
+                  "id": "ALLOWANCES",
+                  "lineno": 10
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 16,
+              "end_col_offset": 47,
+              "end_lineno": 10,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 16,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 10,
+                "id": "add",
+                "lineno": 10
+              },
+              "keywords": [],
+              "lineno": 10
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 20,
+            "end_lineno": 11,
+            "lineno": 11,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 20,
+              "end_lineno": 11,
+              "id": "allowance",
+              "lineno": 11
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 20,
+        "end_lineno": 11,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+      "source_code": "def formula(person, period, parameters):\n    ALLOWANCES = [\n        \"personal_allowance\",\n        \"blind_persons_allowance\",\n        \"gift_aid\",\n        \"covenanted_payments\",\n        \"charitable_investment_gifts\",\n        \"other_deductions\",\n    ]\n    allowance = add(person, period, ALLOWANCES)\n    return allowance\n",
+      "start_line_number": 200,
+      "stop_line_number": 211
+    }
+  },
+  "json_type": "number",
+  "label": "Allowances applicable to adjusted net income",
+  "name": "allowances",
+  "referring_variables": [
+    "earned_taxable_income",
+    "tax_band"
+  ],
+  "start_line_number": 194,
+  "stop_line_number": 211,
+  "value_type": "float"
+}

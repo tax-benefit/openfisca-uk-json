@@ -1,0 +1,48 @@
+{
+  "CB_HITC": {
+    "label": "Child Benefit High-Income Tax Charge"
+  },
+  "income_tax": {
+    "children": [
+      {
+        "name": "income_tax_pre_charges"
+      },
+      {
+        "name": "CB_HITC"
+      }
+    ],
+    "label": "Income Tax"
+  },
+  "income_tax_pre_charges": {
+    "label": "Income Tax before any tax charges"
+  },
+  "national_insurance": {
+    "label": "National Insurance"
+  },
+  "tax": {
+    "children": [
+      {
+        "name": "income_tax"
+      },
+      {
+        "name": "national_insurance"
+      }
+    ],
+    "label": "Total tax"
+  },
+  "tax_modelling": {
+    "children": [
+      {
+        "name": "tax"
+      },
+      {
+        "name": "tax_reported",
+        "negate": true
+      }
+    ],
+    "label": "Difference between reported and imputed tax liabilities"
+  },
+  "tax_reported": {
+    "label": "Reported tax paid"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/disability.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 23,
+                "end_lineno": 2,
+                "id": "QUALIFYING_BENEFITS",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 26,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 15,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "DLA_M"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 16,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "DLA_SC"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 15,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "PIP_M"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 16,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "PIP_DL"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 7,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 55,
+            "end_lineno": 8,
+            "lineno": 8,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 11,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 54,
+                  "end_col_offset": 55,
+                  "end_lineno": 8,
+                  "lineno": 8,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 55,
+              "end_lineno": 8,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 15,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 21,
+                    "end_lineno": 8,
+                    "id": "person",
+                    "lineno": 8
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 23,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 29,
+                    "end_lineno": 8,
+                    "id": "period",
+                    "lineno": 8
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 31,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 50,
+                    "end_lineno": 8,
+                    "id": "QUALIFYING_BENEFITS",
+                    "lineno": 8
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 51,
+                "end_lineno": 8,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 14,
+                  "end_lineno": 8,
+                  "id": "add",
+                  "lineno": 8
+                },
+                "keywords": [],
+                "lineno": 8
+              },
+              "lineno": 8,
+              "ops": [
+                {
+                  "ast_class": "Gt"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 55,
+        "end_lineno": 8,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/disability.py",
+      "source_code": "def formula(person, period, parameters):\n    QUALIFYING_BENEFITS = [\n        \"DLA_M\",\n        \"DLA_SC\",\n        \"PIP_M\",\n        \"PIP_DL\",\n    ]\n    return add(person, period, QUALIFYING_BENEFITS) > 0\n",
+      "start_line_number": 13,
+      "stop_line_number": 21
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this person is disabled for benefits purposes",
+  "name": "is_disabled_for_benefits",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Child Tax Credit Regulations 2002 s. 8"
+      }
+    ]
+  },
+  "referring_variables": [
+    "CTC_disabled_child_element",
+    "WTC_disabled_element",
+    "num_disabled_adults",
+    "num_disabled_children"
+  ],
+  "start_line_number": 6,
+  "stop_line_number": 21,
+  "value_type": "bool"
+}

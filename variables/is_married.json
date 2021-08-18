@@ -1,0 +1,14 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether the benefit unit adults are married",
+  "name": "is_married",
+  "start_line_number": 29,
+  "stop_line_number": 34,
+  "value_type": "bool"
+}

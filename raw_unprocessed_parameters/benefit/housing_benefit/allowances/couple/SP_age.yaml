@@ -1,0 +1,9 @@
+description: Personal allowance for Housing Benefit for a couple, at least one State Pension age
+metadata:
+  period: week
+  reference:
+    href: https://england.shelter.org.uk/legal/benefits/housing_benefit/benefit_rates/housing_benefit_calculation_rates_2019_to_2020
+  unit: currency
+values:
+  2015-06-01:
+    value: 270.6

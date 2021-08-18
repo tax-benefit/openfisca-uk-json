@@ -1,0 +1,174 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 64,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 64,
+              "end_lineno": 2,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 18,
+                    "end_col_offset": 28,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": "is_child"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 30,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 36,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 37,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 17,
+                  "end_lineno": 2,
+                  "id": "person",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              },
+              "lineno": 2,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 47,
+                    "end_col_offset": 55,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": "is_QYP"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 57,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 63,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 40,
+                "end_col_offset": 64,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 40,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 46,
+                  "end_lineno": 2,
+                  "id": "person",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 64,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
+      "source_code": "def formula(person, period, parameters):\n    return person(\"is_child\", period) + person(\"is_QYP\", period)\n",
+      "start_line_number": 130,
+      "stop_line_number": 132,
+      "variables": [
+        "is_QYP",
+        "is_child"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this person is a child or qualifying young person for most benefits",
+  "name": "is_child_or_QYP",
+  "referring_variables": [
+    "is_child_for_CTC",
+    "num_disabled_children",
+    "num_enhanced_disabled_children",
+    "num_severely_disabled_children"
+  ],
+  "start_line_number": 124,
+  "stop_line_number": 132,
+  "unit": "currency",
+  "value_type": "bool"
+}

@@ -1,0 +1,481 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 48,
+            "end_lineno": 4,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 13,
+                "end_lineno": 2,
+                "id": "allowance",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "annual_allowance",
+              "col_offset": 16,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 48,
+              "end_lineno": 4,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "allowances",
+                "col_offset": 16,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 31,
+                "end_lineno": 4,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "income_tax",
+                  "col_offset": 16,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 20,
+                  "end_lineno": 4,
+                  "lineno": 2,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "tax",
+                    "col_offset": 16,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 9,
+                    "end_lineno": 4,
+                    "lineno": 2,
+                    "value": {
+                      "args": [
+                        {
+                          "ast_class": "Name",
+                          "col_offset": 8,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 14,
+                          "end_lineno": 3,
+                          "id": "period",
+                          "lineno": 3
+                        }
+                      ],
+                      "ast_class": "Call",
+                      "col_offset": 16,
+                      "end_col_offset": 5,
+                      "end_lineno": 4,
+                      "func": {
+                        "ast_class": "Name",
+                        "col_offset": 16,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 26,
+                        "end_lineno": 2,
+                        "id": "parameters",
+                        "lineno": 2
+                      },
+                      "keywords": [],
+                      "lineno": 2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 47,
+            "end_lineno": 5,
+            "lineno": 5,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 7,
+                "end_lineno": 5,
+                "id": "ANI",
+                "lineno": 5
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 17,
+                  "end_col_offset": 38,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "adjusted_net_income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 40,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 46,
+                  "end_lineno": 5,
+                  "id": "period",
+                  "lineno": 5
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 10,
+              "end_col_offset": 47,
+              "end_lineno": 5,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 5,
+                "id": "person",
+                "lineno": 5
+              },
+              "keywords": [],
+              "lineno": 5
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 73,
+            "end_lineno": 6,
+            "lineno": 6,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 13,
+                "end_lineno": 6,
+                "id": "reduction",
+                "lineno": 6
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 16,
+              "end_col_offset": 73,
+              "end_lineno": 6,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 21,
+                    "end_col_offset": 22,
+                    "end_lineno": 6,
+                    "lineno": 6,
+                    "value": 0
+                  },
+                  {
+                    "ast_class": "BinOp",
+                    "col_offset": 24,
+                    "end_col_offset": 45,
+                    "end_lineno": 6,
+                    "left": {
+                      "ast_class": "Name",
+                      "col_offset": 24,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 27,
+                      "end_lineno": 6,
+                      "id": "ANI",
+                      "lineno": 6
+                    },
+                    "lineno": 6,
+                    "op": {
+                      "ast_class": "Sub"
+                    },
+                    "right": {
+                      "ast_class": "Attribute",
+                      "attr": "taper",
+                      "col_offset": 30,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 45,
+                      "end_lineno": 6,
+                      "lineno": 6,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 30,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 39,
+                        "end_lineno": 6,
+                        "id": "allowance",
+                        "lineno": 6
+                      }
+                    }
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 16,
+                "end_col_offset": 46,
+                "end_lineno": 6,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 16,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 20,
+                  "end_lineno": 6,
+                  "id": "max_",
+                  "lineno": 6
+                },
+                "keywords": [],
+                "lineno": 6
+              },
+              "lineno": 6,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Attribute",
+                "attr": "reduction_rate",
+                "col_offset": 49,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 73,
+                "end_lineno": 6,
+                "lineno": 6,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 49,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 58,
+                  "end_lineno": 6,
+                  "id": "allowance",
+                  "lineno": 6
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 67,
+            "end_lineno": 7,
+            "lineno": 7,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 7,
+                "id": "amount",
+                "lineno": 7
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Attribute",
+                  "attr": "minimum",
+                  "col_offset": 18,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 35,
+                  "end_lineno": 7,
+                  "lineno": 7,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 18,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 27,
+                    "end_lineno": 7,
+                    "id": "allowance",
+                    "lineno": 7
+                  }
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 37,
+                  "end_col_offset": 66,
+                  "end_lineno": 7,
+                  "left": {
+                    "ast_class": "Attribute",
+                    "attr": "default",
+                    "col_offset": 37,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 54,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 37,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 46,
+                      "end_lineno": 7,
+                      "id": "allowance",
+                      "lineno": 7
+                    }
+                  },
+                  "lineno": 7,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 57,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 66,
+                    "end_lineno": 7,
+                    "id": "reduction",
+                    "lineno": 7
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 67,
+              "end_lineno": 7,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 7,
+                "id": "max_",
+                "lineno": 7
+              },
+              "keywords": [],
+              "lineno": 7
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 8,
+            "lineno": 8,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 8,
+              "id": "amount",
+              "lineno": 8
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 8,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+      "parameters": [
+        "tax.income_tax.allowances.annual_allowance.default",
+        "tax.income_tax.allowances.annual_allowance.minimum",
+        "tax.income_tax.allowances.annual_allowance.reduction_rate",
+        "tax.income_tax.allowances.annual_allowance.taper"
+      ],
+      "source_code": "def formula(person, period, parameters):\n    allowance = parameters(\n        period\n    ).tax.income_tax.allowances.annual_allowance\n    ANI = person(\"adjusted_net_income\", period)\n    reduction = max_(0, ANI - allowance.taper) * allowance.reduction_rate\n    amount = max_(allowance.minimum, allowance.default - reduction)\n    return amount\n",
+      "start_line_number": 65,
+      "stop_line_number": 73,
+      "variables": [
+        "adjusted_net_income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Annual Allowance for pension contributions",
+  "name": "pension_annual_allowance",
+  "referring_variables": [
+    "pension_contributions_relief"
+  ],
+  "start_line_number": 59,
+  "stop_line_number": 73,
+  "value_type": "float"
+}

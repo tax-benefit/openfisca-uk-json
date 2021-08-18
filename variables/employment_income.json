@@ -1,0 +1,26 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
+  "json_type": "number",
+  "label": "Employment income",
+  "name": "employment_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Earnings and Pensions) Act 2003 s. 1(1)(a)"
+      }
+    ]
+  },
+  "referring_variables": [
+    "employee_NI_class_1",
+    "employer_NI_class_1",
+    "pension_contributions_relief",
+    "taxable_employment_income"
+  ],
+  "start_line_number": 17,
+  "stop_line_number": 23,
+  "value_type": "float"
+}

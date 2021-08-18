@@ -1,0 +1,49 @@
+{
+  "benunit": {
+    "documentation": "A family is also known as a benefit unit, and contains parents and dependent children.",
+    "key": "benunit",
+    "key_plural": "benunits",
+    "label": "A benefit unit, comprising of exactly one or two adults, plus any dependent children",
+    "roles": [
+      {
+        "documentation": "The one or two adults in the benefit unit.",
+        "key": "adult",
+        "key_plural": "adults",
+        "label": "Adult",
+        "max": 2
+      },
+      {
+        "documentation": "Dependent children.",
+        "key": "child",
+        "key_plural": "children",
+        "label": "Child"
+      }
+    ]
+  },
+  "household": {
+    "documentation": "Each household may contain multiple families, or benefit units.",
+    "key": "household",
+    "key_plural": "households",
+    "label": "All the people in a family or group who live together in the same place.",
+    "roles": [
+      {
+        "documentation": "The adults in the household.",
+        "key": "adult",
+        "key_plural": "adults",
+        "label": "Adult"
+      },
+      {
+        "documentation": "Dependent children in the household.",
+        "key": "child",
+        "key_plural": "children",
+        "label": "Child"
+      }
+    ]
+  },
+  "person": {
+    "is_person": true,
+    "key": "person",
+    "key_plural": "people",
+    "label": "An individual. The minimal legal entity on which a legislation might be applied."
+  }
+}

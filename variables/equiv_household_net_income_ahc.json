@@ -1,0 +1,170 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "household",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 21,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 23,
+              "end_col_offset": 29,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 31,
+              "end_col_offset": 41,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 4,
+            "lineno": 2,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 4,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 21,
+                    "end_col_offset": 47,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": "household_net_income_ahc"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 49,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 55,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 56,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 20,
+                  "end_lineno": 2,
+                  "id": "household",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              },
+              "lineno": 2,
+              "op": {
+                "ast_class": "Div"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 8,
+                    "end_col_offset": 38,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": "household_equivalisation_ahc"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 40,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 46,
+                    "end_lineno": 3,
+                    "id": "period",
+                    "lineno": 3
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 59,
+                "end_col_offset": 5,
+                "end_lineno": 4,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 59,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 68,
+                  "end_lineno": 2,
+                  "id": "household",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 4,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/income.py",
+      "source_code": "def formula(household, period, parameters):\n    return household(\"household_net_income_ahc\", period) / household(\n        \"household_equivalisation_ahc\", period\n    )\n",
+      "start_line_number": 158,
+      "stop_line_number": 162,
+      "variables": [
+        "household_equivalisation_ahc",
+        "household_net_income_ahc"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Equivalised household net income, after housing costs",
+  "name": "equiv_household_net_income_ahc",
+  "referring_variables": [
+    "in_deep_poverty_ahc",
+    "in_poverty_ahc"
+  ],
+  "start_line_number": 152,
+  "stop_line_number": 162,
+  "value_type": "float"
+}

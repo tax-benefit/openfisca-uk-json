@@ -1,0 +1,223 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "household",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 21,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 23,
+              "end_col_offset": 29,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 31,
+              "end_col_offset": 41,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 6,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 9,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 42,
+                  "end_lineno": 5,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 13,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 22,
+                        "end_lineno": 4,
+                        "id": "household",
+                        "lineno": 4
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 24,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 30,
+                        "end_lineno": 4,
+                        "id": "period",
+                        "lineno": 4
+                      },
+                      {
+                        "ast_class": "List",
+                        "col_offset": 32,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "elts": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 33,
+                            "end_col_offset": 45,
+                            "end_lineno": 4,
+                            "lineno": 4,
+                            "value": "net_income"
+                          }
+                        ],
+                        "end_col_offset": 46,
+                        "end_lineno": 4,
+                        "lineno": 4
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 47,
+                    "end_lineno": 4,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 12,
+                      "end_lineno": 4,
+                      "id": "aggr",
+                      "lineno": 4
+                    },
+                    "keywords": [],
+                    "lineno": 4
+                  },
+                  "lineno": 4,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 20,
+                        "end_col_offset": 33,
+                        "end_lineno": 5,
+                        "lineno": 5,
+                        "value": "council_tax"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 35,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 41,
+                        "end_lineno": 5,
+                        "id": "period",
+                        "lineno": 5
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 42,
+                    "end_lineno": 5,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 19,
+                      "end_lineno": 5,
+                      "id": "household",
+                      "lineno": 5
+                    },
+                    "keywords": [],
+                    "lineno": 5
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 6,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 2,
+                "id": "max_",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 6,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/income.py",
+      "source_code": "def formula(household, period, parameters):\n    return max_(\n        0,\n        aggr(household, period, [\"net_income\"])\n        - household(\"council_tax\", period),\n    )\n",
+      "start_line_number": 120,
+      "stop_line_number": 126,
+      "variables": [
+        "council_tax"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Household net income",
+  "name": "household_net_income",
+  "referring_variables": [
+    "equiv_household_net_income",
+    "household_net_income_ahc",
+    "poverty_gap_bhc"
+  ],
+  "start_line_number": 114,
+  "stop_line_number": 126,
+  "unit": "currency",
+  "value_type": "float"
+}

@@ -1,0 +1,20 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "json_type": "number",
+  "label": "Cost of expenses necessarily incurred and reimbursed by employment",
+  "name": "employment_expenses",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax Act (Earnings and Pensions) Act 2003 s. 333"
+      }
+    ]
+  },
+  "start_line_number": 41,
+  "stop_line_number": 49,
+  "value_type": "float"
+}

@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/carers_allowance.py",
+  "json_type": "number",
+  "label": "Carer's Allowance (reported)",
+  "name": "carers_allowance_reported",
+  "referring_variables": [
+    "carers_allowance"
+  ],
+  "start_line_number": 16,
+  "stop_line_number": 21,
+  "unit": "currency",
+  "value_type": "float"
+}

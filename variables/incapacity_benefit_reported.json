@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/incapacity_benefit.py",
+  "json_type": "number",
+  "label": "Incapacity Benefit (reported)",
+  "name": "incapacity_benefit_reported",
+  "referring_variables": [
+    "incapacity_benefit"
+  ],
+  "start_line_number": 16,
+  "stop_line_number": 21,
+  "unit": "currency",
+  "value_type": "float"
+}

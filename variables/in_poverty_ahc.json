@@ -1,0 +1,208 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/poverty.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "household",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 21,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 23,
+              "end_col_offset": 29,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 31,
+              "end_col_offset": 41,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 6,
+            "lineno": 2,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 8,
+              "comparators": [
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 10,
+                  "end_col_offset": 23,
+                  "end_lineno": 5,
+                  "left": {
+                    "ast_class": "Attribute",
+                    "attr": "absolute_poverty_threshold_ahc",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 67,
+                    "end_lineno": 4,
+                    "lineno": 4,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "poverty",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 36,
+                      "end_lineno": 4,
+                      "lineno": 4,
+                      "value": {
+                        "args": [
+                          {
+                            "ast_class": "Name",
+                            "col_offset": 21,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 27,
+                            "end_lineno": 4,
+                            "id": "period",
+                            "lineno": 4
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 10,
+                        "end_col_offset": 28,
+                        "end_lineno": 4,
+                        "func": {
+                          "ast_class": "Name",
+                          "col_offset": 10,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 20,
+                          "end_lineno": 4,
+                          "id": "parameters",
+                          "lineno": 4
+                        },
+                        "keywords": [],
+                        "lineno": 4
+                      }
+                    }
+                  },
+                  "lineno": 4,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 23,
+                    "end_lineno": 5,
+                    "id": "WEEKS_IN_YEAR",
+                    "lineno": 5
+                  }
+                }
+              ],
+              "end_col_offset": 23,
+              "end_lineno": 5,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 18,
+                    "end_col_offset": 50,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": "equiv_household_net_income_ahc"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 52,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 58,
+                    "end_lineno": 3,
+                    "id": "period",
+                    "lineno": 3
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 59,
+                "end_lineno": 3,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 17,
+                  "end_lineno": 3,
+                  "id": "household",
+                  "lineno": 3
+                },
+                "keywords": [],
+                "lineno": 3
+              },
+              "lineno": 3,
+              "ops": [
+                {
+                  "ast_class": "Lt"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 6,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/poverty.py",
+      "parameters": [
+        "poverty.absolute_poverty_threshold_ahc"
+      ],
+      "source_code": "def formula(household, period, parameters):\n    return (\n        household(\"equiv_household_net_income_ahc\", period)\n        < parameters(period).poverty.absolute_poverty_threshold_ahc\n        * WEEKS_IN_YEAR\n    )\n",
+      "start_line_number": 30,
+      "stop_line_number": 36,
+      "variables": [
+        "equiv_household_net_income_ahc"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether the household is in absolute poverty, after housing costs",
+  "name": "in_poverty_ahc",
+  "start_line_number": 22,
+  "stop_line_number": 36,
+  "value_type": "bool"
+}

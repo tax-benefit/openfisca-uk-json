@@ -1,0 +1,16 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "json_type": "number",
+  "label": "Married Couples' allowance for the year",
+  "name": "married_couples_allowance",
+  "referring_variables": [
+    "married_couples_allowance_deduction"
+  ],
+  "start_line_number": 42,
+  "stop_line_number": 47,
+  "value_type": "float"
+}

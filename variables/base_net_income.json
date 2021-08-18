@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "json_type": "number",
+  "label": "Existing net income for the person to use as a base in microsimulation",
+  "name": "base_net_income",
+  "start_line_number": 164,
+  "stop_line_number": 169,
+  "value_type": "float"
+}

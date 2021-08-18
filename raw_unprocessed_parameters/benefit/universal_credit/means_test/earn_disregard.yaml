@@ -1,0 +1,13 @@
+description: Earnings disregard for means testing Universal Credit per month
+metadata:
+  period: month
+  reference:
+    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=47
+  unit: currency
+values:
+  2015-06-01:
+    value: 397
+  2018-06-01:
+    value: 409
+  2019-06-01:
+    value: 503

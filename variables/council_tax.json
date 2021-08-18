@@ -1,0 +1,16 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/finance/expense.py",
+  "json_type": "number",
+  "label": "Council Tax",
+  "name": "council_tax",
+  "referring_variables": [
+    "household_net_income"
+  ],
+  "start_line_number": 77,
+  "stop_line_number": 82,
+  "value_type": "float"
+}

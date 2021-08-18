@@ -1,0 +1,6 @@
+description: Hours requirement for single claimants
+metadata:
+  unit: hour
+values:
+  2015-06-01:
+    value: 16

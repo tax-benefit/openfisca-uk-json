@@ -1,0 +1,13 @@
+{
+  "default_value": 1,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "json_type": "number",
+  "label": "Variable holding people",
+  "name": "people",
+  "start_line_number": 13,
+  "stop_line_number": 19,
+  "value_type": "float"
+}

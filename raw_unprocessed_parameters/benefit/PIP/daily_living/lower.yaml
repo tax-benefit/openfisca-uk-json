@@ -1,0 +1,8 @@
+description: Lower rate of the daily living component of PIP
+metadata:
+  reference:
+    href: https://www.gov.uk/pip/what-youll-get
+  unit: currency-GBP
+values:
+  2015-06-04:
+    value: 59.7

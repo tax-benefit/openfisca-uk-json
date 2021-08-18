@@ -1,0 +1,9 @@
+description: Savings allowance in the basic threshold
+metadata:
+  period: week
+  reference:
+    href: https://www.gov.uk/apply-tax-free-interest-on-savings
+  unit: currency
+values:
+  2005-06-01:
+    value: 1000

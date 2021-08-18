@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/JSA_contrib.py",
+  "json_type": "number",
+  "label": "Job Seeker's Allowance (contribution-based) (reported)",
+  "name": "JSA_contrib_reported",
+  "referring_variables": [
+    "JSA_contrib"
+  ],
+  "start_line_number": 16,
+  "stop_line_number": 21,
+  "unit": "currency",
+  "value_type": "float"
+}

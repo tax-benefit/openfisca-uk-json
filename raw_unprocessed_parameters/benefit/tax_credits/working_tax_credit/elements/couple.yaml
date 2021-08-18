@@ -1,0 +1,9 @@
+description: Couple element of WTC
+metadata:
+  period: year
+  reference:
+    href: https://www.gov.uk/working-tax-credit/what-youll-get
+  unit: currency
+values:
+  2015-06-01:
+    value: 2045

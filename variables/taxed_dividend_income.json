@@ -1,0 +1,198 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 6,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 9,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 46,
+                  "end_lineno": 5,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 15,
+                        "end_col_offset": 40,
+                        "end_lineno": 4,
+                        "lineno": 4,
+                        "value": "taxable_dividend_income"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 42,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 48,
+                        "end_lineno": 4,
+                        "id": "period",
+                        "lineno": 4
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 49,
+                    "end_lineno": 4,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 14,
+                      "end_lineno": 4,
+                      "id": "person",
+                      "lineno": 4
+                    },
+                    "keywords": [],
+                    "lineno": 4
+                  },
+                  "lineno": 4,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 17,
+                        "end_col_offset": 37,
+                        "end_lineno": 5,
+                        "lineno": 5,
+                        "value": "dividend_allowance"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 39,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 45,
+                        "end_lineno": 5,
+                        "id": "period",
+                        "lineno": 5
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 46,
+                    "end_lineno": 5,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 16,
+                      "end_lineno": 5,
+                      "id": "person",
+                      "lineno": 5
+                    },
+                    "keywords": [],
+                    "lineno": 5
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 6,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 2,
+                "id": "max_",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 6,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+      "source_code": "def formula(person, period, parameters):\n    return max_(\n        0,\n        person(\"taxable_dividend_income\", period)\n        - person(\"dividend_allowance\", period),\n    )\n",
+      "start_line_number": 428,
+      "stop_line_number": 434,
+      "variables": [
+        "dividend_allowance",
+        "taxable_dividend_income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Dividend income which is taxed",
+  "name": "taxed_dividend_income",
+  "referring_variables": [
+    "dividend_income_tax"
+  ],
+  "start_line_number": 422,
+  "stop_line_number": 434,
+  "value_type": "float"
+}

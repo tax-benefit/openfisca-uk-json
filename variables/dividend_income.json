@@ -1,0 +1,23 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
+  "json_type": "number",
+  "label": "Income from dividends",
+  "name": "dividend_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Trading and Other Income) Act 2005 s. 365(1)(b-d)"
+      }
+    ]
+  },
+  "referring_variables": [
+    "taxable_dividend_income"
+  ],
+  "start_line_number": 78,
+  "stop_line_number": 84,
+  "value_type": "float"
+}

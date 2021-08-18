@@ -1,0 +1,13 @@
+{
+  "default_value": 1,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "json_type": "number",
+  "label": "Variable holding families",
+  "name": "families",
+  "start_line_number": 14,
+  "stop_line_number": 20,
+  "value_type": "float"
+}

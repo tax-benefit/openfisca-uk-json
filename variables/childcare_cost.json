@@ -1,0 +1,19 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/expense.py",
+  "json_type": "number",
+  "label": "Cost of childcare",
+  "name": "childcare_cost",
+  "referring_variables": [
+    "UC_premiums",
+    "WTC_childcare_element",
+    "housing_benefit_applicable_income",
+    "weekly_childcare_cost"
+  ],
+  "start_line_number": 43,
+  "stop_line_number": 48,
+  "value_type": "float"
+}

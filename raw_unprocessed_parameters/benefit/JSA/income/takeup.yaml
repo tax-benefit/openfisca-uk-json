@@ -1,0 +1,8 @@
+description: Take-up rate of income-based JSA
+metadata:
+  reference:
+    href: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/645577/income-related-benefits-estimates-of-take-up-2015-16.pdf
+  unit: /1
+values:
+  2015-06-01:
+    value: 0.6

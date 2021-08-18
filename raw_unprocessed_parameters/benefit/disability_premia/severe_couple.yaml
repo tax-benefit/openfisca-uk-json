@@ -1,0 +1,9 @@
+description: Severe disability premium for a couple where both are eligible
+metadata:
+  period: week
+  reference:
+    href: https://www.gov.uk/disability-premiums/what-youll-get
+  unit: currency
+values:
+  2015-06-01:
+    value: 133.9

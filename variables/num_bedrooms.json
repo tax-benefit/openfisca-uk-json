@@ -1,0 +1,16 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "int32",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/household.py",
+  "json_type": "integer",
+  "label": "The number of bedrooms in the house",
+  "name": "num_bedrooms",
+  "referring_variables": [
+    "LHA_category"
+  ],
+  "start_line_number": 21,
+  "stop_line_number": 26,
+  "value_type": "int"
+}

@@ -1,0 +1,20 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "json_type": "number",
+  "label": "Amount of miscellaneous income that is taxable",
+  "name": "taxable_miscellaneous_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Trading and Other Income) Act 2005 s. 574"
+      }
+    ]
+  },
+  "start_line_number": 239,
+  "stop_line_number": 245,
+  "value_type": "float"
+}

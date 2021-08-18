@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "json_type": "number",
+  "label": "Loss from trading in the current year.",
+  "name": "trading_loss",
+  "referring_variables": [
+    "loss_relief"
+  ],
+  "start_line_number": 117,
+  "stop_line_number": 122,
+  "unit": "currency",
+  "value_type": "float"
+}

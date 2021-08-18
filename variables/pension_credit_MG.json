@@ -1,0 +1,652 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 50,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 6,
+                "end_lineno": 2,
+                "id": "PC",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "pension_credit",
+              "col_offset": 9,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 50,
+              "end_lineno": 2,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "benefit",
+                "col_offset": 9,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 35,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "args": [
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 20,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 2,
+                      "id": "period",
+                      "lineno": 2
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 9,
+                  "end_col_offset": 27,
+                  "end_lineno": 2,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 19,
+                    "end_lineno": 2,
+                    "id": "parameters",
+                    "lineno": 2
+                  },
+                  "keywords": [],
+                  "lineno": 2
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 21,
+            "end_lineno": 6,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 3,
+                "id": "personal_allowance",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 25,
+              "end_col_offset": 21,
+              "end_lineno": 6,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 64,
+                "end_lineno": 5,
+                "left": {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 62,
+                  "end_lineno": 4,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 16,
+                        "end_col_offset": 27,
+                        "end_lineno": 4,
+                        "lineno": 4,
+                        "value": "is_single"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 29,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 35,
+                        "end_lineno": 4,
+                        "id": "period",
+                        "lineno": 4
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 36,
+                    "end_lineno": 4,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 15,
+                      "end_lineno": 4,
+                      "id": "benunit",
+                      "lineno": 4
+                    },
+                    "keywords": [],
+                    "lineno": 4
+                  },
+                  "lineno": 4,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Attribute",
+                    "attr": "single",
+                    "col_offset": 39,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 62,
+                    "end_lineno": 4,
+                    "lineno": 4,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "min_guarantee",
+                      "col_offset": 39,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 55,
+                      "end_lineno": 4,
+                      "lineno": 4,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 39,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 41,
+                        "end_lineno": 4,
+                        "id": "PC",
+                        "lineno": 4
+                      }
+                    }
+                  }
+                },
+                "lineno": 4,
+                "op": {
+                  "ast_class": "Add"
+                },
+                "right": {
+                  "ast_class": "BinOp",
+                  "col_offset": 10,
+                  "end_col_offset": 64,
+                  "end_lineno": 5,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 18,
+                        "end_col_offset": 29,
+                        "end_lineno": 5,
+                        "lineno": 5,
+                        "value": "is_couple"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 31,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 37,
+                        "end_lineno": 5,
+                        "id": "period",
+                        "lineno": 5
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 38,
+                    "end_lineno": 5,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 17,
+                      "end_lineno": 5,
+                      "id": "benunit",
+                      "lineno": 5
+                    },
+                    "keywords": [],
+                    "lineno": 5
+                  },
+                  "lineno": 5,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Attribute",
+                    "attr": "couple",
+                    "col_offset": 41,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 64,
+                    "end_lineno": 5,
+                    "lineno": 5,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "min_guarantee",
+                      "col_offset": 41,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 57,
+                      "end_lineno": 5,
+                      "lineno": 5,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 41,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 43,
+                        "end_lineno": 5,
+                        "id": "PC",
+                        "lineno": 5
+                      }
+                    }
+                  }
+                }
+              },
+              "lineno": 3,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 8,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 6,
+                "id": "WEEKS_IN_YEAR",
+                "lineno": 6
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 9,
+            "lineno": 7,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 7,
+                "id": "premiums",
+                "lineno": 7
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 15,
+              "end_col_offset": 5,
+              "end_lineno": 9,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 23,
+                    "end_col_offset": 50,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "value": "severe_disability_premium"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 52,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 58,
+                    "end_lineno": 7,
+                    "id": "period",
+                    "lineno": 7
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 15,
+                "end_col_offset": 59,
+                "end_lineno": 7,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 15,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 22,
+                  "end_lineno": 7,
+                  "id": "benunit",
+                  "lineno": 7
+                },
+                "keywords": [],
+                "lineno": 7
+              },
+              "lineno": 7,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 8,
+                    "end_col_offset": 23,
+                    "end_lineno": 8,
+                    "lineno": 8,
+                    "value": "carer_premium"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 25,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 31,
+                    "end_lineno": 8,
+                    "id": "period",
+                    "lineno": 8
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 62,
+                "end_col_offset": 5,
+                "end_lineno": 9,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 62,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 69,
+                  "end_lineno": 7,
+                  "id": "benunit",
+                  "lineno": 7
+                },
+                "keywords": [],
+                "lineno": 7
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 53,
+            "end_lineno": 10,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 10,
+                "id": "applicable_amount",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 24,
+              "end_col_offset": 53,
+              "end_lineno": 10,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 24,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 42,
+                "end_lineno": 10,
+                "id": "personal_allowance",
+                "lineno": 10
+              },
+              "lineno": 10,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 45,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 53,
+                "end_lineno": 10,
+                "id": "premiums",
+                "lineno": 10
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 15,
+            "lineno": 11,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 38,
+              "end_lineno": 14,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 52,
+                "end_lineno": 13,
+                "left": {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 25,
+                  "end_lineno": 12,
+                  "id": "applicable_amount",
+                  "lineno": 12
+                },
+                "lineno": 12,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 18,
+                      "end_col_offset": 43,
+                      "end_lineno": 13,
+                      "lineno": 13,
+                      "value": "pension_credit_eligible"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 45,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 51,
+                      "end_lineno": 13,
+                      "id": "period",
+                      "lineno": 13
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 10,
+                  "end_col_offset": 52,
+                  "end_lineno": 13,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 13,
+                    "id": "benunit",
+                    "lineno": 13
+                  },
+                  "keywords": [],
+                  "lineno": 13
+                }
+              },
+              "lineno": 12,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 18,
+                    "end_col_offset": 29,
+                    "end_lineno": 14,
+                    "lineno": 14,
+                    "value": "claims_PC"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 31,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 37,
+                    "end_lineno": 14,
+                    "id": "period",
+                    "lineno": 14
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 10,
+                "end_col_offset": 38,
+                "end_lineno": 14,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 10,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 17,
+                  "end_lineno": 14,
+                  "id": "benunit",
+                  "lineno": 14
+                },
+                "keywords": [],
+                "lineno": 14
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 15,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
+      "parameters": [
+        "benefit.pension_credit.min_guarantee.couple",
+        "benefit.pension_credit.min_guarantee.single"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    PC = parameters(period).benefit.pension_credit\n    personal_allowance = (\n        benunit(\"is_single\", period) * PC.min_guarantee.single\n        + benunit(\"is_couple\", period) * PC.min_guarantee.couple\n    ) * WEEKS_IN_YEAR\n    premiums = benunit(\"severe_disability_premium\", period) + benunit(\n        \"carer_premium\", period\n    )\n    applicable_amount = personal_allowance + premiums\n    return (\n        applicable_amount\n        * benunit(\"pension_credit_eligible\", period)\n        * benunit(\"claims_PC\", period)\n    )\n",
+      "start_line_number": 46,
+      "stop_line_number": 61,
+      "variables": [
+        "carer_premium",
+        "claims_PC",
+        "is_couple",
+        "is_single",
+        "pension_credit_eligible",
+        "severe_disability_premium"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Pension Credit (Minimum Guarantee) amount per week",
+  "name": "pension_credit_MG",
+  "referring_variables": [
+    "pension_credit_GC",
+    "pension_credit_SC"
+  ],
+  "start_line_number": 40,
+  "stop_line_number": 61,
+  "value_type": "float"
+}

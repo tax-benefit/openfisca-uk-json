@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/child_benefit.py",
+  "json_type": "number",
+  "label": "Child Benefit (reported amount)",
+  "name": "child_benefit_reported",
+  "start_line_number": 6,
+  "stop_line_number": 11,
+  "value_type": "float"
+}

@@ -1,0 +1,393 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/benefit_cap.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 2,
+                "id": "QUAL_PERSONAL_BENEFITS",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 29,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 26,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "carers_allowance"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 16,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "DLA_SC"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 15,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "DLA_M"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 21,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "ESA_contrib"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 7,
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 13,
+            "lineno": 8,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 8,
+                "id": "qualifying",
+                "lineno": 8
+              }
+            ],
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 8,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 10,
+                  "end_col_offset": 11,
+                  "end_lineno": 12,
+                  "lineno": 12,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 11,
+              "end_lineno": 12,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 55,
+                "end_lineno": 11,
+                "left": {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 46,
+                  "end_lineno": 10,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 12,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 19,
+                        "end_lineno": 9,
+                        "id": "benunit",
+                        "lineno": 9
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 21,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 27,
+                        "end_lineno": 9,
+                        "id": "period",
+                        "lineno": 9
+                      },
+                      {
+                        "ast_class": "List",
+                        "col_offset": 29,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "elts": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 30,
+                            "end_col_offset": 50,
+                            "end_lineno": 9,
+                            "lineno": 9,
+                            "value": "working_tax_credit"
+                          }
+                        ],
+                        "end_col_offset": 51,
+                        "end_lineno": 9,
+                        "lineno": 9
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 52,
+                    "end_lineno": 9,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 11,
+                      "end_lineno": 9,
+                      "id": "add",
+                      "lineno": 9
+                    },
+                    "keywords": [],
+                    "lineno": 9
+                  },
+                  "lineno": 9,
+                  "op": {
+                    "ast_class": "Add"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 14,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 21,
+                        "end_lineno": 10,
+                        "id": "benunit",
+                        "lineno": 10
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 23,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 29,
+                        "end_lineno": 10,
+                        "id": "period",
+                        "lineno": 10
+                      },
+                      {
+                        "ast_class": "List",
+                        "col_offset": 31,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "elts": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 32,
+                            "end_col_offset": 44,
+                            "end_lineno": 10,
+                            "lineno": 10,
+                            "value": "ESA_income"
+                          }
+                        ],
+                        "end_col_offset": 45,
+                        "end_lineno": 10,
+                        "lineno": 10
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 46,
+                    "end_lineno": 10,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 13,
+                      "end_lineno": 10,
+                      "id": "add",
+                      "lineno": 10
+                    },
+                    "keywords": [],
+                    "lineno": 10
+                  }
+                },
+                "lineno": 9,
+                "op": {
+                  "ast_class": "Add"
+                },
+                "right": {
+                  "args": [
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 15,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 22,
+                      "end_lineno": 11,
+                      "id": "benunit",
+                      "lineno": 11
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 24,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 30,
+                      "end_lineno": 11,
+                      "id": "period",
+                      "lineno": 11
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 32,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 54,
+                      "end_lineno": 11,
+                      "id": "QUAL_PERSONAL_BENEFITS",
+                      "lineno": 11
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 10,
+                  "end_col_offset": 55,
+                  "end_lineno": 11,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 10,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 14,
+                    "end_lineno": 11,
+                    "id": "aggr",
+                    "lineno": 11
+                  },
+                  "keywords": [],
+                  "lineno": 11
+                }
+              },
+              "lineno": 9,
+              "ops": [
+                {
+                  "ast_class": "Gt"
+                }
+              ]
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 21,
+            "end_lineno": 14,
+            "lineno": 14,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 21,
+              "end_lineno": 14,
+              "id": "qualifying",
+              "lineno": 14
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 21,
+        "end_lineno": 14,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/benefit_cap.py",
+      "source_code": "def formula(benunit, period, parameters):\n    QUAL_PERSONAL_BENEFITS = [\n        \"carers_allowance\",\n        \"DLA_SC\",\n        \"DLA_M\",\n        \"ESA_contrib\",\n    ]\n    qualifying = (\n        add(benunit, period, [\"working_tax_credit\"])\n        + add(benunit, period, [\"ESA_income\"])\n        + aggr(benunit, period, QUAL_PERSONAL_BENEFITS)\n        > 0\n    )\n    return qualifying\n",
+      "start_line_number": 48,
+      "stop_line_number": 62
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether exempt from the benefits cap",
+  "name": "is_benefit_cap_exempt",
+  "referring_variables": [
+    "benefit_cap"
+  ],
+  "start_line_number": 42,
+  "stop_line_number": 62,
+  "value_type": "bool"
+}

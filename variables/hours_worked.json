@@ -1,0 +1,16 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "json_type": "number",
+  "label": "Total amount of hours worked by this person",
+  "name": "hours_worked",
+  "referring_variables": [
+    "weekly_hours"
+  ],
+  "start_line_number": 73,
+  "stop_line_number": 78,
+  "value_type": "float"
+}

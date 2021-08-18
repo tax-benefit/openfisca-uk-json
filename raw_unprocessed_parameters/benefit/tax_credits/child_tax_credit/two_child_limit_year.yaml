@@ -1,0 +1,8 @@
+description: Year of the two child limit introduction
+metadata:
+  reference:
+    href: https://www.gov.uk/guidance/child-tax-credit-exceptions-to-the-2-child-limit
+  unit: year
+values:
+  2015-04-04:
+    value: 2017

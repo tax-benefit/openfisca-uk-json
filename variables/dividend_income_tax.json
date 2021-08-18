@@ -1,0 +1,574 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 51,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 9,
+                "end_lineno": 2,
+                "id": "rates",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "rates",
+              "col_offset": 12,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 51,
+              "end_lineno": 2,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "income_tax",
+                "col_offset": 12,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 45,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "tax",
+                  "col_offset": 12,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 23,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 29,
+                        "end_lineno": 2,
+                        "id": "period",
+                        "lineno": 2
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 12,
+                    "end_col_offset": 30,
+                    "end_lineno": 2,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 12,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 22,
+                      "end_lineno": 2,
+                      "id": "parameters",
+                      "lineno": 2
+                    },
+                    "keywords": [],
+                    "lineno": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 5,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 3,
+                "id": "other_income",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 19,
+              "end_col_offset": 5,
+              "end_lineno": 5,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 26,
+                    "end_col_offset": 49,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": "earned_taxable_income"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 51,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 57,
+                    "end_lineno": 3,
+                    "id": "period",
+                    "lineno": 3
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 19,
+                "end_col_offset": 58,
+                "end_lineno": 3,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 19,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 25,
+                  "end_lineno": 3,
+                  "id": "person",
+                  "lineno": 3
+                },
+                "keywords": [],
+                "lineno": 3
+              },
+              "lineno": 3,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 8,
+                    "end_col_offset": 30,
+                    "end_lineno": 4,
+                    "lineno": 4,
+                    "value": "taxed_savings_income"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 32,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 38,
+                    "end_lineno": 4,
+                    "id": "period",
+                    "lineno": 4
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 61,
+                "end_col_offset": 5,
+                "end_lineno": 5,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 61,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 67,
+                  "end_lineno": 3,
+                  "id": "person",
+                  "lineno": 3
+                },
+                "keywords": [],
+                "lineno": 3
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 63,
+            "end_lineno": 6,
+            "lineno": 6,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 6,
+                "id": "taxable_dividends",
+                "lineno": 6
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 31,
+                  "end_col_offset": 54,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "taxed_dividend_income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 56,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 62,
+                  "end_lineno": 6,
+                  "id": "period",
+                  "lineno": 6
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 24,
+              "end_col_offset": 63,
+              "end_lineno": 6,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 24,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 30,
+                "end_lineno": 6,
+                "id": "person",
+                "lineno": 6
+              },
+              "keywords": [],
+              "lineno": 6
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 9,
+            "lineno": 7,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 7,
+                "id": "tax_with_dividends",
+                "lineno": 7
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 40,
+                  "end_lineno": 8,
+                  "left": {
+                    "ast_class": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 20,
+                    "end_lineno": 8,
+                    "id": "other_income",
+                    "lineno": 8
+                  },
+                  "lineno": 8,
+                  "op": {
+                    "ast_class": "Add"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 23,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 40,
+                    "end_lineno": 8,
+                    "id": "taxable_dividends",
+                    "lineno": 8
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 25,
+              "end_col_offset": 5,
+              "end_lineno": 9,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "calc",
+                "col_offset": 25,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 45,
+                "end_lineno": 7,
+                "lineno": 7,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "dividends",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 40,
+                  "end_lineno": 7,
+                  "lineno": 7,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 25,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 30,
+                    "end_lineno": 7,
+                    "id": "rates",
+                    "lineno": 7
+                  }
+                }
+              },
+              "keywords": [],
+              "lineno": 7
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 62,
+            "end_lineno": 10,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 25,
+                "end_lineno": 10,
+                "id": "tax_without_dividends",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 49,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 61,
+                  "end_lineno": 10,
+                  "id": "other_income",
+                  "lineno": 10
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 28,
+              "end_col_offset": 62,
+              "end_lineno": 10,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "calc",
+                "col_offset": 28,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 48,
+                "end_lineno": 10,
+                "lineno": 10,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "dividends",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 43,
+                  "end_lineno": 10,
+                  "lineno": 10,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 28,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 33,
+                    "end_lineno": 10,
+                    "id": "rates",
+                    "lineno": 10
+                  }
+                }
+              },
+              "keywords": [],
+              "lineno": 10
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 61,
+            "end_lineno": 11,
+            "lineno": 11,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 11,
+                "id": "dividend_tax",
+                "lineno": 11
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 19,
+              "end_col_offset": 61,
+              "end_lineno": 11,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 19,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 37,
+                "end_lineno": 11,
+                "id": "tax_with_dividends",
+                "lineno": 11
+              },
+              "lineno": 11,
+              "op": {
+                "ast_class": "Sub"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 40,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 61,
+                "end_lineno": 11,
+                "id": "tax_without_dividends",
+                "lineno": 11
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 23,
+            "end_lineno": 12,
+            "lineno": 12,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 23,
+              "end_lineno": 12,
+              "id": "dividend_tax",
+              "lineno": 12
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 23,
+        "end_lineno": 12,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+      "parameters": [
+        "tax.income_tax.rates.dividends"
+      ],
+      "source_code": "def formula(person, period, parameters):\n    rates = parameters(period).tax.income_tax.rates\n    other_income = person(\"earned_taxable_income\", period) + person(\n        \"taxed_savings_income\", period\n    )\n    taxable_dividends = person(\"taxed_dividend_income\", period)\n    tax_with_dividends = rates.dividends.calc(\n        other_income + taxable_dividends\n    )\n    tax_without_dividends = rates.dividends.calc(other_income)\n    dividend_tax = tax_with_dividends - tax_without_dividends\n    return dividend_tax\n",
+      "start_line_number": 463,
+      "stop_line_number": 475,
+      "variables": [
+        "earned_taxable_income",
+        "taxed_dividend_income",
+        "taxed_savings_income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Income tax on dividend income",
+  "name": "dividend_income_tax",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax Act 2007 s. 13"
+      }
+    ]
+  },
+  "start_line_number": 456,
+  "stop_line_number": 475,
+  "value_type": "float"
+}

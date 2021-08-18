@@ -1,0 +1,145 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 65,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 16,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 23,
+                  "end_lineno": 2,
+                  "id": "benunit",
+                  "lineno": 2
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 31,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                },
+                {
+                  "ast_class": "List",
+                  "col_offset": 33,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "elts": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 34,
+                      "end_col_offset": 63,
+                      "end_lineno": 2,
+                      "lineno": 2,
+                      "value": "working_tax_credit_reported"
+                    }
+                  ],
+                  "end_col_offset": 64,
+                  "end_lineno": 2,
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 65,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 2,
+                "id": "aggr",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 65,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "source_code": "def formula(benunit, period, parameters):\n    return aggr(benunit, period, [\"working_tax_credit_reported\"])\n",
+      "start_line_number": 253,
+      "stop_line_number": 255
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this family is imputed to claim Working Tax Credit, based on survey response and take-up rates",
+  "name": "claims_WTC",
+  "referring_variables": [
+    "WTC_basic_element",
+    "WTC_childcare_element",
+    "WTC_couple_element",
+    "WTC_disabled_element",
+    "WTC_lone_parent_element",
+    "WTC_severely_disabled_element",
+    "WTC_worker_element"
+  ],
+  "start_line_number": 247,
+  "stop_line_number": 255,
+  "value_type": "bool"
+}

@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/ESA_contrib.py",
+  "json_type": "number",
+  "label": "Employment and Support Allowance (contribution-based) (reported)",
+  "name": "ESA_contrib_reported",
+  "referring_variables": [
+    "ESA_contrib"
+  ],
+  "start_line_number": 16,
+  "stop_line_number": 21,
+  "unit": "currency",
+  "value_type": "float"
+}

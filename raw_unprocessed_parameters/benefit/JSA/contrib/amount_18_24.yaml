@@ -1,0 +1,11 @@
+description: Income-based JSA for persons aged 18-24
+metadata:
+  period: week
+  reference:
+    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=24
+  unit: currency
+values:
+  2015-06-01:
+    value: 57.9
+  2020-06-01:
+    value: 59.07

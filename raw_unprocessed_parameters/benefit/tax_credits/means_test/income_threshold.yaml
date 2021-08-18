@@ -1,0 +1,11 @@
+description: Yearly income threshold after which child tax credits are reduced for benefit units claiming WTC.
+metadata:
+  period: year
+  reference:
+    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=28
+  unit: currency
+values:
+  2015-06-01:
+    value: 6420
+  2020-06-01:
+    value: 6555

@@ -1,0 +1,236 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 50,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "income",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 20,
+                  "end_col_offset": 41,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "adjusted_net_income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 43,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 49,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 50,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 2,
+                "id": "person",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 56,
+            "end_lineno": 3,
+            "lineno": 3,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 11,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 55,
+                  "end_col_offset": 56,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 56,
+              "end_lineno": 3,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Attribute",
+                    "attr": "benunit",
+                    "col_offset": 27,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 41,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 27,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 33,
+                      "end_lineno": 3,
+                      "id": "person",
+                      "lineno": 3
+                    }
+                  },
+                  {
+                    "ast_class": "UnaryOp",
+                    "col_offset": 43,
+                    "end_col_offset": 50,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "op": {
+                      "ast_class": "USub"
+                    },
+                    "operand": {
+                      "ast_class": "Name",
+                      "col_offset": 44,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 50,
+                      "end_lineno": 3,
+                      "id": "income",
+                      "lineno": 3
+                    }
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 51,
+                "end_lineno": 3,
+                "func": {
+                  "ast_class": "Attribute",
+                  "attr": "get_rank",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 26,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 3,
+                    "id": "person",
+                    "lineno": 3
+                  }
+                },
+                "keywords": [],
+                "lineno": 3
+              },
+              "lineno": 3,
+              "ops": [
+                {
+                  "ast_class": "Eq"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 56,
+        "end_lineno": 3,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
+      "source_code": "def formula(person, period, parameters):\n    income = person(\"adjusted_net_income\", period)\n    return person.get_rank(person.benunit, -income) == 0\n",
+      "start_line_number": 500,
+      "stop_line_number": 503,
+      "variables": [
+        "adjusted_net_income"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this person is the highest earner in a family",
+  "name": "is_higher_earner",
+  "referring_variables": [
+    "CB_HITC"
+  ],
+  "start_line_number": 494,
+  "stop_line_number": 503,
+  "value_type": "bool"
+}

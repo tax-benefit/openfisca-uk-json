@@ -1,0 +1,163 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "int32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 59,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 39,
+                      "end_col_offset": 49,
+                      "end_lineno": 2,
+                      "lineno": 2,
+                      "value": "is_child"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 51,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 57,
+                      "end_lineno": 2,
+                      "id": "period",
+                      "lineno": 2
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 23,
+                  "end_col_offset": 58,
+                  "end_lineno": 2,
+                  "func": {
+                    "ast_class": "Attribute",
+                    "attr": "members",
+                    "col_offset": 23,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 38,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 23,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 30,
+                      "end_lineno": 2,
+                      "id": "benunit",
+                      "lineno": 2
+                    }
+                  },
+                  "keywords": [],
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 59,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "sum",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 18,
+                  "end_lineno": 2,
+                  "id": "benunit",
+                  "lineno": 2
+                }
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 59,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    return benunit.sum(benunit.members(\"is_child\", period))\n",
+      "start_line_number": 136,
+      "stop_line_number": 138,
+      "variables": [
+        "is_child"
+      ]
+    }
+  },
+  "json_type": "integer",
+  "label": "The number of children in the family",
+  "name": "num_children",
+  "referring_variables": [
+    "WTC_childcare_element",
+    "benefit_cap"
+  ],
+  "start_line_number": 130,
+  "stop_line_number": 138,
+  "unit": "currency",
+  "value_type": "int"
+}

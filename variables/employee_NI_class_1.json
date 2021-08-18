@@ -1,0 +1,670 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/national_insurance/class_1.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 63,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 11,
+                "end_lineno": 2,
+                "id": "class_1",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "class_1",
+              "col_offset": 14,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 63,
+              "end_lineno": 2,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "national_insurance",
+                "col_offset": 14,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 55,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "tax",
+                  "col_offset": 14,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 36,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 25,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 31,
+                        "end_lineno": 2,
+                        "id": "period",
+                        "lineno": 2
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 14,
+                    "end_col_offset": 32,
+                    "end_lineno": 2,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 14,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 24,
+                      "end_lineno": 2,
+                      "id": "parameters",
+                      "lineno": 2
+                    },
+                    "keywords": [],
+                    "lineno": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 50,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 3,
+                "id": "earnings",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 22,
+                  "end_col_offset": 41,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "employment_income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 43,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 49,
+                  "end_lineno": 3,
+                  "id": "period",
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 15,
+              "end_col_offset": 50,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 15,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 3,
+                "id": "person",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 8,
+            "lineno": 4,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 4,
+                "id": "main_earnings",
+                "lineno": 4
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 16,
+                  "end_lineno": 5,
+                  "id": "earnings",
+                  "lineno": 5
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 60,
+                  "end_lineno": 6,
+                  "left": {
+                    "ast_class": "Attribute",
+                    "attr": "primary_threshold",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 44,
+                    "end_lineno": 6,
+                    "lineno": 6,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "thresholds",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 6,
+                      "lineno": 6,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 15,
+                        "end_lineno": 6,
+                        "id": "class_1",
+                        "lineno": 6
+                      }
+                    }
+                  },
+                  "lineno": 6,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 47,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 60,
+                    "end_lineno": 6,
+                    "id": "WEEKS_IN_YEAR",
+                    "lineno": 6
+                  }
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 63,
+                  "end_lineno": 7,
+                  "left": {
+                    "ast_class": "Attribute",
+                    "attr": "upper_earnings_limit",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 47,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "thresholds",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 7,
+                      "lineno": 7,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 15,
+                        "end_lineno": 7,
+                        "id": "class_1",
+                        "lineno": 7
+                      }
+                    }
+                  },
+                  "lineno": 7,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 50,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 63,
+                    "end_lineno": 7,
+                    "id": "WEEKS_IN_YEAR",
+                    "lineno": 7
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 20,
+              "end_col_offset": 5,
+              "end_lineno": 8,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 20,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 34,
+                "end_lineno": 4,
+                "id": "amount_between",
+                "lineno": 4
+              },
+              "keywords": [],
+              "lineno": 4
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 11,
+            "lineno": 9,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 16,
+                "end_lineno": 9,
+                "id": "add_earnings",
+                "lineno": 9
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 16,
+                  "end_lineno": 10,
+                  "id": "earnings",
+                  "lineno": 10
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 18,
+                  "end_col_offset": 73,
+                  "end_lineno": 10,
+                  "left": {
+                    "ast_class": "Attribute",
+                    "attr": "upper_earnings_limit",
+                    "col_offset": 18,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 57,
+                    "end_lineno": 10,
+                    "lineno": 10,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "thresholds",
+                      "col_offset": 18,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 36,
+                      "end_lineno": 10,
+                      "lineno": 10,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 18,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 25,
+                        "end_lineno": 10,
+                        "id": "class_1",
+                        "lineno": 10
+                      }
+                    }
+                  },
+                  "lineno": 10,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 60,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 73,
+                    "end_lineno": 10,
+                    "id": "WEEKS_IN_YEAR",
+                    "lineno": 10
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 19,
+              "end_col_offset": 5,
+              "end_lineno": 11,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 19,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 30,
+                "end_lineno": 9,
+                "id": "amount_over",
+                "lineno": 9
+              },
+              "keywords": [],
+              "lineno": 9
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 15,
+            "lineno": 12,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 12,
+                "id": "charge",
+                "lineno": 12
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 58,
+              "end_lineno": 14,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 51,
+                "end_lineno": 13,
+                "left": {
+                  "ast_class": "Attribute",
+                  "attr": "main",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 35,
+                  "end_lineno": 13,
+                  "lineno": 13,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "employee",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 30,
+                    "end_lineno": 13,
+                    "lineno": 13,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "rates",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 21,
+                      "end_lineno": 13,
+                      "lineno": 13,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 15,
+                        "end_lineno": 13,
+                        "id": "class_1",
+                        "lineno": 13
+                      }
+                    }
+                  }
+                },
+                "lineno": 13,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "ast_class": "Name",
+                  "col_offset": 38,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 51,
+                  "end_lineno": 13,
+                  "id": "main_earnings",
+                  "lineno": 13
+                }
+              },
+              "lineno": 13,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "BinOp",
+                "col_offset": 10,
+                "end_col_offset": 58,
+                "end_lineno": 14,
+                "left": {
+                  "ast_class": "Name",
+                  "col_offset": 10,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 22,
+                  "end_lineno": 14,
+                  "id": "add_earnings",
+                  "lineno": 14
+                },
+                "lineno": 14,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "ast_class": "Attribute",
+                  "attr": "additional",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 58,
+                  "end_lineno": 14,
+                  "lineno": 14,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "employee",
+                    "col_offset": 25,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 47,
+                    "end_lineno": 14,
+                    "lineno": 14,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "rates",
+                      "col_offset": 25,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 38,
+                      "end_lineno": 14,
+                      "lineno": 14,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 25,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 32,
+                        "end_lineno": 14,
+                        "id": "class_1",
+                        "lineno": 14
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 17,
+            "end_lineno": 16,
+            "lineno": 16,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 17,
+              "end_lineno": 16,
+              "id": "charge",
+              "lineno": 16
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 17,
+        "end_lineno": 16,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/tax/national_insurance/class_1.py",
+      "parameters": [
+        "tax.national_insurance.class_1.rates.employee.additional",
+        "tax.national_insurance.class_1.rates.employee.main",
+        "tax.national_insurance.class_1.thresholds.primary_threshold",
+        "tax.national_insurance.class_1.thresholds.upper_earnings_limit"
+      ],
+      "source_code": "def formula(person, period, parameters):\n    class_1 = parameters(period).tax.national_insurance.class_1\n    earnings = person(\"employment_income\", period)\n    main_earnings = amount_between(\n        earnings,\n        class_1.thresholds.primary_threshold * WEEKS_IN_YEAR,\n        class_1.thresholds.upper_earnings_limit * WEEKS_IN_YEAR,\n    )\n    add_earnings = amount_over(\n        earnings, class_1.thresholds.upper_earnings_limit * WEEKS_IN_YEAR\n    )\n    charge = (\n        class_1.rates.employee.main * main_earnings\n        + add_earnings * class_1.rates.employee.additional\n    )\n    return charge\n",
+      "start_line_number": 24,
+      "stop_line_number": 40,
+      "variables": [
+        "employment_income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Employee Class 1 Contributions for National Insurance",
+  "name": "employee_NI_class_1",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Social Security Contributions and Benefits Act 1992 s. 8"
+      }
+    ]
+  },
+  "start_line_number": 17,
+  "stop_line_number": 40,
+  "value_type": "float"
+}

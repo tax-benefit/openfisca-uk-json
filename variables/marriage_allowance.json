@@ -1,0 +1,20 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
+  "json_type": "number",
+  "label": "Marriage Allowance for the year (a tax-reducer, rather than an allowance or tax relief)",
+  "name": "marriage_allowance",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax Act 2007 s. 55"
+      }
+    ]
+  },
+  "start_line_number": 34,
+  "stop_line_number": 40,
+  "value_type": "float"
+}

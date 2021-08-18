@@ -1,0 +1,726 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 47,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 6,
+                "end_lineno": 2,
+                "id": "TC",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "tax_credits",
+              "col_offset": 9,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 47,
+              "end_lineno": 2,
+              "lineno": 2,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "benefit",
+                "col_offset": 9,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 35,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "args": [
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 20,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 2,
+                      "id": "period",
+                      "lineno": 2
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 9,
+                  "end_col_offset": 27,
+                  "end_lineno": 2,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 19,
+                    "end_lineno": 2,
+                    "id": "parameters",
+                    "lineno": 2
+                  },
+                  "keywords": [],
+                  "lineno": 2
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 8,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 3,
+                "id": "STEP_1_COMPONENTS",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 24,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 32,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": "taxable_pension_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 41,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "taxable_savings_interest_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 33,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "taxable_dividend_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 33,
+                  "end_lineno": 7,
+                  "lineno": 7,
+                  "value": "taxable_property_income"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 8,
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 53,
+            "end_lineno": 9,
+            "lineno": 9,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 9,
+                "id": "income",
+                "lineno": 9
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 18,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 25,
+                  "end_lineno": 9,
+                  "id": "benunit",
+                  "lineno": 9
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 27,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 33,
+                  "end_lineno": 9,
+                  "id": "period",
+                  "lineno": 9
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 35,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 52,
+                  "end_lineno": 9,
+                  "id": "STEP_1_COMPONENTS",
+                  "lineno": 9
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 53,
+              "end_lineno": 9,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 9,
+                "id": "aggr",
+                "lineno": 9
+              },
+              "keywords": [],
+              "lineno": 9
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 68,
+            "end_lineno": 10,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 10,
+                "id": "income",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 31,
+                  "end_lineno": 10,
+                  "id": "income",
+                  "lineno": 10
+                },
+                {
+                  "ast_class": "Attribute",
+                  "attr": "non_earned_disregard",
+                  "col_offset": 33,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 67,
+                  "end_lineno": 10,
+                  "lineno": 10,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "means_test",
+                    "col_offset": 33,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 46,
+                    "end_lineno": 10,
+                    "lineno": 10,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 33,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 35,
+                      "end_lineno": 10,
+                      "id": "TC",
+                      "lineno": 10
+                    }
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 68,
+              "end_lineno": 10,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 24,
+                "end_lineno": 10,
+                "id": "amount_over",
+                "lineno": 10
+              },
+              "keywords": [],
+              "lineno": 10
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 16,
+            "lineno": 11,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 11,
+                "id": "STEP_2_COMPONENTS",
+                "lineno": 11
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 24,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 35,
+                  "end_lineno": 12,
+                  "lineno": 12,
+                  "value": "taxable_employment_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 32,
+                  "end_lineno": 13,
+                  "lineno": 13,
+                  "value": "taxable_trading_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 40,
+                  "end_lineno": 14,
+                  "lineno": 14,
+                  "value": "taxable_social_security_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 38,
+                  "end_lineno": 15,
+                  "lineno": 15,
+                  "value": "taxable_miscellaneous_income"
+                }
+              ],
+              "end_col_offset": 5,
+              "end_lineno": 16,
+              "lineno": 11
+            }
+          },
+          {
+            "ast_class": "AugAssign",
+            "col_offset": 4,
+            "end_col_offset": 54,
+            "end_lineno": 17,
+            "lineno": 17,
+            "op": {
+              "ast_class": "Add"
+            },
+            "target": {
+              "ast_class": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "ast_class": "Store"
+              },
+              "end_col_offset": 10,
+              "end_lineno": 17,
+              "id": "income",
+              "lineno": 17
+            },
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 19,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 26,
+                  "end_lineno": 17,
+                  "id": "benunit",
+                  "lineno": 17
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 17,
+                  "id": "period",
+                  "lineno": 17
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 36,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 53,
+                  "end_lineno": 17,
+                  "id": "STEP_2_COMPONENTS",
+                  "lineno": 17
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 14,
+              "end_col_offset": 54,
+              "end_lineno": 17,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 14,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 18,
+                "end_lineno": 17,
+                "id": "aggr",
+                "lineno": 17
+              },
+              "keywords": [],
+              "lineno": 17
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 68,
+            "end_lineno": 18,
+            "lineno": 18,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 18,
+                "id": "EXEMPT_BENEFITS",
+                "lineno": 18
+              }
+            ],
+            "value": {
+              "ast_class": "List",
+              "col_offset": 22,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "elts": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 23,
+                  "end_col_offset": 39,
+                  "end_lineno": 18,
+                  "lineno": 18,
+                  "value": "income_support"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 41,
+                  "end_col_offset": 53,
+                  "end_lineno": 18,
+                  "lineno": 18,
+                  "value": "ESA_income"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 55,
+                  "end_col_offset": 67,
+                  "end_lineno": 18,
+                  "lineno": 18,
+                  "value": "JSA_income"
+                }
+              ],
+              "end_col_offset": 68,
+              "end_lineno": 18,
+              "lineno": 18
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 66,
+            "end_lineno": 19,
+            "lineno": 19,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 19,
+                "id": "on_exempt_benefits",
+                "lineno": 19
+              }
+            ],
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 25,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 65,
+                  "end_col_offset": 66,
+                  "end_lineno": 19,
+                  "lineno": 19,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 66,
+              "end_lineno": 19,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 29,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 36,
+                    "end_lineno": 19,
+                    "id": "benunit",
+                    "lineno": 19
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 38,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 44,
+                    "end_lineno": 19,
+                    "id": "period",
+                    "lineno": 19
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 46,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 61,
+                    "end_lineno": 19,
+                    "id": "EXEMPT_BENEFITS",
+                    "lineno": 19
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 25,
+                "end_col_offset": 62,
+                "end_lineno": 19,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 28,
+                  "end_lineno": 19,
+                  "id": "add",
+                  "lineno": 19
+                },
+                "keywords": [],
+                "lineno": 19
+              },
+              "lineno": 19,
+              "ops": [
+                {
+                  "ast_class": "Gt"
+                }
+              ]
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 44,
+            "end_lineno": 20,
+            "lineno": 20,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 44,
+              "end_lineno": 20,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 20,
+                "id": "income",
+                "lineno": 20
+              },
+              "lineno": 20,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 25,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 43,
+                    "end_lineno": 20,
+                    "id": "on_exempt_benefits",
+                    "lineno": 20
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 20,
+                "end_col_offset": 44,
+                "end_lineno": 20,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 20,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 24,
+                  "end_lineno": 20,
+                  "id": "not_",
+                  "lineno": 20
+                },
+                "keywords": [],
+                "lineno": 20
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 44,
+        "end_lineno": 20,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
+      "parameters": [
+        "benefit.tax_credits.means_test.non_earned_disregard"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    TC = parameters(period).benefit.tax_credits\n    STEP_1_COMPONENTS = [\n        \"taxable_pension_income\",\n        \"taxable_savings_interest_income\",\n        \"taxable_dividend_income\",\n        \"taxable_property_income\",\n    ]\n    income = aggr(benunit, period, STEP_1_COMPONENTS)\n    income = amount_over(income, TC.means_test.non_earned_disregard)\n    STEP_2_COMPONENTS = [\n        \"taxable_employment_income\",\n        \"taxable_trading_income\",\n        \"taxable_social_security_income\",\n        \"taxable_miscellaneous_income\",\n    ]\n    income += aggr(benunit, period, STEP_2_COMPONENTS)\n    EXEMPT_BENEFITS = [\"income_support\", \"ESA_income\", \"JSA_income\"]\n    on_exempt_benefits = add(benunit, period, EXEMPT_BENEFITS) > 0\n    return income * not_(on_exempt_benefits)\n",
+      "start_line_number": 27,
+      "stop_line_number": 47
+    }
+  },
+  "json_type": "number",
+  "label": "Applicable income for Tax Credits",
+  "name": "tax_credits_applicable_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "The Tax Credits (Definition and Calculation of Income) Regulations 2002 s. 3"
+      }
+    ]
+  },
+  "referring_variables": [
+    "tax_credits_reduction"
+  ],
+  "start_line_number": 20,
+  "stop_line_number": 47,
+  "value_type": "float"
+}

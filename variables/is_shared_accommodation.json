@@ -1,0 +1,17 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "household",
+  "file_path": "/openfisca_uk/variables/demographic/household.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether the household is shared accommodation",
+  "name": "is_shared_accommodation",
+  "referring_variables": [
+    "LHA_category"
+  ],
+  "start_line_number": 28,
+  "stop_line_number": 33,
+  "value_type": "bool"
+}

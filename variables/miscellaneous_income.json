@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/income.py",
+  "json_type": "number",
+  "label": "Income from other sources",
+  "name": "miscellaneous_income",
+  "start_line_number": 35,
+  "stop_line_number": 40,
+  "value_type": "float"
+}

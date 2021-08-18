@@ -1,0 +1,8512 @@
+ASHFORD:
+  A:
+    description: LHA rate for Ashford homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.1
+      2019-04-06:
+        value: 69.11
+      2020-04-06:
+        value: 78
+      2021-04-06:
+        value: 78
+  B:
+    description: LHA rate for Ashford homes in category CAT B
+    values:
+      2018-04-06:
+        value: 122.66
+      2019-04-06:
+        value: 126.34
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  C:
+    description: LHA rate for Ashford homes in category CAT C
+    values:
+      2018-04-06:
+        value: 145.43
+      2019-04-06:
+        value: 149.79
+      2020-04-06:
+        value: 168
+      2021-04-06:
+        value: 168
+  D:
+    description: LHA rate for Ashford homes in category CAT D
+    values:
+      2018-04-06:
+        value: 173.04
+      2019-04-06:
+        value: 178.23
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  E:
+    description: LHA rate for Ashford homes in category CAT E
+    values:
+      2018-04-06:
+        value: 223.63
+      2019-04-06:
+        value: 230.34
+      2020-04-06:
+        value: 260.05
+      2021-04-06:
+        value: 260.05
+AYLESBURY:
+  A:
+    description: LHA rate for Aylesbury homes in category CAT A
+    values:
+      2018-04-06:
+        value: 72.76
+      2019-04-06:
+        value: 72.76
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Aylesbury homes in category CAT B
+    values:
+      2018-04-06:
+        value: 131.11
+      2019-04-06:
+        value: 135.04
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  C:
+    description: LHA rate for Aylesbury homes in category CAT C
+    values:
+      2018-04-06:
+        value: 162.34
+      2019-04-06:
+        value: 167.21
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  D:
+    description: LHA rate for Aylesbury homes in category CAT D
+    values:
+      2018-04-06:
+        value: 204.38
+      2019-04-06:
+        value: 210.51
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+  E:
+    description: LHA rate for Aylesbury homes in category CAT E
+    values:
+      2018-04-06:
+        value: 291.34
+      2019-04-06:
+        value: 291.34
+      2020-04-06:
+        value: 322.19
+      2021-04-06:
+        value: 322.19
+BARNSLEY:
+  A:
+    description: LHA rate for Barnsley homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.07
+      2019-04-06:
+        value: 58.07
+      2020-04-06:
+        value: 61.5
+      2021-04-06:
+        value: 61.5
+  B:
+    description: LHA rate for Barnsley homes in category CAT B
+    values:
+      2018-04-06:
+        value: 72.72
+      2019-04-06:
+        value: 72.72
+      2020-04-06:
+        value: 84
+      2021-04-06:
+        value: 84
+  C:
+    description: LHA rate for Barnsley homes in category CAT C
+    values:
+      2018-04-06:
+        value: 87.41
+      2019-04-06:
+        value: 87.41
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  D:
+    description: LHA rate for Barnsley homes in category CAT D
+    values:
+      2018-04-06:
+        value: 99.79
+      2019-04-06:
+        value: 99.79
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  E:
+    description: LHA rate for Barnsley homes in category CAT E
+    values:
+      2018-04-06:
+        value: 136.93
+      2019-04-06:
+        value: 136.93
+      2020-04-06:
+        value: 148.44
+      2021-04-06:
+        value: 148.44
+BARROW_IN_FURNESS:
+  A:
+    description: LHA rate for Barrow-in-Furness homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.1
+      2019-04-06:
+        value: 67.1
+      2020-04-06:
+        value: 81.35
+      2021-04-06:
+        value: 81.35
+  B:
+    description: LHA rate for Barrow-in-Furness homes in category CAT B
+    values:
+      2018-04-06:
+        value: 78
+      2019-04-06:
+        value: 78
+      2020-04-06:
+        value: 86.54
+      2021-04-06:
+        value: 86.54
+  C:
+    description: LHA rate for Barrow-in-Furness homes in category CAT C
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 102.41
+      2021-04-06:
+        value: 102.41
+  D:
+    description: LHA rate for Barrow-in-Furness homes in category CAT D
+    values:
+      2018-04-06:
+        value: 110.47
+      2019-04-06:
+        value: 110.47
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Barrow-in-Furness homes in category CAT E
+    values:
+      2018-04-06:
+        value: 136.93
+      2019-04-06:
+        value: 136.93
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+BASINGSTOKE:
+  A:
+    description: LHA rate for Basingstoke homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.17
+      2019-04-06:
+        value: 68.17
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Basingstoke homes in category CAT B
+    values:
+      2018-04-06:
+        value: 138.04
+      2019-04-06:
+        value: 138.04
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  C:
+    description: LHA rate for Basingstoke homes in category CAT C
+    values:
+      2018-04-06:
+        value: 161.98
+      2019-04-06:
+        value: 166.84
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  D:
+    description: LHA rate for Basingstoke homes in category CAT D
+    values:
+      2018-04-06:
+        value: 192.28
+      2019-04-06:
+        value: 198.05
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+  E:
+    description: LHA rate for Basingstoke homes in category CAT E
+    values:
+      2018-04-06:
+        value: 266.65
+      2019-04-06:
+        value: 266.65
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+BATH:
+  A:
+    description: LHA rate for Bath homes in category CAT A
+    values:
+      2018-04-06:
+        value: 74.66
+      2019-04-06:
+        value: 74.66
+      2020-04-06:
+        value: 105.82
+      2021-04-06:
+        value: 105.82
+  B:
+    description: LHA rate for Bath homes in category CAT B
+    values:
+      2018-04-06:
+        value: 139.81
+      2019-04-06:
+        value: 144
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  C:
+    description: LHA rate for Bath homes in category CAT C
+    values:
+      2018-04-06:
+        value: 167.23
+      2019-04-06:
+        value: 172.25
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  D:
+    description: LHA rate for Bath homes in category CAT D
+    values:
+      2018-04-06:
+        value: 195.56
+      2019-04-06:
+        value: 201.43
+      2020-04-06:
+        value: 228.99
+      2021-04-06:
+        value: 228.99
+  E:
+    description: LHA rate for Bath homes in category CAT E
+    values:
+      2018-04-06:
+        value: 300.66
+      2019-04-06:
+        value: 309.68
+      2020-04-06:
+        value: 402.74
+      2021-04-06:
+        value: 402.74
+BEDFORD:
+  A:
+    description: LHA rate for Bedford homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.05
+      2019-04-06:
+        value: 65.97
+      2020-04-06:
+        value: 79.57
+      2021-04-06:
+        value: 79.57
+  B:
+    description: LHA rate for Bedford homes in category CAT B
+    values:
+      2018-04-06:
+        value: 106.11
+      2019-04-06:
+        value: 109.29
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  C:
+    description: LHA rate for Bedford homes in category CAT C
+    values:
+      2018-04-06:
+        value: 137.32
+      2019-04-06:
+        value: 141.44
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  D:
+    description: LHA rate for Bedford homes in category CAT D
+    values:
+      2018-04-06:
+        value: 165.9
+      2019-04-06:
+        value: 170.88
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+  E:
+    description: LHA rate for Bedford homes in category CAT E
+    values:
+      2018-04-06:
+        value: 215.34
+      2019-04-06:
+        value: 221.8
+      2020-04-06:
+        value: 264.66
+      2021-04-06:
+        value: 264.66
+BIRMINGHAM:
+  A:
+    description: LHA rate for Birmingham homes in category CAT A
+    values:
+      2018-04-06:
+        value: 57.34
+      2019-04-06:
+        value: 57.34
+      2020-04-06:
+        value: 67
+      2021-04-06:
+        value: 67
+  B:
+    description: LHA rate for Birmingham homes in category CAT B
+    values:
+      2018-04-06:
+        value: 98.87
+      2019-04-06:
+        value: 101.84
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Birmingham homes in category CAT C
+    values:
+      2018-04-06:
+        value: 123.9
+      2019-04-06:
+        value: 127.62
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  D:
+    description: LHA rate for Birmingham homes in category CAT D
+    values:
+      2018-04-06:
+        value: 132
+      2019-04-06:
+        value: 135.96
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  E:
+    description: LHA rate for Birmingham homes in category CAT E
+    values:
+      2018-04-06:
+        value: 173.41
+      2019-04-06:
+        value: 173.41
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+BLACK_COUNTRY:
+  A:
+    description: LHA rate for Black Country homes in category CAT A
+    values:
+      2018-04-06:
+        value: 60
+      2019-04-06:
+        value: 60
+      2020-04-06:
+        value: 60.18
+      2021-04-06:
+        value: 60.18
+  B:
+    description: LHA rate for Black Country homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 91.82
+      2021-04-06:
+        value: 91.82
+  C:
+    description: LHA rate for Black Country homes in category CAT C
+    values:
+      2018-04-06:
+        value: 104.89
+      2019-04-06:
+        value: 104.89
+      2020-04-06:
+        value: 117.37
+      2021-04-06:
+        value: 117.37
+  D:
+    description: LHA rate for Black Country homes in category CAT D
+    values:
+      2018-04-06:
+        value: 120.29
+      2019-04-06:
+        value: 123.9
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for Black Country homes in category CAT E
+    values:
+      2018-04-06:
+        value: 151.5
+      2019-04-06:
+        value: 151.5
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+BLACKWATER_VALLEY:
+  A:
+    description: LHA rate for Blackwater Valley homes in category CAT A
+    values:
+      2018-04-06:
+        value: 79.92
+      2019-04-06:
+        value: 79.92
+      2020-04-06:
+        value: 86.5
+      2021-04-06:
+        value: 86.5
+  B:
+    description: LHA rate for Blackwater Valley homes in category CAT B
+    values:
+      2018-04-06:
+        value: 141.24
+      2019-04-06:
+        value: 145.48
+      2020-04-06:
+        value: 161.1
+      2021-04-06:
+        value: 161.1
+  C:
+    description: LHA rate for Blackwater Valley homes in category CAT C
+    values:
+      2018-04-06:
+        value: 176.56
+      2019-04-06:
+        value: 176.56
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+  D:
+    description: LHA rate for Blackwater Valley homes in category CAT D
+    values:
+      2018-04-06:
+        value: 210.7
+      2019-04-06:
+        value: 210.7
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  E:
+    description: LHA rate for Blackwater Valley homes in category CAT E
+    values:
+      2018-04-06:
+        value: 312
+      2019-04-06:
+        value: 312
+      2020-04-06:
+        value: 333.7
+      2021-04-06:
+        value: 333.7
+BOLTON_AND_BURY:
+  A:
+    description: LHA rate for Bolton and Bury homes in category CAT A
+    values:
+      2018-04-06:
+        value: 51.63
+      2019-04-06:
+        value: 53.18
+      2020-04-06:
+        value: 66.74
+      2021-04-06:
+        value: 66.74
+  B:
+    description: LHA rate for Bolton and Bury homes in category CAT B
+    values:
+      2018-04-06:
+        value: 84
+      2019-04-06:
+        value: 84
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  C:
+    description: LHA rate for Bolton and Bury homes in category CAT C
+    values:
+      2018-04-06:
+        value: 98.96
+      2019-04-06:
+        value: 98.96
+      2020-04-06:
+        value: 110.47
+      2021-04-06:
+        value: 110.47
+  D:
+    description: LHA rate for Bolton and Bury homes in category CAT D
+    values:
+      2018-04-06:
+        value: 114.84
+      2019-04-06:
+        value: 118.29
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for Bolton and Bury homes in category CAT E
+    values:
+      2018-04-06:
+        value: 148.16
+      2019-04-06:
+        value: 152.6
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+BOURNEMOUTH:
+  A:
+    description: LHA rate for Bournemouth homes in category CAT A
+    values:
+      2018-04-06:
+        value: 65.48
+      2019-04-06:
+        value: 65.48
+      2020-04-06:
+        value: 76.5
+      2021-04-06:
+        value: 76.5
+  B:
+    description: LHA rate for Bournemouth homes in category CAT B
+    values:
+      2018-04-06:
+        value: 123.58
+      2019-04-06:
+        value: 123.58
+      2020-04-06:
+        value: 137.74
+      2021-04-06:
+        value: 137.74
+  C:
+    description: LHA rate for Bournemouth homes in category CAT C
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 157.61
+      2020-04-06:
+        value: 174.9
+      2021-04-06:
+        value: 174.9
+  D:
+    description: LHA rate for Bournemouth homes in category CAT D
+    values:
+      2018-04-06:
+        value: 188.79
+      2019-04-06:
+        value: 194.45
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+  E:
+    description: LHA rate for Bournemouth homes in category CAT E
+    values:
+      2018-04-06:
+        value: 253.15
+      2019-04-06:
+        value: 253.15
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+BRADFORD_SOUTH_DALES:
+  A:
+    description: LHA rate for Bradford & South Dales homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.26
+      2019-04-06:
+        value: 60.01
+      2020-04-06:
+        value: 68.3
+      2021-04-06:
+        value: 68.3
+  B:
+    description: LHA rate for Bradford & South Dales homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  C:
+    description: LHA rate for Bradford & South Dales homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Bradford & South Dales homes in category CAT D
+    values:
+      2018-04-06:
+        value: 111.83
+      2019-04-06:
+        value: 111.83
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  E:
+    description: LHA rate for Bradford & South Dales homes in category CAT E
+    values:
+      2018-04-06:
+        value: 123.58
+      2019-04-06:
+        value: 123.58
+      2020-04-06:
+        value: 141.53
+      2021-04-06:
+        value: 141.53
+BRIGHTON_AND_HOVE:
+  A:
+    description: LHA rate for Brighton and Hove homes in category CAT A
+    values:
+      2018-04-06:
+        value: 82.66
+      2019-04-06:
+        value: 82.66
+      2020-04-06:
+        value: 98.96
+      2021-04-06:
+        value: 98.96
+  B:
+    description: LHA rate for Brighton and Hove homes in category CAT B
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 157.61
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  C:
+    description: LHA rate for Brighton and Hove homes in category CAT C
+    values:
+      2018-04-06:
+        value: 198.25
+      2019-04-06:
+        value: 204.2
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+  D:
+    description: LHA rate for Brighton and Hove homes in category CAT D
+    values:
+      2018-04-06:
+        value: 230.28
+      2019-04-06:
+        value: 237.19
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+  E:
+    description: LHA rate for Brighton and Hove homes in category CAT E
+    values:
+      2018-04-06:
+        value: 339.36
+      2019-04-06:
+        value: 349.54
+      2020-04-06:
+        value: 390.08
+      2021-04-06:
+        value: 390.08
+BRISTOL:
+  A:
+    description: LHA rate for Bristol homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.39
+      2019-04-06:
+        value: 71.47
+      2020-04-06:
+        value: 90.1
+      2021-04-06:
+        value: 90.1
+  B:
+    description: LHA rate for Bristol homes in category CAT B
+    values:
+      2018-04-06:
+        value: 128.57
+      2019-04-06:
+        value: 132.43
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  C:
+    description: LHA rate for Bristol homes in category CAT C
+    values:
+      2018-04-06:
+        value: 156.05
+      2019-04-06:
+        value: 160.73
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  D:
+    description: LHA rate for Bristol homes in category CAT D
+    values:
+      2018-04-06:
+        value: 186.44
+      2019-04-06:
+        value: 192.03
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+  E:
+    description: LHA rate for Bristol homes in category CAT E
+    values:
+      2018-04-06:
+        value: 249.6
+      2019-04-06:
+        value: 257.09
+      2020-04-06:
+        value: 304.93
+      2021-04-06:
+        value: 304.93
+BURY_ST_EDMUNDS:
+  A:
+    description: LHA rate for Bury St Edmunds homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.04
+      2019-04-06:
+        value: 68.04
+      2020-04-06:
+        value: 82.85
+      2021-04-06:
+        value: 82.85
+  B:
+    description: LHA rate for Bury St Edmunds homes in category CAT B
+    values:
+      2018-04-06:
+        value: 105.32
+      2019-04-06:
+        value: 105.32
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Bury St Edmunds homes in category CAT C
+    values:
+      2018-04-06:
+        value: 130.1
+      2019-04-06:
+        value: 134
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for Bury St Edmunds homes in category CAT D
+    values:
+      2018-04-06:
+        value: 154.87
+      2019-04-06:
+        value: 159.52
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  E:
+    description: LHA rate for Bury St Edmunds homes in category CAT E
+    values:
+      2018-04-06:
+        value: 222.48
+      2019-04-06:
+        value: 222.48
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+CAMBRIDGE:
+  A:
+    description: LHA rate for Cambridge homes in category CAT A
+    values:
+      2018-04-06:
+        value: 80.52
+      2019-04-06:
+        value: 80.52
+      2020-04-06:
+        value: 97
+      2021-04-06:
+        value: 97
+  B:
+    description: LHA rate for Cambridge homes in category CAT B
+    values:
+      2018-04-06:
+        value: 129.83
+      2019-04-06:
+        value: 133.72
+      2020-04-06:
+        value: 178.36
+      2021-04-06:
+        value: 178.36
+  C:
+    description: LHA rate for Cambridge homes in category CAT C
+    values:
+      2018-04-06:
+        value: 149.31
+      2019-04-06:
+        value: 153.79
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  D:
+    description: LHA rate for Cambridge homes in category CAT D
+    values:
+      2018-04-06:
+        value: 173.5
+      2019-04-06:
+        value: 178.71
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+  E:
+    description: LHA rate for Cambridge homes in category CAT E
+    values:
+      2018-04-06:
+        value: 231.44
+      2019-04-06:
+        value: 238.38
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+CANTERBURY:
+  A:
+    description: LHA rate for Canterbury homes in category CAT A
+    values:
+      2018-04-06:
+        value: 74.62
+      2019-04-06:
+        value: 76.29
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Canterbury homes in category CAT B
+    values:
+      2018-04-06:
+        value: 123.86
+      2019-04-06:
+        value: 123.86
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  C:
+    description: LHA rate for Canterbury homes in category CAT C
+    values:
+      2018-04-06:
+        value: 154.82
+      2019-04-06:
+        value: 159.46
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  D:
+    description: LHA rate for Canterbury homes in category CAT D
+    values:
+      2018-04-06:
+        value: 180.45
+      2019-04-06:
+        value: 185.86
+      2020-04-06:
+        value: 224.38
+      2021-04-06:
+        value: 224.38
+  E:
+    description: LHA rate for Canterbury homes in category CAT E
+    values:
+      2018-04-06:
+        value: 280.6
+      2019-04-06:
+        value: 280.6
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+CENTRAL_GREATER_MANCHESTER:
+  A:
+    description: LHA rate for Central Greater Manchester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.2
+      2019-04-06:
+        value: 67.2
+      2020-04-06:
+        value: 75.5
+      2021-04-06:
+        value: 75.5
+  B:
+    description: LHA rate for Central Greater Manchester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 101.98
+      2019-04-06:
+        value: 105.04
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  C:
+    description: LHA rate for Central Greater Manchester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 119.98
+      2019-04-06:
+        value: 123.58
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for Central Greater Manchester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 133.32
+      2019-04-06:
+        value: 137.32
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  E:
+    description: LHA rate for Central Greater Manchester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 186.47
+      2019-04-06:
+        value: 186.47
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+CENTRAL_LANCS:
+  A:
+    description: LHA rate for Central Lancs homes in category CAT A
+    values:
+      2018-04-06:
+        value: 53.67
+      2019-04-06:
+        value: 55.28
+      2020-04-06:
+        value: 66.5
+      2021-04-06:
+        value: 66.5
+  B:
+    description: LHA rate for Central Lancs homes in category CAT B
+    values:
+      2018-04-06:
+        value: 89.46
+      2019-04-06:
+        value: 89.46
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  C:
+    description: LHA rate for Central Lancs homes in category CAT C
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  D:
+    description: LHA rate for Central Lancs homes in category CAT D
+    values:
+      2018-04-06:
+        value: 126.58
+      2019-04-06:
+        value: 126.58
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  E:
+    description: LHA rate for Central Lancs homes in category CAT E
+    values:
+      2018-04-06:
+        value: 161.1
+      2019-04-06:
+        value: 161.1
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+CENTRAL_LONDON:
+  A:
+    description: LHA rate for Central London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 144.84
+      2019-04-06:
+        value: 144.84
+      2020-04-06:
+        value: 154.19
+      2021-04-06:
+        value: 154.19
+  B:
+    description: LHA rate for Central London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 268.46
+      2019-04-06:
+        value: 276.51
+      2020-04-06:
+        value: 295.49
+      2021-04-06:
+        value: 295.49
+  C:
+    description: LHA rate for Central London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 311.4
+      2019-04-06:
+        value: 320.74
+      2020-04-06:
+        value: 365.92
+      2021-04-06:
+        value: 365.92
+  D:
+    description: LHA rate for Central London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 365.09
+      2019-04-06:
+        value: 376.04
+      2020-04-06:
+        value: 441.86
+      2021-04-06:
+        value: 441.86
+  E:
+    description: LHA rate for Central London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 429.53
+      2019-04-06:
+        value: 442.42
+      2020-04-06:
+        value: 593.75
+      2021-04-06:
+        value: 593.75
+CENTRAL_NORFOLK_NORWICH:
+  A:
+    description: LHA rate for Central Norfolk & Norwich homes in category CAT A
+    values:
+      2018-04-06:
+        value: 63.29
+      2019-04-06:
+        value: 63.29
+      2020-04-06:
+        value: 82.85
+      2021-04-06:
+        value: 82.85
+  B:
+    description: LHA rate for Central Norfolk & Norwich homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.98
+      2019-04-06:
+        value: 95.77
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  C:
+    description: LHA rate for Central Norfolk & Norwich homes in category CAT C
+    values:
+      2018-04-06:
+        value: 116.52
+      2019-04-06:
+        value: 120.02
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for Central Norfolk & Norwich homes in category CAT D
+    values:
+      2018-04-06:
+        value: 135.36
+      2019-04-06:
+        value: 139.42
+      2020-04-06:
+        value: 163.4
+      2021-04-06:
+        value: 163.4
+  E:
+    description: LHA rate for Central Norfolk & Norwich homes in category CAT E
+    values:
+      2018-04-06:
+        value: 184.11
+      2019-04-06:
+        value: 184.11
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+CHELMSFORD:
+  A:
+    description: LHA rate for Chelmsford homes in category CAT A
+    values:
+      2018-04-06:
+        value: 71.15
+      2019-04-06:
+        value: 73.28
+      2020-04-06:
+        value: 90.1
+      2021-04-06:
+        value: 90.1
+  B:
+    description: LHA rate for Chelmsford homes in category CAT B
+    values:
+      2018-04-06:
+        value: 126
+      2019-04-06:
+        value: 129.78
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  C:
+    description: LHA rate for Chelmsford homes in category CAT C
+    values:
+      2018-04-06:
+        value: 156.05
+      2019-04-06:
+        value: 160.73
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  D:
+    description: LHA rate for Chelmsford homes in category CAT D
+    values:
+      2018-04-06:
+        value: 190.85
+      2019-04-06:
+        value: 196.58
+      2020-04-06:
+        value: 226.68
+      2021-04-06:
+        value: 226.68
+  E:
+    description: LHA rate for Chelmsford homes in category CAT E
+    values:
+      2018-04-06:
+        value: 238.88
+      2019-04-06:
+        value: 246.05
+      2020-04-06:
+        value: 298.03
+      2021-04-06:
+        value: 298.03
+CHELTENHAM:
+  A:
+    description: LHA rate for Cheltenham homes in category CAT A
+    values:
+      2018-04-06:
+        value: 70.4
+      2019-04-06:
+        value: 70.4
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Cheltenham homes in category CAT B
+    values:
+      2018-04-06:
+        value: 111.83
+      2019-04-06:
+        value: 111.83
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  C:
+    description: LHA rate for Cheltenham homes in category CAT C
+    values:
+      2018-04-06:
+        value: 143.34
+      2019-04-06:
+        value: 143.34
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  D:
+    description: LHA rate for Cheltenham homes in category CAT D
+    values:
+      2018-04-06:
+        value: 174.43
+      2019-04-06:
+        value: 174.43
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  E:
+    description: LHA rate for Cheltenham homes in category CAT E
+    values:
+      2018-04-06:
+        value: 240.59
+      2019-04-06:
+        value: 240.59
+      2020-04-06:
+        value: 275.01
+      2021-04-06:
+        value: 275.01
+CHERWELL_VALLEY:
+  A:
+    description: LHA rate for Cherwell Valley homes in category CAT A
+    values:
+      2018-04-06:
+        value: 73.53
+      2019-04-06:
+        value: 73.53
+      2020-04-06:
+        value: 78.02
+      2021-04-06:
+        value: 78.02
+  B:
+    description: LHA rate for Cherwell Valley homes in category CAT B
+    values:
+      2018-04-06:
+        value: 130.06
+      2019-04-06:
+        value: 133.96
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  C:
+    description: LHA rate for Cherwell Valley homes in category CAT C
+    values:
+      2018-04-06:
+        value: 162.29
+      2019-04-06:
+        value: 162.29
+      2020-04-06:
+        value: 178.36
+      2021-04-06:
+        value: 178.36
+  D:
+    description: LHA rate for Cherwell Valley homes in category CAT D
+    values:
+      2018-04-06:
+        value: 187.87
+      2019-04-06:
+        value: 193.51
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  E:
+    description: LHA rate for Cherwell Valley homes in category CAT E
+    values:
+      2018-04-06:
+        value: 248.35
+      2019-04-06:
+        value: 248.35
+      2020-04-06:
+        value: 298.61
+      2021-04-06:
+        value: 298.61
+CHESTERFIELD:
+  A:
+    description: LHA rate for Chesterfield homes in category CAT A
+    values:
+      2018-04-06:
+        value: 52.47
+      2019-04-06:
+        value: 52.47
+      2020-04-06:
+        value: 55.75
+      2021-04-06:
+        value: 55.75
+  B:
+    description: LHA rate for Chesterfield homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 89.75
+      2021-04-06:
+        value: 89.75
+  C:
+    description: LHA rate for Chesterfield homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Chesterfield homes in category CAT D
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Chesterfield homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+CHICHESTER:
+  A:
+    description: LHA rate for Chichester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 73.58
+      2019-04-06:
+        value: 75.79
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Chichester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 134.02
+      2019-04-06:
+        value: 134.02
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  C:
+    description: LHA rate for Chichester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 168
+      2019-04-06:
+        value: 168
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  D:
+    description: LHA rate for Chichester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 198.11
+      2019-04-06:
+        value: 204.05
+      2020-04-06:
+        value: 228.99
+      2021-04-06:
+        value: 228.99
+  E:
+    description: LHA rate for Chichester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 268.03
+      2019-04-06:
+        value: 268.03
+      2020-04-06:
+        value: 310.68
+      2021-04-06:
+        value: 310.68
+CHILTERNS:
+  A:
+    description: LHA rate for Chilterns homes in category CAT A
+    values:
+      2018-04-06:
+        value: 73.64
+      2019-04-06:
+        value: 75.85
+      2020-04-06:
+        value: 89.75
+      2021-04-06:
+        value: 89.75
+  B:
+    description: LHA rate for Chilterns homes in category CAT B
+    values:
+      2018-04-06:
+        value: 149.79
+      2019-04-06:
+        value: 154.28
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  C:
+    description: LHA rate for Chilterns homes in category CAT C
+    values:
+      2018-04-06:
+        value: 193.56
+      2019-04-06:
+        value: 199.37
+      2020-04-06:
+        value: 224.38
+      2021-04-06:
+        value: 224.38
+  D:
+    description: LHA rate for Chilterns homes in category CAT D
+    values:
+      2018-04-06:
+        value: 236.34
+      2019-04-06:
+        value: 243.43
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+  E:
+    description: LHA rate for Chilterns homes in category CAT E
+    values:
+      2018-04-06:
+        value: 344.05
+      2019-04-06:
+        value: 344.05
+      2020-04-06:
+        value: 379.73
+      2021-04-06:
+        value: 379.73
+COLCHESTER:
+  A:
+    description: LHA rate for Colchester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.78
+      2019-04-06:
+        value: 64.78
+      2020-04-06:
+        value: 71.34
+      2021-04-06:
+        value: 71.34
+  B:
+    description: LHA rate for Colchester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 106.67
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Colchester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 132.32
+      2019-04-06:
+        value: 136.29
+      2020-04-06:
+        value: 158.79
+      2021-04-06:
+        value: 158.79
+  D:
+    description: LHA rate for Colchester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 161.1
+      2019-04-06:
+        value: 165.93
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  E:
+    description: LHA rate for Colchester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 204.49
+      2019-04-06:
+        value: 210.62
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+COVENTRY:
+  A:
+    description: LHA rate for Coventry homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.62
+      2019-04-06:
+        value: 69.65
+      2020-04-06:
+        value: 77.5
+      2021-04-06:
+        value: 77.5
+  B:
+    description: LHA rate for Coventry homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 112.77
+      2021-04-06:
+        value: 112.77
+  C:
+    description: LHA rate for Coventry homes in category CAT C
+    values:
+      2018-04-06:
+        value: 111.48
+      2019-04-06:
+        value: 114.82
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  D:
+    description: LHA rate for Coventry homes in category CAT D
+    values:
+      2018-04-06:
+        value: 128.19
+      2019-04-06:
+        value: 132.04
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  E:
+    description: LHA rate for Coventry homes in category CAT E
+    values:
+      2018-04-06:
+        value: 170.67
+      2019-04-06:
+        value: 175.79
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+CRAWLEY_REIGATE:
+  A:
+    description: LHA rate for Crawley & Reigate homes in category CAT A
+    values:
+      2018-04-06:
+        value: 81.94
+      2019-04-06:
+        value: 84.4
+      2020-04-06:
+        value: 101.61
+      2021-04-06:
+        value: 101.61
+  B:
+    description: LHA rate for Crawley & Reigate homes in category CAT B
+    values:
+      2018-04-06:
+        value: 156.05
+      2019-04-06:
+        value: 160.73
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  C:
+    description: LHA rate for Crawley & Reigate homes in category CAT C
+    values:
+      2018-04-06:
+        value: 191.38
+      2019-04-06:
+        value: 197.12
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+  D:
+    description: LHA rate for Crawley & Reigate homes in category CAT D
+    values:
+      2018-04-06:
+        value: 222.54
+      2019-04-06:
+        value: 229.22
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+  E:
+    description: LHA rate for Crawley & Reigate homes in category CAT E
+    values:
+      2018-04-06:
+        value: 309.67
+      2019-04-06:
+        value: 318.96
+      2020-04-06:
+        value: 356.71
+      2021-04-06:
+        value: 356.71
+DARLINGTON:
+  A:
+    description: LHA rate for Darlington homes in category CAT A
+    values:
+      2018-04-06:
+        value: 61.06
+      2019-04-06:
+        value: 62.89
+      2020-04-06:
+        value: 66.5
+      2021-04-06:
+        value: 66.5
+  B:
+    description: LHA rate for Darlington homes in category CAT B
+    values:
+      2018-04-06:
+        value: 75
+      2019-04-06:
+        value: 75
+      2020-04-06:
+        value: 76.15
+      2021-04-06:
+        value: 76.15
+  C:
+    description: LHA rate for Darlington homes in category CAT C
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  D:
+    description: LHA rate for Darlington homes in category CAT D
+    values:
+      2018-04-06:
+        value: 107.11
+      2019-04-06:
+        value: 107.11
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  E:
+    description: LHA rate for Darlington homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.17
+      2019-04-06:
+        value: 149.17
+      2020-04-06:
+        value: 151.89
+      2021-04-06:
+        value: 151.89
+DERBY:
+  A:
+    description: LHA rate for Derby homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.82
+      2019-04-06:
+        value: 58.82
+      2020-04-06:
+        value: 62.83
+      2021-04-06:
+        value: 62.83
+  B:
+    description: LHA rate for Derby homes in category CAT B
+    values:
+      2018-04-06:
+        value: 84.75
+      2019-04-06:
+        value: 84.75
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  C:
+    description: LHA rate for Derby homes in category CAT C
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  D:
+    description: LHA rate for Derby homes in category CAT D
+    values:
+      2018-04-06:
+        value: 117.7
+      2019-04-06:
+        value: 117.7
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for Derby homes in category CAT E
+    values:
+      2018-04-06:
+        value: 155.34
+      2019-04-06:
+        value: 155.34
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+DONCASTER:
+  A:
+    description: LHA rate for Doncaster homes in category CAT A
+    values:
+      2018-04-06:
+        value: 55.12
+      2019-04-06:
+        value: 55.12
+      2020-04-06:
+        value: 61.5
+      2021-04-06:
+        value: 61.5
+  B:
+    description: LHA rate for Doncaster homes in category CAT B
+    values:
+      2018-04-06:
+        value: 78.08
+      2019-04-06:
+        value: 78.08
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Doncaster homes in category CAT C
+    values:
+      2018-04-06:
+        value: 93.23
+      2019-04-06:
+        value: 93.23
+      2020-04-06:
+        value: 101.26
+      2021-04-06:
+        value: 101.26
+  D:
+    description: LHA rate for Doncaster homes in category CAT D
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 111.62
+      2021-04-06:
+        value: 111.62
+  E:
+    description: LHA rate for Doncaster homes in category CAT E
+    values:
+      2018-04-06:
+        value: 143.84
+      2019-04-06:
+        value: 143.84
+      2020-04-06:
+        value: 150.74
+      2021-04-06:
+        value: 150.74
+DOVER_SHEPWAY:
+  A:
+    description: LHA rate for Dover-Shepway homes in category CAT A
+    values:
+      2018-04-06:
+        value: 59.09
+      2019-04-06:
+        value: 60.86
+      2020-04-06:
+        value: 65
+      2021-04-06:
+        value: 65
+  B:
+    description: LHA rate for Dover-Shepway homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 88.89
+      2020-04-06:
+        value: 100.11
+      2021-04-06:
+        value: 100.11
+  C:
+    description: LHA rate for Dover-Shepway homes in category CAT C
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 115.07
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  D:
+    description: LHA rate for Dover-Shepway homes in category CAT D
+    values:
+      2018-04-06:
+        value: 143.84
+      2019-04-06:
+        value: 143.84
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  E:
+    description: LHA rate for Dover-Shepway homes in category CAT E
+    values:
+      2018-04-06:
+        value: 168
+      2019-04-06:
+        value: 168
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+DURHAM:
+  A:
+    description: LHA rate for Durham homes in category CAT A
+    values:
+      2018-04-06:
+        value: 65
+      2019-04-06:
+        value: 65
+      2020-04-06:
+        value: 65
+      2021-04-06:
+        value: 65
+  B:
+    description: LHA rate for Durham homes in category CAT B
+    values:
+      2018-04-06:
+        value: 74.79
+      2019-04-06:
+        value: 74.79
+      2020-04-06:
+        value: 74.79
+      2021-04-06:
+        value: 74.79
+  C:
+    description: LHA rate for Durham homes in category CAT C
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 87.45
+      2021-04-06:
+        value: 87.45
+  D:
+    description: LHA rate for Durham homes in category CAT D
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  E:
+    description: LHA rate for Durham homes in category CAT E
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 138.08
+      2020-04-06:
+        value: 140.38
+      2021-04-06:
+        value: 140.38
+EAST_CHESHIRE:
+  A:
+    description: LHA rate for East Cheshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 70.9
+      2019-04-06:
+        value: 73.03
+      2020-04-06:
+        value: 82.85
+      2021-04-06:
+        value: 82.85
+  B:
+    description: LHA rate for East Cheshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  C:
+    description: LHA rate for East Cheshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 130.03
+      2019-04-06:
+        value: 130.03
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for East Cheshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 168
+      2019-04-06:
+        value: 168
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  E:
+    description: LHA rate for East Cheshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 249.6
+      2019-04-06:
+        value: 249.6
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+EAST_LANCS:
+  A:
+    description: LHA rate for East Lancs homes in category CAT A
+    values:
+      2018-04-06:
+        value: 53.5
+      2019-04-06:
+        value: 53.5
+      2020-04-06:
+        value: 64.25
+      2021-04-06:
+        value: 64.25
+  B:
+    description: LHA rate for East Lancs homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.03
+      2019-04-06:
+        value: 80.03
+      2020-04-06:
+        value: 85
+      2021-04-06:
+        value: 85
+  C:
+    description: LHA rate for East Lancs homes in category CAT C
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  D:
+    description: LHA rate for East Lancs homes in category CAT D
+    values:
+      2018-04-06:
+        value: 104
+      2019-04-06:
+        value: 104
+      2020-04-06:
+        value: 115
+      2021-04-06:
+        value: 115
+  E:
+    description: LHA rate for East Lancs homes in category CAT E
+    values:
+      2018-04-06:
+        value: 142.8
+      2019-04-06:
+        value: 142.8
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+EAST_THAMES_VALLEY:
+  A:
+    description: LHA rate for East Thames Valley homes in category CAT A
+    values:
+      2018-04-06:
+        value: 76.27
+      2019-04-06:
+        value: 78.56
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  B:
+    description: LHA rate for East Thames Valley homes in category CAT B
+    values:
+      2018-04-06:
+        value: 156.05
+      2019-04-06:
+        value: 160.73
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  C:
+    description: LHA rate for East Thames Valley homes in category CAT C
+    values:
+      2018-04-06:
+        value: 199.74
+      2019-04-06:
+        value: 205.73
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+  D:
+    description: LHA rate for East Thames Valley homes in category CAT D
+    values:
+      2018-04-06:
+        value: 244.89
+      2019-04-06:
+        value: 252.24
+      2020-04-06:
+        value: 293.42
+      2021-04-06:
+        value: 293.42
+  E:
+    description: LHA rate for East Thames Valley homes in category CAT E
+    values:
+      2018-04-06:
+        value: 334.43
+      2019-04-06:
+        value: 334.43
+      2020-04-06:
+        value: 368.22
+      2021-04-06:
+        value: 368.22
+EASTBOURNE:
+  A:
+    description: LHA rate for Eastbourne homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67
+      2019-04-06:
+        value: 69.01
+      2020-04-06:
+        value: 74.81
+      2021-04-06:
+        value: 74.81
+  B:
+    description: LHA rate for Eastbourne homes in category CAT B
+    values:
+      2018-04-06:
+        value: 120.03
+      2019-04-06:
+        value: 123.63
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  C:
+    description: LHA rate for Eastbourne homes in category CAT C
+    values:
+      2018-04-06:
+        value: 151.5
+      2019-04-06:
+        value: 156.05
+      2020-04-06:
+        value: 176.05
+      2021-04-06:
+        value: 176.05
+  D:
+    description: LHA rate for Eastbourne homes in category CAT D
+    values:
+      2018-04-06:
+        value: 182.45
+      2019-04-06:
+        value: 187.92
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  E:
+    description: LHA rate for Eastbourne homes in category CAT E
+    values:
+      2018-04-06:
+        value: 235.34
+      2019-04-06:
+        value: 235.34
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+EASTERN_STAFFORDSHIRE:
+  A:
+    description: LHA rate for Eastern Staffordshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 60.04
+      2019-04-06:
+        value: 60.04
+      2020-04-06:
+        value: 67.08
+      2021-04-06:
+        value: 67.08
+  B:
+    description: LHA rate for Eastern Staffordshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 81.58
+      2019-04-06:
+        value: 84.03
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for Eastern Staffordshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  D:
+    description: LHA rate for Eastern Staffordshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 123.58
+      2019-04-06:
+        value: 123.58
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  E:
+    description: LHA rate for Eastern Staffordshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 162.4
+      2019-04-06:
+        value: 162.4
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+EXETER:
+  A:
+    description: LHA rate for Exeter homes in category CAT A
+    values:
+      2018-04-06:
+        value: 74.34
+      2019-04-06:
+        value: 74.34
+      2020-04-06:
+        value: 96.66
+      2021-04-06:
+        value: 96.66
+  B:
+    description: LHA rate for Exeter homes in category CAT B
+    values:
+      2018-04-06:
+        value: 116.52
+      2019-04-06:
+        value: 116.52
+      2020-04-06:
+        value: 131.18
+      2021-04-06:
+        value: 131.18
+  C:
+    description: LHA rate for Exeter homes in category CAT C
+    values:
+      2018-04-06:
+        value: 141.24
+      2019-04-06:
+        value: 141.24
+      2020-04-06:
+        value: 156.49
+      2021-04-06:
+        value: 156.49
+  D:
+    description: LHA rate for Exeter homes in category CAT D
+    values:
+      2018-04-06:
+        value: 164.79
+      2019-04-06:
+        value: 164.79
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  E:
+    description: LHA rate for Exeter homes in category CAT E
+    values:
+      2018-04-06:
+        value: 218.63
+      2019-04-06:
+        value: 218.63
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+FYLDE_COAST:
+  A:
+    description: LHA rate for Fylde Coast homes in category CAT A
+    values:
+      2018-04-06:
+        value: 61.5
+      2019-04-06:
+        value: 60.75
+      2020-04-06:
+        value: 65
+      2021-04-06:
+        value: 65
+  B:
+    description: LHA rate for Fylde Coast homes in category CAT B
+    values:
+      2018-04-06:
+        value: 85
+      2019-04-06:
+        value: 85
+      2020-04-06:
+        value: 85
+      2021-04-06:
+        value: 85
+  C:
+    description: LHA rate for Fylde Coast homes in category CAT C
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 114.61
+      2021-04-06:
+        value: 114.61
+  D:
+    description: LHA rate for Fylde Coast homes in category CAT D
+    values:
+      2018-04-06:
+        value: 130
+      2019-04-06:
+        value: 130
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  E:
+    description: LHA rate for Fylde Coast homes in category CAT E
+    values:
+      2018-04-06:
+        value: 150
+      2019-04-06:
+        value: 150
+      2020-04-06:
+        value: 150
+      2021-04-06:
+        value: 150
+GLOUCESTER:
+  A:
+    description: LHA rate for Gloucester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.18
+      2019-04-06:
+        value: 70.23
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Gloucester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Gloucester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 122.36
+      2019-04-06:
+        value: 126.03
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for Gloucester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 147.13
+      2019-04-06:
+        value: 151.54
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  E:
+    description: LHA rate for Gloucester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 187.14
+      2019-04-06:
+        value: 192.75
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+GRANTHAM_NEWARK:
+  A:
+    description: LHA rate for Grantham & Newark homes in category CAT A
+    values:
+      2018-04-06:
+        value: 59.04
+      2019-04-06:
+        value: 60.81
+      2020-04-06:
+        value: 85
+      2021-04-06:
+        value: 85
+  B:
+    description: LHA rate for Grantham & Newark homes in category CAT B
+    values:
+      2018-04-06:
+        value: 75.78
+      2019-04-06:
+        value: 78.05
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Grantham & Newark homes in category CAT C
+    values:
+      2018-04-06:
+        value: 99.06
+      2019-04-06:
+        value: 99.06
+      2020-04-06:
+        value: 111.62
+      2021-04-06:
+        value: 111.62
+  D:
+    description: LHA rate for Grantham & Newark homes in category CAT D
+    values:
+      2018-04-06:
+        value: 110.72
+      2019-04-06:
+        value: 110.72
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  E:
+    description: LHA rate for Grantham & Newark homes in category CAT E
+    values:
+      2018-04-06:
+        value: 156
+      2019-04-06:
+        value: 156
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+GREATER_LIVERPOOL:
+  A:
+    description: LHA rate for Greater Liverpool homes in category CAT A
+    values:
+      2018-04-06:
+        value: 57.77
+      2019-04-06:
+        value: 57.77
+      2020-04-06:
+        value: 65.25
+      2021-04-06:
+        value: 65.25
+  B:
+    description: LHA rate for Greater Liverpool homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  C:
+    description: LHA rate for Greater Liverpool homes in category CAT C
+    values:
+      2018-04-06:
+        value: 104.89
+      2019-04-06:
+        value: 104.89
+      2020-04-06:
+        value: 108.16
+      2021-04-06:
+        value: 108.16
+  D:
+    description: LHA rate for Greater Liverpool homes in category CAT D
+    values:
+      2018-04-06:
+        value: 120.82
+      2019-04-06:
+        value: 120.82
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  E:
+    description: LHA rate for Greater Liverpool homes in category CAT E
+    values:
+      2018-04-06:
+        value: 155.34
+      2019-04-06:
+        value: 155.34
+      2020-04-06:
+        value: 156
+      2021-04-06:
+        value: 156
+GRIMSBY:
+  A:
+    description: LHA rate for Grimsby homes in category CAT A
+    values:
+      2018-04-06:
+        value: 52.5
+      2019-04-06:
+        value: 52.5
+      2020-04-06:
+        value: 62.75
+      2021-04-06:
+        value: 62.75
+  B:
+    description: LHA rate for Grimsby homes in category CAT B
+    values:
+      2018-04-06:
+        value: 75
+      2019-04-06:
+        value: 75
+      2020-04-06:
+        value: 77
+      2021-04-06:
+        value: 77
+  C:
+    description: LHA rate for Grimsby homes in category CAT C
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 98.96
+      2021-04-06:
+        value: 98.96
+  D:
+    description: LHA rate for Grimsby homes in category CAT D
+    values:
+      2018-04-06:
+        value: 99.04
+      2019-04-06:
+        value: 99.04
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  E:
+    description: LHA rate for Grimsby homes in category CAT E
+    values:
+      2018-04-06:
+        value: 129.47
+      2019-04-06:
+        value: 129.47
+      2020-04-06:
+        value: 142.68
+      2021-04-06:
+        value: 142.68
+GUILDFORD:
+  A:
+    description: LHA rate for Guildford homes in category CAT A
+    values:
+      2018-04-06:
+        value: 86.56
+      2019-04-06:
+        value: 89.16
+      2020-04-06:
+        value: 112.77
+      2021-04-06:
+        value: 112.77
+  B:
+    description: LHA rate for Guildford homes in category CAT B
+    values:
+      2018-04-06:
+        value: 170.67
+      2019-04-06:
+        value: 175.79
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  C:
+    description: LHA rate for Guildford homes in category CAT C
+    values:
+      2018-04-06:
+        value: 222.96
+      2019-04-06:
+        value: 222.96
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  D:
+    description: LHA rate for Guildford homes in category CAT D
+    values:
+      2018-04-06:
+        value: 276.07
+      2019-04-06:
+        value: 276.07
+      2020-04-06:
+        value: 316.44
+      2021-04-06:
+        value: 316.44
+  E:
+    description: LHA rate for Guildford homes in category CAT E
+    values:
+      2018-04-06:
+        value: 355.57
+      2019-04-06:
+        value: 366.24
+      2020-04-06:
+        value: 414.25
+      2021-04-06:
+        value: 414.25
+HALIFAX:
+  A:
+    description: LHA rate for Halifax homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.64
+      2019-04-06:
+        value: 64.64
+      2020-04-06:
+        value: 70.5
+      2021-04-06:
+        value: 70.5
+  B:
+    description: LHA rate for Halifax homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Halifax homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Halifax homes in category CAT D
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 115.07
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  E:
+    description: LHA rate for Halifax homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+HARLOW_STORTFORD:
+  A:
+    description: LHA rate for Harlow & Stortford homes in category CAT A
+    values:
+      2018-04-06:
+        value: 72.22
+      2019-04-06:
+        value: 74.39
+      2020-04-06:
+        value: 76.5
+      2021-04-06:
+        value: 76.5
+  B:
+    description: LHA rate for Harlow & Stortford homes in category CAT B
+    values:
+      2018-04-06:
+        value: 137.32
+      2019-04-06:
+        value: 141.44
+      2020-04-06:
+        value: 165.7
+      2021-04-06:
+        value: 165.7
+  C:
+    description: LHA rate for Harlow & Stortford homes in category CAT C
+    values:
+      2018-04-06:
+        value: 169.73
+      2019-04-06:
+        value: 174.82
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  D:
+    description: LHA rate for Harlow & Stortford homes in category CAT D
+    values:
+      2018-04-06:
+        value: 204.05
+      2019-04-06:
+        value: 210.17
+      2020-04-06:
+        value: 258.9
+      2021-04-06:
+        value: 258.9
+  E:
+    description: LHA rate for Harlow & Stortford homes in category CAT E
+    values:
+      2018-04-06:
+        value: 288.08
+      2019-04-06:
+        value: 288.08
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+HARROGATE:
+  A:
+    description: LHA rate for Harrogate homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.35
+      2019-04-06:
+        value: 68.35
+      2020-04-06:
+        value: 75
+      2021-04-06:
+        value: 75
+  B:
+    description: LHA rate for Harrogate homes in category CAT B
+    values:
+      2018-04-06:
+        value: 110.72
+      2019-04-06:
+        value: 110.72
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Harrogate homes in category CAT C
+    values:
+      2018-04-06:
+        value: 136.93
+      2019-04-06:
+        value: 136.93
+      2020-04-06:
+        value: 153.04
+      2021-04-06:
+        value: 153.04
+  D:
+    description: LHA rate for Harrogate homes in category CAT D
+    values:
+      2018-04-06:
+        value: 161.1
+      2019-04-06:
+        value: 161.1
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  E:
+    description: LHA rate for Harrogate homes in category CAT E
+    values:
+      2018-04-06:
+        value: 216.52
+      2019-04-06:
+        value: 216.52
+      2020-04-06:
+        value: 246.25
+      2021-04-06:
+        value: 246.25
+HEREFORDSHIRE:
+  A:
+    description: LHA rate for Herefordshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.2
+      2019-04-06:
+        value: 59.95
+      2020-04-06:
+        value: 77.55
+      2021-04-06:
+        value: 77.55
+  B:
+    description: LHA rate for Herefordshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for Herefordshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 117.37
+      2019-04-06:
+        value: 117.37
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  D:
+    description: LHA rate for Herefordshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 135.19
+      2019-04-06:
+        value: 135.19
+      2020-04-06:
+        value: 156.49
+      2021-04-06:
+        value: 156.49
+  E:
+    description: LHA rate for Herefordshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 168.05
+      2019-04-06:
+        value: 173.09
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+HIGH_WEALD:
+  A:
+    description: LHA rate for High Weald homes in category CAT A
+    values:
+      2018-04-06:
+        value: 77.39
+      2019-04-06:
+        value: 79.71
+      2020-04-06:
+        value: 100.11
+      2021-04-06:
+        value: 100.11
+  B:
+    description: LHA rate for High Weald homes in category CAT B
+    values:
+      2018-04-06:
+        value: 135.36
+      2019-04-06:
+        value: 139.42
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  C:
+    description: LHA rate for High Weald homes in category CAT C
+    values:
+      2018-04-06:
+        value: 176.56
+      2019-04-06:
+        value: 181.86
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  D:
+    description: LHA rate for High Weald homes in category CAT D
+    values:
+      2018-04-06:
+        value: 223.19
+      2019-04-06:
+        value: 223.19
+      2020-04-06:
+        value: 260.05
+      2021-04-06:
+        value: 260.05
+  E:
+    description: LHA rate for High Weald homes in category CAT E
+    values:
+      2018-04-06:
+        value: 336.82
+      2019-04-06:
+        value: 336.82
+      2020-04-06:
+        value: 345.21
+      2021-04-06:
+        value: 345.21
+HULL_EAST_RIDING:
+  A:
+    description: LHA rate for Hull & East Riding homes in category CAT A
+    values:
+      2018-04-06:
+        value: 60.8
+      2019-04-06:
+        value: 60.5
+      2020-04-06:
+        value: 70
+      2021-04-06:
+        value: 70
+  B:
+    description: LHA rate for Hull & East Riding homes in category CAT B
+    values:
+      2018-04-06:
+        value: 69.73
+      2019-04-06:
+        value: 69.73
+      2020-04-06:
+        value: 80
+      2021-04-06:
+        value: 80
+  C:
+    description: LHA rate for Hull & East Riding homes in category CAT C
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  D:
+    description: LHA rate for Hull & East Riding homes in category CAT D
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  E:
+    description: LHA rate for Hull & East Riding homes in category CAT E
+    values:
+      2018-04-06:
+        value: 132.33
+      2019-04-06:
+        value: 132.33
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+HUNTINGDON:
+  A:
+    description: LHA rate for Huntingdon homes in category CAT A
+    values:
+      2018-04-06:
+        value: 63.5
+      2019-04-06:
+        value: 63.5
+      2020-04-06:
+        value: 65.59
+      2021-04-06:
+        value: 65.59
+  B:
+    description: LHA rate for Huntingdon homes in category CAT B
+    values:
+      2018-04-06:
+        value: 108.04
+      2019-04-06:
+        value: 111.28
+      2020-04-06:
+        value: 130.03
+      2021-04-06:
+        value: 130.03
+  C:
+    description: LHA rate for Huntingdon homes in category CAT C
+    values:
+      2018-04-06:
+        value: 129.78
+      2019-04-06:
+        value: 133.67
+      2020-04-06:
+        value: 161.1
+      2021-04-06:
+        value: 161.1
+  D:
+    description: LHA rate for Huntingdon homes in category CAT D
+    values:
+      2018-04-06:
+        value: 154.91
+      2019-04-06:
+        value: 159.56
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  E:
+    description: LHA rate for Huntingdon homes in category CAT E
+    values:
+      2018-04-06:
+        value: 198.11
+      2019-04-06:
+        value: 204.05
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+INNER_EAST_LONDON:
+  A:
+    description: LHA rate for Inner East London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 105.15
+      2019-04-06:
+        value: 108.3
+      2020-04-06:
+        value: 136.5
+      2021-04-06:
+        value: 136.5
+  B:
+    description: LHA rate for Inner East London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 265.07
+      2019-04-06:
+        value: 273.02
+      2020-04-06:
+        value: 295.49
+      2021-04-06:
+        value: 295.49
+  C:
+    description: LHA rate for Inner East London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 311.4
+      2019-04-06:
+        value: 320.74
+      2020-04-06:
+        value: 365.92
+      2021-04-06:
+        value: 365.92
+  D:
+    description: LHA rate for Inner East London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 365.09
+      2019-04-06:
+        value: 376.04
+      2020-04-06:
+        value: 441.86
+      2021-04-06:
+        value: 441.86
+  E:
+    description: LHA rate for Inner East London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 429.53
+      2019-04-06:
+        value: 442.42
+      2020-04-06:
+        value: 585.7
+      2021-04-06:
+        value: 585.7
+INNER_NORTH_LONDON:
+  A:
+    description: LHA rate for Inner North London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 103.78
+      2019-04-06:
+        value: 106.89
+      2020-04-06:
+        value: 147.29
+      2021-04-06:
+        value: 147.29
+  B:
+    description: LHA rate for Inner North London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 268.46
+      2019-04-06:
+        value: 276.51
+      2020-04-06:
+        value: 295.49
+      2021-04-06:
+        value: 295.49
+  C:
+    description: LHA rate for Inner North London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 311.4
+      2019-04-06:
+        value: 320.74
+      2020-04-06:
+        value: 365.92
+      2021-04-06:
+        value: 365.92
+  D:
+    description: LHA rate for Inner North London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 365.09
+      2019-04-06:
+        value: 376.04
+      2020-04-06:
+        value: 441.86
+      2021-04-06:
+        value: 441.86
+  E:
+    description: LHA rate for Inner North London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 429.53
+      2019-04-06:
+        value: 442.42
+      2020-04-06:
+        value: 593.75
+      2021-04-06:
+        value: 593.75
+INNER_SOUTH_EAST_LONDON:
+  A:
+    description: LHA rate for Inner South East London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 98.04
+      2019-04-06:
+        value: 98.04
+      2020-04-06:
+        value: 118.87
+      2021-04-06:
+        value: 118.87
+  B:
+    description: LHA rate for Inner South East London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 210.2
+      2019-04-06:
+        value: 216.51
+      2020-04-06:
+        value: 264.66
+      2021-04-06:
+        value: 264.66
+  C:
+    description: LHA rate for Inner South East London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 273.25
+      2019-04-06:
+        value: 281.45
+      2020-04-06:
+        value: 310.68
+      2021-04-06:
+        value: 310.68
+  D:
+    description: LHA rate for Inner South East London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 330.72
+      2019-04-06:
+        value: 340.64
+      2020-04-06:
+        value: 385.48
+      2021-04-06:
+        value: 385.48
+  E:
+    description: LHA rate for Inner South East London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 417.02
+      2019-04-06:
+        value: 429.53
+      2020-04-06:
+        value: 506.3
+      2021-04-06:
+        value: 506.3
+INNER_SOUTH_WEST_LONDON:
+  A:
+    description: LHA rate for Inner South West London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 97.21
+      2019-04-06:
+        value: 100.13
+      2020-04-06:
+        value: 116.91
+      2021-04-06:
+        value: 116.91
+  B:
+    description: LHA rate for Inner South West London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 253.82
+      2019-04-06:
+        value: 261.43
+      2020-04-06:
+        value: 295.49
+      2021-04-06:
+        value: 295.49
+  C:
+    description: LHA rate for Inner South West London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 311.4
+      2019-04-06:
+        value: 320.74
+      2020-04-06:
+        value: 356.71
+      2021-04-06:
+        value: 356.71
+  D:
+    description: LHA rate for Inner South West London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 365.09
+      2019-04-06:
+        value: 376.04
+      2020-04-06:
+        value: 441.86
+      2021-04-06:
+        value: 441.86
+  E:
+    description: LHA rate for Inner South West London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 429.53
+      2019-04-06:
+        value: 442.42
+      2020-04-06:
+        value: 593.75
+      2021-04-06:
+        value: 593.75
+INNER_WEST_LONDON:
+  A:
+    description: LHA rate for Inner West London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 110.54
+      2019-04-06:
+        value: 113.86
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  B:
+    description: LHA rate for Inner West London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 250.48
+      2019-04-06:
+        value: 250.48
+      2020-04-06:
+        value: 278.01
+      2021-04-06:
+        value: 278.01
+  C:
+    description: LHA rate for Inner West London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 302.33
+      2019-04-06:
+        value: 311.4
+      2020-04-06:
+        value: 339.45
+      2021-04-06:
+        value: 339.45
+  D:
+    description: LHA rate for Inner West London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 365.09
+      2019-04-06:
+        value: 376.04
+      2020-04-06:
+        value: 441.86
+      2021-04-06:
+        value: 441.86
+  E:
+    description: LHA rate for Inner West London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 429.53
+      2019-04-06:
+        value: 442.42
+      2020-04-06:
+        value: 533.92
+      2021-04-06:
+        value: 533.92
+IPSWICH:
+  A:
+    description: LHA rate for Ipswich homes in category CAT A
+    values:
+      2018-04-06:
+        value: 59.06
+      2019-04-06:
+        value: 60.83
+      2020-04-06:
+        value: 71.34
+      2021-04-06:
+        value: 71.34
+  B:
+    description: LHA rate for Ipswich homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.64
+      2019-04-06:
+        value: 93.36
+      2020-04-06:
+        value: 112.77
+      2021-04-06:
+        value: 112.77
+  C:
+    description: LHA rate for Ipswich homes in category CAT C
+    values:
+      2018-04-06:
+        value: 115.18
+      2019-04-06:
+        value: 118.64
+      2020-04-06:
+        value: 140.38
+      2021-04-06:
+        value: 140.38
+  D:
+    description: LHA rate for Ipswich homes in category CAT D
+    values:
+      2018-04-06:
+        value: 133.35
+      2019-04-06:
+        value: 137.35
+      2020-04-06:
+        value: 164.55
+      2021-04-06:
+        value: 164.55
+  E:
+    description: LHA rate for Ipswich homes in category CAT E
+    values:
+      2018-04-06:
+        value: 174.43
+      2019-04-06:
+        value: 179.66
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+ISLE_OF_WIGHT:
+  A:
+    description: LHA rate for Isle of Wight homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.5
+      2019-04-06:
+        value: 68.5
+      2020-04-06:
+        value: 71.5
+      2021-04-06:
+        value: 71.5
+  B:
+    description: LHA rate for Isle of Wight homes in category CAT B
+    values:
+      2018-04-06:
+        value: 93.13
+      2019-04-06:
+        value: 93.13
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Isle of Wight homes in category CAT C
+    values:
+      2018-04-06:
+        value: 121.97
+      2019-04-06:
+        value: 121.97
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  D:
+    description: LHA rate for Isle of Wight homes in category CAT D
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  E:
+    description: LHA rate for Isle of Wight homes in category CAT E
+    values:
+      2018-04-06:
+        value: 184.11
+      2019-04-06:
+        value: 184.11
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+KENDAL:
+  A:
+    description: LHA rate for Kendal homes in category CAT A
+    values:
+      2018-04-06:
+        value: 62.5
+      2019-04-06:
+        value: 62.5
+      2020-04-06:
+        value: 68
+      2021-04-06:
+        value: 68
+  B:
+    description: LHA rate for Kendal homes in category CAT B
+    values:
+      2018-04-06:
+        value: 96.91
+      2019-04-06:
+        value: 96.91
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  C:
+    description: LHA rate for Kendal homes in category CAT C
+    values:
+      2018-04-06:
+        value: 123.58
+      2019-04-06:
+        value: 127.29
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for Kendal homes in category CAT D
+    values:
+      2018-04-06:
+        value: 145.67
+      2019-04-06:
+        value: 150.04
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  E:
+    description: LHA rate for Kendal homes in category CAT E
+    values:
+      2018-04-06:
+        value: 174.81
+      2019-04-06:
+        value: 174.81
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+KERNOW_WEST:
+  A:
+    description: LHA rate for Kernow West homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.09
+      2019-04-06:
+        value: 69.1
+      2020-04-06:
+        value: 80.97
+      2021-04-06:
+        value: 80.97
+  B:
+    description: LHA rate for Kernow West homes in category CAT B
+    values:
+      2018-04-06:
+        value: 104.89
+      2019-04-06:
+        value: 104.89
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  C:
+    description: LHA rate for Kernow West homes in category CAT C
+    values:
+      2018-04-06:
+        value: 132.32
+      2019-04-06:
+        value: 132.32
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  D:
+    description: LHA rate for Kernow West homes in category CAT D
+    values:
+      2018-04-06:
+        value: 151.5
+      2019-04-06:
+        value: 151.5
+      2020-04-06:
+        value: 169.15
+      2021-04-06:
+        value: 169.15
+  E:
+    description: LHA rate for Kernow West homes in category CAT E
+    values:
+      2018-04-06:
+        value: 185.29
+      2019-04-06:
+        value: 185.29
+      2020-04-06:
+        value: 212.88
+      2021-04-06:
+        value: 212.88
+KINGS_LYNN:
+  A:
+    description: LHA rate for Kings Lynn homes in category CAT A
+    values:
+      2018-04-06:
+        value: 55.28
+      2019-04-06:
+        value: 55.28
+      2020-04-06:
+        value: 65.59
+      2021-04-06:
+        value: 65.59
+  B:
+    description: LHA rate for Kings Lynn homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.64
+      2019-04-06:
+        value: 90.64
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Kings Lynn homes in category CAT C
+    values:
+      2018-04-06:
+        value: 112.21
+      2019-04-06:
+        value: 115.58
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  D:
+    description: LHA rate for Kings Lynn homes in category CAT D
+    values:
+      2018-04-06:
+        value: 129.47
+      2019-04-06:
+        value: 133.35
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  E:
+    description: LHA rate for Kings Lynn homes in category CAT E
+    values:
+      2018-04-06:
+        value: 163.16
+      2019-04-06:
+        value: 168.05
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+KIRKLEES:
+  A:
+    description: LHA rate for Kirklees homes in category CAT A
+    values:
+      2018-04-06:
+        value: 55
+      2019-04-06:
+        value: 55
+      2020-04-06:
+        value: 56.5
+      2021-04-06:
+        value: 56.5
+  B:
+    description: LHA rate for Kirklees homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 85
+      2021-04-06:
+        value: 85
+  C:
+    description: LHA rate for Kirklees homes in category CAT C
+    values:
+      2018-04-06:
+        value: 96.91
+      2019-04-06:
+        value: 96.91
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Kirklees homes in category CAT D
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Kirklees homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 162.25
+      2021-04-06:
+        value: 162.25
+LANCASTER:
+  A:
+    description: LHA rate for Lancaster homes in category CAT A
+    values:
+      2018-04-06:
+        value: 57.48
+      2019-04-06:
+        value: 59.2
+      2020-04-06:
+        value: 70.25
+      2021-04-06:
+        value: 70.25
+  B:
+    description: LHA rate for Lancaster homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 96.66
+      2021-04-06:
+        value: 96.66
+  C:
+    description: LHA rate for Lancaster homes in category CAT C
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 115.07
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  D:
+    description: LHA rate for Lancaster homes in category CAT D
+    values:
+      2018-04-06:
+        value: 132.32
+      2019-04-06:
+        value: 132.32
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  E:
+    description: LHA rate for Lancaster homes in category CAT E
+    values:
+      2018-04-06:
+        value: 145.43
+      2019-04-06:
+        value: 145.43
+      2020-04-06:
+        value: 161.1
+      2021-04-06:
+        value: 161.1
+LEEDS:
+  A:
+    description: LHA rate for Leeds homes in category CAT A
+    values:
+      2018-04-06:
+        value: 62.31
+      2019-04-06:
+        value: 62.31
+      2020-04-06:
+        value: 66.16
+      2021-04-06:
+        value: 66.16
+  B:
+    description: LHA rate for Leeds homes in category CAT B
+    values:
+      2018-04-06:
+        value: 100.05
+      2019-04-06:
+        value: 100.05
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Leeds homes in category CAT C
+    values:
+      2018-04-06:
+        value: 122.36
+      2019-04-06:
+        value: 122.36
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  D:
+    description: LHA rate for Leeds homes in category CAT D
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 161.1
+      2021-04-06:
+        value: 161.1
+  E:
+    description: LHA rate for Leeds homes in category CAT E
+    values:
+      2018-04-06:
+        value: 195.62
+      2019-04-06:
+        value: 195.62
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+LEICESTER:
+  A:
+    description: LHA rate for Leicester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 61.38
+      2019-04-06:
+        value: 63.22
+      2020-04-06:
+        value: 78
+      2021-04-06:
+        value: 78
+  B:
+    description: LHA rate for Leicester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Leicester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 130.03
+      2021-04-06:
+        value: 130.03
+  D:
+    description: LHA rate for Leicester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 126.58
+      2019-04-06:
+        value: 130.38
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  E:
+    description: LHA rate for Leicester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 163.16
+      2019-04-06:
+        value: 163.16
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+LINCOLN:
+  A:
+    description: LHA rate for Lincoln homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.9
+      2019-04-06:
+        value: 58.9
+      2020-04-06:
+        value: 66.25
+      2021-04-06:
+        value: 66.25
+  B:
+    description: LHA rate for Lincoln homes in category CAT B
+    values:
+      2018-04-06:
+        value: 81.58
+      2019-04-06:
+        value: 81.58
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for Lincoln homes in category CAT C
+    values:
+      2018-04-06:
+        value: 100.22
+      2019-04-06:
+        value: 100.22
+      2020-04-06:
+        value: 117.37
+      2021-04-06:
+        value: 117.37
+  D:
+    description: LHA rate for Lincoln homes in category CAT D
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 115.07
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  E:
+    description: LHA rate for Lincoln homes in category CAT E
+    values:
+      2018-04-06:
+        value: 148.01
+      2019-04-06:
+        value: 148.01
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+LINCOLNSHIRE_FENS:
+  A:
+    description: LHA rate for Lincolnshire Fens homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.38
+      2019-04-06:
+        value: 58.38
+      2020-04-06:
+        value: 66.5
+      2021-04-06:
+        value: 66.5
+  B:
+    description: LHA rate for Lincolnshire Fens homes in category CAT B
+    values:
+      2018-04-06:
+        value: 88.28
+      2019-04-06:
+        value: 90.93
+      2020-04-06:
+        value: 100.11
+      2021-04-06:
+        value: 100.11
+  C:
+    description: LHA rate for Lincolnshire Fens homes in category CAT C
+    values:
+      2018-04-06:
+        value: 110.67
+      2019-04-06:
+        value: 113.99
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  D:
+    description: LHA rate for Lincolnshire Fens homes in category CAT D
+    values:
+      2018-04-06:
+        value: 129.47
+      2019-04-06:
+        value: 133.35
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  E:
+    description: LHA rate for Lincolnshire Fens homes in category CAT E
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 157.61
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+LOWESTOFT_GREAT_YARMOUTH:
+  A:
+    description: LHA rate for Lowestoft & Great Yarmouth homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.5
+      2019-04-06:
+        value: 64.5
+      2020-04-06:
+        value: 81.5
+      2021-04-06:
+        value: 81.5
+  B:
+    description: LHA rate for Lowestoft & Great Yarmouth homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.23
+      2019-04-06:
+        value: 86.23
+      2020-04-06:
+        value: 92
+      2021-04-06:
+        value: 92
+  C:
+    description: LHA rate for Lowestoft & Great Yarmouth homes in category CAT C
+    values:
+      2018-04-06:
+        value: 104.89
+      2019-04-06:
+        value: 104.89
+      2020-04-06:
+        value: 116.22
+      2021-04-06:
+        value: 116.22
+  D:
+    description: LHA rate for Lowestoft & Great Yarmouth homes in category CAT D
+    values:
+      2018-04-06:
+        value: 117.7
+      2019-04-06:
+        value: 117.7
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Lowestoft & Great Yarmouth homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.17
+      2019-04-06:
+        value: 149.17
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+LUTON:
+  A:
+    description: LHA rate for Luton homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.31
+      2019-04-06:
+        value: 66.24
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Luton homes in category CAT B
+    values:
+      2018-04-06:
+        value: 118.64
+      2019-04-06:
+        value: 122.2
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  C:
+    description: LHA rate for Luton homes in category CAT C
+    values:
+      2018-04-06:
+        value: 151.11
+      2019-04-06:
+        value: 155.64
+      2020-04-06:
+        value: 178.36
+      2021-04-06:
+        value: 178.36
+  D:
+    description: LHA rate for Luton homes in category CAT D
+    values:
+      2018-04-06:
+        value: 180.01
+      2019-04-06:
+        value: 185.41
+      2020-04-06:
+        value: 224.38
+      2021-04-06:
+        value: 224.38
+  E:
+    description: LHA rate for Luton homes in category CAT E
+    values:
+      2018-04-06:
+        value: 216.94
+      2019-04-06:
+        value: 223.45
+      2020-04-06:
+        value: 264.66
+      2021-04-06:
+        value: 264.66
+MAIDSTONE:
+  A:
+    description: LHA rate for Maidstone homes in category CAT A
+    values:
+      2018-04-06:
+        value: 70.33
+      2019-04-06:
+        value: 72.44
+      2020-04-06:
+        value: 88.85
+      2021-04-06:
+        value: 88.85
+  B:
+    description: LHA rate for Maidstone homes in category CAT B
+    values:
+      2018-04-06:
+        value: 127.29
+      2019-04-06:
+        value: 131.11
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  C:
+    description: LHA rate for Maidstone homes in category CAT C
+    values:
+      2018-04-06:
+        value: 157.56
+      2019-04-06:
+        value: 162.29
+      2020-04-06:
+        value: 187.56
+      2021-04-06:
+        value: 187.56
+  D:
+    description: LHA rate for Maidstone homes in category CAT D
+    values:
+      2018-04-06:
+        value: 180.45
+      2019-04-06:
+        value: 185.86
+      2020-04-06:
+        value: 224.38
+      2021-04-06:
+        value: 224.38
+  E:
+    description: LHA rate for Maidstone homes in category CAT E
+    values:
+      2018-04-06:
+        value: 235.41
+      2019-04-06:
+        value: 235.41
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+MEDWAY_SWALE:
+  A:
+    description: LHA rate for Medway & Swale homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.63
+      2019-04-06:
+        value: 67.08
+      2020-04-06:
+        value: 72.84
+      2021-04-06:
+        value: 72.84
+  B:
+    description: LHA rate for Medway & Swale homes in category CAT B
+    values:
+      2018-04-06:
+        value: 110.67
+      2019-04-06:
+        value: 113.99
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  C:
+    description: LHA rate for Medway & Swale homes in category CAT C
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 142.22
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  D:
+    description: LHA rate for Medway & Swale homes in category CAT D
+    values:
+      2018-04-06:
+        value: 157.61
+      2019-04-06:
+        value: 162.34
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  E:
+    description: LHA rate for Medway & Swale homes in category CAT E
+    values:
+      2018-04-06:
+        value: 204.05
+      2019-04-06:
+        value: 210.17
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+MENDIP:
+  A:
+    description: LHA rate for Mendip homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.08
+      2019-04-06:
+        value: 71.15
+      2020-04-06:
+        value: 75
+      2021-04-06:
+        value: 75
+  B:
+    description: LHA rate for Mendip homes in category CAT B
+    values:
+      2018-04-06:
+        value: 93.23
+      2019-04-06:
+        value: 93.23
+      2020-04-06:
+        value: 111.62
+      2021-04-06:
+        value: 111.62
+  C:
+    description: LHA rate for Mendip homes in category CAT C
+    values:
+      2018-04-06:
+        value: 123.58
+      2019-04-06:
+        value: 123.58
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  D:
+    description: LHA rate for Mendip homes in category CAT D
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 153.02
+      2020-04-06:
+        value: 179.51
+      2021-04-06:
+        value: 179.51
+  E:
+    description: LHA rate for Mendip homes in category CAT E
+    values:
+      2018-04-06:
+        value: 184.11
+      2019-04-06:
+        value: 189.63
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+MID_EAST_DEVON:
+  A:
+    description: LHA rate for Mid & East Devon homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.7
+      2019-04-06:
+        value: 70.76
+      2020-04-06:
+        value: 84.5
+      2021-04-06:
+        value: 84.5
+  B:
+    description: LHA rate for Mid & East Devon homes in category CAT B
+    values:
+      2018-04-06:
+        value: 96.96
+      2019-04-06:
+        value: 96.96
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Mid & East Devon homes in category CAT C
+    values:
+      2018-04-06:
+        value: 126.31
+      2019-04-06:
+        value: 126.31
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  D:
+    description: LHA rate for Mid & East Devon homes in category CAT D
+    values:
+      2018-04-06:
+        value: 151.5
+      2019-04-06:
+        value: 151.5
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  E:
+    description: LHA rate for Mid & East Devon homes in category CAT E
+    values:
+      2018-04-06:
+        value: 192.28
+      2019-04-06:
+        value: 192.28
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+MID_STAFFS:
+  A:
+    description: LHA rate for Mid Staffs homes in category CAT A
+    values:
+      2018-04-06:
+        value: 66.7
+      2019-04-06:
+        value: 66.7
+      2020-04-06:
+        value: 67.08
+      2021-04-06:
+        value: 67.08
+  B:
+    description: LHA rate for Mid Staffs homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for Mid Staffs homes in category CAT C
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  D:
+    description: LHA rate for Mid Staffs homes in category CAT D
+    values:
+      2018-04-06:
+        value: 129.47
+      2019-04-06:
+        value: 133.35
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  E:
+    description: LHA rate for Mid Staffs homes in category CAT E
+    values:
+      2018-04-06:
+        value: 170.67
+      2019-04-06:
+        value: 170.67
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+MID_WEST_DORSET:
+  A:
+    description: LHA rate for Mid & West Dorset homes in category CAT A
+    values:
+      2018-04-06:
+        value: 66.7
+      2019-04-06:
+        value: 68.7
+      2020-04-06:
+        value: 80
+      2021-04-06:
+        value: 80
+  B:
+    description: LHA rate for Mid & West Dorset homes in category CAT B
+    values:
+      2018-04-06:
+        value: 105.94
+      2019-04-06:
+        value: 105.94
+      2020-04-06:
+        value: 119.67
+      2021-04-06:
+        value: 119.67
+  C:
+    description: LHA rate for Mid & West Dorset homes in category CAT C
+    values:
+      2018-04-06:
+        value: 136.93
+      2019-04-06:
+        value: 136.93
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for Mid & West Dorset homes in category CAT D
+    values:
+      2018-04-06:
+        value: 161.1
+      2019-04-06:
+        value: 161.1
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  E:
+    description: LHA rate for Mid & West Dorset homes in category CAT E
+    values:
+      2018-04-06:
+        value: 200.09
+      2019-04-06:
+        value: 200.09
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+MILTON_KEYNES:
+  A:
+    description: LHA rate for Milton Keynes homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.81
+      2019-04-06:
+        value: 69.81
+      2020-04-06:
+        value: 70
+      2021-04-06:
+        value: 70
+  B:
+    description: LHA rate for Milton Keynes homes in category CAT B
+    values:
+      2018-04-06:
+        value: 124.83
+      2019-04-06:
+        value: 128.57
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  C:
+    description: LHA rate for Milton Keynes homes in category CAT C
+    values:
+      2018-04-06:
+        value: 156.05
+      2019-04-06:
+        value: 160.73
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+  D:
+    description: LHA rate for Milton Keynes homes in category CAT D
+    values:
+      2018-04-06:
+        value: 185.45
+      2019-04-06:
+        value: 191.01
+      2020-04-06:
+        value: 224.38
+      2021-04-06:
+        value: 224.38
+  E:
+    description: LHA rate for Milton Keynes homes in category CAT E
+    values:
+      2018-04-06:
+        value: 237.25
+      2019-04-06:
+        value: 244.37
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+NEWBURY:
+  A:
+    description: LHA rate for Newbury homes in category CAT A
+    values:
+      2018-04-06:
+        value: 73.67
+      2019-04-06:
+        value: 73.67
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Newbury homes in category CAT B
+    values:
+      2018-04-06:
+        value: 127.29
+      2019-04-06:
+        value: 131.11
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  C:
+    description: LHA rate for Newbury homes in category CAT C
+    values:
+      2018-04-06:
+        value: 161.07
+      2019-04-06:
+        value: 165.9
+      2020-04-06:
+        value: 192.74
+      2021-04-06:
+        value: 192.74
+  D:
+    description: LHA rate for Newbury homes in category CAT D
+    values:
+      2018-04-06:
+        value: 193.98
+      2019-04-06:
+        value: 199.8
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+  E:
+    description: LHA rate for Newbury homes in category CAT E
+    values:
+      2018-04-06:
+        value: 271.92
+      2019-04-06:
+        value: 280.08
+      2020-04-06:
+        value: 322.19
+      2021-04-06:
+        value: 322.19
+NORTH_CHESHIRE:
+  A:
+    description: LHA rate for North Cheshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 50.34
+      2019-04-06:
+        value: 51.85
+      2020-04-06:
+        value: 66.5
+      2021-04-06:
+        value: 66.5
+  B:
+    description: LHA rate for North Cheshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for North Cheshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  D:
+    description: LHA rate for North Cheshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 126.58
+      2019-04-06:
+        value: 126.58
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for North Cheshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 174.81
+      2019-04-06:
+        value: 174.81
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+NORTH_CORNWALL_DEVON_BORDERS:
+  A:
+    description: LHA rate for North Cornwall & Devon Borders homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.7
+      2019-04-06:
+        value: 68.7
+      2020-04-06:
+        value: 70
+      2021-04-06:
+        value: 70
+  B:
+    description: LHA rate for North Cornwall & Devon Borders homes in category CAT B
+    values:
+      2018-04-06:
+        value: 93.23
+      2019-04-06:
+        value: 93.23
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for North Cornwall & Devon Borders homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.06
+      2019-04-06:
+        value: 120.06
+      2020-04-06:
+        value: 123.12
+      2021-04-06:
+        value: 123.12
+  D:
+    description: LHA rate for North Cornwall & Devon Borders homes in category CAT D
+    values:
+      2018-04-06:
+        value: 139.84
+      2019-04-06:
+        value: 139.84
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  E:
+    description: LHA rate for North Cornwall & Devon Borders homes in category CAT E
+    values:
+      2018-04-06:
+        value: 168
+      2019-04-06:
+        value: 173.04
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+NORTH_CUMBRIA:
+  A:
+    description: LHA rate for North Cumbria homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.9
+      2019-04-06:
+        value: 58.9
+      2020-04-06:
+        value: 68
+      2021-04-06:
+        value: 68
+  B:
+    description: LHA rate for North Cumbria homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  C:
+    description: LHA rate for North Cumbria homes in category CAT C
+    values:
+      2018-04-06:
+        value: 94.39
+      2019-04-06:
+        value: 94.39
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  D:
+    description: LHA rate for North Cumbria homes in category CAT D
+    values:
+      2018-04-06:
+        value: 112.77
+      2019-04-06:
+        value: 112.77
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  E:
+    description: LHA rate for North Cumbria homes in category CAT E
+    values:
+      2018-04-06:
+        value: 141.24
+      2019-04-06:
+        value: 141.24
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+NORTH_DEVON:
+  A:
+    description: LHA rate for North Devon homes in category CAT A
+    values:
+      2018-04-06:
+        value: 63.25
+      2019-04-06:
+        value: 65.15
+      2020-04-06:
+        value: 69.04
+      2021-04-06:
+        value: 69.04
+  B:
+    description: LHA rate for North Devon homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for North Devon homes in category CAT C
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 115.07
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  D:
+    description: LHA rate for North Devon homes in category CAT D
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 138.08
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  E:
+    description: LHA rate for North Devon homes in category CAT E
+    values:
+      2018-04-06:
+        value: 168.46
+      2019-04-06:
+        value: 168.46
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+NORTH_NOTTINGHAM:
+  A:
+    description: LHA rate for North Nottingham homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.41
+      2019-04-06:
+        value: 58.41
+      2020-04-06:
+        value: 66.5
+      2021-04-06:
+        value: 66.5
+  B:
+    description: LHA rate for North Nottingham homes in category CAT B
+    values:
+      2018-04-06:
+        value: 72.72
+      2019-04-06:
+        value: 72.72
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  C:
+    description: LHA rate for North Nottingham homes in category CAT C
+    values:
+      2018-04-06:
+        value: 92.98
+      2019-04-06:
+        value: 92.98
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for North Nottingham homes in category CAT D
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  E:
+    description: LHA rate for North Nottingham homes in category CAT E
+    values:
+      2018-04-06:
+        value: 145.43
+      2019-04-06:
+        value: 145.43
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+NORTH_WEST_KENT:
+  A:
+    description: LHA rate for North West Kent homes in category CAT A
+    values:
+      2018-04-06:
+        value: 72.97
+      2019-04-06:
+        value: 75.16
+      2020-04-06:
+        value: 88.85
+      2021-04-06:
+        value: 88.85
+  B:
+    description: LHA rate for North West Kent homes in category CAT B
+    values:
+      2018-04-06:
+        value: 124.69
+      2019-04-06:
+        value: 128.43
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  C:
+    description: LHA rate for North West Kent homes in category CAT C
+    values:
+      2018-04-06:
+        value: 157.61
+      2019-04-06:
+        value: 162.34
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  D:
+    description: LHA rate for North West Kent homes in category CAT D
+    values:
+      2018-04-06:
+        value: 174.43
+      2019-04-06:
+        value: 179.66
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+  E:
+    description: LHA rate for North West Kent homes in category CAT E
+    values:
+      2018-04-06:
+        value: 257.16
+      2019-04-06:
+        value: 264.87
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+NORTH_WEST_LONDON:
+  A:
+    description: LHA rate for North West London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 90.02
+      2019-04-06:
+        value: 92.72
+      2020-04-06:
+        value: 113.11
+      2021-04-06:
+        value: 113.11
+  B:
+    description: LHA rate for North West London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 197.12
+      2019-04-06:
+        value: 203.03
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+  C:
+    description: LHA rate for North West London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 249.6
+      2019-04-06:
+        value: 257.09
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+  D:
+    description: LHA rate for North West London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 312.09
+      2019-04-06:
+        value: 321.45
+      2020-04-06:
+        value: 356.71
+      2021-04-06:
+        value: 356.71
+  E:
+    description: LHA rate for North West London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 385.63
+      2019-04-06:
+        value: 385.63
+      2020-04-06:
+        value: 425.75
+      2021-04-06:
+        value: 425.75
+NORTHAMPTON:
+  A:
+    description: LHA rate for Northampton homes in category CAT A
+    values:
+      2018-04-06:
+        value: 66.32
+      2019-04-06:
+        value: 68.31
+      2020-04-06:
+        value: 89.5
+      2021-04-06:
+        value: 89.5
+  B:
+    description: LHA rate for Northampton homes in category CAT B
+    values:
+      2018-04-06:
+        value: 103.05
+      2019-04-06:
+        value: 106.14
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  C:
+    description: LHA rate for Northampton homes in category CAT C
+    values:
+      2018-04-06:
+        value: 130.1
+      2019-04-06:
+        value: 134
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  D:
+    description: LHA rate for Northampton homes in category CAT D
+    values:
+      2018-04-06:
+        value: 139.84
+      2019-04-06:
+        value: 144.04
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  E:
+    description: LHA rate for Northampton homes in category CAT E
+    values:
+      2018-04-06:
+        value: 187.14
+      2019-04-06:
+        value: 192.75
+      2020-04-06:
+        value: 234.74
+      2021-04-06:
+        value: 234.74
+NORTHANTS_CENTRAL:
+  A:
+    description: LHA rate for Northants Central homes in category CAT A
+    values:
+      2018-04-06:
+        value: 53.81
+      2019-04-06:
+        value: 55.42
+      2020-04-06:
+        value: 80
+      2021-04-06:
+        value: 80
+  B:
+    description: LHA rate for Northants Central homes in category CAT B
+    values:
+      2018-04-06:
+        value: 84.87
+      2019-04-06:
+        value: 87.42
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  C:
+    description: LHA rate for Northants Central homes in category CAT C
+    values:
+      2018-04-06:
+        value: 109.12
+      2019-04-06:
+        value: 112.39
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for Northants Central homes in category CAT D
+    values:
+      2018-04-06:
+        value: 127.29
+      2019-04-06:
+        value: 131.11
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  E:
+    description: LHA rate for Northants Central homes in category CAT E
+    values:
+      2018-04-06:
+        value: 164.79
+      2019-04-06:
+        value: 169.73
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+NORTHUMBERLAND:
+  A:
+    description: LHA rate for Northumberland homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.62
+      2019-04-06:
+        value: 69.65
+      2020-04-06:
+        value: 73.9
+      2021-04-06:
+        value: 73.9
+  B:
+    description: LHA rate for Northumberland homes in category CAT B
+    values:
+      2018-04-06:
+        value: 74.15
+      2019-04-06:
+        value: 74.15
+      2020-04-06:
+        value: 78.25
+      2021-04-06:
+        value: 78.25
+  C:
+    description: LHA rate for Northumberland homes in category CAT C
+    values:
+      2018-04-06:
+        value: 87.45
+      2019-04-06:
+        value: 87.45
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  D:
+    description: LHA rate for Northumberland homes in category CAT D
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  E:
+    description: LHA rate for Northumberland homes in category CAT E
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 138.08
+      2020-04-06:
+        value: 161.1
+      2021-04-06:
+        value: 161.1
+NOTTINGHAM:
+  A:
+    description: LHA rate for Nottingham homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69
+      2019-04-06:
+        value: 69
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  B:
+    description: LHA rate for Nottingham homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 108.16
+      2021-04-06:
+        value: 108.16
+  C:
+    description: LHA rate for Nottingham homes in category CAT C
+    values:
+      2018-04-06:
+        value: 108.26
+      2019-04-06:
+        value: 108.26
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  D:
+    description: LHA rate for Nottingham homes in category CAT D
+    values:
+      2018-04-06:
+        value: 120.29
+      2019-04-06:
+        value: 123.9
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  E:
+    description: LHA rate for Nottingham homes in category CAT E
+    values:
+      2018-04-06:
+        value: 151.5
+      2019-04-06:
+        value: 156.05
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+OLDHAM_ROCHDALE:
+  A:
+    description: LHA rate for Oldham & Rochdale homes in category CAT A
+    values:
+      2018-04-06:
+        value: 55.9
+      2019-04-06:
+        value: 55.9
+      2020-04-06:
+        value: 66.39
+      2021-04-06:
+        value: 66.39
+  B:
+    description: LHA rate for Oldham & Rochdale homes in category CAT B
+    values:
+      2018-04-06:
+        value: 83.91
+      2019-04-06:
+        value: 83.91
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  C:
+    description: LHA rate for Oldham & Rochdale homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 103.85
+      2021-04-06:
+        value: 103.85
+  D:
+    description: LHA rate for Oldham & Rochdale homes in category CAT D
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Oldham & Rochdale homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+OUTER_EAST_LONDON:
+  A:
+    description: LHA rate for Outer East London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 81.23
+      2019-04-06:
+        value: 83.67
+      2020-04-06:
+        value: 113.11
+      2021-04-06:
+        value: 113.11
+  B:
+    description: LHA rate for Outer East London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 187.25
+      2019-04-06:
+        value: 192.87
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+  C:
+    description: LHA rate for Outer East London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 236.47
+      2019-04-06:
+        value: 243.56
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+  D:
+    description: LHA rate for Outer East London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 295.59
+      2019-04-06:
+        value: 304.46
+      2020-04-06:
+        value: 356.71
+      2021-04-06:
+        value: 356.71
+  E:
+    description: LHA rate for Outer East London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 351.81
+      2019-04-06:
+        value: 362.36
+      2020-04-06:
+        value: 414.25
+      2021-04-06:
+        value: 414.25
+OUTER_NORTH_EAST_LONDON:
+  A:
+    description: LHA rate for Outer North East London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 77.4
+      2019-04-06:
+        value: 79.72
+      2020-04-06:
+        value: 101.61
+      2021-04-06:
+        value: 101.61
+  B:
+    description: LHA rate for Outer North East London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 160.24
+      2019-04-06:
+        value: 165.05
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  C:
+    description: LHA rate for Outer North East London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 198.4
+      2019-04-06:
+        value: 204.35
+      2020-04-06:
+        value: 264.66
+      2021-04-06:
+        value: 264.66
+  D:
+    description: LHA rate for Outer North East London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 249.67
+      2019-04-06:
+        value: 257.16
+      2020-04-06:
+        value: 316.44
+      2021-04-06:
+        value: 316.44
+  E:
+    description: LHA rate for Outer North East London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 322.15
+      2019-04-06:
+        value: 331.81
+      2020-04-06:
+        value: 398.14
+      2021-04-06:
+        value: 398.14
+OUTER_NORTH_LONDON:
+  A:
+    description: LHA rate for Outer North London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 90.64
+      2019-04-06:
+        value: 90.64
+      2020-04-06:
+        value: 113.11
+      2021-04-06:
+        value: 113.11
+  B:
+    description: LHA rate for Outer North London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 205.67
+      2019-04-06:
+        value: 211.84
+      2020-04-06:
+        value: 246.24
+      2021-04-06:
+        value: 246.24
+  C:
+    description: LHA rate for Outer North London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 255.34
+      2019-04-06:
+        value: 263
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+  D:
+    description: LHA rate for Outer North London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 315.12
+      2019-04-06:
+        value: 324.57
+      2020-04-06:
+        value: 368.22
+      2021-04-06:
+        value: 368.22
+  E:
+    description: LHA rate for Outer North London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 388.65
+      2019-04-06:
+        value: 388.65
+      2020-04-06:
+        value: 437.26
+      2021-04-06:
+        value: 437.26
+OUTER_SOUTH_EAST_LONDON:
+  A:
+    description: LHA rate for Outer South East London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 84.27
+      2019-04-06:
+        value: 86.8
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  B:
+    description: LHA rate for Outer South East London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 165.85
+      2019-04-06:
+        value: 170.83
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+  C:
+    description: LHA rate for Outer South East London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 204.05
+      2019-04-06:
+        value: 210.17
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  D:
+    description: LHA rate for Outer South East London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 249.67
+      2019-04-06:
+        value: 257.16
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+  E:
+    description: LHA rate for Outer South East London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 312.77
+      2019-04-06:
+        value: 322.15
+      2020-04-06:
+        value: 368.22
+      2021-04-06:
+        value: 368.22
+OUTER_SOUTH_LONDON:
+  A:
+    description: LHA rate for Outer South London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 84.93
+      2019-04-06:
+        value: 84.93
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  B:
+    description: LHA rate for Outer South London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 177.41
+      2019-04-06:
+        value: 182.73
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+  C:
+    description: LHA rate for Outer South London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 223.4
+      2019-04-06:
+        value: 230.1
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  D:
+    description: LHA rate for Outer South London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 279.14
+      2019-04-06:
+        value: 279.14
+      2020-04-06:
+        value: 316.44
+      2021-04-06:
+        value: 316.44
+  E:
+    description: LHA rate for Outer South London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 354.71
+      2019-04-06:
+        value: 365.35
+      2020-04-06:
+        value: 399.29
+      2021-04-06:
+        value: 399.29
+OUTER_SOUTH_WEST_LONDON:
+  A:
+    description: LHA rate for Outer South West London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 90.08
+      2019-04-06:
+        value: 92.78
+      2020-04-06:
+        value: 116.91
+      2021-04-06:
+        value: 116.91
+  B:
+    description: LHA rate for Outer South West London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 216.06
+      2019-04-06:
+        value: 222.54
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+  C:
+    description: LHA rate for Outer South West London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 280.6
+      2019-04-06:
+        value: 280.6
+      2020-04-06:
+        value: 304.93
+      2021-04-06:
+        value: 304.93
+  D:
+    description: LHA rate for Outer South West London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 336.96
+      2019-04-06:
+        value: 336.96
+      2020-04-06:
+        value: 368.22
+      2021-04-06:
+        value: 368.22
+  E:
+    description: LHA rate for Outer South West London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 429.53
+      2019-04-06:
+        value: 429.53
+      2020-04-06:
+        value: 494.79
+      2021-04-06:
+        value: 494.79
+OUTER_WEST_LONDON:
+  A:
+    description: LHA rate for Outer West London homes in category CAT A
+    values:
+      2018-04-06:
+        value: 84.88
+      2019-04-06:
+        value: 87.43
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  B:
+    description: LHA rate for Outer West London homes in category CAT B
+    values:
+      2018-04-06:
+        value: 181.01
+      2019-04-06:
+        value: 186.44
+      2020-04-06:
+        value: 212.88
+      2021-04-06:
+        value: 212.88
+  C:
+    description: LHA rate for Outer West London homes in category CAT C
+    values:
+      2018-04-06:
+        value: 236.54
+      2019-04-06:
+        value: 243.64
+      2020-04-06:
+        value: 270.41
+      2021-04-06:
+        value: 270.41
+  D:
+    description: LHA rate for Outer West London homes in category CAT D
+    values:
+      2018-04-06:
+        value: 280.68
+      2019-04-06:
+        value: 280.68
+      2020-04-06:
+        value: 322.19
+      2021-04-06:
+        value: 322.19
+  E:
+    description: LHA rate for Outer West London homes in category CAT E
+    values:
+      2018-04-06:
+        value: 327.54
+      2019-04-06:
+        value: 337.37
+      2020-04-06:
+        value: 379.73
+      2021-04-06:
+        value: 379.73
+OXFORD:
+  A:
+    description: LHA rate for Oxford homes in category CAT A
+    values:
+      2018-04-06:
+        value: 82.97
+      2019-04-06:
+        value: 85.46
+      2020-04-06:
+        value: 118.87
+      2021-04-06:
+        value: 118.87
+  B:
+    description: LHA rate for Oxford homes in category CAT B
+    values:
+      2018-04-06:
+        value: 158.9
+      2019-04-06:
+        value: 163.67
+      2020-04-06:
+        value: 178.36
+      2021-04-06:
+        value: 178.36
+  C:
+    description: LHA rate for Oxford homes in category CAT C
+    values:
+      2018-04-06:
+        value: 192.48
+      2019-04-06:
+        value: 192.48
+      2020-04-06:
+        value: 210
+      2021-04-06:
+        value: 210
+  D:
+    description: LHA rate for Oxford homes in category CAT D
+    values:
+      2018-04-06:
+        value: 230.14
+      2019-04-06:
+        value: 230.14
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  E:
+    description: LHA rate for Oxford homes in category CAT E
+    values:
+      2018-04-06:
+        value: 299.18
+      2019-04-06:
+        value: 299.18
+      2020-04-06:
+        value: 364.77
+      2021-04-06:
+        value: 364.77
+PEAKS_DALES:
+  A:
+    description: LHA rate for Peaks & Dales homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.93
+      2019-04-06:
+        value: 67.93
+      2020-04-06:
+        value: 70.19
+      2021-04-06:
+        value: 70.19
+  B:
+    description: LHA rate for Peaks & Dales homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.21
+      2019-04-06:
+        value: 90.21
+      2020-04-06:
+        value: 97.7
+      2021-04-06:
+        value: 97.7
+  C:
+    description: LHA rate for Peaks & Dales homes in category CAT C
+    values:
+      2018-04-06:
+        value: 110.72
+      2019-04-06:
+        value: 110.72
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  D:
+    description: LHA rate for Peaks & Dales homes in category CAT D
+    values:
+      2018-04-06:
+        value: 128.19
+      2019-04-06:
+        value: 128.19
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  E:
+    description: LHA rate for Peaks & Dales homes in category CAT E
+    values:
+      2018-04-06:
+        value: 168
+      2019-04-06:
+        value: 168
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+PETERBOROUGH:
+  A:
+    description: LHA rate for Peterborough homes in category CAT A
+    values:
+      2018-04-06:
+        value: 57.15
+      2019-04-06:
+        value: 57.15
+      2020-04-06:
+        value: 65.59
+      2021-04-06:
+        value: 65.59
+  B:
+    description: LHA rate for Peterborough homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 94.81
+      2020-04-06:
+        value: 110.47
+      2021-04-06:
+        value: 110.47
+  C:
+    description: LHA rate for Peterborough homes in category CAT C
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 118.52
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  D:
+    description: LHA rate for Peterborough homes in category CAT D
+    values:
+      2018-04-06:
+        value: 132.32
+      2019-04-06:
+        value: 136.29
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  E:
+    description: LHA rate for Peterborough homes in category CAT E
+    values:
+      2018-04-06:
+        value: 168.41
+      2019-04-06:
+        value: 173.46
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+PLYMOUTH:
+  A:
+    description: LHA rate for Plymouth homes in category CAT A
+    values:
+      2018-04-06:
+        value: 71.21
+      2019-04-06:
+        value: 71.21
+      2020-04-06:
+        value: 73.5
+      2021-04-06:
+        value: 73.5
+  B:
+    description: LHA rate for Plymouth homes in category CAT B
+    values:
+      2018-04-06:
+        value: 94.16
+      2019-04-06:
+        value: 96.98
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Plymouth homes in category CAT C
+    values:
+      2018-04-06:
+        value: 122.36
+      2019-04-06:
+        value: 122.36
+      2020-04-06:
+        value: 134.63
+      2021-04-06:
+        value: 134.63
+  D:
+    description: LHA rate for Plymouth homes in category CAT D
+    values:
+      2018-04-06:
+        value: 145.43
+      2019-04-06:
+        value: 145.43
+      2020-04-06:
+        value: 159.95
+      2021-04-06:
+        value: 159.95
+  E:
+    description: LHA rate for Plymouth homes in category CAT E
+    values:
+      2018-04-06:
+        value: 182.45
+      2019-04-06:
+        value: 182.45
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+PORTSMOUTH:
+  A:
+    description: LHA rate for Portsmouth homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.04
+      2019-04-06:
+        value: 69.04
+      2020-04-06:
+        value: 78.81
+      2021-04-06:
+        value: 78.81
+  B:
+    description: LHA rate for Portsmouth homes in category CAT B
+    values:
+      2018-04-06:
+        value: 116.53
+      2019-04-06:
+        value: 120.03
+      2020-04-06:
+        value: 134.63
+      2021-04-06:
+        value: 134.63
+  C:
+    description: LHA rate for Portsmouth homes in category CAT C
+    values:
+      2018-04-06:
+        value: 144.36
+      2019-04-06:
+        value: 148.69
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  D:
+    description: LHA rate for Portsmouth homes in category CAT D
+    values:
+      2018-04-06:
+        value: 172.6
+      2019-04-06:
+        value: 177.78
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+  E:
+    description: LHA rate for Portsmouth homes in category CAT E
+    values:
+      2018-04-06:
+        value: 240
+      2019-04-06:
+        value: 240
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+READING:
+  A:
+    description: LHA rate for Reading homes in category CAT A
+    values:
+      2018-04-06:
+        value: 81.14
+      2019-04-06:
+        value: 81.14
+      2020-04-06:
+        value: 89.75
+      2021-04-06:
+        value: 89.75
+  B:
+    description: LHA rate for Reading homes in category CAT B
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 157.61
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  C:
+    description: LHA rate for Reading homes in category CAT C
+    values:
+      2018-04-06:
+        value: 193.98
+      2019-04-06:
+        value: 199.8
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+  D:
+    description: LHA rate for Reading homes in category CAT D
+    values:
+      2018-04-06:
+        value: 221.79
+      2019-04-06:
+        value: 228.44
+      2020-04-06:
+        value: 264.66
+      2021-04-06:
+        value: 264.66
+  E:
+    description: LHA rate for Reading homes in category CAT E
+    values:
+      2018-04-06:
+        value: 315.12
+      2019-04-06:
+        value: 315.12
+      2020-04-06:
+        value: 356.71
+      2021-04-06:
+        value: 356.71
+RICHMOND_HAMBLETON:
+  A:
+    description: LHA rate for Richmond & Hambleton homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.35
+      2019-04-06:
+        value: 68.35
+      2020-04-06:
+        value: 75
+      2021-04-06:
+        value: 75
+  B:
+    description: LHA rate for Richmond & Hambleton homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  C:
+    description: LHA rate for Richmond & Hambleton homes in category CAT C
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  D:
+    description: LHA rate for Richmond & Hambleton homes in category CAT D
+    values:
+      2018-04-06:
+        value: 128.19
+      2019-04-06:
+        value: 128.19
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for Richmond & Hambleton homes in category CAT E
+    values:
+      2018-04-06:
+        value: 161.1
+      2019-04-06:
+        value: 161.1
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+ROTHERHAM:
+  A:
+    description: LHA rate for Rotherham homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.5
+      2019-04-06:
+        value: 60.26
+      2020-04-06:
+        value: 61.5
+      2021-04-06:
+        value: 61.5
+  B:
+    description: LHA rate for Rotherham homes in category CAT B
+    values:
+      2018-04-06:
+        value: 79.4
+      2019-04-06:
+        value: 79.4
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Rotherham homes in category CAT C
+    values:
+      2018-04-06:
+        value: 96.96
+      2019-04-06:
+        value: 96.96
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  D:
+    description: LHA rate for Rotherham homes in category CAT D
+    values:
+      2018-04-06:
+        value: 101
+      2019-04-06:
+        value: 101
+      2020-04-06:
+        value: 110.47
+      2021-04-06:
+        value: 110.47
+  E:
+    description: LHA rate for Rotherham homes in category CAT E
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 138.08
+      2020-04-06:
+        value: 157.64
+      2021-04-06:
+        value: 157.64
+RUGBY_EAST:
+  A:
+    description: LHA rate for Rugby & East homes in category CAT A
+    values:
+      2018-04-06:
+        value: 63.98
+      2019-04-06:
+        value: 65.9
+      2020-04-06:
+        value: 84.35
+      2021-04-06:
+        value: 84.35
+  B:
+    description: LHA rate for Rugby & East homes in category CAT B
+    values:
+      2018-04-06:
+        value: 94.82
+      2019-04-06:
+        value: 97.66
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Rugby & East homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.02
+      2019-04-06:
+        value: 123.62
+      2020-04-06:
+        value: 147.29
+      2021-04-06:
+        value: 147.29
+  D:
+    description: LHA rate for Rugby & East homes in category CAT D
+    values:
+      2018-04-06:
+        value: 138.04
+      2019-04-06:
+        value: 142.18
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  E:
+    description: LHA rate for Rugby & East homes in category CAT E
+    values:
+      2018-04-06:
+        value: 188.45
+      2019-04-06:
+        value: 194.1
+      2020-04-06:
+        value: 228.99
+      2021-04-06:
+        value: 228.99
+SALISBURY:
+  A:
+    description: LHA rate for Salisbury homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.88
+      2019-04-06:
+        value: 71.98
+      2020-04-06:
+        value: 83.1
+      2021-04-06:
+        value: 83.1
+  B:
+    description: LHA rate for Salisbury homes in category CAT B
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 118.52
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  C:
+    description: LHA rate for Salisbury homes in category CAT C
+    values:
+      2018-04-06:
+        value: 143.84
+      2019-04-06:
+        value: 143.84
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  D:
+    description: LHA rate for Salisbury homes in category CAT D
+    values:
+      2018-04-06:
+        value: 172.6
+      2019-04-06:
+        value: 172.6
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  E:
+    description: LHA rate for Salisbury homes in category CAT E
+    values:
+      2018-04-06:
+        value: 228.99
+      2019-04-06:
+        value: 228.99
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+SCARBOROUGH:
+  A:
+    description: LHA rate for Scarborough homes in category CAT A
+    values:
+      2018-04-06:
+        value: 58.59
+      2019-04-06:
+        value: 60.35
+      2020-04-06:
+        value: 65.5
+      2021-04-06:
+        value: 65.5
+  B:
+    description: LHA rate for Scarborough homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Scarborough homes in category CAT C
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 111.62
+      2021-04-06:
+        value: 111.62
+  D:
+    description: LHA rate for Scarborough homes in category CAT D
+    values:
+      2018-04-06:
+        value: 124.77
+      2019-04-06:
+        value: 124.77
+      2020-04-06:
+        value: 128.88
+      2021-04-06:
+        value: 128.88
+  E:
+    description: LHA rate for Scarborough homes in category CAT E
+    values:
+      2018-04-06:
+        value: 136.93
+      2019-04-06:
+        value: 136.93
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+SCUNTHORPE:
+  A:
+    description: LHA rate for Scunthorpe homes in category CAT A
+    values:
+      2018-04-06:
+        value: 53.5
+      2019-04-06:
+        value: 53.5
+      2020-04-06:
+        value: 56
+      2021-04-06:
+        value: 56
+  B:
+    description: LHA rate for Scunthorpe homes in category CAT B
+    values:
+      2018-04-06:
+        value: 74.59
+      2019-04-06:
+        value: 74.59
+      2020-04-06:
+        value: 74.79
+      2021-04-06:
+        value: 74.79
+  C:
+    description: LHA rate for Scunthorpe homes in category CAT C
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Scunthorpe homes in category CAT D
+    values:
+      2018-04-06:
+        value: 104.89
+      2019-04-06:
+        value: 104.89
+      2020-04-06:
+        value: 111.62
+      2021-04-06:
+        value: 111.62
+  E:
+    description: LHA rate for Scunthorpe homes in category CAT E
+    values:
+      2018-04-06:
+        value: 134.02
+      2019-04-06:
+        value: 134.02
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+SHEFFIELD:
+  A:
+    description: LHA rate for Sheffield homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.41
+      2019-04-06:
+        value: 64.41
+      2020-04-06:
+        value: 65.59
+      2021-04-06:
+        value: 65.59
+  B:
+    description: LHA rate for Sheffield homes in category CAT B
+    values:
+      2018-04-06:
+        value: 94.8
+      2019-04-06:
+        value: 94.8
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  C:
+    description: LHA rate for Sheffield homes in category CAT C
+    values:
+      2018-04-06:
+        value: 107.11
+      2019-04-06:
+        value: 107.11
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  D:
+    description: LHA rate for Sheffield homes in category CAT D
+    values:
+      2018-04-06:
+        value: 116.53
+      2019-04-06:
+        value: 116.53
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  E:
+    description: LHA rate for Sheffield homes in category CAT E
+    values:
+      2018-04-06:
+        value: 156
+      2019-04-06:
+        value: 156
+      2020-04-06:
+        value: 187.56
+      2021-04-06:
+        value: 187.56
+SHROPSHIRE:
+  A:
+    description: LHA rate for Shropshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.89
+      2019-04-06:
+        value: 67.89
+      2020-04-06:
+        value: 75
+      2021-04-06:
+        value: 75
+  B:
+    description: LHA rate for Shropshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 87.41
+      2019-04-06:
+        value: 87.41
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  C:
+    description: LHA rate for Shropshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  D:
+    description: LHA rate for Shropshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 129.47
+      2019-04-06:
+        value: 129.47
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  E:
+    description: LHA rate for Shropshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 170.67
+      2019-04-06:
+        value: 170.67
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+SOLIHULL:
+  A:
+    description: LHA rate for Solihull homes in category CAT A
+    values:
+      2018-04-06:
+        value: 73.25
+      2019-04-06:
+        value: 75.45
+      2020-04-06:
+        value: 85.5
+      2021-04-06:
+        value: 85.5
+  B:
+    description: LHA rate for Solihull homes in category CAT B
+    values:
+      2018-04-06:
+        value: 116.53
+      2019-04-06:
+        value: 116.53
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  C:
+    description: LHA rate for Solihull homes in category CAT C
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  D:
+    description: LHA rate for Solihull homes in category CAT D
+    values:
+      2018-04-06:
+        value: 172.6
+      2019-04-06:
+        value: 172.6
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+  E:
+    description: LHA rate for Solihull homes in category CAT E
+    values:
+      2018-04-06:
+        value: 230.14
+      2019-04-06:
+        value: 230.14
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+SOUTH_CHESHIRE:
+  A:
+    description: LHA rate for South Cheshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 54.6
+      2019-04-06:
+        value: 56.24
+      2020-04-06:
+        value: 60
+      2021-04-06:
+        value: 60
+  B:
+    description: LHA rate for South Cheshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 84.84
+      2019-04-06:
+        value: 84.84
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  C:
+    description: LHA rate for South Cheshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  D:
+    description: LHA rate for South Cheshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 126.58
+      2019-04-06:
+        value: 126.58
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for South Cheshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 172.6
+      2019-04-06:
+        value: 172.6
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+SOUTH_DEVON:
+  A:
+    description: LHA rate for South Devon homes in category CAT A
+    values:
+      2018-04-06:
+        value: 63.5
+      2019-04-06:
+        value: 63.5
+      2020-04-06:
+        value: 65
+      2021-04-06:
+        value: 65
+  B:
+    description: LHA rate for South Devon homes in category CAT B
+    values:
+      2018-04-06:
+        value: 96.91
+      2019-04-06:
+        value: 96.91
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for South Devon homes in category CAT C
+    values:
+      2018-04-06:
+        value: 128.19
+      2019-04-06:
+        value: 128.19
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for South Devon homes in category CAT D
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 153.02
+      2020-04-06:
+        value: 168
+      2021-04-06:
+        value: 168
+  E:
+    description: LHA rate for South Devon homes in category CAT E
+    values:
+      2018-04-06:
+        value: 192.24
+      2019-04-06:
+        value: 192.24
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+SOUTH_EAST_HERTS:
+  A:
+    description: LHA rate for South East Herts homes in category CAT A
+    values:
+      2018-04-06:
+        value: 74.79
+      2019-04-06:
+        value: 74.79
+      2020-04-06:
+        value: 82.04
+      2021-04-06:
+        value: 82.04
+  B:
+    description: LHA rate for South East Herts homes in category CAT B
+    values:
+      2018-04-06:
+        value: 150.97
+      2019-04-06:
+        value: 155.5
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  C:
+    description: LHA rate for South East Herts homes in category CAT C
+    values:
+      2018-04-06:
+        value: 192.05
+      2019-04-06:
+        value: 197.81
+      2020-04-06:
+        value: 212.88
+      2021-04-06:
+        value: 212.88
+  D:
+    description: LHA rate for South East Herts homes in category CAT D
+    values:
+      2018-04-06:
+        value: 237.19
+      2019-04-06:
+        value: 244.31
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+  E:
+    description: LHA rate for South East Herts homes in category CAT E
+    values:
+      2018-04-06:
+        value: 293.79
+      2019-04-06:
+        value: 293.79
+      2020-04-06:
+        value: 322.19
+      2021-04-06:
+        value: 322.19
+SOUTH_WEST_ESSEX:
+  A:
+    description: LHA rate for South West Essex homes in category CAT A
+    values:
+      2018-04-06:
+        value: 65.41
+      2019-04-06:
+        value: 67.37
+      2020-04-06:
+        value: 76.64
+      2021-04-06:
+        value: 76.64
+  B:
+    description: LHA rate for South West Essex homes in category CAT B
+    values:
+      2018-04-06:
+        value: 132.04
+      2019-04-06:
+        value: 136
+      2020-04-06:
+        value: 161.1
+      2021-04-06:
+        value: 161.1
+  C:
+    description: LHA rate for South West Essex homes in category CAT C
+    values:
+      2018-04-06:
+        value: 166.1
+      2019-04-06:
+        value: 171.08
+      2020-04-06:
+        value: 201.37
+      2021-04-06:
+        value: 201.37
+  D:
+    description: LHA rate for South West Essex homes in category CAT D
+    values:
+      2018-04-06:
+        value: 193.98
+      2019-04-06:
+        value: 199.8
+      2020-04-06:
+        value: 247.4
+      2021-04-06:
+        value: 247.4
+  E:
+    description: LHA rate for South West Essex homes in category CAT E
+    values:
+      2018-04-06:
+        value: 266.65
+      2019-04-06:
+        value: 266.65
+      2020-04-06:
+        value: 306.66
+      2021-04-06:
+        value: 306.66
+SOUTH_WEST_HERTS:
+  A:
+    description: LHA rate for South West Herts homes in category CAT A
+    values:
+      2018-04-06:
+        value: 80.86
+      2019-04-06:
+        value: 83.29
+      2020-04-06:
+        value: 95.85
+      2021-04-06:
+        value: 95.85
+  B:
+    description: LHA rate for South West Herts homes in category CAT B
+    values:
+      2018-04-06:
+        value: 160.68
+      2019-04-06:
+        value: 165.5
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  C:
+    description: LHA rate for South West Herts homes in category CAT C
+    values:
+      2018-04-06:
+        value: 202.87
+      2019-04-06:
+        value: 208.96
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+  D:
+    description: LHA rate for South West Herts homes in category CAT D
+    values:
+      2018-04-06:
+        value: 254.62
+      2019-04-06:
+        value: 262.26
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+  E:
+    description: LHA rate for South West Herts homes in category CAT E
+    values:
+      2018-04-06:
+        value: 358.8
+      2019-04-06:
+        value: 358.8
+      2020-04-06:
+        value: 391.23
+      2021-04-06:
+        value: 391.23
+SOUTHAMPTON:
+  A:
+    description: LHA rate for Southampton homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.5
+      2019-04-06:
+        value: 67.5
+      2020-04-06:
+        value: 77.44
+      2021-04-06:
+        value: 77.44
+  B:
+    description: LHA rate for Southampton homes in category CAT B
+    values:
+      2018-04-06:
+        value: 116.53
+      2019-04-06:
+        value: 120.03
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  C:
+    description: LHA rate for Southampton homes in category CAT C
+    values:
+      2018-04-06:
+        value: 156.38
+      2019-04-06:
+        value: 161.07
+      2020-04-06:
+        value: 178.36
+      2021-04-06:
+        value: 178.36
+  D:
+    description: LHA rate for Southampton homes in category CAT D
+    values:
+      2018-04-06:
+        value: 184.49
+      2019-04-06:
+        value: 190.02
+      2020-04-06:
+        value: 212.88
+      2021-04-06:
+        value: 212.88
+  E:
+    description: LHA rate for Southampton homes in category CAT E
+    values:
+      2018-04-06:
+        value: 242.4
+      2019-04-06:
+        value: 242.4
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+SOUTHEND:
+  A:
+    description: LHA rate for Southend homes in category CAT A
+    values:
+      2018-04-06:
+        value: 68.78
+      2019-04-06:
+        value: 68.78
+      2020-04-06:
+        value: 73.99
+      2021-04-06:
+        value: 73.99
+  B:
+    description: LHA rate for Southend homes in category CAT B
+    values:
+      2018-04-06:
+        value: 120.02
+      2019-04-06:
+        value: 123.62
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  C:
+    description: LHA rate for Southend homes in category CAT C
+    values:
+      2018-04-06:
+        value: 156.05
+      2019-04-06:
+        value: 160.73
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  D:
+    description: LHA rate for Southend homes in category CAT D
+    values:
+      2018-04-06:
+        value: 186.47
+      2019-04-06:
+        value: 192.06
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+  E:
+    description: LHA rate for Southend homes in category CAT E
+    values:
+      2018-04-06:
+        value: 240
+      2019-04-06:
+        value: 247.2
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+SOUTHERN_GREATER_MANCHESTER:
+  A:
+    description: LHA rate for Southern Greater Manchester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 61.37
+      2019-04-06:
+        value: 63.21
+      2020-04-06:
+        value: 82.81
+      2021-04-06:
+        value: 82.81
+  B:
+    description: LHA rate for Southern Greater Manchester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 102.25
+      2019-04-06:
+        value: 105.32
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  C:
+    description: LHA rate for Southern Greater Manchester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 128.19
+      2019-04-06:
+        value: 132.04
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for Southern Greater Manchester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 151.78
+      2019-04-06:
+        value: 156.33
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  E:
+    description: LHA rate for Southern Greater Manchester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 200.09
+      2019-04-06:
+        value: 206.09
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+SOUTHPORT:
+  A:
+    description: LHA rate for Southport homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.33
+      2019-04-06:
+        value: 69.33
+      2020-04-06:
+        value: 76.5
+      2021-04-06:
+        value: 76.5
+  B:
+    description: LHA rate for Southport homes in category CAT B
+    values:
+      2018-04-06:
+        value: 91.43
+      2019-04-06:
+        value: 91.43
+      2020-04-06:
+        value: 94
+      2021-04-06:
+        value: 94
+  C:
+    description: LHA rate for Southport homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.82
+      2019-04-06:
+        value: 120.82
+      2020-04-06:
+        value: 124.27
+      2021-04-06:
+        value: 124.27
+  D:
+    description: LHA rate for Southport homes in category CAT D
+    values:
+      2018-04-06:
+        value: 139.84
+      2019-04-06:
+        value: 139.84
+      2020-04-06:
+        value: 153.04
+      2021-04-06:
+        value: 153.04
+  E:
+    description: LHA rate for Southport homes in category CAT E
+    values:
+      2018-04-06:
+        value: 172.6
+      2019-04-06:
+        value: 172.6
+      2020-04-06:
+        value: 189.86
+      2021-04-06:
+        value: 189.86
+ST_HELENS:
+  A:
+    description: LHA rate for St Helens homes in category CAT A
+    values:
+      2018-04-06:
+        value: 59.84
+      2019-04-06:
+        value: 59.84
+      2020-04-06:
+        value: 65
+      2021-04-06:
+        value: 65
+  B:
+    description: LHA rate for St Helens homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for St Helens homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 101.26
+      2021-04-06:
+        value: 101.26
+  D:
+    description: LHA rate for St Helens homes in category CAT D
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for St Helens homes in category CAT E
+    values:
+      2018-04-06:
+        value: 157.61
+      2019-04-06:
+        value: 157.61
+      2020-04-06:
+        value: 171.45
+      2021-04-06:
+        value: 171.45
+STAFFORDSHIRE_NORTH:
+  A:
+    description: LHA rate for Staffordshire North homes in category CAT A
+    values:
+      2018-04-06:
+        value: 53.58
+      2019-04-06:
+        value: 55.19
+      2020-04-06:
+        value: 60.95
+      2021-04-06:
+        value: 60.95
+  B:
+    description: LHA rate for Staffordshire North homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Staffordshire North homes in category CAT C
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  D:
+    description: LHA rate for Staffordshire North homes in category CAT D
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Staffordshire North homes in category CAT E
+    values:
+      2018-04-06:
+        value: 139.84
+      2019-04-06:
+        value: 144.04
+      2020-04-06:
+        value: 171.45
+      2021-04-06:
+        value: 171.45
+STEVENAGE_NORTH_HERTS:
+  A:
+    description: LHA rate for Stevenage & North Herts homes in category CAT A
+    values:
+      2018-04-06:
+        value: 72.04
+      2019-04-06:
+        value: 72.04
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Stevenage & North Herts homes in category CAT B
+    values:
+      2018-04-06:
+        value: 129.81
+      2019-04-06:
+        value: 133.7
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+  C:
+    description: LHA rate for Stevenage & North Herts homes in category CAT C
+    values:
+      2018-04-06:
+        value: 160.03
+      2019-04-06:
+        value: 164.83
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  D:
+    description: LHA rate for Stevenage & North Herts homes in category CAT D
+    values:
+      2018-04-06:
+        value: 197.81
+      2019-04-06:
+        value: 203.74
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64
+  E:
+    description: LHA rate for Stevenage & North Herts homes in category CAT E
+    values:
+      2018-04-06:
+        value: 253.34
+      2019-04-06:
+        value: 260.94
+      2020-04-06:
+        value: 299.18
+      2021-04-06:
+        value: 299.18
+SUNDERLAND:
+  A:
+    description: LHA rate for Sunderland homes in category CAT A
+    values:
+      2018-04-06:
+        value: 47.74
+      2019-04-06:
+        value: 49.17
+      2020-04-06:
+        value: 63.5
+      2021-04-06:
+        value: 63.5
+  B:
+    description: LHA rate for Sunderland homes in category CAT B
+    values:
+      2018-04-06:
+        value: 88
+      2019-04-06:
+        value: 88
+      2020-04-06:
+        value: 89.75
+      2021-04-06:
+        value: 89.75
+  C:
+    description: LHA rate for Sunderland homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 100
+      2021-04-06:
+        value: 100
+  D:
+    description: LHA rate for Sunderland homes in category CAT D
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  E:
+    description: LHA rate for Sunderland homes in category CAT E
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 138.08
+      2020-04-06:
+        value: 148.18
+      2021-04-06:
+        value: 148.18
+SUSSEX_EAST:
+  A:
+    description: LHA rate for Sussex East homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.77
+      2019-04-06:
+        value: 69.77
+      2020-04-06:
+        value: 74.79
+      2021-04-06:
+        value: 74.79
+  B:
+    description: LHA rate for Sussex East homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 94.81
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  C:
+    description: LHA rate for Sussex East homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.29
+      2019-04-06:
+        value: 123.9
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for Sussex East homes in category CAT D
+    values:
+      2018-04-06:
+        value: 159.95
+      2019-04-06:
+        value: 164.75
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  E:
+    description: LHA rate for Sussex East homes in category CAT E
+    values:
+      2018-04-06:
+        value: 195.62
+      2019-04-06:
+        value: 201.49
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+SWINDON:
+  A:
+    description: LHA rate for Swindon homes in category CAT A
+    values:
+      2018-04-06:
+        value: 63.7
+      2019-04-06:
+        value: 65.61
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for Swindon homes in category CAT B
+    values:
+      2018-04-06:
+        value: 109.74
+      2019-04-06:
+        value: 113.03
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  C:
+    description: LHA rate for Swindon homes in category CAT C
+    values:
+      2018-04-06:
+        value: 131.34
+      2019-04-06:
+        value: 135.28
+      2020-04-06:
+        value: 151.89
+      2021-04-06:
+        value: 151.89
+  D:
+    description: LHA rate for Swindon homes in category CAT D
+    values:
+      2018-04-06:
+        value: 162.29
+      2019-04-06:
+        value: 167.16
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  E:
+    description: LHA rate for Swindon homes in category CAT E
+    values:
+      2018-04-06:
+        value: 204.05
+      2019-04-06:
+        value: 210.17
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+TAMESIDE_GLOSSOP:
+  A:
+    description: LHA rate for Tameside & Glossop homes in category CAT A
+    values:
+      2018-04-06:
+        value: 56.58
+      2019-04-06:
+        value: 56.58
+      2020-04-06:
+        value: 65.84
+      2021-04-06:
+        value: 65.84
+  B:
+    description: LHA rate for Tameside & Glossop homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 92.05
+      2021-04-06:
+        value: 92.05
+  C:
+    description: LHA rate for Tameside & Glossop homes in category CAT C
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  D:
+    description: LHA rate for Tameside & Glossop homes in category CAT D
+    values:
+      2018-04-06:
+        value: 126.58
+      2019-04-06:
+        value: 126.58
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  E:
+    description: LHA rate for Tameside & Glossop homes in category CAT E
+    values:
+      2018-04-06:
+        value: 156.38
+      2019-04-06:
+        value: 156.38
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+TAUNTON_WEST_SOMERSET:
+  A:
+    description: LHA rate for Taunton & West Somerset homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.14
+      2019-04-06:
+        value: 66.06
+      2020-04-06:
+        value: 84.5
+      2021-04-06:
+        value: 84.5
+  B:
+    description: LHA rate for Taunton & West Somerset homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for Taunton & West Somerset homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.82
+      2019-04-06:
+        value: 120.82
+      2020-04-06:
+        value: 136.93
+      2021-04-06:
+        value: 136.93
+  D:
+    description: LHA rate for Taunton & West Somerset homes in category CAT D
+    values:
+      2018-04-06:
+        value: 145.67
+      2019-04-06:
+        value: 145.67
+      2020-04-06:
+        value: 164.55
+      2021-04-06:
+        value: 164.55
+  E:
+    description: LHA rate for Taunton & West Somerset homes in category CAT E
+    values:
+      2018-04-06:
+        value: 184.11
+      2019-04-06:
+        value: 184.11
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+TEESSIDE:
+  A:
+    description: LHA rate for Teesside homes in category CAT A
+    values:
+      2018-04-06:
+        value: 57.34
+      2019-04-06:
+        value: 57.34
+      2020-04-06:
+        value: 65
+      2021-04-06:
+        value: 65
+  B:
+    description: LHA rate for Teesside homes in category CAT B
+    values:
+      2018-04-06:
+        value: 83.78
+      2019-04-06:
+        value: 83.78
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Teesside homes in category CAT C
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 99.65
+      2021-04-06:
+        value: 99.65
+  D:
+    description: LHA rate for Teesside homes in category CAT D
+    values:
+      2018-04-06:
+        value: 114
+      2019-04-06:
+        value: 114
+      2020-04-06:
+        value: 115
+      2021-04-06:
+        value: 115
+  E:
+    description: LHA rate for Teesside homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+THANET:
+  A:
+    description: LHA rate for Thanet homes in category CAT A
+    values:
+      2018-04-06:
+        value: 65.17
+      2019-04-06:
+        value: 65.17
+      2020-04-06:
+        value: 69.04
+      2021-04-06:
+        value: 69.04
+  B:
+    description: LHA rate for Thanet homes in category CAT B
+    values:
+      2018-04-06:
+        value: 83.15
+      2019-04-06:
+        value: 85.64
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  C:
+    description: LHA rate for Thanet homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.02
+      2019-04-06:
+        value: 123.62
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for Thanet homes in category CAT D
+    values:
+      2018-04-06:
+        value: 144.36
+      2019-04-06:
+        value: 144.36
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  E:
+    description: LHA rate for Thanet homes in category CAT E
+    values:
+      2018-04-06:
+        value: 177.78
+      2019-04-06:
+        value: 183.11
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+TYNESIDE:
+  A:
+    description: LHA rate for Tyneside homes in category CAT A
+    values:
+      2018-04-06:
+        value: 60
+      2019-04-06:
+        value: 61.8
+      2020-04-06:
+        value: 70.19
+      2021-04-06:
+        value: 70.19
+  B:
+    description: LHA rate for Tyneside homes in category CAT B
+    values:
+      2018-04-06:
+        value: 90.9
+      2019-04-06:
+        value: 90.9
+      2020-04-06:
+        value: 97.81
+      2021-04-06:
+        value: 97.81
+  C:
+    description: LHA rate for Tyneside homes in category CAT C
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  D:
+    description: LHA rate for Tyneside homes in category CAT D
+    values:
+      2018-04-06:
+        value: 115.07
+      2019-04-06:
+        value: 115.07
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Tyneside homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+WAKEFIELD:
+  A:
+    description: LHA rate for Wakefield homes in category CAT A
+    values:
+      2018-04-06:
+        value: 55
+      2019-04-06:
+        value: 55
+      2020-04-06:
+        value: 61.5
+      2021-04-06:
+        value: 61.5
+  B:
+    description: LHA rate for Wakefield homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 90.9
+      2021-04-06:
+        value: 90.9
+  C:
+    description: LHA rate for Wakefield homes in category CAT C
+    values:
+      2018-04-06:
+        value: 103.56
+      2019-04-06:
+        value: 103.56
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  D:
+    description: LHA rate for Wakefield homes in category CAT D
+    values:
+      2018-04-06:
+        value: 113.92
+      2019-04-06:
+        value: 113.92
+      2020-04-06:
+        value: 120.82
+      2021-04-06:
+        value: 120.82
+  E:
+    description: LHA rate for Wakefield homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+WALTON:
+  A:
+    description: LHA rate for Walton homes in category CAT A
+    values:
+      2018-04-06:
+        value: 90.01
+      2019-04-06:
+        value: 90.01
+      2020-04-06:
+        value: 109.71
+      2021-04-06:
+        value: 109.71
+  B:
+    description: LHA rate for Walton homes in category CAT B
+    values:
+      2018-04-06:
+        value: 178.61
+      2019-04-06:
+        value: 183.97
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+  C:
+    description: LHA rate for Walton homes in category CAT C
+    values:
+      2018-04-06:
+        value: 221.72
+      2019-04-06:
+        value: 228.37
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  D:
+    description: LHA rate for Walton homes in category CAT D
+    values:
+      2018-04-06:
+        value: 276.67
+      2019-04-06:
+        value: 276.67
+      2020-04-06:
+        value: 310.68
+      2021-04-06:
+        value: 310.68
+  E:
+    description: LHA rate for Walton homes in category CAT E
+    values:
+      2018-04-06:
+        value: 382.64
+      2019-04-06:
+        value: 382.64
+      2020-04-06:
+        value: 407.34
+      2021-04-06:
+        value: 407.34
+WARWICKSHIRE_SOUTH:
+  A:
+    description: LHA rate for Warwickshire South homes in category CAT A
+    values:
+      2018-04-06:
+        value: 74.02
+      2019-04-06:
+        value: 76.24
+      2020-04-06:
+        value: 85.5
+      2021-04-06:
+        value: 85.5
+  B:
+    description: LHA rate for Warwickshire South homes in category CAT B
+    values:
+      2018-04-06:
+        value: 122.66
+      2019-04-06:
+        value: 126.34
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  C:
+    description: LHA rate for Warwickshire South homes in category CAT C
+    values:
+      2018-04-06:
+        value: 154.87
+      2019-04-06:
+        value: 159.52
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  D:
+    description: LHA rate for Warwickshire South homes in category CAT D
+    values:
+      2018-04-06:
+        value: 181.8
+      2019-04-06:
+        value: 187.25
+      2020-04-06:
+        value: 207.12
+      2021-04-06:
+        value: 207.12
+  E:
+    description: LHA rate for Warwickshire South homes in category CAT E
+    values:
+      2018-04-06:
+        value: 246.5
+      2019-04-06:
+        value: 246.5
+      2020-04-06:
+        value: 276.16
+      2021-04-06:
+        value: 276.16
+WEST_CHESHIRE:
+  A:
+    description: LHA rate for West Cheshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.48
+      2019-04-06:
+        value: 64.48
+      2020-04-06:
+        value: 73.25
+      2021-04-06:
+        value: 73.25
+  B:
+    description: LHA rate for West Cheshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 99.06
+      2019-04-06:
+        value: 99.06
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  C:
+    description: LHA rate for West Cheshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 120.82
+      2019-04-06:
+        value: 120.82
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  D:
+    description: LHA rate for West Cheshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 138.08
+      2019-04-06:
+        value: 138.08
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  E:
+    description: LHA rate for West Cheshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 186.47
+      2019-04-06:
+        value: 186.47
+      2020-04-06:
+        value: 205.97
+      2021-04-06:
+        value: 205.97
+WEST_CUMBRIA:
+  A:
+    description: LHA rate for West Cumbria homes in category CAT A
+    values:
+      2018-04-06:
+        value: 65.15
+      2019-04-06:
+        value: 67.1
+      2020-04-06:
+        value: 68
+      2021-04-06:
+        value: 68
+  B:
+    description: LHA rate for West Cumbria homes in category CAT B
+    values:
+      2018-04-06:
+        value: 79.24
+      2019-04-06:
+        value: 79.24
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  C:
+    description: LHA rate for West Cumbria homes in category CAT C
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 96.66
+      2021-04-06:
+        value: 96.66
+  D:
+    description: LHA rate for West Cumbria homes in category CAT D
+    values:
+      2018-04-06:
+        value: 104.89
+      2019-04-06:
+        value: 104.89
+      2020-04-06:
+        value: 113.92
+      2021-04-06:
+        value: 113.92
+  E:
+    description: LHA rate for West Cumbria homes in category CAT E
+    values:
+      2018-04-06:
+        value: 134.02
+      2019-04-06:
+        value: 134.02
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+WEST_PENNINE:
+  A:
+    description: LHA rate for West Pennine homes in category CAT A
+    values:
+      2018-04-06:
+        value: 62.4
+      2019-04-06:
+        value: 62.4
+      2020-04-06:
+        value: 69.81
+      2021-04-06:
+        value: 69.81
+  B:
+    description: LHA rate for West Pennine homes in category CAT B
+    values:
+      2018-04-06:
+        value: 78
+      2019-04-06:
+        value: 78
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  C:
+    description: LHA rate for West Pennine homes in category CAT C
+    values:
+      2018-04-06:
+        value: 85
+      2019-04-06:
+        value: 85
+      2020-04-06:
+        value: 89.75
+      2021-04-06:
+        value: 89.75
+  D:
+    description: LHA rate for West Pennine homes in category CAT D
+    values:
+      2018-04-06:
+        value: 99.04
+      2019-04-06:
+        value: 99.04
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  E:
+    description: LHA rate for West Pennine homes in category CAT E
+    values:
+      2018-04-06:
+        value: 137.31
+      2019-04-06:
+        value: 137.31
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+WEST_WILTSHIRE:
+  A:
+    description: LHA rate for West Wiltshire homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.37
+      2019-04-06:
+        value: 69.39
+      2020-04-06:
+        value: 78.59
+      2021-04-06:
+        value: 78.59
+  B:
+    description: LHA rate for West Wiltshire homes in category CAT B
+    values:
+      2018-04-06:
+        value: 100.05
+      2019-04-06:
+        value: 100.05
+      2020-04-06:
+        value: 119.67
+      2021-04-06:
+        value: 119.67
+  C:
+    description: LHA rate for West Wiltshire homes in category CAT C
+    values:
+      2018-04-06:
+        value: 125.94
+      2019-04-06:
+        value: 129.72
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for West Wiltshire homes in category CAT D
+    values:
+      2018-04-06:
+        value: 156
+      2019-04-06:
+        value: 160.68
+      2020-04-06:
+        value: 182.96
+      2021-04-06:
+        value: 182.96
+  E:
+    description: LHA rate for West Wiltshire homes in category CAT E
+    values:
+      2018-04-06:
+        value: 204.37
+      2019-04-06:
+        value: 210.5
+      2020-04-06:
+        value: 230.14
+      2021-04-06:
+        value: 230.14
+WESTON_S_MARE:
+  A:
+    description: LHA rate for Weston-S-Mare homes in category CAT A
+    values:
+      2018-04-06:
+        value: 66.85
+      2019-04-06:
+        value: 66.85
+      2020-04-06:
+        value: 99.06
+      2021-04-06:
+        value: 99.06
+  B:
+    description: LHA rate for Weston-S-Mare homes in category CAT B
+    values:
+      2018-04-06:
+        value: 97.81
+      2019-04-06:
+        value: 97.81
+      2020-04-06:
+        value: 109.32
+      2021-04-06:
+        value: 109.32
+  C:
+    description: LHA rate for Weston-S-Mare homes in category CAT C
+    values:
+      2018-04-06:
+        value: 122.36
+      2019-04-06:
+        value: 126.03
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+  D:
+    description: LHA rate for Weston-S-Mare homes in category CAT D
+    values:
+      2018-04-06:
+        value: 150
+      2019-04-06:
+        value: 154.5
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  E:
+    description: LHA rate for Weston-S-Mare homes in category CAT E
+    values:
+      2018-04-06:
+        value: 184.11
+      2019-04-06:
+        value: 184.11
+      2020-04-06:
+        value: 212.88
+      2021-04-06:
+        value: 212.88
+WIGAN:
+  A:
+    description: LHA rate for Wigan homes in category CAT A
+    values:
+      2018-04-06:
+        value: 57.57
+      2019-04-06:
+        value: 57.57
+      2020-04-06:
+        value: 61.33
+      2021-04-06:
+        value: 61.33
+  B:
+    description: LHA rate for Wigan homes in category CAT B
+    values:
+      2018-04-06:
+        value: 80.55
+      2019-04-06:
+        value: 80.55
+      2020-04-06:
+        value: 80.55
+      2021-04-06:
+        value: 80.55
+  C:
+    description: LHA rate for Wigan homes in category CAT C
+    values:
+      2018-04-06:
+        value: 96.23
+      2019-04-06:
+        value: 96.23
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Wigan homes in category CAT D
+    values:
+      2018-04-06:
+        value: 109.32
+      2019-04-06:
+        value: 109.32
+      2020-04-06:
+        value: 114.84
+      2021-04-06:
+        value: 114.84
+  E:
+    description: LHA rate for Wigan homes in category CAT E
+    values:
+      2018-04-06:
+        value: 149.59
+      2019-04-06:
+        value: 149.59
+      2020-04-06:
+        value: 155.34
+      2021-04-06:
+        value: 155.34
+WINCHESTER:
+  A:
+    description: LHA rate for Winchester homes in category CAT A
+    values:
+      2018-04-06:
+        value: 77.45
+      2019-04-06:
+        value: 79.77
+      2020-04-06:
+        value: 83.5
+      2021-04-06:
+        value: 83.5
+  B:
+    description: LHA rate for Winchester homes in category CAT B
+    values:
+      2018-04-06:
+        value: 148.3
+      2019-04-06:
+        value: 152.75
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  C:
+    description: LHA rate for Winchester homes in category CAT C
+    values:
+      2018-04-06:
+        value: 182.45
+      2019-04-06:
+        value: 182.45
+      2020-04-06:
+        value: 197.92
+      2021-04-06:
+        value: 197.92
+  D:
+    description: LHA rate for Winchester homes in category CAT D
+    values:
+      2018-04-06:
+        value: 211.87
+      2019-04-06:
+        value: 211.87
+      2020-04-06:
+        value: 253.15
+      2021-04-06:
+        value: 253.15
+  E:
+    description: LHA rate for Winchester homes in category CAT E
+    values:
+      2018-04-06:
+        value: 312.77
+      2019-04-06:
+        value: 322.15
+      2020-04-06:
+        value: 368.22
+      2021-04-06:
+        value: 368.22
+WIRRAL:
+  A:
+    description: LHA rate for Wirral homes in category CAT A
+    values:
+      2018-04-06:
+        value: 55.02
+      2019-04-06:
+        value: 55.02
+      2020-04-06:
+        value: 55.02
+      2021-04-06:
+        value: 55.02
+  B:
+    description: LHA rate for Wirral homes in category CAT B
+    values:
+      2018-04-06:
+        value: 86.3
+      2019-04-06:
+        value: 86.3
+      2020-04-06:
+        value: 86.3
+      2021-04-06:
+        value: 86.3
+  C:
+    description: LHA rate for Wirral homes in category CAT C
+    values:
+      2018-04-06:
+        value: 102.73
+      2019-04-06:
+        value: 102.73
+      2020-04-06:
+        value: 103.56
+      2021-04-06:
+        value: 103.56
+  D:
+    description: LHA rate for Wirral homes in category CAT D
+    values:
+      2018-04-06:
+        value: 126.58
+      2019-04-06:
+        value: 126.58
+      2020-04-06:
+        value: 126.58
+      2021-04-06:
+        value: 126.58
+  E:
+    description: LHA rate for Wirral homes in category CAT E
+    values:
+      2018-04-06:
+        value: 140.62
+      2019-04-06:
+        value: 140.62
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+WOLDS_AND_COAST:
+  A:
+    description: LHA rate for Wolds and Coast homes in category CAT A
+    values:
+      2018-04-06:
+        value: 64.67
+      2019-04-06:
+        value: 64.67
+      2020-04-06:
+        value: 69.38
+      2021-04-06:
+        value: 69.38
+  B:
+    description: LHA rate for Wolds and Coast homes in category CAT B
+    values:
+      2018-04-06:
+        value: 75
+      2019-04-06:
+        value: 75
+      2020-04-06:
+        value: 82.85
+      2021-04-06:
+        value: 82.85
+  C:
+    description: LHA rate for Wolds and Coast homes in category CAT C
+    values:
+      2018-04-06:
+        value: 93.23
+      2019-04-06:
+        value: 93.23
+      2020-04-06:
+        value: 104.14
+      2021-04-06:
+        value: 104.14
+  D:
+    description: LHA rate for Wolds and Coast homes in category CAT D
+    values:
+      2018-04-06:
+        value: 110.72
+      2019-04-06:
+        value: 110.72
+      2020-04-06:
+        value: 121.97
+      2021-04-06:
+        value: 121.97
+  E:
+    description: LHA rate for Wolds and Coast homes in category CAT E
+    values:
+      2018-04-06:
+        value: 128.47
+      2019-04-06:
+        value: 128.47
+      2020-04-06:
+        value: 138.08
+      2021-04-06:
+        value: 138.08
+WORCESTER_NORTH:
+  A:
+    description: LHA rate for Worcester North homes in category CAT A
+    values:
+      2018-04-06:
+        value: 61.45
+      2019-04-06:
+        value: 61.45
+      2020-04-06:
+        value: 66.5
+      2021-04-06:
+        value: 66.5
+  B:
+    description: LHA rate for Worcester North homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 101.26
+      2021-04-06:
+        value: 101.26
+  C:
+    description: LHA rate for Worcester North homes in category CAT C
+    values:
+      2018-04-06:
+        value: 117.7
+      2019-04-06:
+        value: 117.7
+      2020-04-06:
+        value: 126.72
+      2021-04-06:
+        value: 126.72
+  D:
+    description: LHA rate for Worcester North homes in category CAT D
+    values:
+      2018-04-06:
+        value: 133.32
+      2019-04-06:
+        value: 133.32
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  E:
+    description: LHA rate for Worcester North homes in category CAT E
+    values:
+      2018-04-06:
+        value: 176.56
+      2019-04-06:
+        value: 176.56
+      2020-04-06:
+        value: 195.62
+      2021-04-06:
+        value: 195.62
+WORCESTER_SOUTH:
+  A:
+    description: LHA rate for Worcester South homes in category CAT A
+    values:
+      2018-04-06:
+        value: 70.32
+      2019-04-06:
+        value: 70.32
+      2020-04-06:
+        value: 84.27
+      2021-04-06:
+        value: 84.27
+  B:
+    description: LHA rate for Worcester South homes in category CAT B
+    values:
+      2018-04-06:
+        value: 99.06
+      2019-04-06:
+        value: 102.03
+      2020-04-06:
+        value: 115.07
+      2021-04-06:
+        value: 115.07
+  C:
+    description: LHA rate for Worcester South homes in category CAT C
+    values:
+      2018-04-06:
+        value: 128.19
+      2019-04-06:
+        value: 128.19
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  D:
+    description: LHA rate for Worcester South homes in category CAT D
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 153.02
+      2020-04-06:
+        value: 172.6
+      2021-04-06:
+        value: 172.6
+  E:
+    description: LHA rate for Worcester South homes in category CAT E
+    values:
+      2018-04-06:
+        value: 193.98
+      2019-04-06:
+        value: 199.8
+      2020-04-06:
+        value: 218.63
+      2021-04-06:
+        value: 218.63
+WORTHING:
+  A:
+    description: LHA rate for Worthing homes in category CAT A
+    values:
+      2018-04-06:
+        value: 69.19
+      2019-04-06:
+        value: 69.19
+      2020-04-06:
+        value: 71.5
+      2021-04-06:
+        value: 71.5
+  B:
+    description: LHA rate for Worthing homes in category CAT B
+    values:
+      2018-04-06:
+        value: 120.06
+      2019-04-06:
+        value: 123.66
+      2020-04-06:
+        value: 143.84
+      2021-04-06:
+        value: 143.84
+  C:
+    description: LHA rate for Worthing homes in category CAT C
+    values:
+      2018-04-06:
+        value: 153.02
+      2019-04-06:
+        value: 157.61
+      2020-04-06:
+        value: 184.11
+      2021-04-06:
+        value: 184.11
+  D:
+    description: LHA rate for Worthing homes in category CAT D
+    values:
+      2018-04-06:
+        value: 185.29
+      2019-04-06:
+        value: 190.85
+      2020-04-06:
+        value: 223.23
+      2021-04-06:
+        value: 223.23
+  E:
+    description: LHA rate for Worthing homes in category CAT E
+    values:
+      2018-04-06:
+        value: 246
+      2019-04-06:
+        value: 253.38
+      2020-04-06:
+        value: 287.67
+      2021-04-06:
+        value: 287.67
+YEOVIL:
+  A:
+    description: LHA rate for Yeovil homes in category CAT A
+    values:
+      2018-04-06:
+        value: 61.45
+      2019-04-06:
+        value: 61.45
+      2020-04-06:
+        value: 77
+      2021-04-06:
+        value: 77
+  B:
+    description: LHA rate for Yeovil homes in category CAT B
+    values:
+      2018-04-06:
+        value: 92.05
+      2019-04-06:
+        value: 92.05
+      2020-04-06:
+        value: 101.26
+      2021-04-06:
+        value: 101.26
+  C:
+    description: LHA rate for Yeovil homes in category CAT C
+    values:
+      2018-04-06:
+        value: 121.97
+      2019-04-06:
+        value: 121.97
+      2020-04-06:
+        value: 132.33
+      2021-04-06:
+        value: 132.33
+  D:
+    description: LHA rate for Yeovil homes in category CAT D
+    values:
+      2018-04-06:
+        value: 145.67
+      2019-04-06:
+        value: 150.04
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  E:
+    description: LHA rate for Yeovil homes in category CAT E
+    values:
+      2018-04-06:
+        value: 189.96
+      2019-04-06:
+        value: 189.96
+      2020-04-06:
+        value: 212.88
+      2021-04-06:
+        value: 212.88
+YORK:
+  A:
+    description: LHA rate for York homes in category CAT A
+    values:
+      2018-04-06:
+        value: 67.09
+      2019-04-06:
+        value: 67.09
+      2020-04-06:
+        value: 75
+      2021-04-06:
+        value: 75
+  B:
+    description: LHA rate for York homes in category CAT B
+    values:
+      2018-04-06:
+        value: 98.96
+      2019-04-06:
+        value: 98.96
+      2020-04-06:
+        value: 125.42
+      2021-04-06:
+        value: 125.42
+  C:
+    description: LHA rate for York homes in category CAT C
+    values:
+      2018-04-06:
+        value: 123.58
+      2019-04-06:
+        value: 123.58
+      2020-04-06:
+        value: 149.59
+      2021-04-06:
+        value: 149.59
+  D:
+    description: LHA rate for York homes in category CAT D
+    values:
+      2018-04-06:
+        value: 141.24
+      2019-04-06:
+        value: 141.24
+      2020-04-06:
+        value: 166.85
+      2021-04-06:
+        value: 166.85
+  E:
+    description: LHA rate for York homes in category CAT E
+    values:
+      2018-04-06:
+        value: 200.09
+      2019-04-06:
+        value: 200.09
+      2020-04-06:
+        value: 241.64
+      2021-04-06:
+        value: 241.64

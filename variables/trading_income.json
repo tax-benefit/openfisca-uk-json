@@ -1,0 +1,27 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
+  "json_type": "number",
+  "label": "Income from trading profits for owned businesses",
+  "name": "trading_income",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Income Tax (Trading and Other Income) Act 2005 s. 1(1)(a)"
+      }
+    ]
+  },
+  "referring_variables": [
+    "NI_class_4",
+    "pension_contributions_relief",
+    "taxable_trading_income",
+    "trading_allowance_deduction",
+    "weekly_NI_class_2"
+  ],
+  "start_line_number": 51,
+  "stop_line_number": 57,
+  "value_type": "float"
+}

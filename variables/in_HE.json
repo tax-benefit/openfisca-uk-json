@@ -1,0 +1,22 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "label",
+  "name": "in_HE",
+  "reference": {
+    "0001-01-01": [
+      {
+        "title": "Whether this person is in Higher Education"
+      }
+    ]
+  },
+  "set_input": "set_input_dispatch_by_period",
+  "start_line_number": 86,
+  "stop_line_number": 93,
+  "value_type": "bool"
+}

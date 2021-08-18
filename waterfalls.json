@@ -1,0 +1,9 @@
+[
+  {
+    "icon": "/pictos/picto_femme.svg",
+    "label": "Particulier",
+    "name": "tax_modelling",
+    "root": "tax_modelling",
+    "totalLabel": "Tax Modelling"
+  }
+]

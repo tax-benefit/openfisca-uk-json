@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
+  "json_type": "number",
+  "label": "Amount contributed to registered pension schemes paid by the individual (not the employer)",
+  "name": "pension_contributions",
+  "referring_variables": [
+    "earned_taxable_income",
+    "pension_contributions_relief"
+  ],
+  "start_line_number": 51,
+  "stop_line_number": 56,
+  "value_type": "float"
+}

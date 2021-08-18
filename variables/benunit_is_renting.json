@@ -1,0 +1,300 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 51,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "tenure",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 21,
+                  "end_col_offset": 42,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "benunit_tenure_type"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 44,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 50,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 51,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 2,
+                "id": "benunit",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 3,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 45,
+              "end_lineno": 6,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 50,
+                "end_lineno": 5,
+                "left": {
+                  "ast_class": "Compare",
+                  "col_offset": 9,
+                  "comparators": [
+                    {
+                      "ast_class": "Attribute",
+                      "attr": "RENT_PRIVATELY",
+                      "col_offset": 19,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 44,
+                      "end_lineno": 4,
+                      "lineno": 4,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 19,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 29,
+                        "end_lineno": 4,
+                        "id": "TenureType",
+                        "lineno": 4
+                      }
+                    }
+                  ],
+                  "end_col_offset": 44,
+                  "end_lineno": 4,
+                  "left": {
+                    "ast_class": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 4,
+                    "id": "tenure",
+                    "lineno": 4
+                  },
+                  "lineno": 4,
+                  "ops": [
+                    {
+                      "ast_class": "Eq"
+                    }
+                  ]
+                },
+                "lineno": 4,
+                "op": {
+                  "ast_class": "Add"
+                },
+                "right": {
+                  "ast_class": "Compare",
+                  "col_offset": 11,
+                  "comparators": [
+                    {
+                      "ast_class": "Attribute",
+                      "attr": "RENT_FROM_COUNCIL",
+                      "col_offset": 21,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 49,
+                      "end_lineno": 5,
+                      "lineno": 5,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 21,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 31,
+                        "end_lineno": 5,
+                        "id": "TenureType",
+                        "lineno": 5
+                      }
+                    }
+                  ],
+                  "end_col_offset": 49,
+                  "end_lineno": 5,
+                  "left": {
+                    "ast_class": "Name",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 5,
+                    "id": "tenure",
+                    "lineno": 5
+                  },
+                  "lineno": 5,
+                  "ops": [
+                    {
+                      "ast_class": "Eq"
+                    }
+                  ]
+                }
+              },
+              "lineno": 4,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "Compare",
+                "col_offset": 11,
+                "comparators": [
+                  {
+                    "ast_class": "Attribute",
+                    "attr": "RENT_FROM_HA",
+                    "col_offset": 21,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 44,
+                    "end_lineno": 6,
+                    "lineno": 6,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 21,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 31,
+                      "end_lineno": 6,
+                      "id": "TenureType",
+                      "lineno": 6
+                    }
+                  }
+                ],
+                "end_col_offset": 44,
+                "end_lineno": 6,
+                "left": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 17,
+                  "end_lineno": 6,
+                  "id": "tenure",
+                  "lineno": 6
+                },
+                "lineno": 6,
+                "ops": [
+                  {
+                    "ast_class": "Eq"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 7,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/demographic/benunit.py",
+      "source_code": "def formula(benunit, period, parameters):\n    tenure = benunit(\"benunit_tenure_type\", period)\n    return (\n        (tenure == TenureType.RENT_PRIVATELY)\n        + (tenure == TenureType.RENT_FROM_COUNCIL)\n        + (tenure == TenureType.RENT_FROM_HA)\n    )\n",
+      "start_line_number": 171,
+      "stop_line_number": 178,
+      "variables": [
+        "benunit_tenure_type"
+      ]
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this family is renting",
+  "name": "benunit_is_renting",
+  "referring_variables": [
+    "LHA_eligible"
+  ],
+  "start_line_number": 165,
+  "stop_line_number": 178,
+  "value_type": "bool"
+}

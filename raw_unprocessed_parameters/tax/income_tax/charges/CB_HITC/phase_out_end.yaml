@@ -1,0 +1,9 @@
+description: Earnings after which the Child Benefit is fully phased out
+metadata:
+  period: year
+  reference:
+    href: https://www.moneyadviceservice.org.uk/en/articles/changes-to-child-benefit-from-2013
+  unit: currency
+values:
+  2015-06-05:
+    value: 60000

@@ -1,0 +1,17 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/finance/benefit/personal/PIP.py",
+  "json_type": "number",
+  "label": "Personal Independence Payment (Daily Living) (reported)",
+  "name": "PIP_DL_reported",
+  "referring_variables": [
+    "PIP_DL"
+  ],
+  "start_line_number": 36,
+  "stop_line_number": 41,
+  "unit": "currency",
+  "value_type": "float"
+}

@@ -1,0 +1,17 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/person.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Whether this person is the head-of-family",
+  "name": "is_benunit_head",
+  "referring_variables": [
+    "family_benefits"
+  ],
+  "start_line_number": 136,
+  "stop_line_number": 141,
+  "value_type": "bool"
+}

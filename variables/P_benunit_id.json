@@ -1,0 +1,12 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_uk/variables/demographic/relations.py",
+  "json_type": "number",
+  "name": "P_benunit_id",
+  "start_line_number": 12,
+  "stop_line_number": 16,
+  "value_type": "float"
+}

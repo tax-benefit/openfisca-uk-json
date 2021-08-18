@@ -1,0 +1,540 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "benunit",
+  "file_path": "/openfisca_uk/variables/finance/benefit/family/LHA.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "benunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 21,
+            "end_lineno": 4,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 17,
+                "end_lineno": 2,
+                "id": "personal_BRMA",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [],
+              "ast_class": "Call",
+              "col_offset": 20,
+              "end_col_offset": 21,
+              "end_lineno": 4,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "decode_to_str",
+                "col_offset": 20,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 4,
+                "lineno": 2,
+                "value": {
+                  "args": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 8,
+                      "end_col_offset": 14,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": "BRMA"
+                    },
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 16,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 22,
+                      "end_lineno": 3,
+                      "id": "period",
+                      "lineno": 3
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 20,
+                  "end_col_offset": 5,
+                  "end_lineno": 4,
+                  "func": {
+                    "ast_class": "Attribute",
+                    "attr": "household",
+                    "col_offset": 20,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 45,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "members",
+                      "col_offset": 20,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 35,
+                      "end_lineno": 2,
+                      "lineno": 2,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 20,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 27,
+                        "end_lineno": 2,
+                        "id": "benunit",
+                        "lineno": 2
+                      }
+                    }
+                  },
+                  "keywords": [],
+                  "lineno": 2
+                }
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 12,
+            "lineno": 7,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 8,
+                "end_lineno": 7,
+                "id": "BRMA",
+                "lineno": 7
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "values",
+              "col_offset": 8,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 15,
+              "end_lineno": 11,
+              "lineno": 8,
+              "value": {
+                "args": [],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 16,
+                "end_lineno": 10,
+                "func": {
+                  "ast_class": "Attribute",
+                  "attr": "first",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 14,
+                  "end_lineno": 10,
+                  "lineno": 8,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Attribute",
+                        "attr": "members_entity_id",
+                        "col_offset": 17,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 42,
+                        "end_lineno": 9,
+                        "lineno": 9,
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 17,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 24,
+                          "end_lineno": 9,
+                          "id": "benunit",
+                          "lineno": 9
+                        }
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 43,
+                    "end_lineno": 9,
+                    "func": {
+                      "ast_class": "Attribute",
+                      "attr": "groupby",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 16,
+                      "end_lineno": 9,
+                      "lineno": 8,
+                      "value": {
+                        "args": [
+                          {
+                            "ast_class": "Name",
+                            "col_offset": 18,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 31,
+                            "end_lineno": 8,
+                            "id": "personal_BRMA",
+                            "lineno": 8
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 8,
+                        "end_col_offset": 32,
+                        "end_lineno": 8,
+                        "func": {
+                          "ast_class": "Attribute",
+                          "attr": "Series",
+                          "col_offset": 8,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 17,
+                          "end_lineno": 8,
+                          "lineno": 8,
+                          "value": {
+                            "ast_class": "Name",
+                            "col_offset": 8,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 10,
+                            "end_lineno": 8,
+                            "id": "pd",
+                            "lineno": 8
+                          }
+                        },
+                        "keywords": [],
+                        "lineno": 8
+                      }
+                    },
+                    "keywords": [],
+                    "lineno": 8
+                  }
+                },
+                "keywords": [],
+                "lineno": 8
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 46,
+            "end_lineno": 13,
+            "lineno": 13,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 13,
+                "id": "category",
+                "lineno": 13
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 23,
+                  "end_col_offset": 37,
+                  "end_lineno": 13,
+                  "lineno": 13,
+                  "value": "LHA_category"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 39,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 45,
+                  "end_lineno": 13,
+                  "id": "period",
+                  "lineno": 13
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 15,
+              "end_col_offset": 46,
+              "end_lineno": 13,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 15,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 22,
+                "end_lineno": 13,
+                "id": "benunit",
+                "lineno": 13
+              },
+              "keywords": [],
+              "lineno": 13
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 63,
+            "end_lineno": 14,
+            "lineno": 14,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 8,
+                "end_lineno": 14,
+                "id": "rate",
+                "lineno": 14
+              }
+            ],
+            "value": {
+              "ast_class": "Subscript",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 63,
+              "end_lineno": 14,
+              "lineno": 14,
+              "slice": {
+                "ast_class": "Name",
+                "col_offset": 54,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 62,
+                "end_lineno": 14,
+                "id": "category",
+                "lineno": 14
+              },
+              "value": {
+                "ast_class": "Subscript",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 53,
+                "end_lineno": 14,
+                "lineno": 14,
+                "slice": {
+                  "ast_class": "Name",
+                  "col_offset": 48,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 52,
+                  "end_lineno": 14,
+                  "id": "BRMA",
+                  "lineno": 14
+                },
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "rates",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 47,
+                  "end_lineno": 14,
+                  "lineno": 14,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "LHA",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 41,
+                    "end_lineno": 14,
+                    "lineno": 14,
+                    "value": {
+                      "ast_class": "Attribute",
+                      "attr": "benefit",
+                      "col_offset": 11,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 37,
+                      "end_lineno": 14,
+                      "lineno": 14,
+                      "value": {
+                        "args": [
+                          {
+                            "ast_class": "Name",
+                            "col_offset": 22,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 28,
+                            "end_lineno": 14,
+                            "id": "period",
+                            "lineno": 14
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 11,
+                        "end_col_offset": 29,
+                        "end_lineno": 14,
+                        "func": {
+                          "ast_class": "Name",
+                          "col_offset": 11,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 21,
+                          "end_lineno": 14,
+                          "id": "parameters",
+                          "lineno": 14
+                        },
+                        "keywords": [],
+                        "lineno": 14
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 31,
+            "end_lineno": 15,
+            "lineno": 15,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 31,
+              "end_lineno": 15,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 15,
+                "id": "rate",
+                "lineno": 15
+              },
+              "lineno": 15,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 18,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 31,
+                "end_lineno": 15,
+                "id": "WEEKS_IN_YEAR",
+                "lineno": 15
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 31,
+        "end_lineno": 15,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_uk/variables/finance/benefit/family/LHA.py",
+      "parameters": [
+        "benefit.LHA.rates"
+      ],
+      "source_code": "def formula(benunit, period, parameters):\n    personal_BRMA = benunit.members.household(\n        \"BRMA\", period\n    ).decode_to_str()\n    # Default OpenFisca aggregation features do not retain Enum decode functionality, sp\n    # here we use Pandas Series operations on the decode strings\n    BRMA = (\n        pd.Series(personal_BRMA)\n        .groupby(benunit.members_entity_id)\n        .first()\n        .values\n    )\n    category = benunit(\"LHA_category\", period)\n    rate = parameters(period).benefit.LHA.rates[BRMA][category]\n    return rate * WEEKS_IN_YEAR\n",
+      "start_line_number": 111,
+      "stop_line_number": 126,
+      "variables": [
+        "BRMA",
+        "LHA_category"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "LHA Rate",
+  "name": "BRMA_LHA_rate",
+  "referring_variables": [
+    "LHA_cap"
+  ],
+  "start_line_number": 105,
+  "stop_line_number": 126,
+  "value_type": "float"
+}
