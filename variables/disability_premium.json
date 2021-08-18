@@ -467,7 +467,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "benefits_premiums"
+  ],
   "start_line_number": 141,
   "stop_line_number": 160,
+  "unit": "currency",
   "value_type": "float"
 }

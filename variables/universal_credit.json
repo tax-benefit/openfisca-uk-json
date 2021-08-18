@@ -508,6 +508,9 @@
   "json_type": "number",
   "label": "Universal Credit",
   "name": "universal_credit",
+  "referring_variables": [
+    "family_benefits"
+  ],
   "start_line_number": 180,
   "stop_line_number": 195,
   "value_type": "float"

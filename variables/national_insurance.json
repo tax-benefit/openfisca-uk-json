@@ -201,7 +201,12 @@
       "file_path": "/openfisca_uk/variables/finance/tax/national_insurance/class_4.py",
       "source_code": "def formula(person, period, parameters):\n    CLASSES = [\"employee_NI_class_1\", \"NI_class_2\", \"NI_class_4\"]\n    total = add(person, period, CLASSES)\n    return total\n",
       "start_line_number": 38,
-      "stop_line_number": 42
+      "stop_line_number": 42,
+      "variables": [
+        "NI_class_2",
+        "NI_class_4",
+        "employee_NI_class_1"
+      ]
     }
   },
   "json_type": "number",
@@ -215,7 +220,13 @@
     ]
   },
   "referring_variables": [
-    "tax"
+    "JSA_income_applicable_income",
+    "housing_benefit_applicable_income",
+    "income_support_applicable_income",
+    "pension_credit_applicable_income",
+    "tax",
+    "total_NI",
+    "universal_credit_income_reduction"
   ],
   "start_line_number": 31,
   "stop_line_number": 42,

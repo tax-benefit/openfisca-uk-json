@@ -123,7 +123,10 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
       "source_code": "def formula(benunit, period, parameters):\n    return aggr(benunit, period, [\"working_tax_credit_reported\"])\n",
       "start_line_number": 253,
-      "stop_line_number": 255
+      "stop_line_number": 255,
+      "variables": [
+        "working_tax_credit_reported"
+      ]
     }
   },
   "is_period_size_independent": true,
@@ -141,5 +144,6 @@
   ],
   "start_line_number": 247,
   "stop_line_number": 255,
+  "unit": "currency",
   "value_type": "bool"
 }

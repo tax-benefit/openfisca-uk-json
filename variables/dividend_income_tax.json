@@ -568,7 +568,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "income_tax_pre_charges"
+  ],
   "start_line_number": 456,
   "stop_line_number": 475,
+  "unit": "currency",
   "value_type": "float"
 }

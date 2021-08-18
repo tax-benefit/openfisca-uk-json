@@ -2149,10 +2149,23 @@
       "start_line_number": 105,
       "stop_line_number": 170,
       "variables": [
+        "ESA_income",
+        "JSA_income",
+        "child_benefit",
         "childcare_cost",
+        "employment_income",
+        "income_support",
+        "income_tax",
         "is_couple",
         "is_lone_parent",
         "is_single_person",
+        "national_insurance",
+        "pension_contributions",
+        "pension_income",
+        "personal_benefits",
+        "property_income",
+        "tax_credits",
+        "trading_income",
         "weekly_hours"
       ]
     }

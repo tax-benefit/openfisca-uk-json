@@ -162,7 +162,11 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
       "source_code": "def formula(person, period, parameters):\n    deductions = [\"pension_contributions\", \"employment_expenses\"]\n    return add(person, period, deductions)\n",
       "start_line_number": 36,
-      "stop_line_number": 39
+      "stop_line_number": 39,
+      "variables": [
+        "employment_expenses",
+        "pension_contributions"
+      ]
     }
   },
   "json_type": "number",
@@ -180,5 +184,6 @@
   ],
   "start_line_number": 29,
   "stop_line_number": 39,
+  "unit": "currency",
   "value_type": "float"
 }

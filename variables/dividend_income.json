@@ -15,9 +15,13 @@
     ]
   },
   "referring_variables": [
-    "taxable_dividend_income"
+    "gross_income",
+    "pension_credit_applicable_income",
+    "taxable_dividend_income",
+    "total_income"
   ],
   "start_line_number": 78,
   "stop_line_number": 84,
+  "unit": "currency",
   "value_type": "float"
 }

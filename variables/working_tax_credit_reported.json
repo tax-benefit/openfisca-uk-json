@@ -7,7 +7,12 @@
   "json_type": "number",
   "label": "Working Tax Credit",
   "name": "working_tax_credit_reported",
+  "referring_variables": [
+    "claims_WTC",
+    "family_benefits_reported"
+  ],
   "start_line_number": 6,
   "stop_line_number": 11,
+  "unit": "currency",
   "value_type": "float"
 }

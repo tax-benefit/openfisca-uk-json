@@ -468,9 +468,11 @@
     ]
   },
   "referring_variables": [
+    "benefits_premiums",
     "pension_credit_MG"
   ],
   "start_line_number": 162,
   "stop_line_number": 180,
+  "unit": "currency",
   "value_type": "float"
 }

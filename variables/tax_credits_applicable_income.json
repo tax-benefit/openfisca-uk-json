@@ -704,7 +704,20 @@
       ],
       "source_code": "def formula(benunit, period, parameters):\n    TC = parameters(period).benefit.tax_credits\n    STEP_1_COMPONENTS = [\n        \"taxable_pension_income\",\n        \"taxable_savings_interest_income\",\n        \"taxable_dividend_income\",\n        \"taxable_property_income\",\n    ]\n    income = aggr(benunit, period, STEP_1_COMPONENTS)\n    income = amount_over(income, TC.means_test.non_earned_disregard)\n    STEP_2_COMPONENTS = [\n        \"taxable_employment_income\",\n        \"taxable_trading_income\",\n        \"taxable_social_security_income\",\n        \"taxable_miscellaneous_income\",\n    ]\n    income += aggr(benunit, period, STEP_2_COMPONENTS)\n    EXEMPT_BENEFITS = [\"income_support\", \"ESA_income\", \"JSA_income\"]\n    on_exempt_benefits = add(benunit, period, EXEMPT_BENEFITS) > 0\n    return income * not_(on_exempt_benefits)\n",
       "start_line_number": 27,
-      "stop_line_number": 47
+      "stop_line_number": 47,
+      "variables": [
+        "ESA_income",
+        "JSA_income",
+        "income_support",
+        "taxable_dividend_income",
+        "taxable_employment_income",
+        "taxable_miscellaneous_income",
+        "taxable_pension_income",
+        "taxable_property_income",
+        "taxable_savings_interest_income",
+        "taxable_social_security_income",
+        "taxable_trading_income"
+      ]
     }
   },
   "json_type": "number",

@@ -1201,8 +1201,17 @@
       "start_line_number": 35,
       "stop_line_number": 69,
       "variables": [
+        "child_benefit",
+        "employment_income",
         "family_type",
-        "is_couple"
+        "income_tax",
+        "is_couple",
+        "national_insurance",
+        "pension_contributions",
+        "pension_income",
+        "personal_benefits",
+        "property_income",
+        "trading_income"
       ]
     }
   },

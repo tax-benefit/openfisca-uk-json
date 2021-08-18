@@ -175,6 +175,7 @@
       "start_line_number": 54,
       "stop_line_number": 58,
       "variables": [
+        "CB_HITC",
         "child_benefit"
       ]
     }
@@ -184,5 +185,6 @@
   "name": "child_benefit_less_tax_charge",
   "start_line_number": 48,
   "stop_line_number": 58,
+  "unit": "currency",
   "value_type": "float"
 }

@@ -307,6 +307,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "add_rate_savings_income",
+    "basic_rate_savings_income",
+    "higher_rate_savings_income"
+  ],
   "start_line_number": 288,
   "stop_line_number": 301,
   "value_type": "float"

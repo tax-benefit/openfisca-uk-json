@@ -15,7 +15,15 @@
     ]
   },
   "referring_variables": [
-    "taxable_pension_income"
+    "JSA_income_applicable_income",
+    "earned_income",
+    "gross_income",
+    "housing_benefit_applicable_income",
+    "income_support_applicable_income",
+    "pension_credit_applicable_income",
+    "taxable_pension_income",
+    "total_income",
+    "universal_credit_income_reduction"
   ],
   "start_line_number": 25,
   "stop_line_number": 31,

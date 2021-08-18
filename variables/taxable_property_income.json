@@ -196,7 +196,13 @@
       }
     ]
   },
+  "referring_variables": [
+    "adjusted_net_income",
+    "earned_taxable_income",
+    "tax_credits_applicable_income"
+  ],
   "start_line_number": 196,
   "stop_line_number": 209,
+  "unit": "currency",
   "value_type": "float"
 }

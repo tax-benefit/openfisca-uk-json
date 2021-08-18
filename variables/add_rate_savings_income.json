@@ -753,6 +753,8 @@
       "stop_line_number": 403,
       "variables": [
         "earned_taxable_income",
+        "savings_allowance",
+        "savings_starter_rate_income",
         "taxable_savings_interest_income"
       ]
     }
@@ -768,9 +770,11 @@
     ]
   },
   "referring_variables": [
-    "savings_income_tax"
+    "savings_income_tax",
+    "taxed_savings_income"
   ],
   "start_line_number": 371,
   "stop_line_number": 403,
+  "unit": "currency",
   "value_type": "float"
 }

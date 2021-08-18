@@ -210,7 +210,17 @@
       "file_path": "/openfisca_uk/variables/finance/income.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"employment_income\",\n        \"pension_income\",\n        \"self_employment_income\",\n        \"property_income\",\n        \"savings_interest_income\",\n        \"dividend_income\",\n        \"miscellaneous_income\",\n        \"benefits\",\n    ]\n    return add(person, period, COMPONENTS)\n",
       "start_line_number": 48,
-      "stop_line_number": 60
+      "stop_line_number": 60,
+      "variables": [
+        "benefits",
+        "dividend_income",
+        "employment_income",
+        "miscellaneous_income",
+        "pension_income",
+        "property_income",
+        "savings_interest_income",
+        "self_employment_income"
+      ]
     }
   },
   "json_type": "number",
@@ -221,5 +231,6 @@
   ],
   "start_line_number": 42,
   "stop_line_number": 60,
+  "unit": "currency",
   "value_type": "float"
 }

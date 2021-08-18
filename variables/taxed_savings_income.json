@@ -201,7 +201,12 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"basic_rate_savings_income\",\n        \"higher_rate_savings_income\",\n        \"add_rate_savings_income\",\n    ]\n    amount = add(person, period, COMPONENTS)\n    return amount\n",
       "start_line_number": 412,
-      "stop_line_number": 420
+      "stop_line_number": 420,
+      "variables": [
+        "add_rate_savings_income",
+        "basic_rate_savings_income",
+        "higher_rate_savings_income"
+      ]
     }
   },
   "json_type": "number",
@@ -215,9 +220,11 @@
     ]
   },
   "referring_variables": [
-    "dividend_income_tax"
+    "dividend_income_tax",
+    "taxed_income"
   ],
   "start_line_number": 405,
   "stop_line_number": 420,
+  "unit": "currency",
   "value_type": "float"
 }

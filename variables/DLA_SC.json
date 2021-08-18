@@ -111,8 +111,11 @@
   "name": "DLA_SC",
   "referring_variables": [
     "DLA",
+    "is_benefit_cap_exempt",
+    "is_disabled_for_benefits",
     "is_enhanced_disabled_for_benefits",
-    "is_severely_disabled_for_benefits"
+    "is_severely_disabled_for_benefits",
+    "personal_benefits"
   ],
   "start_line_number": 26,
   "stop_line_number": 34,

@@ -322,7 +322,11 @@
   "json_type": "number",
   "label": "Pension Credit (Guarantee Credit) amount",
   "name": "pension_credit_GC",
+  "referring_variables": [
+    "pension_credit"
+  ],
   "start_line_number": 91,
   "stop_line_number": 104,
+  "unit": "currency",
   "value_type": "float"
 }

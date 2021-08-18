@@ -7,6 +7,9 @@
   "json_type": "number",
   "label": "Reported amount of Pension Credit",
   "name": "pension_credit_reported",
+  "referring_variables": [
+    "claims_PC"
+  ],
   "start_line_number": 6,
   "stop_line_number": 11,
   "value_type": "float"

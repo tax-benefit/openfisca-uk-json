@@ -1331,7 +1331,11 @@
   "json_type": "number",
   "label": "Pension Credit (Savings Credit) amount per week",
   "name": "pension_credit_SC",
+  "referring_variables": [
+    "pension_credit"
+  ],
   "start_line_number": 106,
   "stop_line_number": 145,
+  "unit": "currency",
   "value_type": "float"
 }

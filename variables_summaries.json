@@ -18,6 +18,9 @@
     "json_type": "number",
     "label": "Attendance Allowance",
     "name": "AA",
+    "referring_variables": [
+      "personal_benefits"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -61,7 +64,8 @@
     "label": "Armed Forces Compensation Scheme",
     "name": "AFCS",
     "referring_variables": [
-      "is_severely_disabled_for_benefits"
+      "is_severely_disabled_for_benefits",
+      "personal_benefits"
     ],
     "start_line_number": 6,
     "stop_line_number": 14,
@@ -301,6 +305,9 @@
     "json_type": "number",
     "label": "Bereavement Support Payment",
     "name": "BSP",
+    "referring_variables": [
+      "personal_benefits"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -380,6 +387,7 @@
       ]
     },
     "referring_variables": [
+      "child_benefit_less_tax_charge",
       "income_tax"
     ],
     "start_line_number": 505,
@@ -418,8 +426,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "CTC_maximum_rate"
+    ],
     "start_line_number": 135,
     "stop_line_number": 156,
+    "unit": "currency",
     "value_type": "float"
   },
   "CTC_disabled_child_element": {
@@ -454,8 +466,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "CTC_maximum_rate"
+    ],
     "start_line_number": 158,
     "stop_line_number": 178,
+    "unit": "currency",
     "value_type": "float"
   },
   "CTC_family_element": {
@@ -488,8 +504,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "CTC_maximum_rate"
+    ],
     "start_line_number": 119,
     "stop_line_number": 133,
+    "unit": "currency",
     "value_type": "float"
   },
   "CTC_maximum_rate": {
@@ -502,7 +522,13 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
         "start_line_number": 109,
-        "stop_line_number": 117
+        "stop_line_number": 117,
+        "variables": [
+          "CTC_child_element",
+          "CTC_disabled_child_element",
+          "CTC_family_element",
+          "CTC_severely_disabled_child_element"
+        ]
       }
     },
     "json_type": "number",
@@ -521,6 +547,7 @@
     ],
     "start_line_number": 102,
     "stop_line_number": 117,
+    "unit": "currency",
     "value_type": "float"
   },
   "CTC_severely_disabled_child_element": {
@@ -555,8 +582,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "CTC_maximum_rate"
+    ],
     "start_line_number": 180,
     "stop_line_number": 204,
+    "unit": "currency",
     "value_type": "float"
   },
   "DLA": {
@@ -604,7 +635,10 @@
     "label": "Disability Living Allowance (mobility component)",
     "name": "DLA_M",
     "referring_variables": [
-      "DLA"
+      "DLA",
+      "is_benefit_cap_exempt",
+      "is_disabled_for_benefits",
+      "personal_benefits"
     ],
     "start_line_number": 16,
     "stop_line_number": 24,
@@ -649,8 +683,11 @@
     "name": "DLA_SC",
     "referring_variables": [
       "DLA",
+      "is_benefit_cap_exempt",
+      "is_disabled_for_benefits",
       "is_enhanced_disabled_for_benefits",
-      "is_severely_disabled_for_benefits"
+      "is_severely_disabled_for_benefits",
+      "personal_benefits"
     ],
     "start_line_number": 26,
     "stop_line_number": 34,
@@ -693,6 +730,12 @@
     "json_type": "number",
     "label": "Employment and Support Allowance (contribution-based)",
     "name": "ESA_contrib",
+    "referring_variables": [
+      "housing_benefit",
+      "is_benefit_cap_exempt",
+      "personal_benefits",
+      "social_security_income"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -725,17 +768,27 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/ESA_income.py",
         "start_line_number": 19,
-        "stop_line_number": 21
+        "stop_line_number": 21,
+        "variables": [
+          "ESA_income_reported"
+        ]
       }
     },
     "json_type": "number",
     "label": "ESA (income-based)",
     "name": "ESA_income",
     "referring_variables": [
-      "income_support_eligible"
+      "family_benefits",
+      "housing_benefit",
+      "housing_benefit_applicable_income",
+      "income_support_eligible",
+      "is_benefit_cap_exempt",
+      "tax_credits_applicable_income",
+      "universal_credit_eligible"
     ],
     "start_line_number": 13,
     "stop_line_number": 21,
+    "unit": "currency",
     "value_type": "float"
   },
   "ESA_income_reported": {
@@ -747,8 +800,12 @@
     "json_type": "number",
     "label": "ESA (income-based) (reported amount)",
     "name": "ESA_income_reported",
+    "referring_variables": [
+      "ESA_income"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "H_household_id": {
@@ -782,6 +839,9 @@
     "json_type": "number",
     "label": "Industrial Injuries Disablement Benefit",
     "name": "IIDB",
+    "referring_variables": [
+      "personal_benefits"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -833,6 +893,7 @@
         "start_line_number": 153,
         "stop_line_number": 157,
         "variables": [
+          "JSA_contrib",
           "JSA_income"
         ]
       }
@@ -842,6 +903,7 @@
     "name": "JSA",
     "start_line_number": 147,
     "stop_line_number": 157,
+    "unit": "currency",
     "value_type": "float"
   },
   "JSA_contrib": {
@@ -863,6 +925,13 @@
     "json_type": "number",
     "label": "Job Seeker's Allowance (contribution-based)",
     "name": "JSA_contrib",
+    "referring_variables": [
+      "JSA",
+      "housing_benefit",
+      "personal_benefits",
+      "social_security_income",
+      "universal_credit_income_reduction"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -878,7 +947,8 @@
     "label": "Job Seeker's Allowance (contribution-based) (reported)",
     "name": "JSA_contrib_reported",
     "referring_variables": [
-      "JSA_contrib"
+      "JSA_contrib",
+      "claims_JSA"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -908,10 +978,16 @@
     "label": "Job Seeker's Allowance (income-based)",
     "name": "JSA_income",
     "referring_variables": [
-      "JSA"
+      "JSA",
+      "family_benefits",
+      "housing_benefit",
+      "housing_benefit_applicable_income",
+      "tax_credits_applicable_income",
+      "universal_credit_eligible"
     ],
     "start_line_number": 127,
     "stop_line_number": 145,
+    "unit": "currency",
     "value_type": "float"
   },
   "JSA_income_applicable_amount": {
@@ -974,8 +1050,17 @@
         "start_line_number": 91,
         "stop_line_number": 125,
         "variables": [
+          "child_benefit",
+          "employment_income",
           "family_type",
-          "is_couple"
+          "income_tax",
+          "is_couple",
+          "national_insurance",
+          "pension_contributions",
+          "pension_income",
+          "personal_benefits",
+          "property_income",
+          "trading_income"
         ]
       }
     },
@@ -1035,6 +1120,9 @@
     "json_type": "number",
     "label": "JSA (income-based) (reported amount)",
     "name": "JSA_income_reported",
+    "referring_variables": [
+      "claims_JSA"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
     "value_type": "float"
@@ -1178,6 +1266,9 @@
     "json_type": "number",
     "label": "Class 2 Contributions for National Insurance for the year",
     "name": "NI_class_2",
+    "referring_variables": [
+      "national_insurance"
+    ],
     "start_line_number": 21,
     "stop_line_number": 29,
     "unit": "currency",
@@ -1215,8 +1306,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "national_insurance"
+    ],
     "start_line_number": 6,
     "stop_line_number": 29,
+    "unit": "currency",
     "value_type": "float"
   },
   "NI_exempt": {
@@ -1297,7 +1392,9 @@
     "name": "PIP_DL",
     "referring_variables": [
       "PIP",
-      "is_severely_disabled_for_benefits"
+      "is_disabled_for_benefits",
+      "is_severely_disabled_for_benefits",
+      "personal_benefits"
     ],
     "start_line_number": 16,
     "stop_line_number": 24,
@@ -1341,7 +1438,9 @@
     "label": "Personal Independence Payment (Mobility)",
     "name": "PIP_M",
     "referring_variables": [
-      "PIP"
+      "PIP",
+      "is_disabled_for_benefits",
+      "personal_benefits"
     ],
     "start_line_number": 26,
     "stop_line_number": 34,
@@ -1433,6 +1532,11 @@
     "json_type": "number",
     "label": "Severe Disablement Allowance",
     "name": "SDA",
+    "referring_variables": [
+      "housing_benefit",
+      "personal_benefits",
+      "universal_credit_eligible"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -1542,6 +1646,7 @@
         "stop_line_number": 83,
         "variables": [
           "childcare_cost",
+          "is_carer_for_benefits",
           "num_disabled_adults",
           "num_disabled_children"
         ]
@@ -1588,8 +1693,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 277,
     "stop_line_number": 291,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_childcare_element": {
@@ -1626,8 +1735,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 396,
     "stop_line_number": 421,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_couple_element": {
@@ -1661,8 +1774,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 293,
     "stop_line_number": 310,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_disabled_element": {
@@ -1699,8 +1816,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 333,
     "stop_line_number": 356,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_lone_parent_element": {
@@ -1734,8 +1855,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 312,
     "stop_line_number": 331,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_maximum_rate": {
@@ -1748,7 +1873,16 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
         "start_line_number": 264,
-        "stop_line_number": 275
+        "stop_line_number": 275,
+        "variables": [
+          "WTC_basic_element",
+          "WTC_childcare_element",
+          "WTC_couple_element",
+          "WTC_disabled_element",
+          "WTC_lone_parent_element",
+          "WTC_severely_disabled_element",
+          "WTC_worker_element"
+        ]
       }
     },
     "json_type": "number",
@@ -1768,6 +1902,7 @@
     ],
     "start_line_number": 257,
     "stop_line_number": 275,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_severely_disabled_element": {
@@ -1801,8 +1936,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 358,
     "stop_line_number": 376,
+    "unit": "currency",
     "value_type": "float"
   },
   "WTC_worker_element": {
@@ -1837,8 +1976,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "WTC_maximum_rate"
+    ],
     "start_line_number": 378,
     "stop_line_number": 394,
+    "unit": "currency",
     "value_type": "float"
   },
   "accommodation_type": {
@@ -1936,6 +2079,8 @@
         "stop_line_number": 403,
         "variables": [
           "earned_taxable_income",
+          "savings_allowance",
+          "savings_starter_rate_income",
           "taxable_savings_interest_income"
         ]
       }
@@ -1951,10 +2096,12 @@
       ]
     },
     "referring_variables": [
-      "savings_income_tax"
+      "savings_income_tax",
+      "taxed_savings_income"
     ],
     "start_line_number": 371,
     "stop_line_number": 403,
+    "unit": "currency",
     "value_type": "float"
   },
   "adjusted_net_income": {
@@ -1967,7 +2114,17 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
         "start_line_number": 275,
-        "stop_line_number": 287
+        "stop_line_number": 287,
+        "variables": [
+          "taxable_dividend_income",
+          "taxable_employment_income",
+          "taxable_miscellaneous_income",
+          "taxable_pension_income",
+          "taxable_property_income",
+          "taxable_savings_interest_income",
+          "taxable_social_security_income",
+          "taxable_trading_income"
+        ]
       }
     },
     "json_type": "number",
@@ -1989,6 +2146,7 @@
     ],
     "start_line_number": 268,
     "stop_line_number": 287,
+    "unit": "currency",
     "value_type": "float"
   },
   "age": {
@@ -2107,7 +2265,15 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
         "start_line_number": 200,
-        "stop_line_number": 211
+        "stop_line_number": 211,
+        "variables": [
+          "blind_persons_allowance",
+          "charitable_investment_gifts",
+          "covenanted_payments",
+          "gift_aid",
+          "other_deductions",
+          "personal_allowance"
+        ]
       }
     },
     "json_type": "number",
@@ -2119,6 +2285,7 @@
     ],
     "start_line_number": 194,
     "stop_line_number": 211,
+    "unit": "currency",
     "value_type": "float"
   },
   "base_net_income": {
@@ -2205,6 +2372,8 @@
         "stop_line_number": 335,
         "variables": [
           "earned_taxable_income",
+          "savings_allowance",
+          "savings_starter_rate_income",
           "taxable_savings_interest_income"
         ]
       }
@@ -2220,10 +2389,12 @@
       ]
     },
     "referring_variables": [
-      "savings_income_tax"
+      "savings_income_tax",
+      "taxed_savings_income"
     ],
     "start_line_number": 303,
     "stop_line_number": 335,
+    "unit": "currency",
     "value_type": "float"
   },
   "basic_rate_savings_income_pre_starter": {
@@ -2313,7 +2484,8 @@
     "label": "Total benefits",
     "name": "benefits",
     "referring_variables": [
-      "benefits_modelling"
+      "benefits_modelling",
+      "gross_income"
     ],
     "start_line_number": 64,
     "stop_line_number": 74,
@@ -2355,7 +2527,13 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
         "start_line_number": 140,
-        "stop_line_number": 148
+        "stop_line_number": 148,
+        "variables": [
+          "carer_premium",
+          "disability_premium",
+          "enhanced_disability_premium",
+          "severe_disability_premium"
+        ]
       }
     },
     "json_type": "number",
@@ -2368,6 +2546,7 @@
     ],
     "start_line_number": 134,
     "stop_line_number": 148,
+    "unit": "currency",
     "value_type": "float"
   },
   "benefits_reported": {
@@ -2555,8 +2734,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "allowances"
+    ],
     "start_line_number": 26,
     "stop_line_number": 32,
+    "unit": "currency",
     "value_type": "float"
   },
   "capital_allowances": {
@@ -2575,6 +2758,9 @@
         }
       ]
     },
+    "referring_variables": [
+      "taxable_trading_income"
+    ],
     "start_line_number": 124,
     "stop_line_number": 130,
     "value_type": "float"
@@ -2610,10 +2796,12 @@
       ]
     },
     "referring_variables": [
+      "benefits_premiums",
       "pension_credit_MG"
     ],
     "start_line_number": 26,
     "stop_line_number": 45,
+    "unit": "currency",
     "value_type": "float"
   },
   "carers_allowance": {
@@ -2636,7 +2824,11 @@
     "label": "Carer's Allowance",
     "name": "carers_allowance",
     "referring_variables": [
-      "is_carer_for_benefits"
+      "is_benefit_cap_exempt",
+      "is_carer_for_benefits",
+      "personal_benefits",
+      "social_security_income",
+      "universal_credit_income_reduction"
     ],
     "start_line_number": 6,
     "stop_line_number": 14,
@@ -2669,8 +2861,12 @@
     "json_type": "number",
     "label": "Gifts of qualifying investment or property to charities",
     "name": "charitable_investment_gifts",
+    "referring_variables": [
+      "allowances"
+    ],
     "start_line_number": 180,
     "stop_line_number": 185,
+    "unit": "currency",
     "value_type": "float"
   },
   "child_benefit": {
@@ -2689,7 +2885,8 @@
         "start_line_number": 32,
         "stop_line_number": 46,
         "variables": [
-          "claims_child_benefit"
+          "claims_child_benefit",
+          "is_child_or_QYP"
         ]
       }
     },
@@ -2705,10 +2902,17 @@
     },
     "referring_variables": [
       "CB_HITC",
-      "child_benefit_less_tax_charge"
+      "JSA_income_applicable_income",
+      "child_benefit_less_tax_charge",
+      "family_benefits",
+      "housing_benefit",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
+      "pension_credit_applicable_income"
     ],
     "start_line_number": 25,
     "stop_line_number": 46,
+    "unit": "currency",
     "value_type": "float"
   },
   "child_benefit_less_tax_charge": {
@@ -2723,6 +2927,7 @@
         "start_line_number": 54,
         "stop_line_number": 58,
         "variables": [
+          "CB_HITC",
           "child_benefit"
         ]
       }
@@ -2732,6 +2937,7 @@
     "name": "child_benefit_less_tax_charge",
     "start_line_number": 48,
     "stop_line_number": 58,
+    "unit": "currency",
     "value_type": "float"
   },
   "child_benefit_reported": {
@@ -2743,6 +2949,9 @@
     "json_type": "number",
     "label": "Child Benefit (reported amount)",
     "name": "child_benefit_reported",
+    "referring_variables": [
+      "claims_child_benefit"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
     "value_type": "float"
@@ -2769,7 +2978,10 @@
     "label": "Amount of Child Tax Credit entitled to",
     "name": "child_tax_credit",
     "referring_variables": [
-      "tax_credits"
+      "family_benefits",
+      "housing_benefit",
+      "tax_credits",
+      "universal_credit_eligible"
     ],
     "start_line_number": 465,
     "stop_line_number": 482,
@@ -2785,6 +2997,10 @@
     "json_type": "number",
     "label": "Working Tax Credit",
     "name": "child_tax_credit_reported",
+    "referring_variables": [
+      "claims_CTC",
+      "family_benefits_reported"
+    ],
     "start_line_number": 13,
     "stop_line_number": 18,
     "value_type": "float"
@@ -2823,6 +3039,7 @@
         "start_line_number": 91,
         "stop_line_number": 100,
         "variables": [
+          "child_tax_credit_reported",
           "claims_legacy_benefits"
         ]
       }
@@ -2856,7 +3073,8 @@
         "start_line_number": 40,
         "stop_line_number": 53,
         "variables": [
-          "claims_legacy_benefits"
+          "claims_legacy_benefits",
+          "housing_benefit_reported"
         ]
       }
     },
@@ -2886,7 +3104,8 @@
         "start_line_number": 19,
         "stop_line_number": 27,
         "variables": [
-          "claims_legacy_benefits"
+          "claims_legacy_benefits",
+          "income_support_reported"
         ]
       }
     },
@@ -2916,6 +3135,8 @@
         "start_line_number": 70,
         "stop_line_number": 83,
         "variables": [
+          "JSA_contrib_reported",
+          "JSA_income_reported",
           "claims_legacy_benefits"
         ]
       }
@@ -2945,7 +3166,10 @@
           "benefit.pension_credit.takeup"
         ],
         "start_line_number": 19,
-        "stop_line_number": 25
+        "stop_line_number": 25,
+        "variables": [
+          "pension_credit_reported"
+        ]
       }
     },
     "is_period_size_independent": true,
@@ -2976,7 +3200,8 @@
         "start_line_number": 19,
         "stop_line_number": 28,
         "variables": [
-          "claims_legacy_benefits"
+          "claims_legacy_benefits",
+          "universal_credit_reported"
         ]
       }
     },
@@ -3001,7 +3226,10 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
         "start_line_number": 253,
-        "stop_line_number": 255
+        "stop_line_number": 255,
+        "variables": [
+          "working_tax_credit_reported"
+        ]
       }
     },
     "is_period_size_independent": true,
@@ -3019,6 +3247,7 @@
     ],
     "start_line_number": 247,
     "stop_line_number": 255,
+    "unit": "currency",
     "value_type": "bool"
   },
   "claims_child_benefit": {
@@ -3034,7 +3263,10 @@
           "benefit.child_benefit.takeup"
         ],
         "start_line_number": 19,
-        "stop_line_number": 23
+        "stop_line_number": 23,
+        "variables": [
+          "child_benefit_reported"
+        ]
       }
     },
     "is_period_size_independent": true,
@@ -3137,8 +3369,12 @@
     "json_type": "number",
     "label": "Covenanted payments to charities",
     "name": "covenanted_payments",
+    "referring_variables": [
+      "allowances"
+    ],
     "start_line_number": 173,
     "stop_line_number": 178,
+    "unit": "currency",
     "value_type": "float"
   },
   "deficiency_relief": {
@@ -3189,8 +3425,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "benefits_premiums"
+    ],
     "start_line_number": 141,
     "stop_line_number": 160,
+    "unit": "currency",
     "value_type": "float"
   },
   "dividend_allowance": {
@@ -3243,10 +3483,14 @@
       ]
     },
     "referring_variables": [
-      "taxable_dividend_income"
+      "gross_income",
+      "pension_credit_applicable_income",
+      "taxable_dividend_income",
+      "total_income"
     ],
     "start_line_number": 78,
     "stop_line_number": 84,
+    "unit": "currency",
     "value_type": "float"
   },
   "dividend_income_tax": {
@@ -3280,8 +3524,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "income_tax_pre_charges"
+    ],
     "start_line_number": 456,
     "stop_line_number": 475,
+    "unit": "currency",
     "value_type": "float"
   },
   "earned_income": {
@@ -3294,7 +3542,12 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/income.py",
         "start_line_number": 12,
-        "stop_line_number": 19
+        "stop_line_number": 19,
+        "variables": [
+          "employment_income",
+          "pension_income",
+          "self_employment_income"
+        ]
       }
     },
     "json_type": "number",
@@ -3302,6 +3555,7 @@
     "name": "earned_income",
     "start_line_number": 6,
     "stop_line_number": 19,
+    "unit": "currency",
     "value_type": "float"
   },
   "earned_income_tax": {
@@ -3360,8 +3614,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "income_tax_pre_charges"
+    ],
     "start_line_number": 134,
     "stop_line_number": 165,
+    "unit": "currency",
     "value_type": "float"
   },
   "earned_taxable_income": {
@@ -3378,7 +3636,13 @@
         "variables": [
           "allowances",
           "pension_contributions",
-          "pension_contributions_relief"
+          "pension_contributions_relief",
+          "taxable_employment_income",
+          "taxable_miscellaneous_income",
+          "taxable_pension_income",
+          "taxable_property_income",
+          "taxable_social_security_income",
+          "taxable_trading_income"
         ]
       }
     },
@@ -3401,10 +3665,12 @@
       "dividend_income_tax",
       "earned_income_tax",
       "higher_rate_earned_income",
-      "higher_rate_savings_income"
+      "higher_rate_savings_income",
+      "taxed_income"
     ],
     "start_line_number": 10,
     "stop_line_number": 37,
+    "unit": "currency",
     "value_type": "float"
   },
   "eldest_adult_age": {
@@ -3490,8 +3756,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "national_insurance"
+    ],
     "start_line_number": 17,
     "stop_line_number": 40,
+    "unit": "currency",
     "value_type": "float"
   },
   "employer_NI": {
@@ -3513,6 +3783,9 @@
     "json_type": "number",
     "label": "Employer contributions to National Insurance",
     "name": "employer_NI",
+    "referring_variables": [
+      "total_NI"
+    ],
     "start_line_number": 61,
     "stop_line_number": 69,
     "unit": "currency",
@@ -3567,7 +3840,11 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
         "start_line_number": 36,
-        "stop_line_number": 39
+        "stop_line_number": 39,
+        "variables": [
+          "employment_expenses",
+          "pension_contributions"
+        ]
       }
     },
     "json_type": "number",
@@ -3585,6 +3862,7 @@
     ],
     "start_line_number": 29,
     "stop_line_number": 39,
+    "unit": "currency",
     "value_type": "float"
   },
   "employment_expenses": {
@@ -3603,8 +3881,13 @@
         }
       ]
     },
+    "referring_variables": [
+      "employment_deductions",
+      "net_income"
+    ],
     "start_line_number": 41,
     "stop_line_number": 49,
+    "unit": "currency",
     "value_type": "float"
   },
   "employment_income": {
@@ -3624,13 +3907,22 @@
       ]
     },
     "referring_variables": [
+      "JSA_income_applicable_income",
+      "earned_income",
       "employee_NI_class_1",
       "employer_NI_class_1",
+      "gross_income",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
       "pension_contributions_relief",
-      "taxable_employment_income"
+      "pension_credit_applicable_income",
+      "taxable_employment_income",
+      "total_income",
+      "universal_credit_income_reduction"
     ],
     "start_line_number": 17,
     "stop_line_number": 23,
+    "unit": "currency",
     "value_type": "float"
   },
   "employment_status": {
@@ -3696,8 +3988,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "benefits_premiums"
+    ],
     "start_line_number": 182,
     "stop_line_number": 200,
+    "unit": "currency",
     "value_type": "float"
   },
   "equiv_household_net_income": {
@@ -3781,7 +4077,16 @@
         "start_line_number": 16,
         "stop_line_number": 33,
         "variables": [
-          "is_benunit_head"
+          "ESA_income",
+          "JSA_income",
+          "child_benefit",
+          "child_tax_credit",
+          "housing_benefit",
+          "income_support",
+          "is_benunit_head",
+          "pension_credit",
+          "universal_credit",
+          "working_tax_credit"
         ]
       }
     },
@@ -3807,7 +4112,11 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
         "start_line_number": 41,
-        "stop_line_number": 62
+        "stop_line_number": 62,
+        "variables": [
+          "child_tax_credit_reported",
+          "working_tax_credit_reported"
+        ]
       }
     },
     "json_type": "number",
@@ -3911,8 +4220,12 @@
     "json_type": "number",
     "label": "Expenditure under Gift Aid",
     "name": "gift_aid",
+    "referring_variables": [
+      "allowances"
+    ],
     "start_line_number": 166,
     "stop_line_number": 171,
+    "unit": "currency",
     "value_type": "float"
   },
   "gross_income": {
@@ -3925,7 +4238,17 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/income.py",
         "start_line_number": 48,
-        "stop_line_number": 60
+        "stop_line_number": 60,
+        "variables": [
+          "benefits",
+          "dividend_income",
+          "employment_income",
+          "miscellaneous_income",
+          "pension_income",
+          "property_income",
+          "savings_interest_income",
+          "self_employment_income"
+        ]
       }
     },
     "json_type": "number",
@@ -3936,6 +4259,7 @@
     ],
     "start_line_number": 42,
     "stop_line_number": 60,
+    "unit": "currency",
     "value_type": "float"
   },
   "higher_rate_earned_income": {
@@ -4009,6 +4333,8 @@
         "stop_line_number": 369,
         "variables": [
           "earned_taxable_income",
+          "savings_allowance",
+          "savings_starter_rate_income",
           "taxable_savings_interest_income"
         ]
       }
@@ -4024,10 +4350,12 @@
       ]
     },
     "referring_variables": [
-      "savings_income_tax"
+      "savings_income_tax",
+      "taxed_savings_income"
     ],
     "start_line_number": 337,
     "stop_line_number": 369,
+    "unit": "currency",
     "value_type": "float"
   },
   "hours_worked": {
@@ -4127,7 +4455,8 @@
         "start_line_number": 120,
         "stop_line_number": 126,
         "variables": [
-          "council_tax"
+          "council_tax",
+          "net_income"
         ]
       }
     },
@@ -4214,12 +4543,21 @@
         "start_line_number": 178,
         "stop_line_number": 214,
         "variables": [
+          "ESA_contrib",
+          "ESA_income",
+          "JSA_contrib",
+          "JSA_income",
           "LHA_cap",
           "LHA_eligible",
+          "SDA",
           "benefit_cap",
+          "child_benefit",
+          "child_tax_credit",
           "claims_HB",
           "housing_benefit_applicable_amount",
           "housing_benefit_applicable_income",
+          "incapacity_benefit",
+          "income_support",
           "rent"
         ]
       }
@@ -4228,7 +4566,9 @@
     "label": "Housing Benefit",
     "name": "housing_benefit",
     "referring_variables": [
-      "pension_credit_eligible"
+      "family_benefits",
+      "pension_credit_eligible",
+      "universal_credit_eligible"
     ],
     "start_line_number": 13,
     "stop_line_number": 21,
@@ -4299,10 +4639,23 @@
         "start_line_number": 105,
         "stop_line_number": 170,
         "variables": [
+          "ESA_income",
+          "JSA_income",
+          "child_benefit",
           "childcare_cost",
+          "employment_income",
+          "income_support",
+          "income_tax",
           "is_couple",
           "is_lone_parent",
           "is_single_person",
+          "national_insurance",
+          "pension_contributions",
+          "pension_income",
+          "personal_benefits",
+          "property_income",
+          "tax_credits",
+          "trading_income",
           "weekly_hours"
         ]
       }
@@ -4354,6 +4707,9 @@
     "json_type": "number",
     "label": "Housing Benefit (reported amount)",
     "name": "housing_benefit_reported",
+    "referring_variables": [
+      "claims_HB"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
     "value_type": "float"
@@ -4581,6 +4937,11 @@
     "json_type": "number",
     "label": "Incapacity Benefit",
     "name": "incapacity_benefit",
+    "referring_variables": [
+      "housing_benefit",
+      "personal_benefits",
+      "social_security_income"
+    ],
     "start_line_number": 6,
     "stop_line_number": 14,
     "unit": "currency",
@@ -4624,7 +4985,12 @@
     "label": "Income Support",
     "name": "income_support",
     "referring_variables": [
-      "JSA_income_eligible"
+      "JSA_income_eligible",
+      "family_benefits",
+      "housing_benefit",
+      "housing_benefit_applicable_income",
+      "tax_credits_applicable_income",
+      "universal_credit_eligible"
     ],
     "start_line_number": 141,
     "stop_line_number": 154,
@@ -4687,8 +5053,17 @@
         "start_line_number": 35,
         "stop_line_number": 69,
         "variables": [
+          "child_benefit",
+          "employment_income",
           "family_type",
-          "is_couple"
+          "income_tax",
+          "is_couple",
+          "national_insurance",
+          "pension_contributions",
+          "pension_income",
+          "personal_benefits",
+          "property_income",
+          "trading_income"
         ]
       }
     },
@@ -4716,6 +5091,7 @@
         "variables": [
           "ESA_income",
           "is_SP_age",
+          "is_carer_for_benefits",
           "is_lone_parent",
           "youngest_child_age"
         ]
@@ -4741,6 +5117,9 @@
     "json_type": "number",
     "label": "Income Support (reported amount)",
     "name": "income_support_reported",
+    "referring_variables": [
+      "claims_IS"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
     "value_type": "float"
@@ -4773,7 +5152,12 @@
       ]
     },
     "referring_variables": [
-      "tax"
+      "JSA_income_applicable_income",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
+      "pension_credit_applicable_income",
+      "tax",
+      "universal_credit_income_reduction"
     ],
     "start_line_number": 525,
     "stop_line_number": 536,
@@ -4790,7 +5174,12 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
         "start_line_number": 484,
-        "stop_line_number": 492
+        "stop_line_number": 492,
+        "variables": [
+          "dividend_income_tax",
+          "earned_income_tax",
+          "savings_income_tax"
+        ]
       }
     },
     "json_type": "number",
@@ -5059,7 +5448,15 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/benefit_cap.py",
         "start_line_number": 48,
-        "stop_line_number": 62
+        "stop_line_number": 62,
+        "variables": [
+          "DLA_M",
+          "DLA_SC",
+          "ESA_contrib",
+          "ESA_income",
+          "carers_allowance",
+          "working_tax_credit"
+        ]
       }
     },
     "is_period_size_independent": true,
@@ -5111,6 +5508,8 @@
     "label": "Whether this person is a carer for benefits purposes",
     "name": "is_carer_for_benefits",
     "referring_variables": [
+      "UC_premiums",
+      "income_support_eligible",
       "num_carers"
     ],
     "start_line_number": 6,
@@ -5207,6 +5606,7 @@
     "label": "Whether this person is a child or qualifying young person for most benefits",
     "name": "is_child_or_QYP",
     "referring_variables": [
+      "child_benefit",
       "is_child_for_CTC",
       "num_disabled_children",
       "num_enhanced_disabled_children",
@@ -5265,7 +5665,13 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/disability.py",
         "start_line_number": 13,
-        "stop_line_number": 21
+        "stop_line_number": 21,
+        "variables": [
+          "DLA_M",
+          "DLA_SC",
+          "PIP_DL",
+          "PIP_M"
+        ]
       }
     },
     "is_period_size_independent": true,
@@ -6059,6 +6465,9 @@
         }
       ]
     },
+    "referring_variables": [
+      "taxable_trading_income"
+    ],
     "start_line_number": 132,
     "stop_line_number": 144,
     "unit": "currency",
@@ -6132,8 +6541,13 @@
     "json_type": "number",
     "label": "Income from other sources",
     "name": "miscellaneous_income",
+    "referring_variables": [
+      "gross_income",
+      "total_income"
+    ],
     "start_line_number": 35,
     "stop_line_number": 40,
+    "unit": "currency",
     "value_type": "float"
   },
   "mortgage": {
@@ -6163,7 +6577,12 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/national_insurance/class_4.py",
         "start_line_number": 38,
-        "stop_line_number": 42
+        "stop_line_number": 42,
+        "variables": [
+          "NI_class_2",
+          "NI_class_4",
+          "employee_NI_class_1"
+        ]
       }
     },
     "json_type": "number",
@@ -6177,7 +6596,13 @@
       ]
     },
     "referring_variables": [
-      "tax"
+      "JSA_income_applicable_income",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
+      "pension_credit_applicable_income",
+      "tax",
+      "total_NI",
+      "universal_credit_income_reduction"
     ],
     "start_line_number": 31,
     "stop_line_number": 42,
@@ -6196,15 +6621,21 @@
         "start_line_number": 68,
         "stop_line_number": 71,
         "variables": [
-          "gross_income"
+          "employment_expenses",
+          "gross_income",
+          "tax"
         ]
       }
     },
     "json_type": "number",
     "label": "Net income",
     "name": "net_income",
+    "referring_variables": [
+      "household_net_income"
+    ],
     "start_line_number": 62,
     "stop_line_number": 71,
+    "unit": "currency",
     "value_type": "float"
   },
   "num_adults": {
@@ -6496,8 +6927,12 @@
     "json_type": "number",
     "label": "All other tax deductions",
     "name": "other_deductions",
+    "referring_variables": [
+      "allowances"
+    ],
     "start_line_number": 187,
     "stop_line_number": 192,
+    "unit": "currency",
     "value_type": "float"
   },
   "over_16": {
@@ -6596,11 +7031,16 @@
     "label": "Amount contributed to registered pension schemes paid by the individual (not the employer)",
     "name": "pension_contributions",
     "referring_variables": [
+      "JSA_income_applicable_income",
       "earned_taxable_income",
+      "employment_deductions",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
       "pension_contributions_relief"
     ],
     "start_line_number": 51,
     "stop_line_number": 56,
+    "unit": "currency",
     "value_type": "float"
   },
   "pension_contributions_relief": {
@@ -6654,14 +7094,22 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
         "start_line_number": 153,
-        "stop_line_number": 157
+        "stop_line_number": 157,
+        "variables": [
+          "pension_credit_GC",
+          "pension_credit_SC"
+        ]
       }
     },
     "json_type": "number",
     "label": "Pension credit amount",
     "name": "pension_credit",
+    "referring_variables": [
+      "family_benefits"
+    ],
     "start_line_number": 147,
     "stop_line_number": 157,
+    "unit": "currency",
     "value_type": "float"
   },
   "pension_credit_GC": {
@@ -6686,8 +7134,12 @@
     "json_type": "number",
     "label": "Pension Credit (Guarantee Credit) amount",
     "name": "pension_credit_GC",
+    "referring_variables": [
+      "pension_credit"
+    ],
     "start_line_number": 91,
     "stop_line_number": 104,
+    "unit": "currency",
     "value_type": "float"
   },
   "pension_credit_MG": {
@@ -6756,8 +7208,12 @@
     "json_type": "number",
     "label": "Pension Credit (Savings Credit) amount per week",
     "name": "pension_credit_SC",
+    "referring_variables": [
+      "pension_credit"
+    ],
     "start_line_number": 106,
     "stop_line_number": 145,
+    "unit": "currency",
     "value_type": "float"
   },
   "pension_credit_applicable_income": {
@@ -6770,7 +7226,19 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
         "start_line_number": 69,
-        "stop_line_number": 89
+        "stop_line_number": 89,
+        "variables": [
+          "child_benefit",
+          "dividend_income",
+          "employment_income",
+          "income_tax",
+          "national_insurance",
+          "pension_income",
+          "personal_benefits",
+          "property_income",
+          "savings_interest_income",
+          "trading_income"
+        ]
       }
     },
     "json_type": "number",
@@ -6823,6 +7291,9 @@
     "json_type": "number",
     "label": "Reported amount of Pension Credit",
     "name": "pension_credit_reported",
+    "referring_variables": [
+      "claims_PC"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
     "value_type": "float"
@@ -6844,7 +7315,15 @@
       ]
     },
     "referring_variables": [
-      "taxable_pension_income"
+      "JSA_income_applicable_income",
+      "earned_income",
+      "gross_income",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
+      "pension_credit_applicable_income",
+      "taxable_pension_income",
+      "total_income",
+      "universal_credit_income_reduction"
     ],
     "start_line_number": 25,
     "stop_line_number": 31,
@@ -6921,8 +7400,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "allowances"
+    ],
     "start_line_number": 10,
     "stop_line_number": 24,
+    "unit": "currency",
     "value_type": "float"
   },
   "personal_benefits": {
@@ -6935,15 +7418,35 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
         "start_line_number": 216,
-        "stop_line_number": 234
+        "stop_line_number": 234,
+        "variables": [
+          "AA",
+          "AFCS",
+          "BSP",
+          "DLA_M",
+          "DLA_SC",
+          "ESA_contrib",
+          "IIDB",
+          "JSA_contrib",
+          "PIP_DL",
+          "PIP_M",
+          "SDA",
+          "carers_allowance",
+          "incapacity_benefit",
+          "state_pension"
+        ]
       }
     },
     "json_type": "number",
     "label": "Value of personal, non-means-tested benefits",
     "name": "personal_benefits",
     "referring_variables": [
+      "JSA_income_applicable_income",
       "benefits",
-      "other_benefits"
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
+      "other_benefits",
+      "pension_credit_applicable_income"
     ],
     "start_line_number": 210,
     "stop_line_number": 234,
@@ -7200,8 +7703,14 @@
       ]
     },
     "referring_variables": [
+      "JSA_income_applicable_income",
+      "gross_income",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
+      "pension_credit_applicable_income",
       "property_allowance_deduction",
-      "taxable_property_income"
+      "taxable_property_income",
+      "total_income"
     ],
     "start_line_number": 59,
     "stop_line_number": 68,
@@ -7324,7 +7833,10 @@
       ]
     },
     "referring_variables": [
-      "basic_rate_savings_income_pre_starter"
+      "add_rate_savings_income",
+      "basic_rate_savings_income",
+      "basic_rate_savings_income_pre_starter",
+      "higher_rate_savings_income"
     ],
     "start_line_number": 127,
     "stop_line_number": 150,
@@ -7361,8 +7873,12 @@
         }
       ]
     },
+    "referring_variables": [
+      "income_tax_pre_charges"
+    ],
     "start_line_number": 436,
     "stop_line_number": 454,
+    "unit": "currency",
     "value_type": "float"
   },
   "savings_interest_income": {
@@ -7382,10 +7898,14 @@
       ]
     },
     "referring_variables": [
-      "taxable_savings_interest_income"
+      "gross_income",
+      "pension_credit_applicable_income",
+      "taxable_savings_interest_income",
+      "total_income"
     ],
     "start_line_number": 70,
     "stop_line_number": 76,
+    "unit": "currency",
     "value_type": "float"
   },
   "savings_starter_rate_income": {
@@ -7417,6 +7937,11 @@
         }
       ]
     },
+    "referring_variables": [
+      "add_rate_savings_income",
+      "basic_rate_savings_income",
+      "higher_rate_savings_income"
+    ],
     "start_line_number": 288,
     "stop_line_number": 301,
     "value_type": "float"
@@ -7430,8 +7955,13 @@
     "json_type": "number",
     "label": "Self-employment income",
     "name": "self_employment_income",
+    "referring_variables": [
+      "earned_income",
+      "gross_income"
+    ],
     "start_line_number": 28,
     "stop_line_number": 33,
+    "unit": "currency",
     "value_type": "float"
   },
   "severe_disability_premium": {
@@ -7467,10 +7997,12 @@
       ]
     },
     "referring_variables": [
+      "benefits_premiums",
       "pension_credit_MG"
     ],
     "start_line_number": 162,
     "stop_line_number": 180,
+    "unit": "currency",
     "value_type": "float"
   },
   "social_security_income": {
@@ -7483,7 +8015,14 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
         "start_line_number": 40,
-        "stop_line_number": 49
+        "stop_line_number": 49,
+        "variables": [
+          "ESA_contrib",
+          "JSA_contrib",
+          "carers_allowance",
+          "incapacity_benefit",
+          "state_pension"
+        ]
       }
     },
     "json_type": "number",
@@ -7497,7 +8036,8 @@
       ]
     },
     "referring_variables": [
-      "taxable_social_security_income"
+      "taxable_social_security_income",
+      "total_income"
     ],
     "start_line_number": 33,
     "stop_line_number": 49,
@@ -7523,6 +8063,11 @@
     "json_type": "number",
     "label": "Income from the State Pension",
     "name": "state_pension",
+    "referring_variables": [
+      "personal_benefits",
+      "social_security_income",
+      "universal_credit_income_reduction"
+    ],
     "start_line_number": 32,
     "stop_line_number": 40,
     "unit": "currency",
@@ -7613,6 +8158,7 @@
     "label": "Total tax",
     "name": "tax",
     "referring_variables": [
+      "net_income",
       "tax_modelling"
     ],
     "start_line_number": 6,
@@ -7706,6 +8252,9 @@
     "json_type": "number",
     "label": "Value of the Tax Credits (benefits) for this family",
     "name": "tax_credits",
+    "referring_variables": [
+      "housing_benefit_applicable_income"
+    ],
     "start_line_number": 484,
     "stop_line_number": 494,
     "unit": "currency",
@@ -7724,7 +8273,20 @@
           "benefit.tax_credits.means_test.non_earned_disregard"
         ],
         "start_line_number": 27,
-        "stop_line_number": 47
+        "stop_line_number": 47,
+        "variables": [
+          "ESA_income",
+          "JSA_income",
+          "income_support",
+          "taxable_dividend_income",
+          "taxable_employment_income",
+          "taxable_miscellaneous_income",
+          "taxable_pension_income",
+          "taxable_property_income",
+          "taxable_savings_interest_income",
+          "taxable_social_security_income",
+          "taxable_trading_income"
+        ]
       }
     },
     "json_type": "number",
@@ -7875,10 +8437,13 @@
       ]
     },
     "referring_variables": [
+      "adjusted_net_income",
+      "tax_credits_applicable_income",
       "taxed_dividend_income"
     ],
     "start_line_number": 221,
     "stop_line_number": 234,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxable_employment_income": {
@@ -7908,8 +8473,14 @@
         }
       ]
     },
+    "referring_variables": [
+      "adjusted_net_income",
+      "earned_taxable_income",
+      "tax_credits_applicable_income"
+    ],
     "start_line_number": 15,
     "stop_line_number": 27,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxable_miscellaneous_income": {
@@ -7928,8 +8499,14 @@
         }
       ]
     },
+    "referring_variables": [
+      "adjusted_net_income",
+      "earned_taxable_income",
+      "tax_credits_applicable_income"
+    ],
     "start_line_number": 239,
     "stop_line_number": 245,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxable_pension_income": {
@@ -7958,6 +8535,11 @@
         }
       ]
     },
+    "referring_variables": [
+      "adjusted_net_income",
+      "earned_taxable_income",
+      "tax_credits_applicable_income"
+    ],
     "start_line_number": 149,
     "stop_line_number": 158,
     "unit": "currency",
@@ -7990,8 +8572,14 @@
         }
       ]
     },
+    "referring_variables": [
+      "adjusted_net_income",
+      "earned_taxable_income",
+      "tax_credits_applicable_income"
+    ],
     "start_line_number": 196,
     "stop_line_number": 209,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxable_savings_interest_income": {
@@ -8023,12 +8611,15 @@
     },
     "referring_variables": [
       "add_rate_savings_income",
+      "adjusted_net_income",
       "basic_rate_savings_income",
       "basic_rate_savings_income_pre_starter",
-      "higher_rate_savings_income"
+      "higher_rate_savings_income",
+      "tax_credits_applicable_income"
     ],
     "start_line_number": 84,
     "stop_line_number": 95,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxable_social_security_income": {
@@ -8057,6 +8648,11 @@
         }
       ]
     },
+    "referring_variables": [
+      "adjusted_net_income",
+      "earned_taxable_income",
+      "tax_credits_applicable_income"
+    ],
     "start_line_number": 163,
     "stop_line_number": 172,
     "unit": "currency",
@@ -8074,6 +8670,9 @@
         "start_line_number": 184,
         "stop_line_number": 191,
         "variables": [
+          "capital_allowances",
+          "loss_relief",
+          "trading_allowance",
           "trading_income"
         ]
       }
@@ -8088,8 +8687,14 @@
         }
       ]
     },
+    "referring_variables": [
+      "adjusted_net_income",
+      "earned_taxable_income",
+      "tax_credits_applicable_income"
+    ],
     "start_line_number": 177,
     "stop_line_number": 191,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxed_dividend_income": {
@@ -8113,10 +8718,12 @@
     "label": "Dividend income which is taxed",
     "name": "taxed_dividend_income",
     "referring_variables": [
-      "dividend_income_tax"
+      "dividend_income_tax",
+      "taxed_income"
     ],
     "start_line_number": 422,
     "stop_line_number": 434,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxed_income": {
@@ -8129,7 +8736,12 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
         "start_line_number": 45,
-        "stop_line_number": 52
+        "stop_line_number": 52,
+        "variables": [
+          "earned_taxable_income",
+          "taxed_dividend_income",
+          "taxed_savings_income"
+        ]
       }
     },
     "json_type": "number",
@@ -8137,6 +8749,7 @@
     "name": "taxed_income",
     "start_line_number": 39,
     "stop_line_number": 52,
+    "unit": "currency",
     "value_type": "float"
   },
   "taxed_savings_income": {
@@ -8149,7 +8762,12 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
         "start_line_number": 412,
-        "stop_line_number": 420
+        "stop_line_number": 420,
+        "variables": [
+          "add_rate_savings_income",
+          "basic_rate_savings_income",
+          "higher_rate_savings_income"
+        ]
       }
     },
     "json_type": "number",
@@ -8163,10 +8781,12 @@
       ]
     },
     "referring_variables": [
-      "dividend_income_tax"
+      "dividend_income_tax",
+      "taxed_income"
     ],
     "start_line_number": 405,
     "stop_line_number": 420,
+    "unit": "currency",
     "value_type": "float"
   },
   "tenure_type": {
@@ -8204,7 +8824,11 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/national_insurance/class_1.py",
         "start_line_number": 79,
-        "stop_line_number": 82
+        "stop_line_number": 82,
+        "variables": [
+          "employer_NI",
+          "national_insurance"
+        ]
       }
     },
     "json_type": "number",
@@ -8212,6 +8836,7 @@
     "name": "total_NI",
     "start_line_number": 71,
     "stop_line_number": 82,
+    "unit": "currency",
     "value_type": "float"
   },
   "total_income": {
@@ -8224,7 +8849,17 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
         "start_line_number": 254,
-        "stop_line_number": 266
+        "stop_line_number": 266,
+        "variables": [
+          "dividend_income",
+          "employment_income",
+          "miscellaneous_income",
+          "pension_income",
+          "property_income",
+          "savings_interest_income",
+          "social_security_income",
+          "trading_income"
+        ]
       }
     },
     "json_type": "number",
@@ -8239,6 +8874,7 @@
     },
     "start_line_number": 247,
     "stop_line_number": 266,
+    "unit": "currency",
     "value_type": "float"
   },
   "trading_allowance": {
@@ -8268,6 +8904,7 @@
       ]
     },
     "referring_variables": [
+      "taxable_trading_income",
       "trading_allowance_deduction"
     ],
     "start_line_number": 75,
@@ -8322,14 +8959,21 @@
       ]
     },
     "referring_variables": [
+      "JSA_income_applicable_income",
       "NI_class_4",
+      "housing_benefit_applicable_income",
+      "income_support_applicable_income",
       "pension_contributions_relief",
+      "pension_credit_applicable_income",
       "taxable_trading_income",
+      "total_income",
       "trading_allowance_deduction",
+      "universal_credit_income_reduction",
       "weekly_NI_class_2"
     ],
     "start_line_number": 51,
     "stop_line_number": 57,
+    "unit": "currency",
     "value_type": "float"
   },
   "trading_loss": {
@@ -8372,6 +9016,9 @@
     "json_type": "number",
     "label": "Universal Credit",
     "name": "universal_credit",
+    "referring_variables": [
+      "family_benefits"
+    ],
     "start_line_number": 180,
     "stop_line_number": 195,
     "value_type": "float"
@@ -8417,7 +9064,14 @@
         "start_line_number": 162,
         "stop_line_number": 178,
         "variables": [
-          "is_SP_age"
+          "ESA_income",
+          "JSA_income",
+          "SDA",
+          "child_tax_credit",
+          "housing_benefit",
+          "income_support",
+          "is_SP_age",
+          "working_tax_credit"
         ]
       }
     },
@@ -8449,7 +9103,15 @@
         "start_line_number": 121,
         "stop_line_number": 154,
         "variables": [
-          "UC_eligible_rent"
+          "JSA_contrib",
+          "UC_eligible_rent",
+          "carers_allowance",
+          "employment_income",
+          "income_tax",
+          "national_insurance",
+          "pension_income",
+          "state_pension",
+          "trading_income"
         ]
       }
     },
@@ -8472,6 +9134,9 @@
     "json_type": "number",
     "label": "Reported amount of Universal Credit",
     "name": "universal_credit_reported",
+    "referring_variables": [
+      "claims_UC"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
     "value_type": "float"
@@ -8602,7 +9267,10 @@
     "label": "Amount of Working Tax Credit entitled to",
     "name": "working_tax_credit",
     "referring_variables": [
-      "tax_credits"
+      "family_benefits",
+      "is_benefit_cap_exempt",
+      "tax_credits",
+      "universal_credit_eligible"
     ],
     "start_line_number": 450,
     "stop_line_number": 463,
@@ -8618,8 +9286,13 @@
     "json_type": "number",
     "label": "Working Tax Credit",
     "name": "working_tax_credit_reported",
+    "referring_variables": [
+      "claims_WTC",
+      "family_benefits_reported"
+    ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "youngest_adult_age": {

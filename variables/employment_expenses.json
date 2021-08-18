@@ -14,7 +14,12 @@
       }
     ]
   },
+  "referring_variables": [
+    "employment_deductions",
+    "net_income"
+  ],
   "start_line_number": 41,
   "stop_line_number": 49,
+  "unit": "currency",
   "value_type": "float"
 }

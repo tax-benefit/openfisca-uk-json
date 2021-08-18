@@ -383,7 +383,8 @@
       "start_line_number": 40,
       "stop_line_number": 53,
       "variables": [
-        "claims_legacy_benefits"
+        "claims_legacy_benefits",
+        "housing_benefit_reported"
       ]
     }
   },

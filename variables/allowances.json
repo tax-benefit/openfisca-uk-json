@@ -225,7 +225,15 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/allowances.py",
       "source_code": "def formula(person, period, parameters):\n    ALLOWANCES = [\n        \"personal_allowance\",\n        \"blind_persons_allowance\",\n        \"gift_aid\",\n        \"covenanted_payments\",\n        \"charitable_investment_gifts\",\n        \"other_deductions\",\n    ]\n    allowance = add(person, period, ALLOWANCES)\n    return allowance\n",
       "start_line_number": 200,
-      "stop_line_number": 211
+      "stop_line_number": 211,
+      "variables": [
+        "blind_persons_allowance",
+        "charitable_investment_gifts",
+        "covenanted_payments",
+        "gift_aid",
+        "other_deductions",
+        "personal_allowance"
+      ]
     }
   },
   "json_type": "number",
@@ -237,5 +245,6 @@
   ],
   "start_line_number": 194,
   "stop_line_number": 211,
+  "unit": "currency",
   "value_type": "float"
 }

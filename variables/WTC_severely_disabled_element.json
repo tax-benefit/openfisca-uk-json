@@ -380,7 +380,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "WTC_maximum_rate"
+  ],
   "start_line_number": 358,
   "stop_line_number": 376,
+  "unit": "currency",
   "value_type": "float"
 }

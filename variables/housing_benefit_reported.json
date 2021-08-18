@@ -7,6 +7,9 @@
   "json_type": "number",
   "label": "Housing Benefit (reported amount)",
   "name": "housing_benefit_reported",
+  "referring_variables": [
+    "claims_HB"
+  ],
   "start_line_number": 6,
   "stop_line_number": 11,
   "value_type": "float"

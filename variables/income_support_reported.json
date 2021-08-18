@@ -7,6 +7,9 @@
   "json_type": "number",
   "label": "Income Support (reported amount)",
   "name": "income_support_reported",
+  "referring_variables": [
+    "claims_IS"
+  ],
   "start_line_number": 6,
   "stop_line_number": 11,
   "value_type": "float"

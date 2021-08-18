@@ -109,6 +109,13 @@
   "json_type": "number",
   "label": "Job Seeker's Allowance (contribution-based)",
   "name": "JSA_contrib",
+  "referring_variables": [
+    "JSA",
+    "housing_benefit",
+    "personal_benefits",
+    "social_security_income",
+    "universal_credit_income_reduction"
+  ],
   "start_line_number": 6,
   "stop_line_number": 14,
   "unit": "currency",

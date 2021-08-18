@@ -204,7 +204,8 @@
       "start_line_number": 120,
       "stop_line_number": 126,
       "variables": [
-        "council_tax"
+        "council_tax",
+        "net_income"
       ]
     }
   },

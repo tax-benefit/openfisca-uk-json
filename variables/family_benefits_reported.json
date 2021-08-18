@@ -399,7 +399,11 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
       "source_code": "def formula(person, period, parameters):\n    FAMILY_BENEFITS = [\n        \"child_benefit\",\n        \"ESA_income\",\n        \"housing_benefit\",\n        \"income_support\",\n        \"JSA_income\",\n        \"pension_credit\",\n        \"universal_credit\",\n    ]\n    benefits = add(\n        person,\n        period,\n        map(lambda ben: ben + \"_reported\", FAMILY_BENEFITS),\n    )\n    benefits += add(\n        person,\n        period,\n        [\"working_tax_credit_reported\", \"child_tax_credit_reported\"],\n    )\n    return benefits\n",
       "start_line_number": 41,
-      "stop_line_number": 62
+      "stop_line_number": 62,
+      "variables": [
+        "child_tax_credit_reported",
+        "working_tax_credit_reported"
+      ]
     }
   },
   "json_type": "number",

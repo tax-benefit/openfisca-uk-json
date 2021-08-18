@@ -538,7 +538,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "CTC_maximum_rate"
+  ],
   "start_line_number": 180,
   "stop_line_number": 204,
+  "unit": "currency",
   "value_type": "float"
 }

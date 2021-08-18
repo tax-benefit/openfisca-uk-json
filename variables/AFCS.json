@@ -110,7 +110,8 @@
   "label": "Armed Forces Compensation Scheme",
   "name": "AFCS",
   "referring_variables": [
-    "is_severely_disabled_for_benefits"
+    "is_severely_disabled_for_benefits",
+    "personal_benefits"
   ],
   "start_line_number": 6,
   "stop_line_number": 14,

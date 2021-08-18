@@ -260,11 +260,14 @@
   },
   "referring_variables": [
     "add_rate_savings_income",
+    "adjusted_net_income",
     "basic_rate_savings_income",
     "basic_rate_savings_income_pre_starter",
-    "higher_rate_savings_income"
+    "higher_rate_savings_income",
+    "tax_credits_applicable_income"
   ],
   "start_line_number": 84,
   "stop_line_number": 95,
+  "unit": "currency",
   "value_type": "float"
 }

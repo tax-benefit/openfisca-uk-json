@@ -7,6 +7,9 @@
   "json_type": "number",
   "label": "Child Benefit (reported amount)",
   "name": "child_benefit_reported",
+  "referring_variables": [
+    "claims_child_benefit"
+  ],
   "start_line_number": 6,
   "stop_line_number": 11,
   "value_type": "float"

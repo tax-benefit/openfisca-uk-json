@@ -161,7 +161,8 @@
   "label": "Total benefits",
   "name": "benefits",
   "referring_variables": [
-    "benefits_modelling"
+    "benefits_modelling",
+    "gross_income"
   ],
   "start_line_number": 64,
   "stop_line_number": 74,

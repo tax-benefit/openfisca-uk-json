@@ -170,7 +170,12 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"earned_taxable_income\",\n        \"taxed_savings_income\",\n        \"taxed_dividend_income\",\n    ]\n    return add(person, period, COMPONENTS)\n",
       "start_line_number": 45,
-      "stop_line_number": 52
+      "stop_line_number": 52,
+      "variables": [
+        "earned_taxable_income",
+        "taxed_dividend_income",
+        "taxed_savings_income"
+      ]
     }
   },
   "json_type": "number",
@@ -178,5 +183,6 @@
   "name": "taxed_income",
   "start_line_number": 39,
   "stop_line_number": 52,
+  "unit": "currency",
   "value_type": "float"
 }

@@ -109,6 +109,12 @@
   "json_type": "number",
   "label": "Employment and Support Allowance (contribution-based)",
   "name": "ESA_contrib",
+  "referring_variables": [
+    "housing_benefit",
+    "is_benefit_cap_exempt",
+    "personal_benefits",
+    "social_security_income"
+  ],
   "start_line_number": 6,
   "stop_line_number": 14,
   "unit": "currency",

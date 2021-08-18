@@ -109,6 +109,9 @@
   "json_type": "number",
   "label": "Attendance Allowance",
   "name": "AA",
+  "referring_variables": [
+    "personal_benefits"
+  ],
   "start_line_number": 6,
   "stop_line_number": 14,
   "unit": "currency",

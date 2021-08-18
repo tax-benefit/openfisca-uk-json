@@ -32,6 +32,35 @@
   "CB_HITC": {
     "label": "Child Benefit High-Income Tax Charge"
   },
+  "CTC_child_element": {
+    "label": "CTC entitlement from child elements"
+  },
+  "CTC_disabled_child_element": {
+    "label": "CTC entitlement from disabled child elements"
+  },
+  "CTC_family_element": {
+    "label": "CTC entitlement in the Family Element"
+  },
+  "CTC_maximum_rate": {
+    "children": [
+      {
+        "name": "CTC_family_element"
+      },
+      {
+        "name": "CTC_child_element"
+      },
+      {
+        "name": "CTC_disabled_child_element"
+      },
+      {
+        "name": "CTC_severely_disabled_child_element"
+      }
+    ],
+    "label": "The maximum rate of CTC"
+  },
+  "CTC_severely_disabled_child_element": {
+    "label": "CTC entitlement from severely disabled child elements"
+  },
   "DLA": {
     "children": [
       {
@@ -76,6 +105,17 @@
   "ESA_contrib_reported": {
     "label": "Employment and Support Allowance (contribution-based) (reported)"
   },
+  "ESA_income": {
+    "children": [
+      {
+        "name": "ESA_income_reported"
+      }
+    ],
+    "label": "ESA (income-based)"
+  },
+  "ESA_income_reported": {
+    "label": "ESA (income-based) (reported amount)"
+  },
   "IIDB": {
     "children": [
       {
@@ -90,6 +130,17 @@
   "ISA_interest_income": {
     "label": "Amount received in interest from Individual Savings Accounts"
   },
+  "JSA": {
+    "children": [
+      {
+        "name": "JSA_contrib"
+      },
+      {
+        "name": "JSA_income"
+      }
+    ],
+    "label": "Amount of Jobseeker's Allowance for this family"
+  },
   "JSA_contrib": {
     "children": [
       {
@@ -101,6 +152,9 @@
   "JSA_contrib_reported": {
     "label": "Job Seeker's Allowance (contribution-based) (reported)"
   },
+  "JSA_income": {
+    "label": "Job Seeker's Allowance (income-based)"
+  },
   "NI_class_2": {
     "children": [
       {
@@ -108,6 +162,9 @@
       }
     ],
     "label": "Class 2 Contributions for National Insurance for the year"
+  },
+  "NI_class_4": {
+    "label": "Class 4 Contributions for National Insurance for the year"
   },
   "PIP": {
     "children": [
@@ -162,6 +219,111 @@
   "UC_premiums": {
     "label": "Premiums for Universal Credit"
   },
+  "WTC_basic_element": {
+    "label": "WTC entitlement from the basic element"
+  },
+  "WTC_childcare_element": {
+    "label": "WTC entitlement from the childcare element"
+  },
+  "WTC_couple_element": {
+    "label": "WTC entitlement from the couple element"
+  },
+  "WTC_disabled_element": {
+    "label": "WTC entitlement from the disabled element"
+  },
+  "WTC_lone_parent_element": {
+    "label": "WTC entitlement from the lone parent element"
+  },
+  "WTC_maximum_rate": {
+    "children": [
+      {
+        "name": "WTC_basic_element"
+      },
+      {
+        "name": "WTC_couple_element"
+      },
+      {
+        "name": "WTC_lone_parent_element"
+      },
+      {
+        "name": "WTC_disabled_element"
+      },
+      {
+        "name": "WTC_severely_disabled_element"
+      },
+      {
+        "name": "WTC_worker_element"
+      },
+      {
+        "name": "WTC_childcare_element"
+      }
+    ],
+    "label": "The maximum rate of WTC"
+  },
+  "WTC_severely_disabled_element": {
+    "label": "WTC entitlement from the severely disabled element"
+  },
+  "WTC_worker_element": {
+    "label": "WTC entitlement from the worker element"
+  },
+  "add_rate_savings_income": {
+    "label": "Savings income at the higher rate"
+  },
+  "adjusted_net_income": {
+    "children": [
+      {
+        "name": "taxable_employment_income"
+      },
+      {
+        "name": "taxable_pension_income"
+      },
+      {
+        "name": "taxable_social_security_income"
+      },
+      {
+        "name": "taxable_trading_income"
+      },
+      {
+        "name": "taxable_property_income"
+      },
+      {
+        "name": "taxable_savings_interest_income"
+      },
+      {
+        "name": "taxable_dividend_income"
+      },
+      {
+        "name": "taxable_miscellaneous_income"
+      }
+    ],
+    "label": "Taxable income after tax reliefs and before allowances"
+  },
+  "allowances": {
+    "children": [
+      {
+        "name": "personal_allowance"
+      },
+      {
+        "name": "blind_persons_allowance"
+      },
+      {
+        "name": "gift_aid"
+      },
+      {
+        "name": "covenanted_payments"
+      },
+      {
+        "name": "charitable_investment_gifts"
+      },
+      {
+        "name": "other_deductions"
+      }
+    ],
+    "label": "Allowances applicable to adjusted net income"
+  },
+  "basic_rate_savings_income": {
+    "label": "Savings income at the basic rate"
+  },
   "benefits": {
     "children": [
       {
@@ -185,6 +347,23 @@
     ],
     "label": "Difference between reported and simulated benefits for this person"
   },
+  "benefits_premiums": {
+    "children": [
+      {
+        "name": "disability_premium"
+      },
+      {
+        "name": "enhanced_disability_premium"
+      },
+      {
+        "name": "severe_disability_premium"
+      },
+      {
+        "name": "carer_premium"
+      }
+    ],
+    "label": "Value of premiums for disability and carer status"
+  },
   "benefits_reported": {
     "children": [
       {
@@ -204,6 +383,12 @@
     ],
     "label": "Average weekly hours worked by adults in the benefit unit"
   },
+  "blind_persons_allowance": {
+    "label": "Blind Person's Allowance for the year (not simulated)"
+  },
+  "carer_premium": {
+    "label": "Carer premium"
+  },
   "carers_allowance": {
     "children": [
       {
@@ -215,8 +400,70 @@
   "carers_allowance_reported": {
     "label": "Carer's Allowance (reported)"
   },
+  "charitable_investment_gifts": {
+    "label": "Gifts of qualifying investment or property to charities"
+  },
+  "child_benefit": {
+    "label": "Child Benefit for the family"
+  },
+  "child_benefit_less_tax_charge": {
+    "children": [
+      {
+        "name": "child_benefit"
+      },
+      {
+        "name": "CB_HITC",
+        "negate": true
+      }
+    ],
+    "label": "Child Benefit entitlement, less the High Income Tax Charge"
+  },
   "child_tax_credit": {
     "label": "Amount of Child Tax Credit entitled to"
+  },
+  "claims_WTC": {
+    "children": [
+      {
+        "name": "working_tax_credit_reported"
+      }
+    ],
+    "label": "Whether this family is imputed to claim Working Tax Credit, based on survey response and take-up rates"
+  },
+  "covenanted_payments": {
+    "label": "Covenanted payments to charities"
+  },
+  "disability_premium": {
+    "label": "Disability premium"
+  },
+  "dividend_income": {
+    "label": "Income from dividends"
+  },
+  "dividend_income_tax": {
+    "label": "Income tax on dividend income"
+  },
+  "earned_income": {
+    "children": [
+      {
+        "name": "employment_income"
+      },
+      {
+        "name": "self_employment_income"
+      },
+      {
+        "name": "pension_income"
+      }
+    ],
+    "label": "Total earned income"
+  },
+  "earned_income_tax": {
+    "label": "Income tax on earned income",
+    "last_review": "2018-04-06"
+  },
+  "earned_taxable_income": {
+    "label": "Non-savings, non-dividend income for Income Tax"
+  },
+  "employee_NI_class_1": {
+    "label": "Employee Class 1 Contributions for National Insurance"
   },
   "employer_NI": {
     "children": [
@@ -228,6 +475,26 @@
   },
   "employer_NI_class_1": {
     "label": "Employer Class 1 Contributions for National Insurance"
+  },
+  "employment_deductions": {
+    "children": [
+      {
+        "name": "pension_contributions"
+      },
+      {
+        "name": "employment_expenses"
+      }
+    ],
+    "label": "Deductions from employment income"
+  },
+  "employment_expenses": {
+    "label": "Cost of expenses necessarily incurred and reimbursed by employment"
+  },
+  "employment_income": {
+    "label": "Employment income"
+  },
+  "enhanced_disability_premium": {
+    "label": "Enhanced disability premium"
   },
   "family_benefits": {
     "label": "Total simulated family benefits for this person"
@@ -242,6 +509,41 @@
       }
     ],
     "label": "Gross rent for the family"
+  },
+  "gift_aid": {
+    "label": "Expenditure under Gift Aid"
+  },
+  "gross_income": {
+    "children": [
+      {
+        "name": "employment_income"
+      },
+      {
+        "name": "pension_income"
+      },
+      {
+        "name": "self_employment_income"
+      },
+      {
+        "name": "property_income"
+      },
+      {
+        "name": "savings_interest_income"
+      },
+      {
+        "name": "dividend_income"
+      },
+      {
+        "name": "miscellaneous_income"
+      },
+      {
+        "name": "benefits"
+      }
+    ],
+    "label": "Gross income, including benefits"
+  },
+  "higher_rate_savings_income": {
+    "label": "Savings income at the higher rate"
   },
   "household_net_income": {
     "label": "Household net income"
@@ -292,6 +594,17 @@
     "label": "Income Tax"
   },
   "income_tax_pre_charges": {
+    "children": [
+      {
+        "name": "earned_income_tax"
+      },
+      {
+        "name": "savings_income_tax"
+      },
+      {
+        "name": "dividend_income_tax"
+      }
+    ],
     "label": "Income Tax before any tax charges"
   },
   "is_QYP": {
@@ -336,11 +649,41 @@
     ],
     "label": "Tax relief from trading losses"
   },
+  "miscellaneous_income": {
+    "label": "Income from other sources"
+  },
   "mortgage": {
     "label": "Total mortgage payments"
   },
   "national_insurance": {
+    "children": [
+      {
+        "name": "employee_NI_class_1"
+      },
+      {
+        "name": "NI_class_2"
+      },
+      {
+        "name": "NI_class_4"
+      }
+    ],
     "label": "National Insurance"
+  },
+  "net_income": {
+    "children": [
+      {
+        "name": "gross_income"
+      },
+      {
+        "name": "tax",
+        "negate": true
+      },
+      {
+        "name": "employment_expenses",
+        "negate": true
+      }
+    ],
+    "label": "Net income"
   },
   "num_adults": {
     "children": [
@@ -382,10 +725,80 @@
     ],
     "label": "Income from benefits not modelled or detailed in the model"
   },
+  "other_deductions": {
+    "label": "All other tax deductions"
+  },
+  "pension_contributions": {
+    "label": "Amount contributed to registered pension schemes paid by the individual (not the employer)"
+  },
+  "pension_credit": {
+    "children": [
+      {
+        "name": "pension_credit_GC"
+      },
+      {
+        "name": "pension_credit_SC"
+      }
+    ],
+    "label": "Pension credit amount"
+  },
+  "pension_credit_GC": {
+    "label": "Pension Credit (Guarantee Credit) amount"
+  },
+  "pension_credit_SC": {
+    "label": "Pension Credit (Savings Credit) amount per week"
+  },
   "pension_income": {
     "label": "Income from pensions"
   },
+  "personal_allowance": {
+    "label": "Personal Allowance for the year"
+  },
   "personal_benefits": {
+    "children": [
+      {
+        "name": "AA"
+      },
+      {
+        "name": "AFCS"
+      },
+      {
+        "name": "BSP"
+      },
+      {
+        "name": "carers_allowance"
+      },
+      {
+        "name": "DLA_M"
+      },
+      {
+        "name": "DLA_SC"
+      },
+      {
+        "name": "ESA_contrib"
+      },
+      {
+        "name": "IIDB"
+      },
+      {
+        "name": "incapacity_benefit"
+      },
+      {
+        "name": "JSA_contrib"
+      },
+      {
+        "name": "PIP_M"
+      },
+      {
+        "name": "PIP_DL"
+      },
+      {
+        "name": "SDA"
+      },
+      {
+        "name": "state_pension"
+      }
+    ],
     "label": "Value of personal, non-means-tested benefits"
   },
   "personal_benefits_reported": {
@@ -405,7 +818,36 @@
   "rent": {
     "label": "Gross rent for the household"
   },
+  "savings_income_tax": {
+    "label": "Income tax on savings income"
+  },
+  "savings_interest_income": {
+    "label": "Income from interest on savings"
+  },
+  "self_employment_income": {
+    "label": "Self-employment income"
+  },
+  "severe_disability_premium": {
+    "label": "Severe disability premium"
+  },
   "social_security_income": {
+    "children": [
+      {
+        "name": "state_pension"
+      },
+      {
+        "name": "incapacity_benefit"
+      },
+      {
+        "name": "JSA_contrib"
+      },
+      {
+        "name": "ESA_contrib"
+      },
+      {
+        "name": "carers_allowance"
+      }
+    ],
     "label": "Income from social security for tax purposes"
   },
   "state_pension": {
@@ -467,6 +909,15 @@
   "tax_reported": {
     "label": "Reported tax paid"
   },
+  "taxable_dividend_income": {
+    "label": "Amount of dividend income that is taxable"
+  },
+  "taxable_employment_income": {
+    "label": "Net taxable earnings"
+  },
+  "taxable_miscellaneous_income": {
+    "label": "Amount of miscellaneous income that is taxable"
+  },
   "taxable_pension_income": {
     "children": [
       {
@@ -475,6 +926,12 @@
     ],
     "label": "Amount of pension income that is taxable"
   },
+  "taxable_property_income": {
+    "label": "Amount of property income that is taxable"
+  },
+  "taxable_savings_interest_income": {
+    "label": "Amount of savings interest which is taxable"
+  },
   "taxable_social_security_income": {
     "children": [
       {
@@ -482,6 +939,83 @@
       }
     ],
     "label": "Amount of social security income that is taxable"
+  },
+  "taxable_trading_income": {
+    "label": "Amount of trading income that is taxable"
+  },
+  "taxed_dividend_income": {
+    "label": "Dividend income which is taxed"
+  },
+  "taxed_income": {
+    "children": [
+      {
+        "name": "earned_taxable_income"
+      },
+      {
+        "name": "taxed_savings_income"
+      },
+      {
+        "name": "taxed_dividend_income"
+      }
+    ],
+    "label": "Income which is taxed"
+  },
+  "taxed_savings_income": {
+    "children": [
+      {
+        "name": "basic_rate_savings_income"
+      },
+      {
+        "name": "higher_rate_savings_income"
+      },
+      {
+        "name": "add_rate_savings_income"
+      }
+    ],
+    "label": "Savings income which advances the person's income tax schedule"
+  },
+  "total_NI": {
+    "children": [
+      {
+        "name": "employer_NI"
+      },
+      {
+        "name": "national_insurance"
+      }
+    ],
+    "label": "Total National Insurance contributions by employers and employees"
+  },
+  "total_income": {
+    "children": [
+      {
+        "name": "employment_income"
+      },
+      {
+        "name": "pension_income"
+      },
+      {
+        "name": "social_security_income"
+      },
+      {
+        "name": "trading_income"
+      },
+      {
+        "name": "property_income"
+      },
+      {
+        "name": "savings_interest_income"
+      },
+      {
+        "name": "dividend_income"
+      },
+      {
+        "name": "miscellaneous_income"
+      }
+    ],
+    "label": "Taxable income after tax reliefs and before allowances"
+  },
+  "trading_income": {
+    "label": "Income from trading profits for owned businesses"
   },
   "trading_loss": {
     "label": "Loss from trading in the current year."
@@ -508,5 +1042,8 @@
   },
   "working_tax_credit": {
     "label": "Amount of Working Tax Credit entitled to"
+  },
+  "working_tax_credit_reported": {
+    "label": "Working Tax Credit"
   }
 }

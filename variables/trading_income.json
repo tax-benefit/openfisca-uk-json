@@ -15,13 +15,20 @@
     ]
   },
   "referring_variables": [
+    "JSA_income_applicable_income",
     "NI_class_4",
+    "housing_benefit_applicable_income",
+    "income_support_applicable_income",
     "pension_contributions_relief",
+    "pension_credit_applicable_income",
     "taxable_trading_income",
+    "total_income",
     "trading_allowance_deduction",
+    "universal_credit_income_reduction",
     "weekly_NI_class_2"
   ],
   "start_line_number": 51,
   "stop_line_number": 57,
+  "unit": "currency",
   "value_type": "float"
 }

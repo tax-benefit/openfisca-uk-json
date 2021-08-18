@@ -449,7 +449,16 @@
       "start_line_number": 16,
       "stop_line_number": 33,
       "variables": [
-        "is_benunit_head"
+        "ESA_income",
+        "JSA_income",
+        "child_benefit",
+        "child_tax_credit",
+        "housing_benefit",
+        "income_support",
+        "is_benunit_head",
+        "pension_credit",
+        "universal_credit",
+        "working_tax_credit"
       ]
     }
   },

@@ -200,7 +200,13 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/disability.py",
       "source_code": "def formula(person, period, parameters):\n    QUALIFYING_BENEFITS = [\n        \"DLA_M\",\n        \"DLA_SC\",\n        \"PIP_M\",\n        \"PIP_DL\",\n    ]\n    return add(person, period, QUALIFYING_BENEFITS) > 0\n",
       "start_line_number": 13,
-      "stop_line_number": 21
+      "stop_line_number": 21,
+      "variables": [
+        "DLA_M",
+        "DLA_SC",
+        "PIP_DL",
+        "PIP_M"
+      ]
     }
   },
   "is_period_size_independent": true,

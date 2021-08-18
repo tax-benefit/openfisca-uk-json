@@ -579,7 +579,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "national_insurance"
+  ],
   "start_line_number": 6,
   "stop_line_number": 29,
+  "unit": "currency",
   "value_type": "float"
 }

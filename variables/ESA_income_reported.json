@@ -7,7 +7,11 @@
   "json_type": "number",
   "label": "ESA (income-based) (reported amount)",
   "name": "ESA_income_reported",
+  "referring_variables": [
+    "ESA_income"
+  ],
   "start_line_number": 6,
   "stop_line_number": 11,
+  "unit": "currency",
   "value_type": "float"
 }

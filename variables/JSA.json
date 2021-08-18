@@ -175,6 +175,7 @@
       "start_line_number": 153,
       "stop_line_number": 157,
       "variables": [
+        "JSA_contrib",
         "JSA_income"
       ]
     }
@@ -184,5 +185,6 @@
   "name": "JSA",
   "start_line_number": 147,
   "stop_line_number": 157,
+  "unit": "currency",
   "value_type": "float"
 }

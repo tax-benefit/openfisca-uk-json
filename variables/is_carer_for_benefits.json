@@ -133,6 +133,8 @@
   "label": "Whether this person is a carer for benefits purposes",
   "name": "is_carer_for_benefits",
   "referring_variables": [
+    "UC_premiums",
+    "income_support_eligible",
     "num_carers"
   ],
   "start_line_number": 6,

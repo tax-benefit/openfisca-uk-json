@@ -332,7 +332,10 @@
   "label": "Amount of Child Tax Credit entitled to",
   "name": "child_tax_credit",
   "referring_variables": [
-    "tax_credits"
+    "family_benefits",
+    "housing_benefit",
+    "tax_credits",
+    "universal_credit_eligible"
   ],
   "start_line_number": 465,
   "stop_line_number": 482,

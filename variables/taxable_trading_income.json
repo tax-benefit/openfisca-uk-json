@@ -282,6 +282,9 @@
       "start_line_number": 184,
       "stop_line_number": 191,
       "variables": [
+        "capital_allowances",
+        "loss_relief",
+        "trading_allowance",
         "trading_income"
       ]
     }
@@ -296,7 +299,13 @@
       }
     ]
   },
+  "referring_variables": [
+    "adjusted_net_income",
+    "earned_taxable_income",
+    "tax_credits_applicable_income"
+  ],
   "start_line_number": 177,
   "stop_line_number": 191,
+  "unit": "currency",
   "value_type": "float"
 }

@@ -15,9 +15,13 @@
     ]
   },
   "referring_variables": [
-    "taxable_savings_interest_income"
+    "gross_income",
+    "pension_credit_applicable_income",
+    "taxable_savings_interest_income",
+    "total_income"
   ],
   "start_line_number": 70,
   "stop_line_number": 76,
+  "unit": "currency",
   "value_type": "float"
 }

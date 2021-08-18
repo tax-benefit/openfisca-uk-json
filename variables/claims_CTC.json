@@ -373,6 +373,7 @@
       "start_line_number": 91,
       "stop_line_number": 100,
       "variables": [
+        "child_tax_credit_reported",
         "claims_legacy_benefits"
       ]
     }

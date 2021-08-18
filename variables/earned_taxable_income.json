@@ -530,7 +530,13 @@
       "variables": [
         "allowances",
         "pension_contributions",
-        "pension_contributions_relief"
+        "pension_contributions_relief",
+        "taxable_employment_income",
+        "taxable_miscellaneous_income",
+        "taxable_pension_income",
+        "taxable_property_income",
+        "taxable_social_security_income",
+        "taxable_trading_income"
       ]
     }
   },
@@ -553,9 +559,11 @@
     "dividend_income_tax",
     "earned_income_tax",
     "higher_rate_earned_income",
-    "higher_rate_savings_income"
+    "higher_rate_savings_income",
+    "taxed_income"
   ],
   "start_line_number": 10,
   "stop_line_number": 37,
+  "unit": "currency",
   "value_type": "float"
 }

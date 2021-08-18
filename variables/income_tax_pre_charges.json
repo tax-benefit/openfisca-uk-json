@@ -201,7 +201,12 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/liability.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"earned_income_tax\",\n        \"savings_income_tax\",\n        \"dividend_income_tax\",\n    ]\n    total = add(person, period, COMPONENTS)\n    return total\n",
       "start_line_number": 484,
-      "stop_line_number": 492
+      "stop_line_number": 492,
+      "variables": [
+        "dividend_income_tax",
+        "earned_income_tax",
+        "savings_income_tax"
+      ]
     }
   },
   "json_type": "number",

@@ -221,7 +221,10 @@
   "label": "Amount of Working Tax Credit entitled to",
   "name": "working_tax_credit",
   "referring_variables": [
-    "tax_credits"
+    "family_benefits",
+    "is_benefit_cap_exempt",
+    "tax_credits",
+    "universal_credit_eligible"
   ],
   "start_line_number": 450,
   "stop_line_number": 463,

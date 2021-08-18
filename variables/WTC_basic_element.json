@@ -298,7 +298,11 @@
       }
     ]
   },
+  "referring_variables": [
+    "WTC_maximum_rate"
+  ],
   "start_line_number": 277,
   "stop_line_number": 291,
+  "unit": "currency",
   "value_type": "float"
 }

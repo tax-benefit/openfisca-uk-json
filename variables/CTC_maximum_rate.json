@@ -178,7 +178,13 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
       "source_code": "def formula(benunit, period, parameters):\n    ELEMENTS = [\n        \"CTC_family_element\",\n        \"CTC_child_element\",\n        \"CTC_disabled_child_element\",\n        \"CTC_severely_disabled_child_element\",\n    ]\n    return add(benunit, period, ELEMENTS)\n",
       "start_line_number": 109,
-      "stop_line_number": 117
+      "stop_line_number": 117,
+      "variables": [
+        "CTC_child_element",
+        "CTC_disabled_child_element",
+        "CTC_family_element",
+        "CTC_severely_disabled_child_element"
+      ]
     }
   },
   "json_type": "number",
@@ -197,5 +203,6 @@
   ],
   "start_line_number": 102,
   "stop_line_number": 117,
+  "unit": "currency",
   "value_type": "float"
 }

@@ -168,7 +168,12 @@
     ]
   },
   "referring_variables": [
-    "tax"
+    "JSA_income_applicable_income",
+    "housing_benefit_applicable_income",
+    "income_support_applicable_income",
+    "pension_credit_applicable_income",
+    "tax",
+    "universal_credit_income_reduction"
   ],
   "start_line_number": 525,
   "stop_line_number": 536,

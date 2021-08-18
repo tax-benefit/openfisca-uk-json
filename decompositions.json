@@ -2,6 +2,27 @@
   "CB_HITC": {
     "label": "Child Benefit High-Income Tax Charge"
   },
+  "NI_class_2": {
+    "children": [
+      {
+        "name": "weekly_NI_class_2"
+      }
+    ],
+    "label": "Class 2 Contributions for National Insurance for the year"
+  },
+  "NI_class_4": {
+    "label": "Class 4 Contributions for National Insurance for the year"
+  },
+  "dividend_income_tax": {
+    "label": "Income tax on dividend income"
+  },
+  "earned_income_tax": {
+    "label": "Income tax on earned income",
+    "last_review": "2018-04-06"
+  },
+  "employee_NI_class_1": {
+    "label": "Employee Class 1 Contributions for National Insurance"
+  },
   "income_tax": {
     "children": [
       {
@@ -14,10 +35,35 @@
     "label": "Income Tax"
   },
   "income_tax_pre_charges": {
+    "children": [
+      {
+        "name": "earned_income_tax"
+      },
+      {
+        "name": "savings_income_tax"
+      },
+      {
+        "name": "dividend_income_tax"
+      }
+    ],
     "label": "Income Tax before any tax charges"
   },
   "national_insurance": {
+    "children": [
+      {
+        "name": "employee_NI_class_1"
+      },
+      {
+        "name": "NI_class_2"
+      },
+      {
+        "name": "NI_class_4"
+      }
+    ],
     "label": "National Insurance"
+  },
+  "savings_income_tax": {
+    "label": "Income tax on savings income"
   },
   "tax": {
     "children": [
@@ -44,5 +90,8 @@
   },
   "tax_reported": {
     "label": "Reported tax paid"
+  },
+  "weekly_NI_class_2": {
+    "label": "Class 2 Contributions for National Insurance"
   }
 }

@@ -576,7 +576,19 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
       "source_code": "def formula(benunit, period, parameters):\n    INCOME_COMPONENTS = [\n        \"employment_income\",\n        \"trading_income\",\n        \"property_income\",\n        \"pension_income\",\n        \"savings_interest_income\",\n        \"dividend_income\",\n    ]\n    income = aggr(benunit, period, INCOME_COMPONENTS)\n    tax = aggr(\n        benunit,\n        period,\n        [\"income_tax\", \"national_insurance\"],\n    )\n    income += aggr(benunit, period, [\"personal_benefits\"])\n    income += add(benunit, period, [\"child_benefit\"])\n    income -= tax\n    income = amount_over(income, 0)\n    return income\n",
       "start_line_number": 69,
-      "stop_line_number": 89
+      "stop_line_number": 89,
+      "variables": [
+        "child_benefit",
+        "dividend_income",
+        "employment_income",
+        "income_tax",
+        "national_insurance",
+        "pension_income",
+        "personal_benefits",
+        "property_income",
+        "savings_interest_income",
+        "trading_income"
+      ]
     }
   },
   "json_type": "number",

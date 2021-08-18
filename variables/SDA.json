@@ -109,6 +109,11 @@
   "json_type": "number",
   "label": "Severe Disablement Allowance",
   "name": "SDA",
+  "referring_variables": [
+    "housing_benefit",
+    "personal_benefits",
+    "universal_credit_eligible"
+  ],
   "start_line_number": 6,
   "stop_line_number": 14,
   "unit": "currency",

@@ -572,7 +572,8 @@
       "start_line_number": 32,
       "stop_line_number": 46,
       "variables": [
-        "claims_child_benefit"
+        "claims_child_benefit",
+        "is_child_or_QYP"
       ]
     }
   },
@@ -588,9 +589,16 @@
   },
   "referring_variables": [
     "CB_HITC",
-    "child_benefit_less_tax_charge"
+    "JSA_income_applicable_income",
+    "child_benefit_less_tax_charge",
+    "family_benefits",
+    "housing_benefit",
+    "housing_benefit_applicable_income",
+    "income_support_applicable_income",
+    "pension_credit_applicable_income"
   ],
   "start_line_number": 25,
   "stop_line_number": 46,
+  "unit": "currency",
   "value_type": "float"
 }
