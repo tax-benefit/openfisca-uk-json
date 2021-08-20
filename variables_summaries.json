@@ -37,7 +37,8 @@
     "name": "AA_reported",
     "referring_variables": [
       "AA",
-      "AFCS"
+      "AFCS",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -81,8 +82,12 @@
     "json_type": "number",
     "label": "Armed Forces Compensation Scheme (reported)",
     "name": "AFCS_reported",
+    "referring_variables": [
+      "personal_benefits_reported"
+    ],
     "start_line_number": 16,
     "stop_line_number": 21,
+    "unit": "currency",
     "value_type": "float"
   },
   "BRMA": {
@@ -323,7 +328,8 @@
     "label": "Bereavement Support Payment (reported)",
     "name": "BSP_reported",
     "referring_variables": [
-      "BSP"
+      "BSP",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -655,7 +661,8 @@
     "label": "Disability Living Allowance (mobility component) (reported)",
     "name": "DLA_M_reported",
     "referring_variables": [
-      "DLA_M"
+      "DLA_M",
+      "personal_benefits_reported"
     ],
     "start_line_number": 36,
     "stop_line_number": 41,
@@ -704,7 +711,8 @@
     "label": "Disability Living Allowance (self-care) (reported)",
     "name": "DLA_SC_reported",
     "referring_variables": [
-      "DLA_SC"
+      "DLA_SC",
+      "personal_benefits_reported"
     ],
     "start_line_number": 43,
     "stop_line_number": 48,
@@ -751,7 +759,8 @@
     "label": "Employment and Support Allowance (contribution-based) (reported)",
     "name": "ESA_contrib_reported",
     "referring_variables": [
-      "ESA_contrib"
+      "ESA_contrib",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -801,7 +810,8 @@
     "label": "ESA (income-based) (reported amount)",
     "name": "ESA_income_reported",
     "referring_variables": [
-      "ESA_income"
+      "ESA_income",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
@@ -857,7 +867,8 @@
     "label": "Industrial Injuries Disablement Benefit (reported)",
     "name": "IIDB_reported",
     "referring_variables": [
-      "IIDB"
+      "IIDB",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -893,7 +904,6 @@
         "start_line_number": 153,
         "stop_line_number": 157,
         "variables": [
-          "JSA_contrib",
           "JSA_income"
         ]
       }
@@ -948,7 +958,8 @@
     "name": "JSA_contrib_reported",
     "referring_variables": [
       "JSA_contrib",
-      "claims_JSA"
+      "claims_JSA",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -1050,17 +1061,8 @@
         "start_line_number": 91,
         "stop_line_number": 125,
         "variables": [
-          "child_benefit",
-          "employment_income",
           "family_type",
-          "income_tax",
-          "is_couple",
-          "national_insurance",
-          "pension_contributions",
-          "pension_income",
-          "personal_benefits",
-          "property_income",
-          "trading_income"
+          "is_couple"
         ]
       }
     },
@@ -1121,10 +1123,12 @@
     "label": "JSA (income-based) (reported amount)",
     "name": "JSA_income_reported",
     "referring_variables": [
-      "claims_JSA"
+      "claims_JSA",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "LHA_allowed_bedrooms": {
@@ -1411,7 +1415,8 @@
     "label": "Personal Independence Payment (Daily Living) (reported)",
     "name": "PIP_DL_reported",
     "referring_variables": [
-      "PIP_DL"
+      "PIP_DL",
+      "personal_benefits_reported"
     ],
     "start_line_number": 36,
     "stop_line_number": 41,
@@ -1457,7 +1462,8 @@
     "label": "Personal Independence Payment (Mobility) (reported)",
     "name": "PIP_M_reported",
     "referring_variables": [
-      "PIP_M"
+      "PIP_M",
+      "personal_benefits_reported"
     ],
     "start_line_number": 43,
     "stop_line_number": 48,
@@ -1552,7 +1558,8 @@
     "label": "Severe Disablement Allowance (reported)",
     "name": "SDA_reported",
     "referring_variables": [
-      "SDA"
+      "SDA",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -1646,7 +1653,6 @@
         "stop_line_number": 83,
         "variables": [
           "childcare_cost",
-          "is_carer_for_benefits",
           "num_disabled_adults",
           "num_disabled_children"
         ]
@@ -2079,8 +2085,6 @@
         "stop_line_number": 403,
         "variables": [
           "earned_taxable_income",
-          "savings_allowance",
-          "savings_starter_rate_income",
           "taxable_savings_interest_income"
         ]
       }
@@ -2372,8 +2376,6 @@
         "stop_line_number": 335,
         "variables": [
           "earned_taxable_income",
-          "savings_allowance",
-          "savings_starter_rate_income",
           "taxable_savings_interest_income"
         ]
       }
@@ -2845,7 +2847,8 @@
     "label": "Carer's Allowance (reported)",
     "name": "carers_allowance_reported",
     "referring_variables": [
-      "carers_allowance"
+      "carers_allowance",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -2885,8 +2888,7 @@
         "start_line_number": 32,
         "stop_line_number": 46,
         "variables": [
-          "claims_child_benefit",
-          "is_child_or_QYP"
+          "claims_child_benefit"
         ]
       }
     },
@@ -2927,7 +2929,6 @@
         "start_line_number": 54,
         "stop_line_number": 58,
         "variables": [
-          "CB_HITC",
           "child_benefit"
         ]
       }
@@ -2950,10 +2951,12 @@
     "label": "Child Benefit (reported amount)",
     "name": "child_benefit_reported",
     "referring_variables": [
-      "claims_child_benefit"
+      "claims_child_benefit",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "child_tax_credit": {
@@ -3003,6 +3006,7 @@
     ],
     "start_line_number": 13,
     "stop_line_number": 18,
+    "unit": "currency",
     "value_type": "float"
   },
   "childcare_cost": {
@@ -3039,7 +3043,6 @@
         "start_line_number": 91,
         "stop_line_number": 100,
         "variables": [
-          "child_tax_credit_reported",
           "claims_legacy_benefits"
         ]
       }
@@ -3073,8 +3076,7 @@
         "start_line_number": 40,
         "stop_line_number": 53,
         "variables": [
-          "claims_legacy_benefits",
-          "housing_benefit_reported"
+          "claims_legacy_benefits"
         ]
       }
     },
@@ -3104,8 +3106,7 @@
         "start_line_number": 19,
         "stop_line_number": 27,
         "variables": [
-          "claims_legacy_benefits",
-          "income_support_reported"
+          "claims_legacy_benefits"
         ]
       }
     },
@@ -3135,8 +3136,6 @@
         "start_line_number": 70,
         "stop_line_number": 83,
         "variables": [
-          "JSA_contrib_reported",
-          "JSA_income_reported",
           "claims_legacy_benefits"
         ]
       }
@@ -3200,8 +3199,7 @@
         "start_line_number": 19,
         "stop_line_number": 28,
         "variables": [
-          "claims_legacy_benefits",
-          "universal_credit_reported"
+          "claims_legacy_benefits"
         ]
       }
     },
@@ -3636,13 +3634,7 @@
         "variables": [
           "allowances",
           "pension_contributions",
-          "pension_contributions_relief",
-          "taxable_employment_income",
-          "taxable_miscellaneous_income",
-          "taxable_pension_income",
-          "taxable_property_income",
-          "taxable_social_security_income",
-          "taxable_trading_income"
+          "pension_contributions_relief"
         ]
       }
     },
@@ -4077,16 +4069,7 @@
         "start_line_number": 16,
         "stop_line_number": 33,
         "variables": [
-          "ESA_income",
-          "JSA_income",
-          "child_benefit",
-          "child_tax_credit",
-          "housing_benefit",
-          "income_support",
-          "is_benunit_head",
-          "pension_credit",
-          "universal_credit",
-          "working_tax_credit"
+          "is_benunit_head"
         ]
       }
     },
@@ -4114,7 +4097,14 @@
         "start_line_number": 41,
         "stop_line_number": 62,
         "variables": [
+          "ESA_income_reported",
+          "JSA_income_reported",
+          "child_benefit_reported",
           "child_tax_credit_reported",
+          "housing_benefit_reported",
+          "income_support_reported",
+          "pension_credit_reported",
+          "universal_credit_reported",
           "working_tax_credit_reported"
         ]
       }
@@ -4333,8 +4323,6 @@
         "stop_line_number": 369,
         "variables": [
           "earned_taxable_income",
-          "savings_allowance",
-          "savings_starter_rate_income",
           "taxable_savings_interest_income"
         ]
       }
@@ -4455,8 +4443,7 @@
         "start_line_number": 120,
         "stop_line_number": 126,
         "variables": [
-          "council_tax",
-          "net_income"
+          "council_tax"
         ]
       }
     },
@@ -4543,21 +4530,12 @@
         "start_line_number": 178,
         "stop_line_number": 214,
         "variables": [
-          "ESA_contrib",
-          "ESA_income",
-          "JSA_contrib",
-          "JSA_income",
           "LHA_cap",
           "LHA_eligible",
-          "SDA",
           "benefit_cap",
-          "child_benefit",
-          "child_tax_credit",
           "claims_HB",
           "housing_benefit_applicable_amount",
           "housing_benefit_applicable_income",
-          "incapacity_benefit",
-          "income_support",
           "rent"
         ]
       }
@@ -4572,6 +4550,7 @@
     ],
     "start_line_number": 13,
     "stop_line_number": 21,
+    "unit": "currency",
     "value_type": "float"
   },
   "housing_benefit_applicable_amount": {
@@ -4639,23 +4618,10 @@
         "start_line_number": 105,
         "stop_line_number": 170,
         "variables": [
-          "ESA_income",
-          "JSA_income",
-          "child_benefit",
           "childcare_cost",
-          "employment_income",
-          "income_support",
-          "income_tax",
           "is_couple",
           "is_lone_parent",
           "is_single_person",
-          "national_insurance",
-          "pension_contributions",
-          "pension_income",
-          "personal_benefits",
-          "property_income",
-          "tax_credits",
-          "trading_income",
           "weekly_hours"
         ]
       }
@@ -4708,10 +4674,12 @@
     "label": "Housing Benefit (reported amount)",
     "name": "housing_benefit_reported",
     "referring_variables": [
-      "claims_HB"
+      "claims_HB",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "housing_costs": {
@@ -4957,7 +4925,8 @@
     "label": "Incapacity Benefit (reported)",
     "name": "incapacity_benefit_reported",
     "referring_variables": [
-      "incapacity_benefit"
+      "incapacity_benefit",
+      "personal_benefits_reported"
     ],
     "start_line_number": 16,
     "stop_line_number": 21,
@@ -4994,6 +4963,7 @@
     ],
     "start_line_number": 141,
     "stop_line_number": 154,
+    "unit": "currency",
     "value_type": "float"
   },
   "income_support_applicable_amount": {
@@ -5053,17 +5023,8 @@
         "start_line_number": 35,
         "stop_line_number": 69,
         "variables": [
-          "child_benefit",
-          "employment_income",
           "family_type",
-          "income_tax",
-          "is_couple",
-          "national_insurance",
-          "pension_contributions",
-          "pension_income",
-          "personal_benefits",
-          "property_income",
-          "trading_income"
+          "is_couple"
         ]
       }
     },
@@ -5091,7 +5052,6 @@
         "variables": [
           "ESA_income",
           "is_SP_age",
-          "is_carer_for_benefits",
           "is_lone_parent",
           "youngest_child_age"
         ]
@@ -5118,10 +5078,12 @@
     "label": "Income Support (reported amount)",
     "name": "income_support_reported",
     "referring_variables": [
-      "claims_IS"
+      "claims_IS",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "income_tax": {
@@ -6621,9 +6583,7 @@
         "start_line_number": 68,
         "stop_line_number": 71,
         "variables": [
-          "employment_expenses",
-          "gross_income",
-          "tax"
+          "gross_income"
         ]
       }
     },
@@ -7292,10 +7252,12 @@
     "label": "Reported amount of Pension Credit",
     "name": "pension_credit_reported",
     "referring_variables": [
-      "claims_PC"
+      "claims_PC",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "pension_income": {
@@ -7463,7 +7425,23 @@
       "0001-01-01": {
         "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
         "start_line_number": 242,
-        "stop_line_number": 262
+        "stop_line_number": 262,
+        "variables": [
+          "AA_reported",
+          "AFCS_reported",
+          "BSP_reported",
+          "DLA_M_reported",
+          "DLA_SC_reported",
+          "ESA_contrib_reported",
+          "IIDB_reported",
+          "JSA_contrib_reported",
+          "PIP_DL_reported",
+          "PIP_M_reported",
+          "SDA_reported",
+          "carers_allowance_reported",
+          "incapacity_benefit_reported",
+          "state_pension_reported"
+        ]
       }
     },
     "json_type": "number",
@@ -8113,6 +8091,7 @@
     "label": "Reported income from the State Pension",
     "name": "state_pension_reported",
     "referring_variables": [
+      "personal_benefits_reported",
       "state_pension"
     ],
     "start_line_number": 42,
@@ -8670,9 +8649,6 @@
         "start_line_number": 184,
         "stop_line_number": 191,
         "variables": [
-          "capital_allowances",
-          "loss_relief",
-          "trading_allowance",
           "trading_income"
         ]
       }
@@ -9021,6 +8997,7 @@
     ],
     "start_line_number": 180,
     "stop_line_number": 195,
+    "unit": "currency",
     "value_type": "float"
   },
   "universal_credit_applicable_amount": {
@@ -9064,14 +9041,7 @@
         "start_line_number": 162,
         "stop_line_number": 178,
         "variables": [
-          "ESA_income",
-          "JSA_income",
-          "SDA",
-          "child_tax_credit",
-          "housing_benefit",
-          "income_support",
-          "is_SP_age",
-          "working_tax_credit"
+          "is_SP_age"
         ]
       }
     },
@@ -9103,15 +9073,7 @@
         "start_line_number": 121,
         "stop_line_number": 154,
         "variables": [
-          "JSA_contrib",
-          "UC_eligible_rent",
-          "carers_allowance",
-          "employment_income",
-          "income_tax",
-          "national_insurance",
-          "pension_income",
-          "state_pension",
-          "trading_income"
+          "UC_eligible_rent"
         ]
       }
     },
@@ -9135,10 +9097,12 @@
     "label": "Reported amount of Universal Credit",
     "name": "universal_credit_reported",
     "referring_variables": [
-      "claims_UC"
+      "claims_UC",
+      "family_benefits_reported"
     ],
     "start_line_number": 6,
     "stop_line_number": 11,
+    "unit": "currency",
     "value_type": "float"
   },
   "weekly_NI_class_2": {

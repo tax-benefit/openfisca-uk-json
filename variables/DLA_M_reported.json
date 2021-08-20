@@ -8,7 +8,8 @@
   "label": "Disability Living Allowance (mobility component) (reported)",
   "name": "DLA_M_reported",
   "referring_variables": [
-    "DLA_M"
+    "DLA_M",
+    "personal_benefits_reported"
   ],
   "start_line_number": 36,
   "stop_line_number": 41,

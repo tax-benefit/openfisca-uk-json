@@ -8,7 +8,8 @@
   "label": "Bereavement Support Payment (reported)",
   "name": "BSP_reported",
   "referring_variables": [
-    "BSP"
+    "BSP",
+    "personal_benefits_reported"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

@@ -1,1 +1,58 @@
-{}
+{
+  "family_benefits_reported": {
+    "children": [
+      { "name": "child_benefit_reported" },
+      { "name": "ESA_income_reported" },
+      { "name": "housing_benefit_reported" },
+      { "name": "income_support_reported" },
+      { "name": "JSA_income_reported" },
+      { "name": "pension_credit_reported" },
+      { "name": "universal_credit_reported" },
+      { "name": "working_tax_credit_reported" },
+      { "name": "child_tax_credit_reported" }
+    ],
+    "variables": [
+      "child_benefit_reported",
+      "ESA_income_reported",
+      "housing_benefit_reported",
+      "income_support_reported",
+      "JSA_income_reported",
+      "pension_credit_reported",
+      "universal_credit_reported"
+    ]
+  },
+  "personal_benefits_reported": {
+    "children": [
+      { "name": "AA_reported" },
+      { "name": "AFCS_reported" },
+      { "name": "BSP_reported" },
+      { "name": "carers_allowance_reported" },
+      { "name": "DLA_M_reported" },
+      { "name": "DLA_SC_reported" },
+      { "name": "ESA_contrib_reported" },
+      { "name": "IIDB_reported" },
+      { "name": "incapacity_benefit_reported" },
+      { "name": "JSA_contrib_reported" },
+      { "name": "PIP_M_reported" },
+      { "name": "PIP_DL_reported" },
+      { "name": "SDA_reported" },
+      { "name": "state_pension_reported" }
+    ],
+    "variables": [
+      "AA_reported",
+      "AFCS_reported",
+      "BSP_reported",
+      "carers_allowance_reported",
+      "DLA_M_reported",
+      "DLA_SC_reported",
+      "ESA_contrib_reported",
+      "IIDB_reported",
+      "incapacity_benefit_reported",
+      "JSA_contrib_reported",
+      "PIP_M_reported",
+      "PIP_DL_reported",
+      "SDA_reported",
+      "state_pension_reported"
+    ]
+  }
+}

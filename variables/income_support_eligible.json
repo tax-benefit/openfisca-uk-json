@@ -614,7 +614,6 @@
       "variables": [
         "ESA_income",
         "is_SP_age",
-        "is_carer_for_benefits",
         "is_lone_parent",
         "youngest_child_age"
       ]

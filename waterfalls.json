@@ -2,6 +2,13 @@
   {
     "icon": "/pictos/picto_femme.svg",
     "label": "Particulier",
+    "name": "net_income",
+    "root": "net_income",
+    "totalLabel": "Tax Net Income"
+  },
+  {
+    "icon": "/pictos/picto_etat.svg",
+    "label": "IRS",
     "name": "tax_modelling",
     "root": "tax_modelling",
     "totalLabel": "Tax Modelling"

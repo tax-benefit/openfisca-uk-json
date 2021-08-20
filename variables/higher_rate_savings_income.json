@@ -833,8 +833,6 @@
       "stop_line_number": 369,
       "variables": [
         "earned_taxable_income",
-        "savings_allowance",
-        "savings_starter_rate_income",
         "taxable_savings_interest_income"
       ]
     }

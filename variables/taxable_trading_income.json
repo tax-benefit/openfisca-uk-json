@@ -282,9 +282,6 @@
       "start_line_number": 184,
       "stop_line_number": 191,
       "variables": [
-        "capital_allowances",
-        "loss_relief",
-        "trading_allowance",
         "trading_income"
       ]
     }

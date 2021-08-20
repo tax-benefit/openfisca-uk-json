@@ -497,6 +497,35 @@
     "label": "Enhanced disability premium"
   },
   "family_benefits": {
+    "children": [
+      {
+        "name": "child_benefit"
+      },
+      {
+        "name": "ESA_income"
+      },
+      {
+        "name": "housing_benefit"
+      },
+      {
+        "name": "income_support"
+      },
+      {
+        "name": "JSA_income"
+      },
+      {
+        "name": "pension_credit"
+      },
+      {
+        "name": "universal_credit"
+      },
+      {
+        "name": "working_tax_credit"
+      },
+      {
+        "name": "child_tax_credit"
+      }
+    ],
     "label": "Total simulated family benefits for this person"
   },
   "family_benefits_reported": {
@@ -560,6 +589,9 @@
     ],
     "label": "Household net income, after housing costs"
   },
+  "housing_benefit": {
+    "label": "Housing Benefit"
+  },
   "housing_costs": {
     "children": [
       {
@@ -581,6 +613,9 @@
   },
   "incapacity_benefit_reported": {
     "label": "Incapacity Benefit (reported)"
+  },
+  "income_support": {
+    "label": "Income Support"
   },
   "income_tax": {
     "children": [
@@ -805,6 +840,11 @@
     "label": "Value of personal, non-means-tested benefits"
   },
   "personal_rent": {
+    "children": [
+      {
+        "name": "rent"
+      }
+    ],
     "label": "Personal rent"
   },
   "property_income": {
@@ -1019,6 +1059,9 @@
   },
   "trading_loss": {
     "label": "Loss from trading in the current year."
+  },
+  "universal_credit": {
+    "label": "Universal Credit"
   },
   "universal_credit_applicable_amount": {
     "children": [

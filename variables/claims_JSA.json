@@ -381,8 +381,6 @@
       "start_line_number": 70,
       "stop_line_number": 83,
       "variables": [
-        "JSA_contrib_reported",
-        "JSA_income_reported",
         "claims_legacy_benefits"
       ]
     }

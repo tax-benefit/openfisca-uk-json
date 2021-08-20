@@ -175,7 +175,6 @@
       "start_line_number": 153,
       "stop_line_number": 157,
       "variables": [
-        "JSA_contrib",
         "JSA_income"
       ]
     }

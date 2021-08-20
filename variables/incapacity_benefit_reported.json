@@ -8,7 +8,8 @@
   "label": "Incapacity Benefit (reported)",
   "name": "incapacity_benefit_reported",
   "referring_variables": [
-    "incapacity_benefit"
+    "incapacity_benefit",
+    "personal_benefits_reported"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

@@ -18,6 +18,9 @@
     ],
     "label": "Armed Forces Compensation Scheme"
   },
+  "AFCS_reported": {
+    "label": "Armed Forces Compensation Scheme (reported)"
+  },
   "BSP": {
     "children": [
       {
@@ -154,6 +157,9 @@
   },
   "JSA_income": {
     "label": "Job Seeker's Allowance (income-based)"
+  },
+  "JSA_income_reported": {
+    "label": "JSA (income-based) (reported amount)"
   },
   "NI_class_2": {
     "children": [
@@ -418,8 +424,14 @@
     ],
     "label": "Child Benefit entitlement, less the High Income Tax Charge"
   },
+  "child_benefit_reported": {
+    "label": "Child Benefit (reported amount)"
+  },
   "child_tax_credit": {
     "label": "Amount of Child Tax Credit entitled to"
+  },
+  "child_tax_credit_reported": {
+    "label": "Working Tax Credit"
   },
   "claims_WTC": {
     "children": [
@@ -497,9 +509,67 @@
     "label": "Enhanced disability premium"
   },
   "family_benefits": {
+    "children": [
+      {
+        "name": "child_benefit"
+      },
+      {
+        "name": "ESA_income"
+      },
+      {
+        "name": "housing_benefit"
+      },
+      {
+        "name": "income_support"
+      },
+      {
+        "name": "JSA_income"
+      },
+      {
+        "name": "pension_credit"
+      },
+      {
+        "name": "universal_credit"
+      },
+      {
+        "name": "working_tax_credit"
+      },
+      {
+        "name": "child_tax_credit"
+      }
+    ],
     "label": "Total simulated family benefits for this person"
   },
   "family_benefits_reported": {
+    "children": [
+      {
+        "name": "child_benefit_reported"
+      },
+      {
+        "name": "ESA_income_reported"
+      },
+      {
+        "name": "housing_benefit_reported"
+      },
+      {
+        "name": "income_support_reported"
+      },
+      {
+        "name": "JSA_income_reported"
+      },
+      {
+        "name": "pension_credit_reported"
+      },
+      {
+        "name": "universal_credit_reported"
+      },
+      {
+        "name": "working_tax_credit_reported"
+      },
+      {
+        "name": "child_tax_credit_reported"
+      }
+    ],
     "label": "Total reported family benefits for this person"
   },
   "family_rent": {
@@ -560,6 +630,12 @@
     ],
     "label": "Household net income, after housing costs"
   },
+  "housing_benefit": {
+    "label": "Housing Benefit"
+  },
+  "housing_benefit_reported": {
+    "label": "Housing Benefit (reported amount)"
+  },
   "housing_costs": {
     "children": [
       {
@@ -581,6 +657,12 @@
   },
   "incapacity_benefit_reported": {
     "label": "Incapacity Benefit (reported)"
+  },
+  "income_support": {
+    "label": "Income Support"
+  },
+  "income_support_reported": {
+    "label": "Income Support (reported amount)"
   },
   "income_tax": {
     "children": [
@@ -748,6 +830,9 @@
   "pension_credit_SC": {
     "label": "Pension Credit (Savings Credit) amount per week"
   },
+  "pension_credit_reported": {
+    "label": "Reported amount of Pension Credit"
+  },
   "pension_income": {
     "label": "Income from pensions"
   },
@@ -802,9 +887,58 @@
     "label": "Value of personal, non-means-tested benefits"
   },
   "personal_benefits_reported": {
+    "children": [
+      {
+        "name": "AA_reported"
+      },
+      {
+        "name": "AFCS_reported"
+      },
+      {
+        "name": "BSP_reported"
+      },
+      {
+        "name": "carers_allowance_reported"
+      },
+      {
+        "name": "DLA_M_reported"
+      },
+      {
+        "name": "DLA_SC_reported"
+      },
+      {
+        "name": "ESA_contrib_reported"
+      },
+      {
+        "name": "IIDB_reported"
+      },
+      {
+        "name": "incapacity_benefit_reported"
+      },
+      {
+        "name": "JSA_contrib_reported"
+      },
+      {
+        "name": "PIP_M_reported"
+      },
+      {
+        "name": "PIP_DL_reported"
+      },
+      {
+        "name": "SDA_reported"
+      },
+      {
+        "name": "state_pension_reported"
+      }
+    ],
     "label": "Value of personal, non-means-tested benefits"
   },
   "personal_rent": {
+    "children": [
+      {
+        "name": "rent"
+      }
+    ],
     "label": "Personal rent"
   },
   "property_income": {
@@ -1020,6 +1154,9 @@
   "trading_loss": {
     "label": "Loss from trading in the current year."
   },
+  "universal_credit": {
+    "label": "Universal Credit"
+  },
   "universal_credit_applicable_amount": {
     "children": [
       {
@@ -1033,6 +1170,9 @@
       }
     ],
     "label": "Relevant income for Universal Credit"
+  },
+  "universal_credit_reported": {
+    "label": "Reported amount of Universal Credit"
   },
   "weekly_NI_class_2": {
     "label": "Class 2 Contributions for National Insurance"

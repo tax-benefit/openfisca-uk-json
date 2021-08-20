@@ -1139,21 +1139,12 @@
       "start_line_number": 178,
       "stop_line_number": 214,
       "variables": [
-        "ESA_contrib",
-        "ESA_income",
-        "JSA_contrib",
-        "JSA_income",
         "LHA_cap",
         "LHA_eligible",
-        "SDA",
         "benefit_cap",
-        "child_benefit",
-        "child_tax_credit",
         "claims_HB",
         "housing_benefit_applicable_amount",
         "housing_benefit_applicable_income",
-        "incapacity_benefit",
-        "income_support",
         "rent"
       ]
     }
@@ -1168,5 +1159,6 @@
   ],
   "start_line_number": 13,
   "stop_line_number": 21,
+  "unit": "currency",
   "value_type": "float"
 }

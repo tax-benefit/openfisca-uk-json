@@ -8,9 +8,11 @@
   "label": "Child Benefit (reported amount)",
   "name": "child_benefit_reported",
   "referring_variables": [
-    "claims_child_benefit"
+    "claims_child_benefit",
+    "family_benefits_reported"
   ],
   "start_line_number": 6,
   "stop_line_number": 11,
+  "unit": "currency",
   "value_type": "float"
 }

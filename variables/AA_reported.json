@@ -9,7 +9,8 @@
   "name": "AA_reported",
   "referring_variables": [
     "AA",
-    "AFCS"
+    "AFCS",
+    "personal_benefits_reported"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

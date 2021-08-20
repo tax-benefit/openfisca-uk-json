@@ -13,5 +13,6 @@
   ],
   "start_line_number": 13,
   "stop_line_number": 18,
+  "unit": "currency",
   "value_type": "float"
 }

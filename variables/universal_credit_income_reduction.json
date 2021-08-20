@@ -1119,15 +1119,7 @@
       "start_line_number": 121,
       "stop_line_number": 154,
       "variables": [
-        "JSA_contrib",
-        "UC_eligible_rent",
-        "carers_allowance",
-        "employment_income",
-        "income_tax",
-        "national_insurance",
-        "pension_income",
-        "state_pension",
-        "trading_income"
+        "UC_eligible_rent"
       ]
     }
   },

@@ -8,7 +8,8 @@
   "label": "Employment and Support Allowance (contribution-based) (reported)",
   "name": "ESA_contrib_reported",
   "referring_variables": [
-    "ESA_contrib"
+    "ESA_contrib",
+    "personal_benefits_reported"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

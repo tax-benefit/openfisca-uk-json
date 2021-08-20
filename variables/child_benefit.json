@@ -572,8 +572,7 @@
       "start_line_number": 32,
       "stop_line_number": 46,
       "variables": [
-        "claims_child_benefit",
-        "is_child_or_QYP"
+        "claims_child_benefit"
       ]
     }
   },

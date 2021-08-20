@@ -8,7 +8,8 @@
   "label": "Personal Independence Payment (Daily Living) (reported)",
   "name": "PIP_DL_reported",
   "referring_variables": [
-    "PIP_DL"
+    "PIP_DL",
+    "personal_benefits_reported"
   ],
   "start_line_number": 36,
   "stop_line_number": 41,

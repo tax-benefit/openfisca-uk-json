@@ -415,8 +415,7 @@
       "start_line_number": 19,
       "stop_line_number": 28,
       "variables": [
-        "claims_legacy_benefits",
-        "universal_credit_reported"
+        "claims_legacy_benefits"
       ]
     }
   },

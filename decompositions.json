@@ -1,6 +1,105 @@
 {
+  "AA": {
+    "children": [
+      {
+        "name": "AA_reported"
+      }
+    ],
+    "label": "Attendance Allowance"
+  },
+  "AA_reported": {
+    "label": "Attendance Allowance (reported)"
+  },
+  "AFCS": {
+    "children": [
+      {
+        "name": "AA_reported"
+      }
+    ],
+    "label": "Armed Forces Compensation Scheme"
+  },
+  "BSP": {
+    "children": [
+      {
+        "name": "BSP_reported"
+      }
+    ],
+    "label": "Bereavement Support Payment"
+  },
+  "BSP_reported": {
+    "label": "Bereavement Support Payment (reported)"
+  },
   "CB_HITC": {
     "label": "Child Benefit High-Income Tax Charge"
+  },
+  "DLA_M": {
+    "children": [
+      {
+        "name": "DLA_M_reported"
+      }
+    ],
+    "label": "Disability Living Allowance (mobility component)"
+  },
+  "DLA_M_reported": {
+    "label": "Disability Living Allowance (mobility component) (reported)"
+  },
+  "DLA_SC": {
+    "children": [
+      {
+        "name": "DLA_SC_reported"
+      }
+    ],
+    "label": "Disability Living Allowance (self-care)"
+  },
+  "DLA_SC_reported": {
+    "label": "Disability Living Allowance (self-care) (reported)"
+  },
+  "ESA_contrib": {
+    "children": [
+      {
+        "name": "ESA_contrib_reported"
+      }
+    ],
+    "label": "Employment and Support Allowance (contribution-based)"
+  },
+  "ESA_contrib_reported": {
+    "label": "Employment and Support Allowance (contribution-based) (reported)"
+  },
+  "ESA_income": {
+    "children": [
+      {
+        "name": "ESA_income_reported"
+      }
+    ],
+    "label": "ESA (income-based)"
+  },
+  "ESA_income_reported": {
+    "label": "ESA (income-based) (reported amount)"
+  },
+  "IIDB": {
+    "children": [
+      {
+        "name": "IIDB_reported"
+      }
+    ],
+    "label": "Industrial Injuries Disablement Benefit"
+  },
+  "IIDB_reported": {
+    "label": "Industrial Injuries Disablement Benefit (reported)"
+  },
+  "JSA_contrib": {
+    "children": [
+      {
+        "name": "JSA_contrib_reported"
+      }
+    ],
+    "label": "Job Seeker's Allowance (contribution-based)"
+  },
+  "JSA_contrib_reported": {
+    "label": "Job Seeker's Allowance (contribution-based) (reported)"
+  },
+  "JSA_income": {
+    "label": "Job Seeker's Allowance (income-based)"
   },
   "NI_class_2": {
     "children": [
@@ -13,6 +112,70 @@
   "NI_class_4": {
     "label": "Class 4 Contributions for National Insurance for the year"
   },
+  "PIP_DL": {
+    "children": [
+      {
+        "name": "PIP_DL_reported"
+      }
+    ],
+    "label": "Personal Independence Payment (Daily Living)"
+  },
+  "PIP_DL_reported": {
+    "label": "Personal Independence Payment (Daily Living) (reported)"
+  },
+  "PIP_M": {
+    "children": [
+      {
+        "name": "PIP_M_reported"
+      }
+    ],
+    "label": "Personal Independence Payment (Mobility)"
+  },
+  "PIP_M_reported": {
+    "label": "Personal Independence Payment (Mobility) (reported)"
+  },
+  "SDA": {
+    "children": [
+      {
+        "name": "SDA_reported"
+      }
+    ],
+    "label": "Severe Disablement Allowance"
+  },
+  "SDA_reported": {
+    "label": "Severe Disablement Allowance (reported)"
+  },
+  "benefits": {
+    "children": [
+      {
+        "name": "personal_benefits"
+      },
+      {
+        "name": "family_benefits"
+      }
+    ],
+    "label": "Total benefits"
+  },
+  "carers_allowance": {
+    "children": [
+      {
+        "name": "carers_allowance_reported"
+      }
+    ],
+    "label": "Carer's Allowance"
+  },
+  "carers_allowance_reported": {
+    "label": "Carer's Allowance (reported)"
+  },
+  "child_benefit": {
+    "label": "Child Benefit for the family"
+  },
+  "child_tax_credit": {
+    "label": "Amount of Child Tax Credit entitled to"
+  },
+  "dividend_income": {
+    "label": "Income from dividends"
+  },
   "dividend_income_tax": {
     "label": "Income tax on dividend income"
   },
@@ -22,6 +185,90 @@
   },
   "employee_NI_class_1": {
     "label": "Employee Class 1 Contributions for National Insurance"
+  },
+  "employment_expenses": {
+    "label": "Cost of expenses necessarily incurred and reimbursed by employment"
+  },
+  "employment_income": {
+    "label": "Employment income"
+  },
+  "family_benefits": {
+    "children": [
+      {
+        "name": "child_benefit"
+      },
+      {
+        "name": "ESA_income"
+      },
+      {
+        "name": "housing_benefit"
+      },
+      {
+        "name": "income_support"
+      },
+      {
+        "name": "JSA_income"
+      },
+      {
+        "name": "pension_credit"
+      },
+      {
+        "name": "universal_credit"
+      },
+      {
+        "name": "working_tax_credit"
+      },
+      {
+        "name": "child_tax_credit"
+      }
+    ],
+    "label": "Total simulated family benefits for this person"
+  },
+  "gross_income": {
+    "children": [
+      {
+        "name": "employment_income"
+      },
+      {
+        "name": "pension_income"
+      },
+      {
+        "name": "self_employment_income"
+      },
+      {
+        "name": "property_income"
+      },
+      {
+        "name": "savings_interest_income"
+      },
+      {
+        "name": "dividend_income"
+      },
+      {
+        "name": "miscellaneous_income"
+      },
+      {
+        "name": "benefits"
+      }
+    ],
+    "label": "Gross income, including benefits"
+  },
+  "housing_benefit": {
+    "label": "Housing Benefit"
+  },
+  "incapacity_benefit": {
+    "children": [
+      {
+        "name": "incapacity_benefit_reported"
+      }
+    ],
+    "label": "Incapacity Benefit"
+  },
+  "incapacity_benefit_reported": {
+    "label": "Incapacity Benefit (reported)"
+  },
+  "income_support": {
+    "label": "Income Support"
   },
   "income_tax": {
     "children": [
@@ -48,6 +295,9 @@
     ],
     "label": "Income Tax before any tax charges"
   },
+  "miscellaneous_income": {
+    "label": "Income from other sources"
+  },
   "national_insurance": {
     "children": [
       {
@@ -62,8 +312,119 @@
     ],
     "label": "National Insurance"
   },
+  "net_income": {
+    "children": [
+      {
+        "name": "gross_income"
+      },
+      {
+        "name": "tax",
+        "negate": true
+      },
+      {
+        "name": "employment_expenses",
+        "negate": true
+      }
+    ],
+    "label": "Net income"
+  },
+  "pension_credit": {
+    "children": [
+      {
+        "name": "pension_credit_GC"
+      },
+      {
+        "name": "pension_credit_SC"
+      }
+    ],
+    "label": "Pension credit amount"
+  },
+  "pension_credit_GC": {
+    "label": "Pension Credit (Guarantee Credit) amount"
+  },
+  "pension_credit_SC": {
+    "label": "Pension Credit (Savings Credit) amount per week"
+  },
+  "pension_income": {
+    "label": "Income from pensions"
+  },
+  "personal_benefits": {
+    "children": [
+      {
+        "name": "AA"
+      },
+      {
+        "name": "AFCS"
+      },
+      {
+        "name": "BSP"
+      },
+      {
+        "name": "carers_allowance"
+      },
+      {
+        "name": "DLA_M"
+      },
+      {
+        "name": "DLA_SC"
+      },
+      {
+        "name": "ESA_contrib"
+      },
+      {
+        "name": "IIDB"
+      },
+      {
+        "name": "incapacity_benefit"
+      },
+      {
+        "name": "JSA_contrib"
+      },
+      {
+        "name": "PIP_M"
+      },
+      {
+        "name": "PIP_DL"
+      },
+      {
+        "name": "SDA"
+      },
+      {
+        "name": "state_pension"
+      }
+    ],
+    "label": "Value of personal, non-means-tested benefits"
+  },
+  "property_income": {
+    "children": [
+      {
+        "name": "sublet_income"
+      }
+    ],
+    "label": "Income from rental of property"
+  },
   "savings_income_tax": {
     "label": "Income tax on savings income"
+  },
+  "savings_interest_income": {
+    "label": "Income from interest on savings"
+  },
+  "self_employment_income": {
+    "label": "Self-employment income"
+  },
+  "state_pension": {
+    "children": [
+      {
+        "name": "state_pension_reported"
+      }
+    ],
+    "label": "Income from the State Pension"
+  },
+  "state_pension_reported": {
+    "label": "Reported income from the State Pension"
+  },
+  "sublet_income": {
+    "label": "Income received from sublet agreements"
   },
   "tax": {
     "children": [
@@ -91,7 +452,13 @@
   "tax_reported": {
     "label": "Reported tax paid"
   },
+  "universal_credit": {
+    "label": "Universal Credit"
+  },
   "weekly_NI_class_2": {
     "label": "Class 2 Contributions for National Insurance"
+  },
+  "working_tax_credit": {
+    "label": "Amount of Working Tax Credit entitled to"
   }
 }

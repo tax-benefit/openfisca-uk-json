@@ -8,6 +8,7 @@
   "label": "Reported income from the State Pension",
   "name": "state_pension_reported",
   "referring_variables": [
+    "personal_benefits_reported",
     "state_pension"
   ],
   "start_line_number": 42,

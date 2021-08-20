@@ -8,7 +8,8 @@
   "label": "Personal Independence Payment (Mobility) (reported)",
   "name": "PIP_M_reported",
   "referring_variables": [
-    "PIP_M"
+    "PIP_M",
+    "personal_benefits_reported"
   ],
   "start_line_number": 43,
   "stop_line_number": 48,

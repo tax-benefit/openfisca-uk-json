@@ -214,9 +214,7 @@
       "start_line_number": 68,
       "stop_line_number": 71,
       "variables": [
-        "employment_expenses",
-        "gross_income",
-        "tax"
+        "gross_income"
       ]
     }
   },

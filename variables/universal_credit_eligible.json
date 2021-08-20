@@ -467,14 +467,7 @@
       "start_line_number": 162,
       "stop_line_number": 178,
       "variables": [
-        "ESA_income",
-        "JSA_income",
-        "SDA",
-        "child_tax_credit",
-        "housing_benefit",
-        "income_support",
-        "is_SP_age",
-        "working_tax_credit"
+        "is_SP_age"
       ]
     }
   },

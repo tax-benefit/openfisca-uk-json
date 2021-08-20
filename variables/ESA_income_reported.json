@@ -8,7 +8,8 @@
   "label": "ESA (income-based) (reported amount)",
   "name": "ESA_income_reported",
   "referring_variables": [
-    "ESA_income"
+    "ESA_income",
+    "family_benefits_reported"
   ],
   "start_line_number": 6,
   "stop_line_number": 11,

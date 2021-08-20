@@ -1197,7 +1197,6 @@
       "stop_line_number": 83,
       "variables": [
         "childcare_cost",
-        "is_carer_for_benefits",
         "num_disabled_adults",
         "num_disabled_children"
       ]

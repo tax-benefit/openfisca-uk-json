@@ -8,9 +8,11 @@
   "label": "JSA (income-based) (reported amount)",
   "name": "JSA_income_reported",
   "referring_variables": [
-    "claims_JSA"
+    "claims_JSA",
+    "family_benefits_reported"
   ],
   "start_line_number": 6,
   "stop_line_number": 11,
+  "unit": "currency",
   "value_type": "float"
 }

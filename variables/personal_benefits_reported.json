@@ -332,7 +332,23 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
       "source_code": "def formula(person, period, parameters):\n    BENEFITS = [\n        \"AA\",\n        \"AFCS\",\n        \"BSP\",\n        \"carers_allowance\",\n        \"DLA_M\",\n        \"DLA_SC\",\n        \"ESA_contrib\",\n        \"IIDB\",\n        \"incapacity_benefit\",\n        \"JSA_contrib\",\n        \"PIP_M\",\n        \"PIP_DL\",\n        \"SDA\",\n        \"state_pension\",\n    ]\n    return add(\n        person, period, map(lambda ben: ben + \"_reported\", BENEFITS)\n    )\n",
       "start_line_number": 242,
-      "stop_line_number": 262
+      "stop_line_number": 262,
+      "variables": [
+        "AA_reported",
+        "AFCS_reported",
+        "BSP_reported",
+        "DLA_M_reported",
+        "DLA_SC_reported",
+        "ESA_contrib_reported",
+        "IIDB_reported",
+        "JSA_contrib_reported",
+        "PIP_DL_reported",
+        "PIP_M_reported",
+        "SDA_reported",
+        "carers_allowance_reported",
+        "incapacity_benefit_reported",
+        "state_pension_reported"
+      ]
     }
   },
   "json_type": "number",

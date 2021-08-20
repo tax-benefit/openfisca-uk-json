@@ -8,7 +8,8 @@
   "label": "Industrial Injuries Disablement Benefit (reported)",
   "name": "IIDB_reported",
   "referring_variables": [
-    "IIDB"
+    "IIDB",
+    "personal_benefits_reported"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

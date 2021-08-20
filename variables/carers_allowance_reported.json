@@ -8,7 +8,8 @@
   "label": "Carer's Allowance (reported)",
   "name": "carers_allowance_reported",
   "referring_variables": [
-    "carers_allowance"
+    "carers_allowance",
+    "personal_benefits_reported"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

@@ -362,8 +362,7 @@
       "start_line_number": 19,
       "stop_line_number": 27,
       "variables": [
-        "claims_legacy_benefits",
-        "income_support_reported"
+        "claims_legacy_benefits"
       ]
     }
   },

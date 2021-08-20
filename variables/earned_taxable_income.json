@@ -530,13 +530,7 @@
       "variables": [
         "allowances",
         "pension_contributions",
-        "pension_contributions_relief",
-        "taxable_employment_income",
-        "taxable_miscellaneous_income",
-        "taxable_pension_income",
-        "taxable_property_income",
-        "taxable_social_security_income",
-        "taxable_trading_income"
+        "pension_contributions_relief"
       ]
     }
   },
