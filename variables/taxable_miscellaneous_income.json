@@ -14,11 +14,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "adjusted_net_income",
-    "earned_taxable_income",
-    "tax_credits_applicable_income"
-  ],
   "start_line_number": 239,
   "stop_line_number": 245,
   "unit": "currency",

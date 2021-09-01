@@ -1,9 +1,15 @@
-description: Lone parent element of WTC
+description: Working Tax Credit lone parent element
 metadata:
   period: year
   reference:
-    href: https://www.gov.uk/working-tax-credit/what-youll-get
+  - href: https://www.gov.uk/working-tax-credit/what-youll-get
+  - href: https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance
+  - href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=28
   unit: currency
 values:
-  2015-06-01:
+  2016-04-06:
+    value: 2010
+  2020-04-06:
     value: 2045
+  2021-04-06:
+    value: 2060

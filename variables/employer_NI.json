@@ -109,9 +109,6 @@
   "json_type": "number",
   "label": "Employer contributions to National Insurance",
   "name": "employer_NI",
-  "referring_variables": [
-    "total_NI"
-  ],
   "start_line_number": 61,
   "stop_line_number": 69,
   "unit": "currency",

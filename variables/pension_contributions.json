@@ -8,11 +8,7 @@
   "label": "Amount contributed to registered pension schemes paid by the individual (not the employer)",
   "name": "pension_contributions",
   "referring_variables": [
-    "JSA_income_applicable_income",
     "earned_taxable_income",
-    "employment_deductions",
-    "housing_benefit_applicable_income",
-    "income_support_applicable_income",
     "pension_contributions_relief"
   ],
   "start_line_number": 51,

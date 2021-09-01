@@ -443,7 +443,6 @@
     ]
   },
   "referring_variables": [
-    "benefits_premiums",
     "pension_credit_MG"
   ],
   "start_line_number": 26,

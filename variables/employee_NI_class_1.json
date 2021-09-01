@@ -664,9 +664,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "national_insurance"
-  ],
   "start_line_number": 17,
   "stop_line_number": 40,
   "unit": "currency",

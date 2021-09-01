@@ -2,10 +2,12 @@ description: Personal allowance for a couple, at least one aged over 25 and one 
 metadata:
   period: month
   reference:
-    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=45
+    title: The Universal Credit Regulations 2013 reg. 36
   unit: currency
 values:
   2015-06-01:
     value: 498.89
-  2020-06-01:
-    value: 594
+  2020-04-06:
+    value: 594.04
+  2021-10-06:
+    value: 509.91

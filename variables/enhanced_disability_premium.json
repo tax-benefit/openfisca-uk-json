@@ -467,9 +467,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "benefits_premiums"
-  ],
   "start_line_number": 182,
   "stop_line_number": 200,
   "unit": "currency",

@@ -110,10 +110,7 @@
   "label": "Disability Living Allowance (mobility component)",
   "name": "DLA_M",
   "referring_variables": [
-    "DLA",
-    "is_benefit_cap_exempt",
-    "is_disabled_for_benefits",
-    "personal_benefits"
+    "DLA"
   ],
   "start_line_number": 16,
   "stop_line_number": 24,

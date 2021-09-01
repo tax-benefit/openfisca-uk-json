@@ -7,9 +7,6 @@
   "json_type": "number",
   "label": "Expenditure under Gift Aid",
   "name": "gift_aid",
-  "referring_variables": [
-    "allowances"
-  ],
   "start_line_number": 166,
   "stop_line_number": 171,
   "unit": "currency",

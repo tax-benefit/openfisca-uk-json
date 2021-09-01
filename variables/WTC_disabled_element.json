@@ -670,9 +670,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "WTC_maximum_rate"
-  ],
   "start_line_number": 333,
   "stop_line_number": 356,
   "unit": "currency",

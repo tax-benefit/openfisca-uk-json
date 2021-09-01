@@ -7,9 +7,6 @@
   "json_type": "number",
   "label": "All other tax deductions",
   "name": "other_deductions",
-  "referring_variables": [
-    "allowances"
-  ],
   "start_line_number": 187,
   "stop_line_number": 192,
   "unit": "currency",

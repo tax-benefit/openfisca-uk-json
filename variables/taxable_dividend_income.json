@@ -197,8 +197,6 @@
     ]
   },
   "referring_variables": [
-    "adjusted_net_income",
-    "tax_credits_applicable_income",
     "taxed_dividend_income"
   ],
   "start_line_number": 221,

@@ -377,15 +377,7 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/benefit_cap.py",
       "source_code": "def formula(benunit, period, parameters):\n    QUAL_PERSONAL_BENEFITS = [\n        \"carers_allowance\",\n        \"DLA_SC\",\n        \"DLA_M\",\n        \"ESA_contrib\",\n    ]\n    qualifying = (\n        add(benunit, period, [\"working_tax_credit\"])\n        + add(benunit, period, [\"ESA_income\"])\n        + aggr(benunit, period, QUAL_PERSONAL_BENEFITS)\n        > 0\n    )\n    return qualifying\n",
       "start_line_number": 48,
-      "stop_line_number": 62,
-      "variables": [
-        "DLA_M",
-        "DLA_SC",
-        "ESA_contrib",
-        "ESA_income",
-        "carers_allowance",
-        "working_tax_credit"
-      ]
+      "stop_line_number": 62
     }
   },
   "is_period_size_independent": true,

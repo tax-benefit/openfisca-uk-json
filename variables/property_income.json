@@ -117,14 +117,8 @@
     ]
   },
   "referring_variables": [
-    "JSA_income_applicable_income",
-    "gross_income",
-    "housing_benefit_applicable_income",
-    "income_support_applicable_income",
-    "pension_credit_applicable_income",
     "property_allowance_deduction",
-    "taxable_property_income",
-    "total_income"
+    "taxable_property_income"
   ],
   "start_line_number": 59,
   "stop_line_number": 68,

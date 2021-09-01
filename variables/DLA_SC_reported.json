@@ -8,8 +8,7 @@
   "label": "Disability Living Allowance (self-care) (reported)",
   "name": "DLA_SC_reported",
   "referring_variables": [
-    "DLA_SC",
-    "personal_benefits_reported"
+    "DLA_SC"
   ],
   "start_line_number": 43,
   "stop_line_number": 48,

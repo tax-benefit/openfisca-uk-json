@@ -2,16 +2,30 @@ description: Child benefit amount for additional children
 metadata:
   period: week
   reference:
-    href: https://revenuebenefits.org.uk/child-benefit/guidance/how-much-can-your-client-get/rates-and-tables/
+  - href: https://revenuebenefits.org.uk/child-benefit/guidance/how-much-can-your-client-get/rates-and-tables/
+  - href: https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance
+  - href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=29
   unit: currency
 values:
-  2009-06-01:
+  2004-04-06:
+    value: 11.05
+  2005-04-06:
+    value: 11.4
+  2006-04-06:
+    value: 11.7
+  2007-04-06:
+    value: 12.1
+  2008-04-06:
+    value: 12.55
+  2009-01-05:
     value: 13.2
-  2010-06-01:
+  2010-04-06:
     value: 13.4
-  2014-06-01:
+  2014-04-06:
     value: 13.55
-  2015-06-01:
+  2015-04-06:
     value: 13.7
-  2020-06-01:
+  2020-04-06:
     value: 13.95
+  2021-04-06:
+    value: 14

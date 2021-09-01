@@ -1,9 +1,10 @@
-description: Proportion of eligible childcare costs covered
+description: Proportion of eligible childcare costs covered by Working Tax Credit
 metadata:
   period: week
   reference:
-    href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=27
+  - href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=27
+  - href: https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance
   unit: /1
 values:
-  2015-06-01:
+  2016-04-06:
     value: 0.7

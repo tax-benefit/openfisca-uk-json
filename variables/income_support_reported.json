@@ -7,10 +7,6 @@
   "json_type": "number",
   "label": "Income Support (reported amount)",
   "name": "income_support_reported",
-  "referring_variables": [
-    "claims_IS",
-    "family_benefits_reported"
-  ],
   "start_line_number": 6,
   "stop_line_number": 11,
   "unit": "currency",

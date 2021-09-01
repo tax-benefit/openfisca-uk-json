@@ -202,16 +202,7 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/tax_credits.py",
       "source_code": "def formula(benunit, period, parameters):\n    ELEMENTS = [\n        \"WTC_basic_element\",\n        \"WTC_couple_element\",\n        \"WTC_lone_parent_element\",\n        \"WTC_disabled_element\",\n        \"WTC_severely_disabled_element\",\n        \"WTC_worker_element\",\n        \"WTC_childcare_element\",\n    ]\n    return add(benunit, period, ELEMENTS)\n",
       "start_line_number": 264,
-      "stop_line_number": 275,
-      "variables": [
-        "WTC_basic_element",
-        "WTC_childcare_element",
-        "WTC_couple_element",
-        "WTC_disabled_element",
-        "WTC_lone_parent_element",
-        "WTC_severely_disabled_element",
-        "WTC_worker_element"
-      ]
+      "stop_line_number": 275
     }
   },
   "json_type": "number",

@@ -15,10 +15,7 @@
     ]
   },
   "referring_variables": [
-    "gross_income",
-    "pension_credit_applicable_income",
-    "taxable_savings_interest_income",
-    "total_income"
+    "taxable_savings_interest_income"
   ],
   "start_line_number": 70,
   "stop_line_number": 76,

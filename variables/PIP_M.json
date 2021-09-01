@@ -110,9 +110,7 @@
   "label": "Personal Independence Payment (Mobility)",
   "name": "PIP_M",
   "referring_variables": [
-    "PIP",
-    "is_disabled_for_benefits",
-    "personal_benefits"
+    "PIP"
   ],
   "start_line_number": 26,
   "stop_line_number": 34,

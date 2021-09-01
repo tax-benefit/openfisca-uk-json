@@ -221,9 +221,6 @@
   "json_type": "number",
   "label": "Net income",
   "name": "net_income",
-  "referring_variables": [
-    "household_net_income"
-  ],
   "start_line_number": 62,
   "stop_line_number": 71,
   "unit": "currency",

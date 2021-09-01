@@ -162,11 +162,7 @@
       "file_path": "/openfisca_uk/variables/finance/tax/national_insurance/class_1.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\"employer_NI\", \"national_insurance\"]\n    return add(person, period, COMPONENTS)\n",
       "start_line_number": 79,
-      "stop_line_number": 82,
-      "variables": [
-        "employer_NI",
-        "national_insurance"
-      ]
+      "stop_line_number": 82
     }
   },
   "json_type": "number",

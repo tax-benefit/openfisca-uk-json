@@ -7,9 +7,6 @@
   "json_type": "number",
   "label": "Gifts of qualifying investment or property to charities",
   "name": "charitable_investment_gifts",
-  "referring_variables": [
-    "allowances"
-  ],
   "start_line_number": 180,
   "stop_line_number": 185,
   "unit": "currency",

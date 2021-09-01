@@ -178,13 +178,7 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
       "source_code": "def formula(benunit, period, parameters):\n    PREMIUMS = [\n        \"disability_premium\",\n        \"enhanced_disability_premium\",\n        \"severe_disability_premium\",\n        \"carer_premium\",\n    ]\n    return add(benunit, period, PREMIUMS)\n",
       "start_line_number": 140,
-      "stop_line_number": 148,
-      "variables": [
-        "carer_premium",
-        "disability_premium",
-        "enhanced_disability_premium",
-        "severe_disability_premium"
-      ]
+      "stop_line_number": 148
     }
   },
   "json_type": "number",

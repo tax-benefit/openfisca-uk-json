@@ -632,10 +632,7 @@
     ]
   },
   "referring_variables": [
-    "add_rate_savings_income",
-    "basic_rate_savings_income",
-    "basic_rate_savings_income_pre_starter",
-    "higher_rate_savings_income"
+    "basic_rate_savings_income_pre_starter"
   ],
   "start_line_number": 127,
   "stop_line_number": 150,

@@ -7,9 +7,6 @@
   "json_type": "number",
   "label": "Armed Forces Compensation Scheme (reported)",
   "name": "AFCS_reported",
-  "referring_variables": [
-    "personal_benefits_reported"
-  ],
   "start_line_number": 16,
   "stop_line_number": 21,
   "unit": "currency",

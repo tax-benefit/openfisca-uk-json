@@ -123,23 +123,14 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/ESA_income.py",
       "source_code": "def formula(benunit, period, parameters):\n    return aggr(benunit, period, [\"ESA_income_reported\"])\n",
       "start_line_number": 19,
-      "stop_line_number": 21,
-      "variables": [
-        "ESA_income_reported"
-      ]
+      "stop_line_number": 21
     }
   },
   "json_type": "number",
   "label": "ESA (income-based)",
   "name": "ESA_income",
   "referring_variables": [
-    "family_benefits",
-    "housing_benefit",
-    "housing_benefit_applicable_income",
-    "income_support_eligible",
-    "is_benefit_cap_exempt",
-    "tax_credits_applicable_income",
-    "universal_credit_eligible"
+    "income_support_eligible"
   ],
   "start_line_number": 13,
   "stop_line_number": 21,

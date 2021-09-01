@@ -615,7 +615,6 @@
     ]
   },
   "referring_variables": [
-    "child_benefit_less_tax_charge",
     "income_tax"
   ],
   "start_line_number": 505,

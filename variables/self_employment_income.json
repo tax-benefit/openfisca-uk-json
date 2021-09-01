@@ -7,10 +7,6 @@
   "json_type": "number",
   "label": "Self-employment income",
   "name": "self_employment_income",
-  "referring_variables": [
-    "earned_income",
-    "gross_income"
-  ],
   "start_line_number": 28,
   "stop_line_number": 33,
   "unit": "currency",

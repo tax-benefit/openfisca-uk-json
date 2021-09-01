@@ -15,18 +15,10 @@
     ]
   },
   "referring_variables": [
-    "JSA_income_applicable_income",
-    "earned_income",
     "employee_NI_class_1",
     "employer_NI_class_1",
-    "gross_income",
-    "housing_benefit_applicable_income",
-    "income_support_applicable_income",
     "pension_contributions_relief",
-    "pension_credit_applicable_income",
-    "taxable_employment_income",
-    "total_income",
-    "universal_credit_income_reduction"
+    "taxable_employment_income"
   ],
   "start_line_number": 17,
   "stop_line_number": 23,

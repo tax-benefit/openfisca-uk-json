@@ -331,10 +331,7 @@
       ],
       "source_code": "def formula(benunit, period, parameters):\n    already_claiming = (\n        aggr(benunit, period, [\"pension_credit_reported\"]) > 0\n    )\n    takeup_rate = parameters(period).benefit.pension_credit.takeup\n    return already_claiming + (random(benunit) < takeup_rate)\n",
       "start_line_number": 19,
-      "stop_line_number": 25,
-      "variables": [
-        "pension_credit_reported"
-      ]
+      "stop_line_number": 25
     }
   },
   "is_period_size_independent": true,

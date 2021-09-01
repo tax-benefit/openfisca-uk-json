@@ -109,9 +109,6 @@
   "json_type": "number",
   "label": "Industrial Injuries Disablement Benefit",
   "name": "IIDB",
-  "referring_variables": [
-    "personal_benefits"
-  ],
   "start_line_number": 6,
   "stop_line_number": 14,
   "unit": "currency",

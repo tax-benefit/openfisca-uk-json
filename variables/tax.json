@@ -161,7 +161,6 @@
   "label": "Total tax",
   "name": "tax",
   "referring_variables": [
-    "net_income",
     "tax_modelling"
   ],
   "start_line_number": 6,

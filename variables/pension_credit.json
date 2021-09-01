@@ -193,19 +193,12 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/family/pension_credit.py",
       "source_code": "def formula(benunit, period, parameters):\n    COMPONENTS = [\"pension_credit_GC\", \"pension_credit_SC\"]\n    amount = add(benunit, period, COMPONENTS)\n    return amount\n",
       "start_line_number": 153,
-      "stop_line_number": 157,
-      "variables": [
-        "pension_credit_GC",
-        "pension_credit_SC"
-      ]
+      "stop_line_number": 157
     }
   },
   "json_type": "number",
   "label": "Pension credit amount",
   "name": "pension_credit",
-  "referring_variables": [
-    "family_benefits"
-  ],
   "start_line_number": 147,
   "stop_line_number": 157,
   "unit": "currency",

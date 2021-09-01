@@ -1,12 +1,14 @@
-description: Income threshold for benefit units only entitled to CTC
+description: Income threshold for benefit units only entitled to Child Tax Credit
 metadata:
   period: year
   reference:
-  - href: https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance
   - href: https://www.iser.essex.ac.uk/files/projects/UKMOD/EUROMOD_country_report.pdf#page=28
+  - href: https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance/tax-credits-child-benefit-and-guardians-allowance
   unit: currency
 values:
-  2015-06-01:
+  2016-04-06:
     value: 16105
-  2020-06-01:
+  2020-04-06:
     value: 16385
+  2021-04-06:
+    value: 16480

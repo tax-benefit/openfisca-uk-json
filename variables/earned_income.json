@@ -170,12 +170,7 @@
       "file_path": "/openfisca_uk/variables/finance/income.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"employment_income\",\n        \"self_employment_income\",\n        \"pension_income\",\n    ]\n    return add(person, period, COMPONENTS)\n",
       "start_line_number": 12,
-      "stop_line_number": 19,
-      "variables": [
-        "employment_income",
-        "pension_income",
-        "self_employment_income"
-      ]
+      "stop_line_number": 19
     }
   },
   "json_type": "number",

@@ -8,9 +8,7 @@
   "label": "Job Seeker's Allowance (contribution-based) (reported)",
   "name": "JSA_contrib_reported",
   "referring_variables": [
-    "JSA_contrib",
-    "claims_JSA",
-    "personal_benefits_reported"
+    "JSA_contrib"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

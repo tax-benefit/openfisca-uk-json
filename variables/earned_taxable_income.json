@@ -553,8 +553,7 @@
     "dividend_income_tax",
     "earned_income_tax",
     "higher_rate_earned_income",
-    "higher_rate_savings_income",
-    "taxed_income"
+    "higher_rate_savings_income"
   ],
   "start_line_number": 10,
   "stop_line_number": 37,

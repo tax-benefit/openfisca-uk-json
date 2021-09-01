@@ -210,17 +210,7 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/relief.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"taxable_employment_income\",\n        \"taxable_pension_income\",\n        \"taxable_social_security_income\",\n        \"taxable_trading_income\",\n        \"taxable_property_income\",\n        \"taxable_savings_interest_income\",\n        \"taxable_dividend_income\",\n        \"taxable_miscellaneous_income\",\n    ]\n    return add(person, period, COMPONENTS)\n",
       "start_line_number": 275,
-      "stop_line_number": 287,
-      "variables": [
-        "taxable_dividend_income",
-        "taxable_employment_income",
-        "taxable_miscellaneous_income",
-        "taxable_pension_income",
-        "taxable_property_income",
-        "taxable_savings_interest_income",
-        "taxable_social_security_income",
-        "taxable_trading_income"
-      ]
+      "stop_line_number": 287
     }
   },
   "json_type": "number",

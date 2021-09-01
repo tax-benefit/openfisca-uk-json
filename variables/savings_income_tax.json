@@ -613,9 +613,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "income_tax_pre_charges"
-  ],
   "start_line_number": 436,
   "stop_line_number": 454,
   "unit": "currency",

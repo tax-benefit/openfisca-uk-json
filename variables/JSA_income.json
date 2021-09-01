@@ -385,12 +385,7 @@
   "label": "Job Seeker's Allowance (income-based)",
   "name": "JSA_income",
   "referring_variables": [
-    "JSA",
-    "family_benefits",
-    "housing_benefit",
-    "housing_benefit_applicable_income",
-    "tax_credits_applicable_income",
-    "universal_credit_eligible"
+    "JSA"
   ],
   "start_line_number": 127,
   "stop_line_number": 145,

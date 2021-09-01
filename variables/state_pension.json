@@ -109,11 +109,6 @@
   "json_type": "number",
   "label": "Income from the State Pension",
   "name": "state_pension",
-  "referring_variables": [
-    "personal_benefits",
-    "social_security_income",
-    "universal_credit_income_reduction"
-  ],
   "start_line_number": 32,
   "stop_line_number": 40,
   "unit": "currency",

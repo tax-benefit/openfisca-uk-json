@@ -153,7 +153,6 @@
     ]
   },
   "referring_variables": [
-    "taxable_trading_income",
     "trading_allowance_deduction"
   ],
   "start_line_number": 75,

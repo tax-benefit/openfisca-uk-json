@@ -252,12 +252,7 @@
   "label": "Income Support",
   "name": "income_support",
   "referring_variables": [
-    "JSA_income_eligible",
-    "family_benefits",
-    "housing_benefit",
-    "housing_benefit_applicable_income",
-    "tax_credits_applicable_income",
-    "universal_credit_eligible"
+    "JSA_income_eligible"
   ],
   "start_line_number": 141,
   "stop_line_number": 154,

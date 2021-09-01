@@ -111,9 +111,7 @@
   "name": "PIP_DL",
   "referring_variables": [
     "PIP",
-    "is_disabled_for_benefits",
-    "is_severely_disabled_for_benefits",
-    "personal_benefits"
+    "is_severely_disabled_for_benefits"
   ],
   "start_line_number": 16,
   "stop_line_number": 24,

@@ -110,11 +110,7 @@
   "label": "Carer's Allowance",
   "name": "carers_allowance",
   "referring_variables": [
-    "is_benefit_cap_exempt",
-    "is_carer_for_benefits",
-    "personal_benefits",
-    "social_security_income",
-    "universal_credit_income_reduction"
+    "is_carer_for_benefits"
   ],
   "start_line_number": 6,
   "stop_line_number": 14,

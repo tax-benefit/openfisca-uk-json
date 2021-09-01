@@ -218,14 +218,7 @@
       "file_path": "/openfisca_uk/variables/finance/tax/income_tax/base.py",
       "source_code": "def formula(person, period, parameters):\n    COMPONENTS = [\n        \"state_pension\",\n        \"incapacity_benefit\",\n        \"JSA_contrib\",\n        \"ESA_contrib\",\n        \"carers_allowance\",\n    ]\n    return add(person, period, COMPONENTS, options=[ADD])\n",
       "start_line_number": 40,
-      "stop_line_number": 49,
-      "variables": [
-        "ESA_contrib",
-        "JSA_contrib",
-        "carers_allowance",
-        "incapacity_benefit",
-        "state_pension"
-      ]
+      "stop_line_number": 49
     }
   },
   "json_type": "number",
@@ -239,8 +232,7 @@
     ]
   },
   "referring_variables": [
-    "taxable_social_security_income",
-    "total_income"
+    "taxable_social_security_income"
   ],
   "start_line_number": 33,
   "stop_line_number": 49,

@@ -14,9 +14,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "allowances"
-  ],
   "start_line_number": 26,
   "stop_line_number": 32,
   "unit": "currency",

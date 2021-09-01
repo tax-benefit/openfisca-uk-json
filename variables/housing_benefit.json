@@ -1153,9 +1153,7 @@
   "label": "Housing Benefit",
   "name": "housing_benefit",
   "referring_variables": [
-    "family_benefits",
-    "pension_credit_eligible",
-    "universal_credit_eligible"
+    "pension_credit_eligible"
   ],
   "start_line_number": 13,
   "stop_line_number": 21,

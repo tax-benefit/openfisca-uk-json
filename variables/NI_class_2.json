@@ -109,9 +109,6 @@
   "json_type": "number",
   "label": "Class 2 Contributions for National Insurance for the year",
   "name": "NI_class_2",
-  "referring_variables": [
-    "national_insurance"
-  ],
   "start_line_number": 21,
   "stop_line_number": 29,
   "unit": "currency",

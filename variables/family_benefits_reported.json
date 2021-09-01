@@ -404,12 +404,10 @@
         "ESA_income_reported",
         "JSA_income_reported",
         "child_benefit_reported",
-        "child_tax_credit_reported",
         "housing_benefit_reported",
         "income_support_reported",
         "pension_credit_reported",
-        "universal_credit_reported",
-        "working_tax_credit_reported"
+        "universal_credit_reported"
       ]
     }
   },

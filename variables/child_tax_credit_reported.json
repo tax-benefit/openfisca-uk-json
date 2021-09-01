@@ -7,10 +7,6 @@
   "json_type": "number",
   "label": "Working Tax Credit",
   "name": "child_tax_credit_reported",
-  "referring_variables": [
-    "claims_CTC",
-    "family_benefits_reported"
-  ],
   "start_line_number": 13,
   "stop_line_number": 18,
   "unit": "currency",

@@ -109,11 +109,6 @@
   "json_type": "number",
   "label": "Incapacity Benefit",
   "name": "incapacity_benefit",
-  "referring_variables": [
-    "housing_benefit",
-    "personal_benefits",
-    "social_security_income"
-  ],
   "start_line_number": 6,
   "stop_line_number": 14,
   "unit": "currency",

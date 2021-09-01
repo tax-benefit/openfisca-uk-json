@@ -8,8 +8,7 @@
   "label": "Severe Disablement Allowance (reported)",
   "name": "SDA_reported",
   "referring_variables": [
-    "SDA",
-    "personal_benefits_reported"
+    "SDA"
   ],
   "start_line_number": 16,
   "stop_line_number": 21,

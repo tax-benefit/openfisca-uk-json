@@ -538,9 +538,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "CTC_maximum_rate"
-  ],
   "start_line_number": 158,
   "stop_line_number": 178,
   "unit": "currency",

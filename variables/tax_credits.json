@@ -160,9 +160,6 @@
   "json_type": "number",
   "label": "Value of the Tax Credits (benefits) for this family",
   "name": "tax_credits",
-  "referring_variables": [
-    "housing_benefit_applicable_income"
-  ],
   "start_line_number": 484,
   "stop_line_number": 494,
   "unit": "currency",

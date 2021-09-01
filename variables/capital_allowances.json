@@ -14,9 +14,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "taxable_trading_income"
-  ],
   "start_line_number": 124,
   "stop_line_number": 130,
   "value_type": "float"

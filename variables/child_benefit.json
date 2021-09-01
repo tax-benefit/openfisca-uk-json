@@ -588,13 +588,7 @@
   },
   "referring_variables": [
     "CB_HITC",
-    "JSA_income_applicable_income",
-    "child_benefit_less_tax_charge",
-    "family_benefits",
-    "housing_benefit",
-    "housing_benefit_applicable_income",
-    "income_support_applicable_income",
-    "pension_credit_applicable_income"
+    "child_benefit_less_tax_charge"
   ],
   "start_line_number": 25,
   "stop_line_number": 46,

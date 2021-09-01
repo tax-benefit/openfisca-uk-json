@@ -258,35 +258,15 @@
       "file_path": "/openfisca_uk/variables/finance/benefit/benefit.py",
       "source_code": "def formula(person, period, parameters):\n    BENEFITS = [\n        \"AA\",\n        \"AFCS\",\n        \"BSP\",\n        \"carers_allowance\",\n        \"DLA_M\",\n        \"DLA_SC\",\n        \"ESA_contrib\",\n        \"IIDB\",\n        \"incapacity_benefit\",\n        \"JSA_contrib\",\n        \"PIP_M\",\n        \"PIP_DL\",\n        \"SDA\",\n        \"state_pension\",\n    ]\n    return add(person, period, BENEFITS)\n",
       "start_line_number": 216,
-      "stop_line_number": 234,
-      "variables": [
-        "AA",
-        "AFCS",
-        "BSP",
-        "DLA_M",
-        "DLA_SC",
-        "ESA_contrib",
-        "IIDB",
-        "JSA_contrib",
-        "PIP_DL",
-        "PIP_M",
-        "SDA",
-        "carers_allowance",
-        "incapacity_benefit",
-        "state_pension"
-      ]
+      "stop_line_number": 234
     }
   },
   "json_type": "number",
   "label": "Value of personal, non-means-tested benefits",
   "name": "personal_benefits",
   "referring_variables": [
-    "JSA_income_applicable_income",
     "benefits",
-    "housing_benefit_applicable_income",
-    "income_support_applicable_income",
-    "other_benefits",
-    "pension_credit_applicable_income"
+    "other_benefits"
   ],
   "start_line_number": 210,
   "stop_line_number": 234,

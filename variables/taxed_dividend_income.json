@@ -190,8 +190,7 @@
   "label": "Dividend income which is taxed",
   "name": "taxed_dividend_income",
   "referring_variables": [
-    "dividend_income_tax",
-    "taxed_income"
+    "dividend_income_tax"
   ],
   "start_line_number": 422,
   "stop_line_number": 434,

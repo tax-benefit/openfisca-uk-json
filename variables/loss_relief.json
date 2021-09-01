@@ -240,9 +240,6 @@
       }
     ]
   },
-  "referring_variables": [
-    "taxable_trading_income"
-  ],
   "start_line_number": 132,
   "stop_line_number": 144,
   "unit": "currency",

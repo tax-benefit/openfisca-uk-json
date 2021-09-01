@@ -848,8 +848,7 @@
     ]
   },
   "referring_variables": [
-    "savings_income_tax",
-    "taxed_savings_income"
+    "savings_income_tax"
   ],
   "start_line_number": 303,
   "stop_line_number": 335,

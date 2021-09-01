@@ -7,9 +7,6 @@
   "json_type": "number",
   "label": "Covenanted payments to charities",
   "name": "covenanted_payments",
-  "referring_variables": [
-    "allowances"
-  ],
   "start_line_number": 173,
   "stop_line_number": 178,
   "unit": "currency",

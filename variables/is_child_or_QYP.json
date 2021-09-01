@@ -162,7 +162,6 @@
   "label": "Whether this person is a child or qualifying young person for most benefits",
   "name": "is_child_or_QYP",
   "referring_variables": [
-    "child_benefit",
     "is_child_for_CTC",
     "num_disabled_children",
     "num_enhanced_disabled_children",

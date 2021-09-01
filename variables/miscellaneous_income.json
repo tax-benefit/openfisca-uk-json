@@ -7,10 +7,6 @@
   "json_type": "number",
   "label": "Income from other sources",
   "name": "miscellaneous_income",
-  "referring_variables": [
-    "gross_income",
-    "total_income"
-  ],
   "start_line_number": 35,
   "stop_line_number": 40,
   "unit": "currency",
